@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Menu Styles */
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: blue;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Verticals, Services, and Company Dropdown */
+.verticals-dropdown, 
+.services-dropdown {
+    position: absolute;
+    left: -150px;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    padding: 10px;
+    margin-top: 40px;
+    width: 650px;
+    height: 300px;
+    flex-direction: row;
+    display: none;
+}
+.company-dropdown {
+    position: absolute;
+   
+    left: -150px;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    padding: 10px;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    flex-direction: row;
+}
+/* Show the dropdown content on hover */
+.dropdown .dropdown-toggle:hover + .verticals-dropdown,
+.dropdown .dropdown-toggle:hover + .services-dropdown,
+.dropdown .dropdown-toggle:hover + .company-dropdown {
+    display: flex; /* Show dropdown when hovering over the .dropdown container */
+    flex-direction: row;
+}
+
+/* Dropdown Column Styles */
+.verticals-dropdown .left-column,
+.verticals-dropdown .right-column,
+.services-dropdown .left-column,
+.services-dropdown .right-column,
+.company-dropdown .left-column,
+.company-dropdown .right-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    column-gap: 30px;
+}
+
+/* Dropdown List Styles */
+.verticals-dropdown ul,
+.services-dropdown ul,
+.company-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.verticals-dropdown li,
+.services-dropdown li,
+.company-dropdown li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.verticals-dropdown li a,
+.services-dropdown li a,
+.company-dropdown li a {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.72px;
+    color: #1c817d !important;
+    padding: 5px;
+    display: block;
+    transition: color 0.3s ease;
+    font-family: 'Jost', sans-serif;
+}
+
+.verticals-dropdown a:hover,
+.services-dropdown a:hover,
+.company-dropdown a:hover {
+    color: blue;
+}
+
+/* Company Dropdown Specific Styles */
+.company-dropdown {
+    height: 150px;
+}
+
+/* Language Dropdown */
+.language {
+    position: relative;
+}
+
+.dropdown-button {
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    margin-top: 10px;
+}
+
+.dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu button:hover {
+    background-color: rgb(240, 240, 240);
+    color: blue;
+}
