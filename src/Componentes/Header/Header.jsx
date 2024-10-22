@@ -12,6 +12,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import DnsIcon from '@mui/icons-material/Dns';
 
+
 const Header = () => {
     const { t, i18n } = useTranslation(); // Hook for translation
     const [showLanguageDropdown, setShowLanguageDropdown] = React.useState(false); 
@@ -122,6 +123,7 @@ const Header = () => {
                     </div>
                 )}
             </div>
+           
         </div>
     );
 };

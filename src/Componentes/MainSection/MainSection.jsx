@@ -1,8 +1,6 @@
-import "./MainSection.css"
-import { useTranslation } from "react-i18next";
+import "./MainSection.css";
 import { FaMapMarkedAlt, FaLaptopCode, FaChartLine, FaPencilAlt, FaCogs, FaCloud, FaChalkboardTeacher, FaUsers } from 'react-icons/fa';
 import { Box, Heading, Text, Button, Grid, Icon } from '@chakra-ui/react';
-
 
 const MainSection = () => {
 
@@ -49,32 +47,30 @@ const MainSection = () => {
         }
     ];
 
-    const { t } = useTranslation();
-
     return (
         <Box bg="gray.50" minH="100vh" p={8}>
             <Box textAlign="center" mb={12}>
                 <Text color="blue.600" fontSize="sm" fontWeight="bold">
-                    {t('SERVICES')}
+                    SERVICES
                 </Text>
                 <Heading fontSize="3xl" mt={2}>
-                    {t('In the meantime, here are the services we offer')}
+                    In the meantime, here are the services we offer
                 </Heading>
             </Box>
             <Grid templateColumns="repeat(auto-fill, minmax(300px, 1fr))" gap={8}>
-                {services.map((service, index) => (
-                    <Box key={index} bg="white" p={6} rounded="lg" shadow="md">
+                {services.map((service) => (
+                    <Box key={service.title} bg="white" p={6} rounded="lg" shadow="md">
                         <Box color="blue.600" mb={4} fontSize="4xl">
-                            <Icon as={service.icon} />
+                            <Icon as={service.icon} aria-label={service.title} />
                         </Box>
                         <Heading fontSize="xl" mb={2}>
-                            {t(service.title)}
+                            {service.title}
                         </Heading>
                         <Text color="gray.700" mb={4}>
-                            {t(service.description)}
+                            {service.description}
                         </Text>
-                        <Button colorScheme="blue" variant="link">
-                            {t('View More')}
+                        <Button colorScheme="blue" variant="link" _hover={{ textDecoration: 'underline' }}>
+                            View More
                         </Button>
                     </Box>
                 ))}

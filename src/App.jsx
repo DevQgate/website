@@ -1,15 +1,26 @@
 import './App.css'
-import Header from './Componentes/Header/Header'
-import { useTranslation } from "react-i18next";
+import Header from './Componentes/Header/Header.jsx'
 import "./Componentes/i18n"
-import MainSection from './Componentes/MainSection/MainSection';
+import MainSection from './Componentes/MainSection/MainSection.jsx';
+import { ChakraProvider } from '@chakra-ui/react'
 function App() {
 
 
   return (
     <>
-      <Header/>
-      <MainSection/>
+    <div>
+
+  
+   <Header/>
+<ChakraProvider>
+
+  <MainSection/>
+</ChakraProvider>
+
+
+      
+    </div>
+     
     </>
   )
 }
