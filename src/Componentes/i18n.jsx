@@ -35,7 +35,25 @@ i18n
           "About": "About",
           "Careers": "Careers",
           "Contact": "Contact",
-          "Mapping solutions as unique as your business":"Mapping solutions as unique as your business."
+          "Mapping solutions as unique as your business":"Mapping solutions as unique as your business.",
+          "Geospatial Processing": "Geospatial Processing",
+          "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.": "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.",
+          "Software Development": "Software Development",
+          "Delivering innovative IT solutions and development services to enhance geospatial data processing and management.": "Delivering innovative IT solutions and development services to enhance geospatial data processing and management.",
+          "Data Analytics": "Data Analytics",
+          "Unlocking actionable insights through advanced data analytics, transforming geospatial data into strategic solutions.": "Unlocking actionable insights through advanced data analytics, transforming geospatial data into strategic solutions.",
+          "Content Annotation": "Content Annotation",
+          "Providing expert content annotation services to enrich geospatial data for improved accuracy and analysis.": "Providing expert content annotation services to enrich geospatial data for improved accuracy and analysis.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Providing tailored engineering solutions powered by geospatial technology for accurate planning, design, and infrastructure management.": "Providing tailored engineering solutions powered by geospatial technology for accurate planning, design, and infrastructure management.",
+          "Cloud-Based AI/ML Solutions": "Cloud-Based AI/ML Solutions",
+          "Delivering cutting-edge cloud-based AI/ML solutions to accelerate geospatial data processing and intelligent decision-making.": "Delivering cutting-edge cloud-based AI/ML solutions to accelerate geospatial data processing and intelligent decision-making.",
+          "Professional Training": "Professional Training",
+          "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills.": "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills.",
+          "Talent Solutions": "Talent Solutions",
+          "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.": "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.",
+          "In the meantime, here are the services we offer":"In the meantime, here are the services we offer",
+          "SERVICES":"SERVICES"
         }
       },
       GE: {
@@ -61,13 +79,30 @@ i18n
           "Cloud-Based AI/ML Solutions": "Cloud-basierte KI/ML-Lösungen",
           "Professional Training": "Berufsausbildung",
           "Talent Solutions": "Talentlösungen",
+          "In the meantime, here are the services we offer":"In the meantime, here are the services we offer",
 
           // New Company-related translations
           "Company": "Unternehmen",
           "About": "Über",
           "Careers": "Karriere",
           "Contact": "Kontakt",
-          "Mapping solutions as unique as your business":"Maßgeschneiderte Lösungen, die so einzigartig sind wie Ihr Unternehmen."
+          "Mapping solutions as unique as your business":"Maßgeschneiderte Lösungen, die so einzigartig sind wie Ihr Unternehmen.",
+          "Geospatial Processing": "Geoverarbeitung",
+          "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.": "Experte für Geoverarbeitung, um Rohraumdaten in umsetzbare Erkenntnisse für fundierte Entscheidungen zu verwandeln.",
+          "Software Development": "Softwareentwicklung",
+          "Delivering innovative IT solutions and development services to enhance geospatial data processing and management.": "Bereitstellung innovativer IT-Lösungen und Entwicklungsdienstleistungen zur Verbesserung der Verarbeitung und Verwaltung geospatialer Daten.",
+          "Data Analytics": "Datenanalyse",
+          "Unlocking actionable insights through advanced data analytics, transforming geospatial data into strategic solutions.": "Ermöglichen umsetzbarer Erkenntnisse durch fortschrittliche Datenanalyse, die geospatiale Daten in strategische Lösungen umwandelt.",
+          "Content Annotation": "Inhaltsannotation",
+          "Providing expert content annotation services to enrich geospatial data for improved accuracy and analysis.": "Bereitstellung von Experten-Inhaltsannotationen zur Anreicherung geospatialer Daten für eine verbesserte Genauigkeit und Analyse.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Providing tailored engineering solutions powered by geospatial technology for accurate planning, design, and infrastructure management.": "Bereitstellung maßgeschneiderter Ingenieurlösungen, die durch geospatiale Technologie unterstützt werden, für eine genaue Planung, Konstruktion und Infrastrukturverwaltung.",
+          "Cloud-Based AI/ML Solutions": "Cloud-basierte KI/ML-Lösungen",
+          "Delivering cutting-edge cloud-based AI/ML solutions to accelerate geospatial data processing and intelligent decision-making.": "Bereitstellung modernster cloudbasierter KI/ML-Lösungen zur Beschleunigung der Verarbeitung geospatialer Daten und intelligenter Entscheidungsfindung.",
+          "Professional Training": "Berufsausbildung",
+          "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills.": "Angebot von Schulungsprogrammen zur Vermittlung wesentlicher geospatialer und Fernerkundungsfähigkeiten an Einzelpersonen und Teams.",
+          "SERVICES":"DIENSTLEISTUNGEN",
+          "In the meantime, here are the services we offer":"In der Zwischenzeit finden Sie hier die Dienstleistungen, die wir anbieten."
         }
       }
     },
