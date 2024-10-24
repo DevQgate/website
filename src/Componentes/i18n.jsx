@@ -53,7 +53,21 @@ i18n
           "Talent Solutions": "Talent Solutions",
           "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.": "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.",
           "In the meantime, here are the services we offer":"In the meantime, here are the services we offer",
-          "SERVICES":"SERVICES"
+          "SERVICES":"SERVICES",
+
+          // Footer
+          "Q-gate Infotech Private Limited #11, Abhaya Heights, JP Nagar, Bangaluru, India - 560078":"Q-gate Infotech Private Limited #11, Abhaya Heights, JP Nagar, Bangaluru, India - 560078",
+          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":"An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.",
+          "Q-gate Infotech Private Limited":"Q-gate Infotech Private Limited",
+          "#11, Abhaya Heights, JP Nagar, Bangaluru,":"#11, Abhaya Heights, JP Nagar, Bangaluru,",
+          "India - 560078":"India - 560078",
+          "+91 93428 55394":"+91 93428 55394",
+          "Opening Hours: 09:00 - 18:00":"Opening Hours: 09:00 - 18:00",
+          "contact.in@q-gate.co":"contact.in@q-gate.co"
+          
+
+          
+
         }
       },
       GE: {
@@ -80,7 +94,7 @@ i18n
           "Professional Training": "Berufsausbildung",
           "Talent Solutions": "Talentlösungen",
           "In the meantime, here are the services we offer":"In the meantime, here are the services we offer",
-
+          
           // New Company-related translations
           "Company": "Unternehmen",
           "About": "Über",
@@ -105,7 +119,14 @@ i18n
           "In the meantime, here are the services we offer":"In der Zwischenzeit finden Sie hier die Dienstleistungen, die wir anbieten.",
 
           //Footer
-          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":"Ein innovativer Softwareanbieter, Systemintegrator und Technologieanbieter, der gegründet wurde, um verwertbare Erkenntnisse, fortschrittliche intelligente Lösungen und Beratungsdienstleistungen für Unternehmen, Organisationen und die Regierung bereitzustellen."
+          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":"Ein innovativer Softwareanbieter, Systemintegrator und Technologieanbieter, der gegründet wurde, um verwertbare Erkenntnisse, fortschrittliche intelligente Lösungen und Beratungsdienstleistungen für Unternehmen, Organisationen und die Regierung bereitzustellen.",
+          "Q-gate Infotech Private Limited":"Q-Gate Infotech GmbH",
+          "#11, Abhaya Heights, JP Nagar, Bangaluru,":"München",
+          "India - 560078":"Deutschland - 80331",
+          "+91 93428 55394":"+49 176 99519797",
+          "Opening Hours: 09:00 - 18:00":"Öffnungszeiten: 09:00 - 18:00",
+          "contact.in@q-gate.co":"contact.de@q-gate.co"
+         
           
         }
       }
