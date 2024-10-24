@@ -87,23 +87,10 @@ const Header = () => {
                     </div>
                 </div>
 
-                {/* Company Dropdown */}
-                <div className="dropdown">
-                    <a className="dropdown-toggle">{t("Company")}</a>
-                    <div className="company-dropdown">
-                        <div className="left-column">
-                            <ul>
-                                <li><InfoIcon style={{ color: '#ce4074' }}/><a href="#">{t("About")}</a></li>
-                                <li><ContactMailIcon style={{ color: '#ce4074' }}/><a href="#">{t("Contact")}</a></li>
-                            </ul>
-                        </div>
-                        <div className="right-column">
-                            <ul>
-                                <li><DnsIcon style={{ color: '#ce4074' }}/><a href="#">{t("Careers")}</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                {/* Display Careers, About, and Contact */}
+                <a href="#">{t("Careers")}</a>
+                <a href="#">{t("About")}</a>
+                <a href="#">{t("Contact")}</a>
             </div>
 
             {/* Language Switcher */}

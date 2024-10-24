@@ -102,7 +102,11 @@ i18n
           "Professional Training": "Berufsausbildung",
           "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills.": "Angebot von Schulungsprogrammen zur Vermittlung wesentlicher geospatialer und Fernerkundungsfähigkeiten an Einzelpersonen und Teams.",
           "SERVICES":"DIENSTLEISTUNGEN",
-          "In the meantime, here are the services we offer":"In der Zwischenzeit finden Sie hier die Dienstleistungen, die wir anbieten."
+          "In the meantime, here are the services we offer":"In der Zwischenzeit finden Sie hier die Dienstleistungen, die wir anbieten.",
+
+          //Footer
+          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":"Ein innovativer Softwareanbieter, Systemintegrator und Technologieanbieter, der gegründet wurde, um verwertbare Erkenntnisse, fortschrittliche intelligente Lösungen und Beratungsdienstleistungen für Unternehmen, Organisationen und die Regierung bereitzustellen."
+          
         }
       }
     },
