@@ -1,5 +1,7 @@
 import { Box, Flex, Text, Link, Image, List, ListItem, Icon, VStack } from "@chakra-ui/react";
-import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaPhone} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import logo from "../Image/Q-Gate-Logo.png"
 
 const Footer = () => {
   return (
@@ -17,7 +19,7 @@ const Footer = () => {
             <Link href="https://q-gate.co/ind/" className="footer-top-logo">
               <Image
                 height="60px"
-                src="https://q-gate.co/ind/wp-content/uploads/2020/12/Q-Gate-Logo.png"
+                src={logo}
                 alt="Q-Gate Infotech Private Limited"
               />
             </Link>
@@ -57,16 +59,15 @@ const Footer = () => {
             <Text as="h3" fontWeight="bold" className="footer-title">Contact Info</Text>
             <List spacing={2}>
               <ListItem>
-                <Icon as={FaFacebookF} mr={2} />
+                <Icon as={FaPhone} mr={2} />
                 <Link href="tel:+919342855394">+91 93428 55394</Link>
               </ListItem>
               <ListItem>
-                <Icon as={FaInstagram} mr={2} />
+                <Icon as={SiGmail} mr={2} />
                 <Link href="mailto:contact.in@q-gate.co">contact.in@q-gate.co</Link>
               </ListItem>
               <ListItem>
-                <Icon as={FaLinkedinIn} mr={2} />
-                <Text>Opening Hours: 10:00 - 18:00</Text>
+                <Text>Opening Hours: 09:00 - 18:00</Text>
               </ListItem>
             </List>
 
@@ -86,31 +87,37 @@ const Footer = () => {
           {/* Address Section */}
           <VStack align="flex-start" w={["100%", "50%", "25%"]} p={4}>
             <Text as="h3" fontWeight="bold" className="footer-title">Address</Text>
-            <Text>Q-gate Infotech Private Limited #11, Abhaya Heights, JP Nagar, Bangaluru, India - 560078</Text>
+            <Text>Q-gate Infotech Private Limited #11,<br></br>Abhaya Heights, JP Nagar, Bangaluru,<br></br> India - 560078</Text>
           </VStack>
         </Flex>
       </Box>
 
       {/* Footer Bottom */}
       <Box className="footer-bottom" py={5} borderTop="1px solid" borderColor="gray.200">
-        <Flex className="container" justify="space-between" align="center" flexWrap="wrap">
-          <Text>&copy; 2023 All Rights Reserved. <Link href="https://q-gate.co/ind/#">Q-Gate Infotech</Link></Text>
-          <List display="flex" spacing={4}>
-            <ListItem>
-              <Link href="https://q-gate.co/ind/about/">About Us</Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://q-gate.co/ind/careers/">Careers</Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://q-gate.co/ind/contact/">Contact</Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://q-gate.co/ind/#">FAQs</Link>
-            </ListItem>
-          </List>
+        <Flex
+            className="container"
+            justify="space-between"
+            align={["flex-start", "center"]}
+            direction={["column", "row"]}
+            flexWrap="wrap"
+            textAlign={["center", "left"]}
+        >
+        <Text mb={[4, 0]}>&copy; 2023 All Rights Reserved. <Link href="https://q-gate.co/ind/#">Q-Gate Infotech</Link></Text>
+
+        <List display="flex" flexDirection={["row"]} mb={[10, 0]} alignItems="center">
+    <ListItem mr={[4, 2]}> {/* Add right margin for spacing */}
+        <Link href="https://q-gate.co/ind/about/">About Us</Link>
+    </ListItem>
+    <ListItem mr={[4, 2]}>
+        <Link href="https://q-gate.co/ind/careers/">Careers</Link>
+    </ListItem>
+    <ListItem mr={[4, 2]}>
+        <Link href="https://q-gate.co/ind/contact/">Contact</Link>
+    </ListItem>
+</List>
         </Flex>
-      </Box>
+        </Box>
+
     </Box>
   );
 };
