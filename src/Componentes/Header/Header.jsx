@@ -104,7 +104,7 @@ const Header = () => {
                 {showLanguageDropdown && (
                     <div className="dropdown-menu">
                         <button onClick={() => changeLanguage("EN")}>
-                             EN
+                            EN
                         </button>
                         <button onClick={() => changeLanguage("GE")}>
                             GE
