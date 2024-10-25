@@ -41,6 +41,9 @@ const Header = () => {
             </div>
             <div className="menu">
                 <a href="#">{t("Home")}</a>
+
+                {/* Display About */}
+                <a href="#">{t("About")}</a>
               
                 {/* Verticals Dropdown */}
                 <div className="dropdown">
@@ -87,9 +90,8 @@ const Header = () => {
                     </div>
                 </div>
 
-                {/* Display Careers, About, and Contact */}
+                {/* Display Careers and Contact */}
                 <a href="#">{t("Careers")}</a>
-                <a href="#">{t("About")}</a>
                 <a href="#">{t("Contact")}</a>
             </div>
 
