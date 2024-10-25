@@ -4,7 +4,7 @@ import Header from "./Componentes/Header/Header.jsx";
 import "./Componentes/i18n";
 import MainSection from "./Componentes/MainSection/MainSection.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
-import Contact from "./Componentes/Contact.jsx";
+import Contact from "./Componentes/Contacts/Contact.jsx";
 
 function App() {
   return (
