@@ -8,7 +8,7 @@ import {
   Circle,
 } from "@chakra-ui/react";
 
-const WhyChooseUs = () => {
+const Careers = () => {
   return (
     <div>
         <Box>
@@ -218,10 +218,12 @@ const WhyChooseUs = () => {
           </Box>
         </Flex>
       </VStack>
+
     </Box>
+    
     </div>
    
   );
 };
 
-export default WhyChooseUs;
+export default Careers;
