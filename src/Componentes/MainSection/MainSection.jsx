@@ -1,4 +1,4 @@
-import "./MainSection.css";
+
 import {
   FaMapMarkedAlt,
   FaLaptopCode,
@@ -31,7 +31,7 @@ const MainSection = () => {
       icon: FaLaptopCode,
     },
     {
-      title: t("Data Analytics"),
+      title: t("Data Analytics"),   
       description: t(
         "Unlocking actionable insights through advanced data analytics, transforming geospatial data into strategic solutions."
       ),

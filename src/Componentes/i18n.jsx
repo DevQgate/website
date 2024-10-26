@@ -16,11 +16,9 @@ i18n
           Contact: "Contact",
           Careers: "Careers",
           Agriculture: "Agriculture",
-          "Marine & Water Resource Management":
-            "Marine & Water Resource Management",
+          "Marine & Water Resource Management":"Marine & Water Resource Management",
           "Infrastructure Development": "Infrastructure Development",
-          "Smart Transportation & Logistics":
-            "Smart Transportation & Logistics",
+          "Smart Transportation & Logistics":"Smart Transportation & Logistics",
           "Energy & Utilities": "Energy & Utilities",
           "Mining & Mineral Exploration": "Mining & Mineral Exploration",
           "Oil & Gas Industry": "Oil & Gas Industry",
@@ -61,10 +59,8 @@ i18n
           "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills.":
             "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills.",
           "Talent Solutions": "Talent Solutions",
-          "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.":
-            "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.",
-          "In the meantime, here are the services we offer":
-            "In the meantime, here are the services we offer",
+          "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.":"Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions.",
+          "In the meantime, here are the services we offer": "In the meantime, here are the services we offer",
           SERVICES: "SERVICES",
 
           // Footer
@@ -73,8 +69,7 @@ i18n
           "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
             "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.",
           "Q-gate Infotech Private Limited": "Q-gate Infotech Private Limited",
-          "#11, Abhaya Heights, JP Nagar, Bangaluru,":
-            "#11, Abhaya Heights, JP Nagar, Bangaluru,",
+          "#11, Abhaya Heights, JP Nagar, Bangaluru,": "#11, Abhaya Heights, JP Nagar, Bengaluru,",
           "India - 560078": "India - 560078",
           "+91 93428 55394": "+91 93428 55394",
           "Opening Hours: 09:00 - 18:00": "Opening Hours: 09:00 - 18:00",
@@ -145,7 +140,7 @@ i18n
           "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
             "Ein innovativer Softwareanbieter, Systemintegrator und Technologieanbieter, der gegründet wurde, um verwertbare Erkenntnisse, fortschrittliche intelligente Lösungen und Beratungsdienstleistungen für Unternehmen, Organisationen und die Regierung bereitzustellen.",
           "Q-gate Infotech Private Limited": "Q-Gate Infotech GmbH",
-          "#11, Abhaya Heights, JP Nagar, Bangaluru,": "München",
+          "#11, Abhaya Heights, JP Nagar, Bengaluru,": "München",
           "India - 560078": "Deutschland - 80331",
           "+91 93428 55394": "+49 176 99519797",
           "Opening Hours: 09:00 - 18:00": "Öffnungszeiten: 09:00 - 18:00",

@@ -9,8 +9,12 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0; /* Ensures the navbar stays at the top */
+    z-index: 100; /* Keeps navbar above other content when scrolling */
+    
 }
 
 .navbar .logo img {
@@ -179,4 +183,60 @@ body {
 .dropdown-menu button:hover {
     background-color: rgb(240, 240, 240);
     color: blue;
+}
+/* Mobile (up to 480px) */
+@media only screen and (max-width: 480px) {
+  .navbar {
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+  .navbar .menu {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar .menu a {
+    margin: 10px 0;
+  }
+  .verticals-dropdown, 
+  .services-dropdown,
+  .company-dropdown {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 50px; /* Adjust as needed for visibility */
+  }
+}
+
+/* Tablet (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    padding: 15px 40px;
+  }
+  .navbar .menu a {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .verticals-dropdown, 
+  .services-dropdown,
+  .company-dropdown {
+    width: 80%;
+    left: 10%;
+  }
+}
+
+/* Desktop (769px and up) */
+@media only screen and (min-width: 769px) {
+  .navbar {
+    padding: 20px 80px;
+  }
+  .navbar .menu a {
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  .verticals-dropdown, 
+  .services-dropdown,
+  .company-dropdown {
+    width: 650px; /* Adjust for your layout */
+    height: 300px;
+  }
 }

@@ -26,7 +26,7 @@ const Contact = () => {
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\3124512.jpeg"
+            src="src\Componentes\Image\contact.jpg"
             alt="Contact"
             width="100%"
             height="96"

@@ -5,6 +5,7 @@ import "./Componentes/i18n";
 import MainSection from "./Componentes/MainSection/MainSection.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
 import Contact from "./Componentes/Contacts/Contact.jsx";
+import Career  from "./Componentes/Career/Career.jsx";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <div>
         <Header />
         <ChakraProvider>
-          <Contact />
+          {/* <Contact /> */}
           {/* <MainSection/> */}
+          <Career/>
           <Footer />
         </ChakraProvider>
       </div>

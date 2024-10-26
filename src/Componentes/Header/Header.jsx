@@ -12,6 +12,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import DnsIcon from "@mui/icons-material/Dns";
 
+
 const Header = () => {
   const { t, i18n } = useTranslation(); // Hook for translation
   const [showLanguageDropdown, setShowLanguageDropdown] = React.useState(false);
@@ -53,7 +54,7 @@ const Header = () => {
               <ul>
                 <li>
                   <AgricultureIcon style={{ color: "#ce4074" }} />
-                  <a href="#">{t("Agriculture")}</a>
+                  <a href="#">{t("Agriculture")}</a>  
                 </li>
                 <li>
                   <WaterDropIcon style={{ color: "#ce4074" }} />
@@ -128,6 +129,7 @@ const Header = () => {
         </div>
 
         {/* Display Careers and Contact */}
+        
         <a href="#">{t("Careers")}</a>
         <a href="#">{t("Contact")}</a>
       </div>

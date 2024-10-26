@@ -140,7 +140,7 @@ const Footer = () => {
             <Text>
               {t("Q-gate Infotech Private Limited")}
               <br />
-              {t("#11, Abhaya Heights, JP Nagar, Bangaluru,")}
+              {t("#11, Abhaya Heights, JP Nagar, Bengaluru,")}
               <br />
               {t("India - 560078")}
             </Text>
