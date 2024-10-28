@@ -15,7 +15,7 @@ function App() {
         <ChakraProvider>
           {/* <Contact /> */}
           {/* <MainSection/> */}
-          <Career/>
+          <Career/> 
           <Footer />
         </ChakraProvider>
       </div>
