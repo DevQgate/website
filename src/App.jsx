@@ -8,6 +8,8 @@ import Contact from "./Componentes/Contacts/Contact.jsx";
 import Career  from "./Componentes/Career/Career.jsx";
 import AboutUs from  "./Componentes/AboutUs/AboutUs.jsx";
 import GeospatialServices from "./Componentes/Services/GeospatialServices.jsx";
+import SoftwareDevelopment from "./Componentes/Services/SoftwareDevelopent.jsx";
+import DataAnalytics from "./Componentes/Services/DataAnalytics.jsx";
 
 
 function App() {
@@ -20,7 +22,12 @@ function App() {
           {/* <MainSection/> */}
           {/* <Career/>  */}
           {/* <AboutUs/> */}
-          <GeospatialServices/>
+          
+          {/* SERVICES */}
+
+          {/* <GeospatialServices/> */}
+          {/* <SoftwareDevelopment/> */}
+          <DataAnalytics/>  
           <Footer />
         </ChakraProvider>
       </div>

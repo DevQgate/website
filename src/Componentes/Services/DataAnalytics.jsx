@@ -9,15 +9,15 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 
-const GeospatialServices = () => {
+const DataAnalytics = () => {
   return (
     <Box bg="gray.100">
-      {/* Careers Section */}
+      {/* Header Section */}
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\GGeospatialServices.jpeg"
-            alt="Contact"
+            src="src\Componentes\Image\data-analytics.png"
+            alt="Data Analytics"
             width="100%"
             height="96"
             objectFit="cover"
@@ -35,9 +35,9 @@ const GeospatialServices = () => {
             color="white"
           >
             <Text fontSize="4xl" fontWeight="bold">
-              Geospatial Services
+              Data Analytics
             </Text>
-            <Text fontSize="lg">Q-Gate Infotech Private Limited / Geospatial Services</Text>
+            <Text fontSize="lg">Q-Gate Infotech Private Limited / Data Analytics</Text>
           </Box>
         </Box>
       </Box>
@@ -49,35 +49,35 @@ const GeospatialServices = () => {
             Unlocking the Power of Spatial Data for Informed Decision-Making
           </Heading>
           <Text color="gray.700">
-            At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
+            At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
           </Text>
         </Container>
       </Box>
 
+      {/* Advanced Imagery Analytics Section */}
       <Container maxW="7xl" py={16} px={4}>
-        {/* First Grid Section */}
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Image Data Processing
+              Advanced Imagery Analytics
             </Heading>
             <Text color="gray.700" mb={4}>
-              Enhancing high-res images from satellites, drones, and aerial platforms.
+                Extracting meaningful patterns from high-resolution satellite and aerial imagery.
             </Text>
             <Text color="gray.700" mb={4}>
-              Extracting key data for agriculture, urban planning, and environmental management.
+                Enabling informed decision-making in agriculture, forestry, mining, and urban planning.
             </Text>
             <Text color="gray.700" mb={4}>
-              Providing actionable insights for better decision-making.
+                Providing real-time data insights for accurate trend analysis.
             </Text>
             <Text color="gray.700" mb={4}>
-              Supporting sustainable practices and efficient resource management.
+                Supporting industry-specific insights to drive efficiency and innovation.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\Image Processing.jpg"
-              alt="Map of a region with highlighted areas"
+              src="src\Componentes\Image\AdvancedImageryAnalytics.jpg"
+              alt="Satellite Imagery"
               borderRadius="lg"
               boxShadow="lg"
             />
@@ -85,13 +85,14 @@ const GeospatialServices = () => {
         </Grid>
       </Container>
 
+      {/* Spectral Analysis Section */}
       <Box bg="white" py={16}>
         <Container maxW="7xl" px={4}>
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\Hydro Flattening.png"
-                alt="Aerial view of a forest"
+                src="src\Componentes\Image\SpectralAnalysis.jpg"
+                alt="Spectral Image"
                 borderRadius="lg"
                 boxShadow="lg"
               />
@@ -108,98 +109,58 @@ const GeospatialServices = () => {
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="center">
               <Heading as="h2" size="md" mb={4} color="gray.900">
-                Hydro Flattening
+                Spectral Analysis
               </Heading>
               <Text color="gray.700" mb={4}>
-                Processing LiDAR data for accurate hydro-flattened DEMs.
+                Identifying material compositions through multispectral and hyperspectral imaging.
               </Text>
               <Text color="gray.700" mb={4}>
-                Enhancing hydrological modeling with hydro-flattened surfaces.
+                Assessing vegetation health for environmental monitoring and precision agriculture.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting flood risk assessment through hydro-flattened DEMs.
+                Locating mineral deposits critical to resource exploration.
               </Text>
               <Text color="gray.700" mb={4}>
-                Improving water resource management with precise elevation models.
+                Supporting mineral exploration and environmental applications.
               </Text>
             </GridItem>
           </Grid>
         </Container>
       </Box>
 
+      {/* Computer Vision Applications Section */}
       <Container maxW="7xl" py={16} px={4}>
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Vegetation Analysis
+              Computer Vision Applications
             </Heading>
+            
             <Text color="gray.700" mb={4}>
-              Assessing vegetation health using multispectral and hyperspectral imagery.
+              Developing models for object detection and classification.
             </Text>
             <Text color="gray.700" mb={4}>
-              Estimating biomass for forestry and agricultural applications.
+                Enabling automated surveillance and monitoring systems.
             </Text>
             <Text color="gray.700" mb={4}>
-              Classifying land cover for ecological and environmental studies.
+                Supporting automation across industries through advanced vision tech.
             </Text>
             <Text color="gray.700" mb={4}>
-              Supporting forestry management, agriculture, and ecological research.
+                Tracking and analyzing objects in real time for various applications.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\Vegetation Analysis.png"
-              alt="Map of a region with highlighted areas"
+              src="src\Componentes\Image\DataAnalytics-1.jpeg"
+              alt="Computer Vision Model"
               borderRadius="lg"
               boxShadow="lg"
             />
           </GridItem>
         </Grid>
       </Container>
-
-      <Box bg="white" py={16}>
-        <Container maxW="7xl" px={4}>
-          <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
-            <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
-              <Image
-                src="src\Componentes\Image\Satellite Data Analysis.png"
-                alt="Aerial view of a forest"
-                borderRadius="lg"
-                boxShadow="lg"
-              />
-              <Box
-                position="absolute"
-                top={0}
-                left={0}
-                width="24"
-                height="24"
-                bg="blue.200"
-                borderRadius="full"
-                transform="translate(-12px, -12px)"
-              />
-            </GridItem>
-            <GridItem display="flex" flexDirection="column" justifyContent="center">
-              <Heading as="h2" size="md" mb={4} color="gray.900">
-                Satellite Data Analysis
-              </Heading>
-              <Text color="gray.700" mb={4}>
-                Monitoring environmental changes through satellite imagery.
-              </Text>
-              <Text color="gray.700" mb={4}>
-                Assessing natural resources with satellite data analysis.
-              </Text>
-              <Text color="gray.700" mb={4}>
-                Supporting disaster management with real-time data.
-              </Text>
-              <Text color="gray.700" mb={4}>
-                Enabling timely decision-making through data interpretation.
-              </Text>
-            </GridItem>
-          </Grid>
-        </Container>
-      </Box>
     </Box>
   );
 };
 
-export default GeospatialServices;
+export default DataAnalytics;
