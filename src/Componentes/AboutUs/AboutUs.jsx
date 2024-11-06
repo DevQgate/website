@@ -60,7 +60,7 @@ const FAQList = () => {
         {/* Image Section at the Top */}
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\OIP.jpeg"
+            src="src\Componentes\Image\agriculture.jpg"
             alt="Contact"
             width="100%"
             height="96"

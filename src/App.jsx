@@ -7,6 +7,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Contact from "./Componentes/Contacts/Contact.jsx";
 import Career  from "./Componentes/Career/Career.jsx";
 import AboutUs from  "./Componentes/AboutUs/AboutUs.jsx";
+import GeospatialServices from "./Componentes/Services/GeospatialServices.jsx";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           {/* <Contact /> */}
           {/* <MainSection/> */}
           {/* <Career/>  */}
-          <AboutUs/>
+          {/* <AboutUs/> */}
+          <GeospatialServices/>
           <Footer />
         </ChakraProvider>
       </div>
