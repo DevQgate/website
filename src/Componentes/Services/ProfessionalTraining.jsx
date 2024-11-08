@@ -9,15 +9,15 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 
-const DataAnalytics = () => {
+const ProfessionalTraining = () => {
   return (
     <Box bg="gray.100">
       {/* Header Section */}
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\DataAnalytics.jpg"
-            alt="Data Analytics"
+            src="src\Componentes\Image\ProfessionalTraining.jpg"
+            alt="Professional Training"
             width="100%"
             height="96"
             objectFit="cover"
@@ -32,12 +32,14 @@ const DataAnalytics = () => {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            color="white"
+            color="White"
           >
             <Text fontSize="4xl" fontWeight="bold">
-              Data Analytics
+                Professional Training
             </Text>
-            <Text fontSize="lg">Q-Gate Infotech Private Limited / Data Analytics</Text>
+            <Text fontSize="lg">
+              Q-Gate Infotech / Professional Training
+            </Text>
           </Box>
         </Box>
       </Box>
@@ -46,38 +48,38 @@ const DataAnalytics = () => {
       <Box bg="white" py={8} mb={8}>
         <Container maxW="7xl" px={4}>
           <Heading as="h1" size="md" mb={4} color="gray.900">
-            Unlocking the Power of Spatial Data for Informed Decision-Making
+            At Q-Gate Infotech, we believe that investing in people is key to driving innovation and achieving excellence.
           </Heading>
           <Text color="gray.700">
-            At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
+            Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology. Our initiatives include:
           </Text>
         </Container>
       </Box>
 
-      {/* Advanced Imagery Analytics Section */}
       <Container maxW="7xl" py={16} px={4}>
+        {/* On-the-Job Training Section */}
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Advanced Imagery Analytics
+              On-the-Job Training Programs
             </Heading>
             <Text color="gray.700" mb={4}>
-                Extracting meaningful patterns from high-resolution satellite and aerial imagery.
+              Hands-on training with real projects.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling informed decision-making in agriculture, forestry, mining, and urban planning.
+              Mentorship from experienced professionals.
             </Text>
             <Text color="gray.700" mb={4}>
-                Providing real-time data insights for accurate trend analysis.
+              Accelerates learning through practical experience.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting industry-specific insights to drive efficiency and innovation.
+              Prepares individuals for industry demands.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\Advanced Imagery Analytics.jpg"
-              alt="Satellite Imagery"
+              src="src\Componentes\Image\OnJobTraining.jpg"
+              alt="On-the-Job Training"
               borderRadius="lg"
               boxShadow="lg"
             />
@@ -85,17 +87,18 @@ const DataAnalytics = () => {
         </Grid>
       </Container>
 
-      {/* Spectral Analysis Section */}
       <Box bg="white" py={16}>
         <Container maxW="7xl" px={4}>
+          {/* Internships with Stipends */}
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\Spectral Analysis.jpg"
-                alt="Spectral Image"
+                src="src\Componentes\Image\Internships.jpg"
+                alt="Internships with Stipends"
                 borderRadius="lg"
                 boxShadow="lg"
               />
+              {/* Blue Ball */}
               <Box
                 position="absolute"
                 top={0}
@@ -109,58 +112,101 @@ const DataAnalytics = () => {
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="center">
               <Heading as="h2" size="md" mb={4} color="gray.900">
-                Spectral Analysis
+                Internships with Stipends
               </Heading>
               <Text color="gray.700" mb={4}>
-                Identifying material compositions through multispectral and hyperspectral imaging.
+                Paid internships for financial support.
               </Text>
               <Text color="gray.700" mb={4}>
-                Assessing vegetation health for environmental monitoring and precision agriculture.
+                Develop essential industry exposure.
               </Text>
               <Text color="gray.700" mb={4}>
-                Locating mineral deposits critical to resource exploration.
+                Contribute meaningfully to real projects.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting mineral exploration and environmental applications.
+                Gain insights into professional workflows.
               </Text>
             </GridItem>
           </Grid>
         </Container>
       </Box>
 
-      {/* Computer Vision Applications Section */}
       <Container maxW="7xl" py={16} px={4}>
+        {/* Collaborations with Educational Institutions */}
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Computer Vision Applications
+              Collaborations with Educational Institutions
             </Heading>
-            
             <Text color="gray.700" mb={4}>
-              Developing models for object detection and classification.
+              Enhance curricula with industry insights.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling automated surveillance and monitoring systems.
+              Bridge the gap between academia and industry.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting automation across industries through advanced vision tech.
+              Sponsor innovative research projects.
             </Text>
             <Text color="gray.700" mb={4}>
-                Tracking and analyzing objects in real time for various applications.
+              Encourage student engagement with technology.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\DataAnalytics.jpeg"
-              alt="Computer Vision Model"
+              src="src\Componentes\Image\EducationCollaboration.jpg"
+              alt="Educational Collaboration"
               borderRadius="lg"
               boxShadow="lg"
             />
           </GridItem>
         </Grid>
       </Container>
+
+      <Box bg="white" py={16}>
+        <Container maxW="7xl" px={4}>
+          {/* Empowering Rural Development */}
+          <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
+            <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
+              <Image
+                src="src\Componentes\Image\RuralDevelopment.jpg"
+                alt="Rural Development"
+                borderRadius="lg"
+                boxShadow="lg"
+              />
+              {/* Blue Ball */}
+              <Box
+                position="absolute"
+                top={0}
+                left={0}
+                width="24"
+                height="24"
+                bg="blue.200"
+                borderRadius="full"
+                transform="translate(-12px, -12px)"
+              />
+            </GridItem>
+            <GridItem display="flex" flexDirection="column" justifyContent="center">
+              <Heading as="h2" size="md" mb={4} color="gray.900">
+                Empowering Rural Development
+              </Heading>
+              <Text color="gray.700" mb={4}>
+                Focus on recruiting talent from rural areas.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                Provide equal opportunities for local communities.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                Stimulate economic growth in underserved regions.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                Contribute to social responsibility and community upliftment.
+              </Text>
+            </GridItem>
+          </Grid>
+        </Container>
+      </Box>
     </Box>
   );
 };
 
-export default DataAnalytics;
+export default ProfessionalTraining;

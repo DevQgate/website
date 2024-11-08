@@ -9,15 +9,15 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 
-const DataAnalytics = () => {
+const TalentSolutions = () => {
   return (
     <Box bg="gray.100">
       {/* Header Section */}
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\DataAnalytics.jpg"
-            alt="Data Analytics"
+            src="src\Componentes\Image\TalentSolutions.jpg"
+            alt="Talent Solutions"
             width="100%"
             height="96"
             objectFit="cover"
@@ -32,52 +32,52 @@ const DataAnalytics = () => {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            color="white"
+            color="White"
           >
             <Text fontSize="4xl" fontWeight="bold">
-              Data Analytics
+              Empowering Your Business with Skilled Professionals and Flexible Engagement Models
             </Text>
-            <Text fontSize="lg">Q-Gate Infotech Private Limited / Data Analytics</Text>
+            <Text fontSize="lg">Q-Gate Infotech / Talent Solutions</Text>
           </Box>
         </Box>
       </Box>
 
-      {/* Introductory Section with White Background */}
+      {/* Introductory Section */}
       <Box bg="white" py={8} mb={8}>
         <Container maxW="7xl" px={4}>
           <Heading as="h1" size="md" mb={4} color="gray.900">
-            Unlocking the Power of Spatial Data for Informed Decision-Making
+            At Q-Gate Infotech, we recognize that having the right talent is crucial for organizational success.
           </Heading>
           <Text color="gray.700">
-            At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
+            Our Talent Solutions service provides access to a diverse pool of highly skilled professionals, enabling your business to meet its objectives effectively. Our offerings include:
           </Text>
         </Container>
       </Box>
 
-      {/* Advanced Imagery Analytics Section */}
+      {/* Staff Augmentation */}
       <Container maxW="7xl" py={16} px={4}>
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Advanced Imagery Analytics
+              Staff Augmentation
             </Heading>
             <Text color="gray.700" mb={4}>
-                Extracting meaningful patterns from high-resolution satellite and aerial imagery.
+              Qualified experts to supplement your teams.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling informed decision-making in agriculture, forestry, mining, and urban planning.
+              Scalable resources based on project demands.
             </Text>
             <Text color="gray.700" mb={4}>
-                Providing real-time data insights for accurate trend analysis.
+              Seamless integration with your existing workforce.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting industry-specific insights to drive efficiency and innovation.
+              Expertise in geospatial technologies, software, and analytics.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\Advanced Imagery Analytics.jpg"
-              alt="Satellite Imagery"
+              src="src\Componentes\Image\StaffAugmentation.jpg"
+              alt="Staff Augmentation"
               borderRadius="lg"
               boxShadow="lg"
             />
@@ -85,82 +85,104 @@ const DataAnalytics = () => {
         </Grid>
       </Container>
 
-      {/* Spectral Analysis Section */}
+      {/* Dedicated Project Teams */}
       <Box bg="white" py={16}>
         <Container maxW="7xl" px={4}>
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\Spectral Analysis.jpg"
-                alt="Spectral Image"
+                src="src\Componentes\Image\DedicatedTeams.jpg"
+                alt="Dedicated Project Teams"
                 borderRadius="lg"
                 boxShadow="lg"
-              />
-              <Box
-                position="absolute"
-                top={0}
-                left={0}
-                width="24"
-                height="24"
-                bg="blue.200"
-                borderRadius="full"
-                transform="translate(-12px, -12px)"
               />
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="center">
               <Heading as="h2" size="md" mb={4} color="gray.900">
-                Spectral Analysis
+                Dedicated Project Teams
               </Heading>
               <Text color="gray.700" mb={4}>
-                Identifying material compositions through multispectral and hyperspectral imaging.
+                Exclusive teams focused on your assignments.
               </Text>
               <Text color="gray.700" mb={4}>
-                Assessing vegetation health for environmental monitoring and precision agriculture.
+                Ensures alignment with organizational goals.
               </Text>
               <Text color="gray.700" mb={4}>
-                Locating mineral deposits critical to resource exploration.
+                Consistent collaboration with your internal teams.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting mineral exploration and environmental applications.
+                Promotes organizational culture fit.
               </Text>
             </GridItem>
           </Grid>
         </Container>
       </Box>
 
-      {/* Computer Vision Applications Section */}
+      {/* Flexible Engagement Models */}
       <Container maxW="7xl" py={16} px={4}>
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Computer Vision Applications
+              Flexible Engagement Models
             </Heading>
-            
             <Text color="gray.700" mb={4}>
-              Developing models for object detection and classification.
+              Tailored engagement options based on business needs.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling automated surveillance and monitoring systems.
+              Short-term contracts for quick solutions.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting automation across industries through advanced vision tech.
+              Long-term placements for sustained support.
             </Text>
             <Text color="gray.700" mb={4}>
-                Tracking and analyzing objects in real time for various applications.
+              Project-based arrangements for specific goals.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\DataAnalytics.jpeg"
-              alt="Computer Vision Model"
+              src="src\Componentes\Image\FlexibleEngagement.jpg"
+              alt="Flexible Engagement"
               borderRadius="lg"
               boxShadow="lg"
             />
           </GridItem>
         </Grid>
       </Container>
+
+      {/* Quality Assurance and Compliance */}
+      <Box bg="white" py={16}>
+        <Container maxW="7xl" px={4}>
+          <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
+            <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
+              <Image
+                src="src\Componentes\Image\QualityAssurance.jpg"
+                alt="Quality Assurance"
+                borderRadius="lg"
+                boxShadow="lg"
+              />
+            </GridItem>
+            <GridItem display="flex" flexDirection="column" justifyContent="center">
+              <Heading as="h2" size="md" mb={4} color="gray.900">
+                Quality Assurance and Compliance
+              </Heading>
+              <Text color="gray.700" mb={4}>
+                Rigorous vetting of all professionals.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                Ensure high standards of technical proficiency.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                Handle all HR management and compliance aspects.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                Focus on your core business while we manage the rest.
+              </Text>
+            </GridItem>
+          </Grid>
+        </Container>
+      </Box>
     </Box>
   );
 };
 
-export default DataAnalytics;
+export default TalentSolutions;

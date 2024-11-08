@@ -9,15 +9,15 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 
-const DataAnalytics = () => {
+const CloudAI_ML = () => {
   return (
     <Box bg="gray.100">
       {/* Header Section */}
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\DataAnalytics.jpg"
-            alt="Data Analytics"
+            src="src\Componentes\Image\CloudAI_ML.jpg"
+            alt="Cloud AI-ML Solutions"
             width="100%"
             height="96"
             objectFit="cover"
@@ -32,12 +32,12 @@ const DataAnalytics = () => {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            color="white"
+            color="White"
           >
             <Text fontSize="4xl" fontWeight="bold">
-              Data Analytics
+              Cloud-Based AI/ML Solutions
             </Text>
-            <Text fontSize="lg">Q-Gate Infotech Private Limited / Data Analytics</Text>
+            <Text fontSize="lg">Q-Gate Infotech Private Limited / Cloud-Based AI/ML Solutions</Text>
           </Box>
         </Box>
       </Box>
@@ -46,38 +46,38 @@ const DataAnalytics = () => {
       <Box bg="white" py={8} mb={8}>
         <Container maxW="7xl" px={4}>
           <Heading as="h1" size="md" mb={4} color="gray.900">
-            Unlocking the Power of Spatial Data for Informed Decision-Making
+            Driving Innovation with Scalable Cloud and Artificial Intelligence Technologies
           </Heading>
           <Text color="gray.700">
-            At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
+            At Q-Gate Infotech, we leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward. Our Cloud-Based AI/ML Solutions offer:
           </Text>
         </Container>
       </Box>
 
-      {/* Advanced Imagery Analytics Section */}
       <Container maxW="7xl" py={16} px={4}>
+        {/* Intelligent Applications Section */}
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Advanced Imagery Analytics
+              Development of Intelligent Applications
             </Heading>
             <Text color="gray.700" mb={4}>
-                Extracting meaningful patterns from high-resolution satellite and aerial imagery.
+                Enables predictive analytics for informed decision-making.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling informed decision-making in agriculture, forestry, mining, and urban planning.
+                Streamlines tasks through automation to boost efficiency.
             </Text>
             <Text color="gray.700" mb={4}>
-                Providing real-time data insights for accurate trend analysis.
+                Supports real-time decision-making with rapid response to data.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting industry-specific insights to drive efficiency and innovation.
+                Continuously evolves through adaptive learning to provide insights.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\Advanced Imagery Analytics.jpg"
-              alt="Satellite Imagery"
+              src="src\Componentes\Image\AI_ML.jpg"
+              alt="AI-powered applications"
               borderRadius="lg"
               boxShadow="lg"
             />
@@ -85,14 +85,13 @@ const DataAnalytics = () => {
         </Grid>
       </Container>
 
-      {/* Spectral Analysis Section */}
       <Box bg="white" py={16}>
         <Container maxW="7xl" px={4}>
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\Spectral Analysis.jpg"
-                alt="Spectral Image"
+                src="src\Componentes\Image\Geo-Spacial.jpg"
+                alt="Geospatial data integration"
                 borderRadius="lg"
                 boxShadow="lg"
               />
@@ -109,58 +108,98 @@ const DataAnalytics = () => {
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="center">
               <Heading as="h2" size="md" mb={4} color="gray.900">
-                Spectral Analysis
+                Integration with Geospatial Data
               </Heading>
               <Text color="gray.700" mb={4}>
-                Identifying material compositions through multispectral and hyperspectral imaging.
+                    Integrates AI/ML with geospatial data for enhanced insights.
               </Text>
               <Text color="gray.700" mb={4}>
-                Assessing vegetation health for environmental monitoring and precision agriculture.
+                    Enables pattern recognition in complex spatial datasets.
               </Text>
               <Text color="gray.700" mb={4}>
-                Locating mineral deposits critical to resource exploration.
+                    Supports anomaly detection for identifying unusual patterns.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting mineral exploration and environmental applications.
+                    Enhances predictive modeling for urban planning and resource management.
               </Text>
             </GridItem>
           </Grid>
         </Container>
       </Box>
 
-      {/* Computer Vision Applications Section */}
       <Container maxW="7xl" py={16} px={4}>
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Computer Vision Applications
+              Scalable Cloud Infrastructure
             </Heading>
-            
             <Text color="gray.700" mb={4}>
-              Developing models for object detection and classification.
+                Ensures scalability and flexibility through cloud platforms.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling automated surveillance and monitoring systems.
+                Provides accessibility from anywhere for seamless operations.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting automation across industries through advanced vision tech.
+                Supports efficient data processing and storage for large datasets.
             </Text>
             <Text color="gray.700" mb={4}>
-                Tracking and analyzing objects in real time for various applications.
+                Reduces need for on-premise infrastructure investment.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\DataAnalytics.jpeg"
-              alt="Computer Vision Model"
+              src="src\Componentes\Image\Cloud.jpg"
+              alt="Scalable cloud infrastructure"
               borderRadius="lg"
               boxShadow="lg"
             />
           </GridItem>
         </Grid>
       </Container>
+
+      <Box bg="white" py={16}>
+        <Container maxW="7xl" px={4}>
+          <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
+            <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
+              <Image
+                src="src\Componentes\Image\Customized AI Models.jpg"
+                alt="Custom AI models"
+                borderRadius="lg"
+                boxShadow="lg"
+              />
+              <Box
+                position="absolute"
+                top={0}
+                left={0}
+                width="24"
+                height="24"
+                bg="blue.200"
+                borderRadius="full"
+                transform="translate(-12px, -12px)"
+              />
+            </GridItem>
+            <GridItem display="flex" flexDirection="column" justifyContent="center">
+              <Heading as="h2" size="md" mb={4} color="gray.900">
+                Customized AI Models
+              </Heading>
+              <Text color="gray.700" mb={4}>
+                    Develops custom ML models tailored to specific business needs.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                    Specializes in language processing, computer vision, and predictive analytics.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                    Builds models that provide actionable insights for decision-making.
+              </Text>
+              <Text color="gray.700" mb={4}>
+                    Delivers solutions that adapt to evolving business challenges.
+              </Text>
+            </GridItem>
+          </Grid>
+        </Container>
+      </Box>
     </Box>
   );
 };
 
-export default DataAnalytics;
+export default CloudAI_ML;

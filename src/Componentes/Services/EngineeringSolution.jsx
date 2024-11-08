@@ -9,15 +9,15 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 
-const DataAnalytics = () => {
+const EngineeringSolutions = () => {
   return (
     <Box bg="gray.100">
       {/* Header Section */}
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\DataAnalytics.jpg"
-            alt="Data Analytics"
+            src="src\Componentes\Image\Engineering Solutions.jpeg"
+            alt="Engineering Solutions"
             width="100%"
             height="96"
             objectFit="cover"
@@ -32,12 +32,12 @@ const DataAnalytics = () => {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            color="white"
+            color="Black"
           >
             <Text fontSize="4xl" fontWeight="bold">
-              Data Analytics
+              Engineering Solutions
             </Text>
-            <Text fontSize="lg">Q-Gate Infotech Private Limited / Data Analytics</Text>
+            <Text fontSize="lg">Q-Gate Infotech Private Limited / Engineering Solutions</Text>
           </Box>
         </Box>
       </Box>
@@ -46,38 +46,35 @@ const DataAnalytics = () => {
       <Box bg="white" py={8} mb={8}>
         <Container maxW="7xl" px={4}>
           <Heading as="h1" size="md" mb={4} color="gray.900">
-            Unlocking the Power of Spatial Data for Informed Decision-Making
+            Innovative Engineering for Sustainable Development
           </Heading>
           <Text color="gray.700">
-            At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
+            Q-Gate Infotech's Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development, and optimization of infrastructure and industrial projects. Our services aim to enhance efficiency, sustainability, and innovation in engineering practices. We offer:
           </Text>
         </Container>
       </Box>
 
-      {/* Advanced Imagery Analytics Section */}
+      {/* Building Information Modeling (BIM) Section */}
       <Container maxW="7xl" py={16} px={4}>
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Advanced Imagery Analytics
+              Building Information Modeling (BIM)
             </Heading>
             <Text color="gray.700" mb={4}>
-                Extracting meaningful patterns from high-resolution satellite and aerial imagery.
+                Developing detailed and intelligent 3D models of buildings and infrastructure.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling informed decision-making in agriculture, forestry, mining, and urban planning.
+                Enabling effective visualization, simulation, and project management.
             </Text>
             <Text color="gray.700" mb={4}>
-                Providing real-time data insights for accurate trend analysis.
-            </Text>
-            <Text color="gray.700" mb={4}>
-                Supporting industry-specific insights to drive efficiency and innovation.
+                Facilitating collaboration, reducing errors, and streamlining delivery.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\Advanced Imagery Analytics.jpg"
-              alt="Satellite Imagery"
+              src="src\Componentes\Image\BIM.jpg"
+              alt="Building Information Modeling"
               borderRadius="lg"
               boxShadow="lg"
             />
@@ -85,14 +82,14 @@ const DataAnalytics = () => {
         </Grid>
       </Container>
 
-      {/* Spectral Analysis Section */}
+      {/* Reverse Engineering for Existing Structures Section */}
       <Box bg="white" py={16}>
         <Container maxW="7xl" px={4}>
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\Spectral Analysis.jpg"
-                alt="Spectral Image"
+                src="src\Componentes\Image\Reverse Engineering.jpg"
+                alt="Reverse Engineering"
                 borderRadius="lg"
                 boxShadow="lg"
               />
@@ -109,50 +106,43 @@ const DataAnalytics = () => {
             </GridItem>
             <GridItem display="flex" flexDirection="column" justifyContent="center">
               <Heading as="h2" size="md" mb={4} color="gray.900">
-                Spectral Analysis
+                Reverse Engineering for Existing Structures
               </Heading>
               <Text color="gray.700" mb={4}>
-                Identifying material compositions through multispectral and hyperspectral imaging.
+                Utilizing advanced scanning and modeling for structural analysis.
               </Text>
               <Text color="gray.700" mb={4}>
-                Assessing vegetation health for environmental monitoring and precision agriculture.
+                Assisting renovation planning, analysis, and maintenance scheduling.
               </Text>
               <Text color="gray.700" mb={4}>
-                Locating mineral deposits critical to resource exploration.
-              </Text>
-              <Text color="gray.700" mb={4}>
-                Supporting mineral exploration and environmental applications.
+                Ensuring longevity and safety of infrastructure assets.
               </Text>
             </GridItem>
           </Grid>
         </Container>
       </Box>
 
-      {/* Computer Vision Applications Section */}
+      {/* Engineering Consultancy Section */}
       <Container maxW="7xl" py={16} px={4}>
         <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
           <GridItem display="flex" flexDirection="column" justifyContent="center">
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Computer Vision Applications
+              Engineering Consultancy
             </Heading>
-            
             <Text color="gray.700" mb={4}>
-              Developing models for object detection and classification.
+              Providing expert consultancy across various engineering projects.
             </Text>
             <Text color="gray.700" mb={4}>
-                Enabling automated surveillance and monitoring systems.
+              Conducting feasibility studies, environmental assessments, and optimization.
             </Text>
             <Text color="gray.700" mb={4}>
-                Supporting automation across industries through advanced vision tech.
-            </Text>
-            <Text color="gray.700" mb={4}>
-                Tracking and analyzing objects in real time for various applications.
+              Enhancing project outcomes with multidisciplinary expertise.
             </Text>
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\DataAnalytics.jpeg"
-              alt="Computer Vision Model"
+              src="src\Componentes\Image\Engineering Consultancy.jpg"
+              alt="Engineering Consultancy"
               borderRadius="lg"
               boxShadow="lg"
             />
@@ -163,4 +153,4 @@ const DataAnalytics = () => {
   );
 };
 
-export default DataAnalytics;
+export default EngineeringSolutions;

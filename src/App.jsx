@@ -10,6 +10,10 @@ import AboutUs from  "./Componentes/AboutUs/AboutUs.jsx";
 import GeospatialServices from "./Componentes/Services/GeospatialServices.jsx";
 import SoftwareDevelopment from "./Componentes/Services/SoftwareDevelopent.jsx";
 import DataAnalytics from "./Componentes/Services/DataAnalytics.jsx";
+import EngineeringSolutions from "./Componentes/Services/EngineeringSolution.jsx";
+import CloudAI_ML from "./Componentes/Services/Cloud AI-ML.jsx";
+import ProfessionalTraining from "./Componentes/Services/ProfessionalTraining.jsx";
+import ContentAnnotation from "./Componentes/Services/ContentAnnotation.jsx";
 
 
 function App() {
@@ -27,7 +31,11 @@ function App() {
 
           {/* <GeospatialServices/> */}
           {/* <SoftwareDevelopment/> */}
-          <DataAnalytics/>  
+          {/* <DataAnalytics/> */}
+          {/* <EngineeringSolutions/> */}
+          {/* <CloudAI_ML/> */}
+          {/* <ProfessionalTraining/> */}
+          <ContentAnnotation/>
           <Footer />
         </ChakraProvider>
       </div>
