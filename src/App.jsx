@@ -33,9 +33,9 @@ function App() {
           {/* <SoftwareDevelopment/> */}
           {/* <DataAnalytics/> */}
           {/* <EngineeringSolutions/> */}
-          {/* <CloudAI_ML/> */}
+          <CloudAI_ML/>
           {/* <ProfessionalTraining/> */}
-          <ContentAnnotation/>
+          {/* <ContentAnnotation/> */}
           <Footer />
         </ChakraProvider>
       </div>

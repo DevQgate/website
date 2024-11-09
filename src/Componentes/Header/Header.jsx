@@ -3,15 +3,11 @@ import { useTranslation } from "react-i18next";
 import CountryFlag from "react-native-country-flag"; // Import the flag component
 import "./Header.css";
 import logo from "../Image/Q-Gate-Logo.png";
-import AgricultureIcon from "@mui/icons-material/Agriculture";
-import WaterDropIcon from "@mui/icons-material/WaterDrop";
-import ConnectingAirportsIcon from "@mui/icons-material/ConnectingAirports";
 import EnergySavingsLeafIcon from "@mui/icons-material/EnergySavingsLeaf";
 import EvStationIcon from "@mui/icons-material/EvStation";
 import InfoIcon from "@mui/icons-material/Info";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import DnsIcon from "@mui/icons-material/Dns";
-
 
 const Header = () => {
   const { t, i18n } = useTranslation(); // Hook for translation
@@ -42,30 +38,25 @@ const Header = () => {
       </div>
       <div className="menu">
         <a href="#">{t("Home")}</a>
-
         {/* Display About */}
         <a href="#">{t("About")}</a>
-
         {/* Verticals Dropdown */}
+        
         <div className="dropdown">
           <a className="dropdown-toggle">{t("Verticals")}</a>
           <div className="verticals-dropdown">
             <div className="left-column">
               <ul>
                 <li>
-                  <AgricultureIcon style={{ color: "#ce4074" }} />
-                  <a href="#">{t("Agriculture")}</a>  
+                  <a href="#">{t("Agriculture")}</a>
                 </li>
                 <li>
-                  <WaterDropIcon style={{ color: "#ce4074" }} />
                   <a href="#">{t("Marine & Water Resource Management")}</a>
                 </li>
                 <li>
-                  <EnergySavingsLeafIcon style={{ color: "#ce4074" }} />
                   <a href="#">{t("Infrastructure Development")}</a>
                 </li>
                 <li>
-                  <ConnectingAirportsIcon style={{ color: "#ce4074" }} />
                   <a href="#">{t("Smart Transportation & Logistics")}</a>
                 </li>
               </ul>
@@ -73,22 +64,18 @@ const Header = () => {
             <div className="right-column">
               <ul>
                 <li>
-                  <EnergySavingsLeafIcon style={{ color: "#ce4074" }} />
                   <a href="#">{t("Energy & Utilities")}</a>
                 </li>
                 <li>
-                  <EnergySavingsLeafIcon style={{ color: "#ce4074" }} />
                   <a href="#">{t("Mining & Mineral Exploration")}</a>
                 </li>
                 <li>
-                  <EvStationIcon style={{ color: "#ce4074" }} />
                   <a href="#">{t("Oil & Gas Industry")}</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-
         {/* Services Dropdown */}
         <div className="dropdown">
           <a className="dropdown-toggle">{t("Services")}</a>
@@ -127,9 +114,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-
         {/* Display Careers and Contact */}
-        
         <a href="#">{t("Careers")}</a>
         <a href="#">{t("Contact")}</a>
       </div>
