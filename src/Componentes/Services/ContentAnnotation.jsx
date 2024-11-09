@@ -16,7 +16,7 @@ const ContentAnnotation = () => {
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\ContentAnnotation.jpg"
+            src="src\Componentes\Image\Content Annotation.jpg"
             alt="Content Annotation"
             width="100%"
             height="96"
@@ -84,7 +84,7 @@ const ContentAnnotation = () => {
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\ImageVideoTextAnnotation.jpg"
+              src="src\Componentes\Image\Content Annotation - 1.jpg"
               alt="Image, Video, and Text Annotation"
               borderRadius="lg"
               boxShadow="lg"
@@ -104,7 +104,7 @@ const ContentAnnotation = () => {
               position="relative"
             >
               <Image
-                src="src\Componentes\Image\PointCloudAnnotation.jpg"
+                src="src\Componentes\Image\Content Annotation - 2.jpg"
                 alt="Point Cloud Annotation"
                 borderRadius="lg"
                 boxShadow="lg"
@@ -173,7 +173,7 @@ const ContentAnnotation = () => {
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\ObjectDetectionSegmentation.jpg"
+              src="src\Componentes\Image\Content Annotation - 3.jpg"
               alt="Object Detection and Semantic Segmentation"
               borderRadius="lg"
               boxShadow="lg"

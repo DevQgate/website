@@ -16,7 +16,7 @@ const ProfessionalTraining = () => {
       <Box>
         <Box position="relative">
           <Image
-            src="src\Componentes\Image\ProfessionalTraining.jpg"
+            src="src\Componentes\Image\Professional Training.jpg  "
             alt="Professional Training"
             width="100%"
             height="96"
@@ -78,7 +78,7 @@ const ProfessionalTraining = () => {
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\OnJobTraining.jpg"
+              src="src\Componentes\Image\Professional Training - 1.jpg"
               alt="On-the-Job Training"
               borderRadius="lg"
               boxShadow="lg"
@@ -93,7 +93,7 @@ const ProfessionalTraining = () => {
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\Internships.jpg"
+                src="src\Componentes\Image\Professional Training - 2.jpg"
                 alt="Internships with Stipends"
                 borderRadius="lg"
                 boxShadow="lg"
@@ -153,7 +153,7 @@ const ProfessionalTraining = () => {
           </GridItem>
           <GridItem display="flex" justifyContent="center" alignItems="center">
             <Image
-              src="src\Componentes\Image\EducationCollaboration.jpg"
+              src="src\Componentes\Image\Professional Training - 3.jpg"
               alt="Educational Collaboration"
               borderRadius="lg"
               boxShadow="lg"
@@ -168,7 +168,7 @@ const ProfessionalTraining = () => {
           <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={8}>
             <GridItem display="flex" justifyContent="center" alignItems="center" position="relative">
               <Image
-                src="src\Componentes\Image\RuralDevelopment.jpg"
+                src="src\Componentes\Image\Professional Training - 4.jpg"
                 alt="Rural Development"
                 borderRadius="lg"
                 boxShadow="lg"
