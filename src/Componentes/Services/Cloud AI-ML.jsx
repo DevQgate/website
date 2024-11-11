@@ -33,7 +33,7 @@ const CloudAI_ML = () => {
             flexDirection="column"
             alignItems="center"
             justifyContent="center"
-            color="White"
+            color="Black"
           >
             <MotionText 
               fontSize="4xl" 
