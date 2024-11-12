@@ -12,7 +12,7 @@ function ArticleCard({ date, title, description, imageUrl, isLeftAligned }) {
       mx="auto"
     >
       <Box
-        bg="white"
+        bg="white"  
         shadow="lg"
         rounded="lg"
         overflow="hidden"

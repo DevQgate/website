@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   ChakraProvider,
   Box,
+  Flex,
+  Image,
+  Text,
   Heading,
+  Stack,
   Accordion,
   AccordionItem,
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
-  Text,
-  Image,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 
 const FAQItem = ({ question, answer, isOpen, onClick }) => (
   <AccordionItem border="none">
@@ -38,7 +40,69 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => (
   </AccordionItem>
 );
 
-const FAQList = () => {
+const ArticleCard = ({ date, title, description, imageUrl, isLeftAligned }) => (
+  <Flex
+    direction="column"
+    align="center"
+    pos="relative"
+    w="full"
+    maxW="500px"
+    mx="auto"
+  >
+    <Box
+      bg="white"
+      shadow="lg"
+      rounded="lg"
+      overflow="hidden"
+      w="full"
+      h="300px"
+    >
+      <Image
+        src={imageUrl}
+        alt={title}
+        objectFit="cover"
+        w="full"
+        h="full"
+      />
+    </Box>
+    <Box
+      bg="white"
+      shadow="lg"
+      rounded="lg"
+      p={6}
+      mt={-14}
+      pos="relative"
+      maxW="500px"
+      transform={`translate(${isLeftAligned ? "-50%" : "50%"})`}
+    >
+      <Flex
+        pos="absolute"
+        top={-1}
+        left={isLeftAligned ? 0 : "auto"}
+        right={!isLeftAligned ? 0 : "auto"}
+        bg="green.500"
+        color="white"
+        w={16}
+        h={16}
+        rounded="full"
+        align="center"
+        justify="center"
+        direction="column"
+        textAlign="center"
+        transform={`translate(${isLeftAligned ? "-50%, -50%" : "50%, -50%"})`}
+      >
+        <Text fontSize="xs">{date.month}</Text>
+        <Text fontSize="xs">{date.year}</Text>
+      </Flex>
+      <Heading as="h2" size="md" mb={2}>
+        {title}
+      </Heading>
+      <Text color="gray.600">{description}</Text>
+    </Box>
+  </Flex>
+);
+
+const AboutUs = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
@@ -54,6 +118,66 @@ const FAQList = () => {
     { question: "What are Q-Gate’s goals for expanding its services in the future?", answer: "Q-Gate’s goals for expanding its services in the future include exploring new geospatial technologies, expanding into new markets, and continuing to innovate and provide cutting-edge solutions to address emerging challenges in various industries." },
   ];
 
+  const articles = [
+    {
+      date: { month: "APR", year: "2022" },
+      title: "Establishment and Early Innovations",
+      description: 
+        <p>
+          Founded in Bengaluru, India. <br/>
+          specializing in geospatial data & analytics<br/>
+          Expertise in large-scale geospatial analytics<br/>
+          Delivered 20,000+ miles of 3D annotated maps<br/>
+          Contributed to navigation, environmental monitoring, and infrastructure projects<br/>
+        </p>,
+      imageUrl: "src\\Componentes\\Image\\milestone.jpg",
+      isLeftAligned: true,
+    },
+    
+    {
+      date: { month: "OCT", year: "2022" },
+      title: "Expansion and Technological Advancements",
+      description:
+      <p>
+          Used LiDAR and custom tools for terrain analysis.<br/>
+          Extracted data insights for climate and disaster response.<br/>
+          Explored minerals using satellite imagery.<br/>
+          Analyzed light wave data for resource management.<br/>
+      </p>,
+      imageUrl: "src\\Componentes\\Image\\AboutUs-2.jpg",
+      isLeftAligned: false,
+    },
+    {
+      date: { month: "DEC", year: "2023" },
+      title: "Social Responsibility & Education Commitment.",
+      description: 
+      <p>
+          Promoted equal gender opportunities<br/>
+          Focusing on rural-based graduates. <br/>
+          Fostered diversity and inclusion within our teams.<br/>
+          Signed MoUs with universities to update curricula.<br/>
+          Collab with academia on research, bridging the industry gap.<br/>
+      </p>,
+      imageUrl: "src\\Componentes\\Image\\AboutUs-3.jpg",
+      isLeftAligned: true,
+    },
+    {
+      date: { month: "Future", year: "2025?" },
+      title: "Looking Ahead",
+      description: 
+      <p>
+          Advanced AI and ML for sustainability and resilience.<br/>
+          Explored spatial computing with digital twins.<br/>
+          Integrated physical and digital realms seamlessly.<br/>
+          Redefined industry standards with cutting-edge geospatial intelligence for climate adaptation.<br/>
+      </p>,
+      imageUrl: "src\\Componentes\\Image\\AboutUs-4.jpg",
+      isLeftAligned: false,
+    },
+  ];
+  
+  
+
   return (
     <ChakraProvider>
       <Box mb={10}>
@@ -61,7 +185,7 @@ const FAQList = () => {
         <Box position="relative">
           <Image
             src="src\Componentes\Image\agriculture.jpg"
-            alt="Contact"
+            alt="About Us"
             width="100%"
             height="96"
             objectFit="cover"
@@ -79,11 +203,40 @@ const FAQList = () => {
             color="white"
           >
             <Text fontSize="4xl" fontWeight="bold">
-                About Us
+              About Us
             </Text>
             <Text fontSize="lg">Q-Gate Infotech Private Limited / About Us</Text>
           </Box>
         </Box>
+
+        {/* Article Section */}
+        <Flex
+          direction="column"
+          align="center"
+          bg="gray.100"
+          minH="100vh"
+          justify="center"
+          py={8}
+        >
+          <Heading as="h1" size="2xl" mb={4} color="green.500">
+            History and Milestone
+          </Heading>
+          <Text fontSize="lg" color="black" textAlign="center" mb={8} maxW="ml" >
+            In just over a year since our founding in 2022, Q-Gate Infotech has traversed an exponential growth trajectory that exemplifies our boundary-pushing ethos and commitment to environmental sustainability.
+          </Text>
+          <Stack spacing={8} align="center">
+            {articles.map((article, index) => (
+              <ArticleCard
+                key={index}
+                date={article.date}
+                title={article.title}
+                description={article.description}
+                imageUrl={article.imageUrl}
+                isLeftAligned={article.isLeftAligned}
+              />
+            ))}
+          </Stack>
+        </Flex>
 
         {/* FAQ Section */}
         <Box
@@ -118,4 +271,4 @@ const FAQList = () => {
   );
 };
 
-export default FAQList;
+export default AboutUs;
