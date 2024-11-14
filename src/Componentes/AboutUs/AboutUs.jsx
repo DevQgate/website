@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Blog from "./Blog.jsx";
+import VisionMission from './VisionMission';
 import About from "./about.jsx";
 import {
   ChakraProvider,
@@ -286,6 +288,12 @@ const AboutUs = () => {
           </Box>
         </Box>
 
+
+
+        
+        <About/>
+
+
         {/* Article Section */}
         <Flex
           direction="column"
@@ -296,7 +304,7 @@ const AboutUs = () => {
           justify="center"
           py={8}
         >
-          <Heading as="h1" size="2xl" mb={4} color="green.500">
+          <Heading as="h1" size="2xl" mb={4} color="green" >
             History and Milestone
           </Heading>
           <Text fontSize="lg" color="black" textAlign="center" mb={8} maxW="ml">
@@ -318,8 +326,15 @@ const AboutUs = () => {
             ))}
           </Stack>
         </Flex>
+        
+        {/* VisionMission */}
+        <VisionMission />;
+        
 
-        <About />
+
+        {/* Blog */}
+        <Blog />
+
 
         {/* FAQ Section */}
         <Box
