@@ -1,7 +1,5 @@
-// VisionMission.jsx
-
 import React from 'react';
-import { ChakraProvider, Box, Image, Heading, Text, Stack, Flex, Container } from '@chakra-ui/react';
+import { ChakraProvider, Box, Image, Text, Stack, Flex, Container, Badge } from '@chakra-ui/react';
 
 const VisionMission = () => {
   return (
@@ -15,13 +13,25 @@ const VisionMission = () => {
               alt="Graph showing data trends"
               width="100%"
               height="auto"
-              borderRadius="lg" // Adds curved corners
+              borderRadius="lg"
             />
           </Box>
 
           {/* Vision Section */}
-          <Box>
-            <Heading as="h1" size="2xl" color="gray.900" mt={2}>Vision</Heading>
+          <Box maxW="100%" mx="auto">
+            <Badge
+              bgGradient="linear(to-r, green.400, blue.500)"
+              color="white"
+              px={6}
+              py={3}
+              rounded="full"
+              shadow="md"
+              fontSize="2xl"
+              fontWeight="bold"
+              mb={2}
+            >
+              Vision
+            </Badge>
             <Stack spacing={4} mt={4}>
               {[
                 "Empower organizations and communities to envision a sustainable future.",
@@ -30,7 +40,7 @@ const VisionMission = () => {
                 "Drive transformative outcomes in sustainability and resilience.",
                 "Foster an agile, collaborative culture that nurtures talent and propagates knowledge."
               ].map((text, index) => (
-                <Flex key={index} align="flex-start">
+                <Flex key={index} align="flex-start" maxW="100%">
                   <Box as="span" color="green.500" mt={1} fontSize="xl">•</Box>
                   <Text ml={4} color="gray.700" fontSize="xl">{text}</Text>
                 </Flex>
@@ -39,8 +49,20 @@ const VisionMission = () => {
           </Box>
 
           {/* Mission Section */}
-          <Box>
-            <Heading as="h1" size="2xl" color="gray.900" mt={2}>Mission</Heading>
+          <Box maxW="100%" mx="auto">
+            <Badge
+              bgGradient="linear(to-r, green.400, blue.500)"
+              color="white"
+              px={6}
+              py={3}
+              rounded="full"
+              shadow="md"
+              fontSize="2xl"
+              fontWeight="bold"
+              mb={6}
+            >
+              Mission
+            </Badge>
             <Stack spacing={4} mt={4}>
               {[
                 "Lead the environmental intelligence revolution, integrating advanced technologies for sustainable solutions.",
@@ -48,7 +70,7 @@ const VisionMission = () => {
                 "Be at the forefront of innovation in environmental intelligence, data analytics, and engineering solutions.",
                 "Create an ecosystem where environmental data and insights seamlessly integrate."
               ].map((text, index) => (
-                <Flex key={index} align="flex-start">
+                <Flex key={index} align="flex-start" maxW="100%">
                   <Box as="span" color="green.500" mt={1} fontSize="xl">•</Box>
                   <Text ml={4} color="gray.700" fontSize="xl">{text}</Text>
                 </Flex>
@@ -63,7 +85,7 @@ const VisionMission = () => {
               alt="Graph showing data trends"
               width="100%"
               height="auto"
-              borderRadius="lg" // Adds curved corners
+              borderRadius="lg"
             />
           </Box>
         </Box>

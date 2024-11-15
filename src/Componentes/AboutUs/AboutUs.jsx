@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Blog from "./Blog.jsx";
 import VisionMission from './VisionMission';
 import About from "./about.jsx";
+import CoreStrength from "./CoreStrengths.jsx";
 import {
   ChakraProvider,
   Box,
@@ -334,6 +335,11 @@ const AboutUs = () => {
 
         {/* Blog */}
         <Blog />
+        
+
+        {/* CoreStrength */}
+        <CoreStrength/>
+
 
 
         {/* FAQ Section */}

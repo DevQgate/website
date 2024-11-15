@@ -2,108 +2,160 @@ import React from "react";
 import {
   ChakraProvider,
   Box,
-  Flex,
-  Image,
-  Text,
+  Grid,
+  GridItem,
+  Icon,
   Heading,
+  Text,
   Stack,
+  Image,
 } from "@chakra-ui/react";
+import {
+  FaGlobe,
+  FaRobot,
+  FaCube,
+  FaLock,
+  FaUsers,
+  FaBolt,
+  FaLightbulb,
+  FaHandshake,
+} from "react-icons/fa";
 
 const coreStrengths = [
   {
-    title: "Expertise in Environmental Geospatial Analytics",
-    description:
-      "Leading the industry with pioneering expertise in geospatial analytics focused on environmental sustainability, climate change mitigation, and disaster management.",
+    title: "Environmental Geospatial Analytics",
+    description: "Pioneering sustainability and disaster management solutions.",
+    icon: FaGlobe,
   },
   {
-    title: "Advanced AI and Machine Learning Capabilities",
-    description:
-      "Utilizing cutting-edge AI and machine learning technologies to process geospatial and LiDAR data, providing accurate predictive insights and actionable intelligence for environmental initiatives.",
+    title: "AI & Machine Learning",
+    description: "Transforming data into predictive insights.",
+    icon: FaRobot,
   },
   {
-    title: "Proficiency in 3D Data Capture and Processing",
-    description:
-      "Mastery in 3D mapping, photogrammetry, and high-fidelity spatial data processing to create detailed environmental models and simulations.",
+    title: "3D Data Processing",
+    description: "Creating high-fidelity environmental models.",
+    icon: FaCube,
   },
   {
-    title: "Collaborative Blockchain Integration for Secure Data Sharing",
-    description:
-      "Collaboratively implementing blockchain technologies to ensure secure, transparent, and efficient data sharing among stakeholders.",
+    title: "Blockchain Integration",
+    description: "Secure and transparent data sharing.",
+    icon: FaLock,
   },
   {
-    title: "Interdisciplinary Team of Experts",
-    description:
-      "A talented workforce of over 200+ professionals, including domain experts, data scientists, and full-stack developers with deep knowledge in GIS, LiDAR, spatial computing, and data science.",
+    title: "Scalable Operations",
+    description: "Ready to meet growing demands effectively.",
+    icon: FaUsers,
   },
   {
-    title: "Capacity for Rapid Scaling",
-    description:
-      "Equipped to scale operations beyond 500 personnel, ensuring we meet expanding client demands efficiently and effectively.",
+    title: "Agile & Collaborative Culture",
+    description: "Empowering innovation and learning.",
+    icon: FaBolt,
   },
   {
-    title: "Agile and Collaborative Culture",
-    description:
-      "Fostering an agile and collaborative environment that empowers teams, encourages innovation, and promotes continuous learning.",
+    title: "Continuous Innovation",
+    description: "Driving progress through knowledge sharing.",
+    icon: FaLightbulb,
   },
   {
-    title: "Commitment to Continuous Innovation",
-    description:
-      "Dedicated to ongoing innovation, talent nurturing, and knowledge sharing to remain at the forefront of environmental intelligence.",
-  },
-  {
-    title: "Tailored Solutions and Partnerships",
-    description:
-      "Crafting customized solutions and building strong partnerships to help clients achieve their environmental and operational objectives.",
+    title: "Tailored Solutions",
+    description: "Customized solutions for client success.",
+    icon: FaHandshake,
   },
 ];
 
 const CoreStrength = () => {
   return (
     <ChakraProvider>
-      <Box py={10} px={{ base: 4, md: 8 }} maxW="7xl" mx="auto">
-        <Heading
-          as="h2"
-          size="2xl"
-          mb={8}
-          fontWeight="bold"
-          textAlign={{ base: "center", md: "left" }}
-        >
-          Core Strength
-        </Heading>
-        <Flex
-          direction={{ base: "column", md: "row" }}
-          align="center"
-          justify="space-between"
-        >
-          {/* Left Column - Core Strengths List */}
-          <Box flex="1" pr={{ base: 0, md: 8 }} mb={{ base: 8, md: 0 }}>
-            <Stack spacing={6}>
-              {coreStrengths.map((strength, index) => (
-                <Box key={index}>
-                  <Heading as="h3" size="md" mb={1} fontWeight="bold">
-                    {strength.title}
-                  </Heading>
-                  <Text fontSize="md" color="gray.700">
-                    {strength.description}
-                  </Text>
-                </Box>
-              ))}
-            </Stack>
-          </Box>
+      <Box bg="gray.100" py={16} px={6}>
+        {/* Header Section */}
+        <Box textAlign="center" mb={10}>
+          <Heading as="h2" size="2xl" fontWeight="bold" color="gray.800">
+            <Text as="span" color="green.500">
+              Core
+            </Text>{" "}
+            <Text as="span" color="black">
+              Strengths
+            </Text>
+          </Heading>
+          <Text mt={4} fontSize="lg" color="gray.600" maxW="3xl" mx="auto">
+            Discover the foundation of our expertise and innovation.
+          </Text>
+        </Box>
 
-          {/* Right Column - Image */}
-          <Box flex="1" pl={{ base: 0, md: 8 }} maxW={{ md: "400px" }}>
+        {/* Grid Section */}
+        <Grid
+          templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
+          gap={6}
+          maxW="3xl"
+          mx="auto"
+        >
+          {/* Map over core strengths */}
+          {coreStrengths.slice(0, 4).map((strength, index) => (
+            <GridItem
+              key={index}
+              bg="black"
+              borderRadius="lg"
+              shadow="md"
+              p={4}
+              textAlign="center"
+              transition="transform 0.3s, shadow 0.3s"
+              _hover={{ transform: "scale(1.05)", shadow: "lg" }}
+            >
+              <Stack spacing={4} align="center">
+                <Icon as={strength.icon} boxSize={8} color="green.500" />
+                <Heading as="h3" size="sm" fontWeight="bold" color="green.500">
+                  {strength.title}
+                </Heading>
+                <Text fontSize="sm" color="white">
+                  {strength.description}
+                </Text>
+              </Stack>
+            </GridItem>
+          ))}
+
+          {/* Image Box */}
+          <GridItem
+            bg="black"
+            borderRadius="lg"
+            shadow="lg"
+            textAlign="center"
+            p={1}
+          >
             <Image
-              src="src/Componentes/Image/core_strength.jpg" // Update with the actual path to your image
+              src="src\Componentes\Image\agriculture.jpg" // Update with the correct image path
               alt="Core Strength"
               borderRadius="md"
-              shadow="lg"
               objectFit="cover"
               width="100%"
-              height={{ base: "300px", md: "100%" }}
+              height="100%"
             />
-          </Box>
-        </Flex>
+          </GridItem>
+
+          {/* Map over remaining core strengths */}
+          {coreStrengths.slice(4).map((strength, index) => (
+            <GridItem
+              key={index}
+              bg="black"
+              borderRadius="lg"
+              shadow="md"
+              p={6}
+              textAlign="center"
+              transition="transform 0.3s, shadow 0.3s"
+              _hover={{ transform: "scale(1.05)", shadow: "lg" }}
+            >
+              <Stack spacing={4} align="center">
+                <Icon as={strength.icon} boxSize={8} color="green.500" />
+                <Heading as="h3" size="sm" fontWeight="bold" color="green.500">
+                  {strength.title}
+                </Heading>
+                <Text fontSize="sm" color="white">
+                  {strength.description}
+                </Text>
+              </Stack>
+            </GridItem>
+          ))}
+        </Grid>
       </Box>
     </ChakraProvider>
   );

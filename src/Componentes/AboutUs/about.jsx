@@ -52,7 +52,7 @@ function About() {
               Advancing Spatial Intelligence for Sustainability
             </Heading>
 
-            <Stack spacing={6} fontSize="lg" color={textColor} lineHeight="1.8">
+            <Stack spacing={6} fontSize="lg" color={textColor} lineHeight="1.8" >
               <Text>
                 Welcome to <Text as="span" fontWeight="bold" color="gray.800">Q-Gate Infotech</Text>, a leader in spatial data solutions. Our team, headquartered in Bengaluru, India, with a subsidiary in Munich, Germany, creates AI-driven, blockchain-enabled solutions to solve complex environmental challenges.
               </Text>
