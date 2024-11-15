@@ -20,51 +20,57 @@ import {
   FaLightbulb,
   FaHandshake,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
-const coreStrengths = [
+
+
+const CoreStrength = () => {
+  const { t } = useTranslation();
+  const coreStrengths = [
   {
-    title: "Environmental Geospatial Analytics",
-    description: "Pioneering sustainability and disaster management solutions.",
+    title: t("Environmental Geospatial Analytics"),
+    description: t(
+      "Pioneering sustainability and disaster management solutions."
+    ),
     icon: FaGlobe,
   },
   {
-    title: "AI & Machine Learning",
-    description: "Transforming data into predictive insights.",
+    title: t("AI & Machine Learning"),
+    description: t("Transforming data into predictive insights."),
     icon: FaRobot,
   },
   {
-    title: "3D Data Processing",
-    description: "Creating high-fidelity environmental models.",
+    title: t("3D Data Processing"),
+    description: t("Creating high-fidelity environmental models."),
     icon: FaCube,
   },
   {
-    title: "Blockchain Integration",
-    description: "Secure and transparent data sharing.",
+    title: t("Blockchain Integration"),
+    description: t("Secure and transparent data sharing."),
     icon: FaLock,
   },
   {
-    title: "Scalable Operations",
-    description: "Ready to meet growing demands effectively.",
+    title: t("Scalable Operations"),
+    description: t("Ready to meet growing demands effectively."),
     icon: FaUsers,
   },
   {
-    title: "Agile & Collaborative Culture",
-    description: "Empowering innovation and learning.",
+    title: t("Agile & Collaborative Culture"),
+    description: t("Empowering innovation and learning."),
     icon: FaBolt,
   },
   {
-    title: "Continuous Innovation",
-    description: "Driving progress through knowledge sharing.",
+    title: t("Continuous Innovation"),
+    description: t("Driving progress through knowledge sharing."),
     icon: FaLightbulb,
   },
   {
-    title: "Tailored Solutions",
-    description: "Customized solutions for client success.",
+    title: t("Tailored Solutions"),
+    description: t("Customized solutions for client success."),
     icon: FaHandshake,
   },
 ];
-
-const CoreStrength = () => {
+  
   return (
     <ChakraProvider>
       <Box bg="gray.100" py={16} px={6}>
@@ -72,14 +78,14 @@ const CoreStrength = () => {
         <Box textAlign="center" mb={10}>
           <Heading as="h2" size="2xl" fontWeight="bold" color="gray.800">
             <Text as="span" color="green.500">
-              Core
+              {t("Core")}
             </Text>{" "}
             <Text as="span" color="black">
-              Strengths
+              {t("Strengths")}
             </Text>
           </Heading>
           <Text mt={4} fontSize="lg" color="gray.600" maxW="3xl" mx="auto">
-            Discover the foundation of our expertise and innovation.
+            {t("Discover the foundation of our expertise and innovation.")}
           </Text>
         </Box>
 

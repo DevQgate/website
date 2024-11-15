@@ -1,7 +1,8 @@
 import React from 'react';
 import { ChakraProvider, Box, Image, Text, Stack, Flex, Container, Badge } from '@chakra-ui/react';
-
+import { useTranslation } from "react-i18next";
 const VisionMission = () => {
+  const { t } = useTranslation();
   return (
     <ChakraProvider>
       <Container maxW="container.xl" p={8}>
@@ -30,15 +31,15 @@ const VisionMission = () => {
               fontWeight="bold"
               mb={2}
             >
-              Vision
+              {t("Vision")}
             </Badge>
             <Stack spacing={4} mt={4}>
               {[
-                "Empower organizations and communities to envision a sustainable future.",
-                "Leverage environmental intelligence, predictive insights, and engineering excellence.",
-                "Provide tailored solutions to maximize the value of data.",
-                "Drive transformative outcomes in sustainability and resilience.",
-                "Foster an agile, collaborative culture that nurtures talent and propagates knowledge."
+                t("Empower organizations and communities to envision a sustainable future."),
+                t("Leverage environmental intelligence, predictive insights, and engineering excellence."),
+                t("Provide tailored solutions to maximize the value of data."),
+                t("Drive transformative outcomes in sustainability and resilience."),
+                
               ].map((text, index) => (
                 <Flex key={index} align="flex-start" maxW="100%">
                   <Box as="span" color="green.500" mt={1} fontSize="xl">•</Box>
@@ -61,14 +62,14 @@ const VisionMission = () => {
               fontWeight="bold"
               mb={6}
             >
-              Mission
+              {t("Mission")}
             </Badge>
             <Stack spacing={4} mt={4}>
               {[
-                "Lead the environmental intelligence revolution, integrating advanced technologies for sustainable solutions.",
-                "Empower organizations to accelerate environmental transformation and unlock unprecedented value.",
-                "Be at the forefront of innovation in environmental intelligence, data analytics, and engineering solutions.",
-                "Create an ecosystem where environmental data and insights seamlessly integrate."
+                t("Lead the environmental intelligence revolution, integrating advanced technologies for sustainable solutions."),
+                t("Empower organizations to accelerate environmental transformation and unlock unprecedented value."),
+                t("Be at the forefront of innovation in environmental intelligence, data analytics, and engineering solutions."),
+                t("Create an ecosystem where environmental data and insights seamlessly integrate.")
               ].map((text, index) => (
                 <Flex key={index} align="flex-start" maxW="100%">
                   <Box as="span" color="green.500" mt={1} fontSize="xl">•</Box>

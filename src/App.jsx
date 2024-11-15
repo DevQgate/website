@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <div>
-        <Header />
+        {/* <Header /> */}
         <ChakraProvider>
           {/* <Contact /> */}
           {/* <MainSection/> */}
@@ -37,7 +37,7 @@ function App() {
           {/* <CloudAI_ML/> */}
           {/* <ProfessionalTraining/> */}
           {/* <ContentAnnotation/> */}
-          <Footer />
+          {/* <Footer /> */}
         </ChakraProvider>
       </div>
     </>

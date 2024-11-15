@@ -1,9 +1,11 @@
 import { Box, Container, Flex, Heading, Image, Stack, Text, Badge, useBreakpointValue, useColorModeValue } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 function About() {
   const bgColor = useColorModeValue("white", "gray.800");
   const textColor = useColorModeValue("gray.700", "gray.300");
   const headingColor = useColorModeValue("blue.600", "blue.300");
+  const { t } = useTranslation();
 
   return (
     <Box bg={bgColor} fontFamily="Roboto" minHeight="10vh">
@@ -13,11 +15,8 @@ function About() {
           <Box flex="1" display="flex" justifyContent="center" mb={{ base: 6, md: 0 }}>
             <Box position="relative" w={{ base: "80%", md: "95%" }} h="80%">
               <Image
-                src="src\Componentes\Image\GLOBAL.png"
-                alt="Two people working on a laptop, smiling and discussing"
-                
-                
-                
+                src="src\\Componentes\\Image\\GLOBAL.png"
+                alt={t("Image alt text")} // Add translation for the alt text
               />
               <Box
                 position="absolute"
@@ -45,31 +44,30 @@ function About() {
               fontWeight="semibold"
               mb={6}
             >
-              ABOUT US
+              {t("ABOUT US")} {/* Translated Badge Text */}
             </Badge>
 
             <Heading as="h1" size="xl" color={headingColor} fontWeight="extrabold" mb={6}>
-              Advancing Spatial Intelligence for Sustainability
+              {t("Advancing Spatial Intelligence for Sustainability")} {/* Translated Heading */}
             </Heading>
 
-            <Stack spacing={6} fontSize="lg" color={textColor} lineHeight="1.8" >
+            <Stack spacing={6} fontSize="lg" color={textColor} lineHeight="1.8">
               <Text>
-                Welcome to <Text as="span" fontWeight="bold" color="gray.800">Q-Gate Infotech</Text>, a leader in spatial data solutions. Our team, headquartered in Bengaluru, India, with a subsidiary in Munich, Germany, creates AI-driven, blockchain-enabled solutions to solve complex environmental challenges.
+                {t("Welcome to Q-Gate Infotech, a leader in spatial data solutions. Our team, headquartered in Bengaluru, India, with a subsidiary in Munich, Germany, creates AI-driven, blockchain-enabled solutions to solve complex environmental challenges.")} 
               </Text>
 
               <Text>
-                We specialize in geospatial analytics for climate action, disaster management, and environmental sustainability. With our advanced technologies, we offer tailored solutions for businesses, governments, and organizations globally.
+                {t("We specialize in geospatial analytics for climate action, disaster management, and environmental sustainability. With our advanced technologies, we offer tailored solutions for businesses, governments, and organizations globally.")}
               </Text>
 
               <Text>
-                Our solutions are built on cutting-edge tools, including AI, cloud computing, and LiDAR data analysis, to provide accurate insights and mitigate risks associated with climate change and natural disasters.
+                {t("Our solutions are built on cutting-edge tools, including AI, cloud computing, and LiDAR data analysis, to provide accurate insights and mitigate risks associated with climate change and natural disasters.")}
               </Text>
 
               <Text>
-                Join us in our mission to drive meaningful change and contribute to a more sustainable future through innovation and technology.
+                {t("Join us in our mission to drive meaningful change and contribute to a more sustainable future through innovation and technology.")}
               </Text>
             </Stack>
-
           </Box>
         </Flex>
       </Container>
