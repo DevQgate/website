@@ -11,6 +11,7 @@ import {
   GridItem,
 } from '@chakra-ui/react';
 
+
 const Careers = () => {
   return (
     <div>

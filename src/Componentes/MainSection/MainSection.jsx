@@ -11,6 +11,10 @@ import {
 } from "react-icons/fa";
 import { Box, Heading, Text, Button, Grid, Icon } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+
+
 
 const MainSection = () => {
   const { t } = useTranslation(); // Initialize useTranslation hook

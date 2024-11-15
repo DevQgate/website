@@ -60,7 +60,7 @@ const VisionMission = () => {
               shadow="md"
               fontSize="2xl"
               fontWeight="bold"
-              mb={6}
+              mb={3}
             >
               {t("Mission")}
             </Badge>
