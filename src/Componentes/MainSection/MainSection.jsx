@@ -15,7 +15,6 @@ import {
   Button,
   Grid,
   Icon,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import Header from "../Header/Header";
@@ -91,7 +90,7 @@ const MainSection = () => {
         <Box textAlign="center" mb={12}>
           <Text>
             <Badge
-              bgGradient="linear(to-r, green.400, blue.500)"
+              bgGradient="linear(to-r, #32CD32, #228B22)" // Green gradient
               color="white"
               px={5}
               py={3}
@@ -104,7 +103,7 @@ const MainSection = () => {
               {t("SERVICES")}
             </Badge>
           </Text>
-          <Heading fontSize={{ base: "2xl", md: "3xl" }} mt={2}>
+          <Heading fontSize={{ base: "2xl", md: "3xl" }} mt={2} color="#228B22">
             {t("In the meantime, here are the services we offer")}
           </Heading>
         </Box>
@@ -116,7 +115,7 @@ const MainSection = () => {
           {services.map((service) => (
             <Box
               key={service.title}
-              bg="white"
+              bg="black" // Black background for the boxes
               p={6}
               rounded="lg"
               shadow="lg"
@@ -127,19 +126,19 @@ const MainSection = () => {
               }}
             >
               <Box
-                color="teal.500"
+                color="#32CD32" // Green icon color
                 mb={4}
                 fontSize="4xl"
                 textAlign="center"
                 transition="color 0.3s ease"
-                _hover={{ color: "teal.700" }}
+                _hover={{ color: "#228B22" }} // Darker green on hover
               >
                 <Icon as={service.icon} aria-label={service.title} />
               </Box>
-              <Heading fontSize="xl" mb={2} textAlign="center" color="teal.700">
+              <Heading fontSize="xl" mb={2} textAlign="center" color="white">
                 {service.title}
               </Heading>
-              <Text color="gray.600" mb={4} textAlign="center" fontSize="md">
+              <Text color="white" mb={4} textAlign="center" fontSize="md">
                 {service.description}
               </Text>
               <Box
@@ -150,15 +149,15 @@ const MainSection = () => {
                 mt={4}
               >
                 <Button
-                  colorScheme="teal"
-                  variant="outline"
+                  bg="#32CD32" // Green background for the button
+                  color="white" // White text for the button
+                  variant="solid"
                   _hover={{
-                    bg: "teal.500",
+                    bg: "#228B22", // Dark green on hover
                     color: "white",
-                    borderColor: "teal.500",
                   }}
                   px={6}
-                  width="auto" // Maintain the button's natural width
+                  width="auto"
                   transition="all 0.3s ease"
                 >
                   {t("View More")}
