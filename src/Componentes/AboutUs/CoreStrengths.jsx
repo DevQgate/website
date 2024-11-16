@@ -8,7 +8,6 @@ import {
   Heading,
   Text,
   Stack,
-  Image,
 } from "@chakra-ui/react";
 import {
   FaGlobe,
@@ -19,58 +18,62 @@ import {
   FaBolt,
   FaLightbulb,
   FaHandshake,
+  FaLeaf,
 } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-
-
 
 const CoreStrength = () => {
   const { t } = useTranslation();
   const coreStrengths = [
-  {
-    title: t("Environmental Geospatial Analytics"),
-    description: t(
-      "Pioneering sustainability and disaster management solutions."
-    ),
-    icon: FaGlobe,
-  },
-  {
-    title: t("AI & Machine Learning"),
-    description: t("Transforming data into predictive insights."),
-    icon: FaRobot,
-  },
-  {
-    title: t("3D Data Processing"),
-    description: t("Creating high-fidelity environmental models."),
-    icon: FaCube,
-  },
-  {
-    title: t("Blockchain Integration"),
-    description: t("Secure and transparent data sharing."),
-    icon: FaLock,
-  },
-  {
-    title: t("Scalable Operations"),
-    description: t("Ready to meet growing demands effectively."),
-    icon: FaUsers,
-  },
-  {
-    title: t("Agile & Collaborative Culture"),
-    description: t("Empowering innovation and learning."),
-    icon: FaBolt,
-  },
-  {
-    title: t("Continuous Innovation"),
-    description: t("Driving progress through knowledge sharing."),
-    icon: FaLightbulb,
-  },
-  {
-    title: t("Tailored Solutions"),
-    description: t("Customized solutions for client success."),
-    icon: FaHandshake,
-  },
-];
-  
+    {
+      title: t("Environmental Geospatial Analytics"),
+      description: t(
+        "Pioneering sustainability and disaster management solutions."
+      ),
+      icon: FaGlobe,
+    },
+    {
+      title: t("AI & Machine Learning"),
+      description: t("Transforming data into predictive insights."),
+      icon: FaRobot,
+    },
+    {
+      title: t("3D Data Processing"),
+      description: t("Creating high-fidelity environmental models."),
+      icon: FaCube,
+    },
+    {
+      title: t("Blockchain Integration"),
+      description: t("Secure and transparent data sharing."),
+      icon: FaLock,
+    },
+    {
+      title: t("Scalable Operations"),
+      description: t("Ready to meet growing demands effectively."),
+      icon: FaUsers,
+    },
+    {
+      title: t("Agile & Collaborative Culture"),
+      description: t("Empowering innovation and learning."),
+      icon: FaBolt,
+    },
+    {
+      title: t("Continuous Innovation"),
+      description: t("Driving progress through knowledge sharing."),
+      icon: FaLightbulb,
+    },
+    {
+      title: t("Tailored Solutions"),
+      description: t("Customized solutions for client success."),
+      icon: FaHandshake,
+    },
+    {
+      title: t("Sustainable Agriculture"),
+      description: t("Advancing eco-friendly farming practices."),
+      icon: FaLeaf,
+    },
+  ];
+
   return (
     <ChakraProvider>
       <Box bg="gray.100" py={16} px={6}>
@@ -96,56 +99,13 @@ const CoreStrength = () => {
           maxW="3xl"
           mx="auto"
         >
-          {/* Map over core strengths */}
-          {coreStrengths.slice(0, 4).map((strength, index) => (
+          {coreStrengths.map((strength, index) => (
             <GridItem
               key={index}
               bg="black"
               borderRadius="lg"
               shadow="md"
               p={4}
-              textAlign="center"
-              transition="transform 0.3s, shadow 0.3s"
-              _hover={{ transform: "scale(1.05)", shadow: "lg" }}
-            >
-              <Stack spacing={4} align="center">
-                <Icon as={strength.icon} boxSize={8} color="green.500" />
-                <Heading as="h3" size="sm" fontWeight="bold" color="green.500">
-                  {strength.title}
-                </Heading>
-                <Text fontSize="sm" color="white">
-                  {strength.description}
-                </Text>
-              </Stack>
-            </GridItem>
-          ))}
-
-          {/* Image Box */}
-          <GridItem
-            bg="black"
-            borderRadius="lg"
-            shadow="lg"
-            textAlign="center"
-            p={1}
-          >
-            <Image
-              src="src\Componentes\Image\agriculture.jpg" // Update with the correct image path
-              alt="Core Strength"
-              borderRadius="md"
-              objectFit="cover"
-              width="100%"
-              height="100%"
-            />
-          </GridItem>
-
-          {/* Map over remaining core strengths */}
-          {coreStrengths.slice(4).map((strength, index) => (
-            <GridItem
-              key={index}
-              bg="black"
-              borderRadius="lg"
-              shadow="md"
-              p={6}
               textAlign="center"
               transition="transform 0.3s, shadow 0.3s"
               _hover={{ transform: "scale(1.05)", shadow: "lg" }}

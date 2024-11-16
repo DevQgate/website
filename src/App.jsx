@@ -24,9 +24,9 @@ function App() {
         {/* <Header /> */}
         <ChakraProvider>
           {/* <Contact /> */}
-          {/* <MainSection/> */}
+          <MainSection/>
           {/* <Career/>  */}
-          <AboutUs/>  
+          {/* <AboutUs/>   */}
           
           {/* SERVICES */}
 
@@ -37,6 +37,8 @@ function App() {
           {/* <CloudAI_ML/> */}
           {/* <ProfessionalTraining/> */}
           {/* <ContentAnnotation/> */}
+
+          
           {/* <Footer /> */}
         </ChakraProvider>
       </div>

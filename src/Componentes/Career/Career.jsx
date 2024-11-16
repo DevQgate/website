@@ -10,11 +10,15 @@ import {
   Grid,
   GridItem,
 } from '@chakra-ui/react';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+
 
 
 const Careers = () => {
   return (
     <div>
+      <Header/>
       <Box>
         <Box position="relative">
           <Image
@@ -224,6 +228,7 @@ const Careers = () => {
         </VStack>
       </Box>
       <JobOpportunities />
+      <Footer/>
     </div>
   );
 };
