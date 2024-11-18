@@ -1,12 +1,11 @@
 import React from "react";
-import { Box, Flex, Heading, Icon, Text, VStack, Button } from "@chakra-ui/react";
-import { FaCog } from "react-icons/fa";
+import { Box, Flex, Heading, Text, VStack, Button } from "@chakra-ui/react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 const App = () => {
   return (
-    <Flex direction="column" minH="1300px"> {/* Flex container for the entire page */}
+    <Flex direction="column" minH="1310px"> {/* Flex container for the entire page */}
       <Header /> {/* Header Section */}
       <Flex
         flex="1" // Ensures this section takes up the remaining available height
@@ -22,25 +21,20 @@ const App = () => {
         <VStack
           align="flex-start"
           maxW="lg" // Increase the max width to make it bigger
-          spacing={6} // Increased spacing between elements for a more spacious layout
+          spacing={5} // Increased spacing between elements for a more spacious layout
         >
           <Flex align="center" gap={4}>
-            <Box bg="blue.500" color="white" p={3} rounded="full"> {/* Increased padding */}
-              <Icon as={FaCog} w={6} h={7} /> {/* Adjusted icon size */}
-            </Box>
+            
             <Box>
-              <Text fontSize="sm" color="gray.500" position="relative">
-                Enhancing Organization-wide
-              </Text>
-              <Heading fontSize={{ base: "4xl", md: "5xl" }} fontWeight="bold"> {/* Larger heading size */}
+              
+              <Heading fontSize={{ base: "4xl", md: "5x1" }} fontWeight="bold"> {/* Larger heading size */}
                 About Us
               </Heading>
             </Box>
           </Flex>
           <Text color="gray.600" fontSize="lg"> {/* Increased text size for better readability */}
-            Aereo is a leading drone solutions provider that enables informed
-            decision-making, faster turnaround, and enhanced efficiency of your
-            projects using end-to-end drone solutions.
+          At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. 
+          Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management. 
           </Text>
 
           {/* More Button */}
@@ -50,7 +44,7 @@ const App = () => {
             size="md"
             onClick={() => alert('Redirect to more info!')} // You can replace this with a real link or action
           >
-            More
+            Learn More
           </Button>
         </VStack>
 
