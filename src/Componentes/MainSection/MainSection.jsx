@@ -1,175 +1,70 @@
-import {
-  FaMapMarkedAlt,
-  FaLaptopCode,
-  FaChartLine,
-  FaPencilAlt,
-  FaCogs,
-  FaCloud,
-  FaChalkboardTeacher,
-  FaUsers,
-} from "react-icons/fa";
-import {
-  Box,
-  Heading,
-  Text,
-  Button,
-  Grid,
-  Icon,
-} from "@chakra-ui/react";
-import { useTranslation } from "react-i18next";
-import Header from "../Header/Header";
+import React from "react";
+import { Box, Flex, Heading, Icon, Text, VStack } from "@chakra-ui/react";
+import { FaCog } from "react-icons/fa";
 import Footer from "../Footer/Footer";
-import { Badge } from "@chakra-ui/react";
+import Header from "../Header/Header";
 
-const MainSection = () => {
-  const { t } = useTranslation();
 
-  const services = [
-    {
-      title: t("Geospatial Processing"),
-      description: t(
-        "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making."
-      ),
-      icon: FaMapMarkedAlt,
-    },
-    {
-      title: t("Software Development"),
-      description: t(
-        "Delivering innovative IT solutions and development services to enhance geospatial data processing and management."
-      ),
-      icon: FaLaptopCode,
-    },
-    {
-      title: t("Data Analytics"),
-      description: t(
-        "Unlocking actionable insights through advanced data analytics, transforming geospatial data into strategic solutions."
-      ),
-      icon: FaChartLine,
-    },
-    {
-      title: t("Content Annotation"),
-      description: t(
-        "Providing expert content annotation services to enrich geospatial data for improved accuracy and analysis."
-      ),
-      icon: FaPencilAlt,
-    },
-    {
-      title: t("Engineering Solutions"),
-      description: t(
-        "Providing tailored engineering solutions powered by geospatial technology for accurate planning, design, and infrastructure management."
-      ),
-      icon: FaCogs,
-    },
-    {
-      title: t("Cloud-Based AI/ML Solutions"),
-      description: t(
-        "Delivering cutting-edge cloud-based AI/ML solutions to accelerate geospatial data processing and intelligent decision-making."
-      ),
-      icon: FaCloud,
-    },
-    {
-      title: t("Professional Training"),
-      description: t(
-        "Offering professional training programs to equip individuals and teams with essential geospatial and remote sensing skills."
-      ),
-      icon: FaChalkboardTeacher,
-    },
-    {
-      title: t("Talent Solutions"),
-      description: t(
-        "Connecting businesses with top-tier talent through specialized geospatial and remote sensing talent solutions."
-      ),
-      icon: FaUsers,
-    },
-  ];
-
+const App = () => {
   return (
-    <div>
-      <Header />
-      <Box bg="gray.50" minH="100vh" p={{ base: 4, md: 8 }}>
-        <Box textAlign="center" mb={12}>
-          <Text>
-            <Badge
-              bgGradient="linear(to-r, #32CD32, #228B22)" // Green gradient
-              color="white"
-              px={5}
-              py={3}
-              rounded="full"
-              shadow="md"
-              fontSize="2xl"
-              fontWeight="bold"
-              mb={3}
-            >
-              {t("SERVICES")}
-            </Badge>
-          </Text>
-          <Heading fontSize={{ base: "2xl", md: "3xl" }} mt={2} color="#228B22">
-            {t("In the meantime, here are the services we offer")}
-          </Heading>
-        </Box>
-        <Grid
-          templateColumns="repeat(4, 1fr)" // 4 items per row
-          gap={8}
-          justifyItems="center"
-        >
-          {services.map((service) => (
-            <Box
-              key={service.title}
-              bg="black" // Black background for the boxes
-              p={6}
-              rounded="lg"
-              shadow="lg"
-              transition="transform 0.3s ease, box-shadow 0.3s ease"
-              _hover={{
-                transform: "translateY(-10px)",
-                boxShadow: "0px 15px 30px rgba(0, 0, 0, 0.1)",
-              }}
-            >
-              <Box
-                color="#32CD32" // Green icon color
-                mb={4}
-                fontSize="4xl"
-                textAlign="center"
-                transition="color 0.3s ease"
-                _hover={{ color: "#228B22" }} // Darker green on hover
-              >
-                <Icon as={service.icon} aria-label={service.title} />
-              </Box>
-              <Heading fontSize="xl" mb={2} textAlign="center" color="white">
-                {service.title}
-              </Heading>
-              <Text color="white" mb={4} textAlign="center" fontSize="md">
-                {service.description}
-              </Text>
-              <Box
-                textAlign="center"
-                display="flex"
-                justifyContent="center"
-                alignItems="center"
-                mt={4}
-              >
-                <Button
-                  bg="#32CD32" // Green background for the button
-                  color="white" // White text for the button
-                  variant="solid"
-                  _hover={{
-                    bg: "#228B22", // Dark green on hover
-                    color: "white",
-                  }}
-                  px={6}
-                  width="auto"
-                  transition="all 0.3s ease"
-                >
-                  {t("View More")}
-                </Button>
-              </Box>
+    <>
+    <Header/>
+    <Flex align="center" justify="center" h="100vh" bg="white">
+      <Flex
+        align="center"
+        direction={{ base: "column", lg: "row" }}
+        maxW="10xl"
+        mx="auto"
+        px={8}
+        gap={10}
+      >
+        <VStack align="flex-start" maxW="md" spacing={4}>
+          <Flex align="center" gap={4}>
+            <Box bg="blue.500" color="white" p={2} rounded="full">
+              <Icon as={FaCog} w={5} h={6} />
             </Box>
-          ))}
-        </Grid>
-      </Box>
-      <Footer />
-    </div>
+            <Box>
+              <Text fontSize="sm" color="gray.500" position="relative">
+                Enhancing Organization-wide
+              </Text>
+              <Heading fontSize={{ base: "3xl", md: "4x1" }} fontWeight="bold">
+                About Us
+              </Heading>
+            </Box>
+          </Flex>
+          <Text color="gray.600">
+            Aereo is a leading drone solutions provider that enables informed
+            decision-making, faster turnaround, and enhanced efficiency of your
+            projects using end-to-end drone solutions.
+          </Text>
+        </VStack>
+        <Box
+          as="video"
+          autoPlay
+          playsInline
+          preload="auto"
+          muted
+          loop
+          controlsList="nodownload noremoteplayback"
+          autoPictureInPicture={false}
+          webkitAirplay="deny"
+          frameBorder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope;"
+          width="100%"
+          height="100%"
+          id="ver-media-video"
+        >
+          <source
+            src="src\Componentes\Video\drone_1_mob.mp4"
+            type="video/mp4"
+          />
+        </Box>
+      </Flex>
+    </Flex>
+    <Footer/>
+    </>
+    
   );
 };
 
-export default MainSection;
+export default App;
