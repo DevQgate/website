@@ -1,12 +1,41 @@
 import React from "react";
-import { Box, Flex, Heading, Text, VStack, Button } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, VStack, Button, Grid, Image, Center } from "@chakra-ui/react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
+const industries = [
+  { name: "AGRICULTURE", img: "https://placehold.co/300x200", alt: "Agriculture" },
+  { name: "MARINE & WATER RESOURCE MANAGEMENT", img: "https://placehold.co/300x200", alt: "Marine and water resource management" },
+  { name: "INFRASTRUCTURE DEVELOPMENT", img: "https://placehold.co/300x200", alt: "Infrastructure development" },
+  { name: "SMART TRANSPORTATION & LOGISTICS", img: "https://placehold.co/300x200", alt: "Smart transportation and logistics" },
+  { name: "ENERGY & UTILITIES", img: "https://placehold.co/300x200", alt: "Energy and utilities" },
+  { name: "MINING & MINERAL EXPLORATION", img: "https://placehold.co/300x200", alt: "Mining and mineral exploration" },
+  { name: "OIL & GAS INDUSTRY", img: "https://placehold.co/300x200", alt: "Oil and gas industry" },
+  { name: "EDUCATION", img: "https://placehold.co/300x200", alt: "Education" }
+];
+
+const IndustryCard = ({ name, img, alt }) => (
+  <Box position="relative" rounded="lg" overflow="hidden">
+    <Image src={img} alt={alt} objectFit="cover" boxSize="100%" />
+    <Center
+      position="absolute"
+      top="0"
+      left="0"
+      right="0"
+      bottom="0"
+      bg="blackAlpha.500"
+      _hover={{ bg: 'blackAlpha.700' }}
+    >
+      <Text color="white" fontWeight="semibold" fontSize="lg">{name}</Text>
+    </Center>
+  </Box>
+);
+
 const App = () => {
   return (
-    <Flex direction="column" minH="1310px"> {/* Flex container for the entire page */}
+    <Flex direction="column" minH="2210px"> {/* Flex container for the entire page */}
       <Header /> {/* Header Section */}
+
       <Flex
         flex="1" // Ensures this section takes up the remaining available height
         align="center"
@@ -24,17 +53,15 @@ const App = () => {
           spacing={5} // Increased spacing between elements for a more spacious layout
         >
           <Flex align="center" gap={4}>
-            
             <Box>
-              
-              <Heading fontSize={{ base: "4xl", md: "5x1" }} fontWeight="bold"> {/* Larger heading size */}
+              <Heading fontSize={{ base: "4xl", md: "5xl" }} fontWeight="bold">
                 About Us
               </Heading>
             </Box>
           </Flex>
           <Text color="gray.600" fontSize="lg"> {/* Increased text size for better readability */}
-          At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. 
-          Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management. 
+            At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing.
+            Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management.
           </Text>
 
           {/* More Button */}
@@ -71,6 +98,26 @@ const App = () => {
           />
         </Box>
       </Flex>
+
+      {/* Industries Section */}
+      <Box textAlign="center" py={16}>
+        <Text fontSize="sm" color="gray.500" mb={2}>
+          <span style={{ color: '#F97316' }}>—</span> Industries
+        </Text>
+        <Heading as="h1" size="2xl" color="blue.800" mb={4}>Where Q - Gate Works</Heading>
+        <Text color="gray.600" mb={12}>
+          This citizen engagement platform has been developed with City Planners, for City Planners. But other industries benefit from it too! Have a look at what you can achieve with Q - Gate.
+        </Text>
+        <Grid
+          templateColumns={{ base: '1fr', md: '1fr 1fr', lg: '1fr 1fr 1fr 1fr' }}
+          gap={4}
+          px={12}
+        >
+          {industries.map((industry, index) => (
+            <IndustryCard key={index} {...industry} />
+          ))}
+        </Grid>
+      </Box>
 
       <Footer /> {/* Footer Section */}
     </Flex>
