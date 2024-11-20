@@ -78,11 +78,48 @@ const IndustryCard = ({ name, img, alt }) => (
 const App = () => {
   return (
     <Flex direction="column" minH="100%">
-      {" "}
-      {/* Flex container for the entire page */}
-      <Header /> {/* Header Section */}
+      <Header />
+      {/* Hero Section */}
+      <Box>
+        <Box position="relative">
+          {/* Video Section */}
+          <Box
+            as="video"
+            src="src\Componentes\Video\Agriculture.mp4" // Path to your video file
+            autoPlay
+            muted
+            loop
+            playsInline
+            width="100%"
+            height="95vh"
+            objectFit="cover"
+            style={{ display: "block" }}
+          />
+          {/* Overlay Section */}
+          <Box
+            position="absolute"
+            top="0"
+            left="0"
+            right="0"
+            bottom="0"
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            justifyContent="center"
+            color="white"
+            bg="blackAlpha.500" // Optional: Add a translucent background
+          >
+            <Text fontSize="4xl" fontWeight="bold">
+              Careers
+            </Text>
+            <Text fontSize="lg">Q-Gate Infotech Private Limited / careers</Text>
+          </Box>
+        </Box>
+      </Box>
+
+      {/* About Us Section */}
       <Flex
-        flex="1" // Ensures this section takes up the remaining available height
+        flex="1"
         align="center"
         justify="center"
         direction={{ base: "column", lg: "row" }}
@@ -91,12 +128,7 @@ const App = () => {
         px={8}
         gap={10}
       >
-        {/* Left Content Section */}
-        <VStack
-          align="flex-start"
-          maxW="lg" // Increase the max width to make it bigger
-          spacing={5} // Increased spacing between elements for a more spacious layout
-        >
+        <VStack align="flex-start" maxW="lg" spacing={5}>
           <Flex align="center" gap={4}>
             <Box>
               <Heading fontSize={{ base: "4xl", md: "5xl" }} fontWeight="bold">
@@ -105,50 +137,47 @@ const App = () => {
             </Box>
           </Flex>
           <Text color="gray.600" fontSize="lg">
-            {" "}
-            {/* Increased text size for better readability */}
             At Q-Gate Infotech, we drive environmental sustainability through
             innovative spatial data processing. Leveraging advanced AI and
             cloud-based technologies, we specialize in geospatial and LiDAR data
             processing to enhance climate action and disaster management.
           </Text>
-
-          {/* More Button */}
           <Button
             variant="link"
             colorScheme="blue"
             size="md"
-            onClick={() => alert("Redirect to more info!")} // You can replace this with a real link or action
+            onClick={() => alert("Redirect to more info!")}
           >
             Learn More
           </Button>
         </VStack>
 
-        {/* Video Section */}
         <Box
-          as="video"
-          autoPlay
-          playsInline
-          preload="auto"
-          muted
-          loop
-          controlsList="nodownload noremoteplayback"
-          autoPictureInPicture={false}
-          webkitAirplay="deny"
-          frameBorder="0"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope;"
-          width="740px" // Fixed video width
-          height="560px" // Fixed video height
-          id="ver-media-video"
+          height="95vh" // Set the Box height to 95% of the viewport height
+          width="100%" // Optional: Adjust width as needed
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
         >
-          <source
-            src="src\Componentes\Video\drone_1_mob.mp4"
-            type="video/mp4"
-          />
+          <video
+            autoPlay
+            playsInline
+            preload="auto"
+            muted
+            loop
+            controlsList="nodownload noremoteplayback"
+            style={{ width: "640px", height: "560px", objectFit: "cover" }} // Adjusts the video to fit the Box
+          >
+            <source
+              src="src\Componentes\Video\drone_1_mob.mp4"
+              type="video/mp4"
+            />
+          </video>
         </Box>
       </Flex>
+
       {/* Industries Section */}
-      <Box textAlign="center" py={16}>
+      <Box height="95vh"  width="100%" textAlign="center" py={16}>
         <Text fontSize="sm" color="gray.500" mb={2}>
           <span style={{ color: "#F97316" }}>—</span> Industries
         </Text>
@@ -157,7 +186,7 @@ const App = () => {
         </Heading>
         <Text color="gray.600" mb={12}>
           Designed with City Planners in mind, Q-Gate empowers various
-          industries to achieve more.{" "}
+          industries to achieve more.
         </Text>
         <Grid
           templateColumns={{
@@ -173,7 +202,8 @@ const App = () => {
           ))}
         </Grid>
       </Box>
-      <Footer /> {/* Footer Section */}
+
+      <Footer />
     </Flex>
   );
 };

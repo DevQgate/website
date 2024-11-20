@@ -14,7 +14,8 @@ import EngineeringSolutions from "./Componentes/Services/EngineeringSolution.jsx
 import CloudAI_ML from "./Componentes/Services/Cloud AI-ML.jsx";
 import ProfessionalTraining from "./Componentes/Services/ProfessionalTraining.jsx";
 import ContentAnnotation from "./Componentes/Services/ContentAnnotation.jsx";
-
+import Agriculture  from "./Componentes/Industries/Agriculture.jsx";
+import Education from "./Componentes/Industries/Education.jsx"
 
 
 function App() {
@@ -27,6 +28,12 @@ function App() {
           <MainSection/>
           {/* <Career/>  */}
           {/* <AboutUs/>   */}
+
+
+          {/*  INDUSTRIES */}
+
+          {/* <Agriculture/> */}
+          {/* <Education/> */}
           
           {/* SERVICES */}
 
