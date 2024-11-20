@@ -177,7 +177,7 @@ const App = () => {
       </Flex>
 
       {/* Industries Section */}
-      <Box height="95vh"  width="100%" textAlign="center" py={16}>
+      <Box height="100%"  width="100%" textAlign="center" py={16}>
         <Text fontSize="sm" color="gray.500" mb={2}>
           <span style={{ color: "#F97316" }}>—</span> Industries
         </Text>
