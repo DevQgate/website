@@ -12,53 +12,52 @@ import {
 } from "@chakra-ui/react";
 import {
   FaCogs,
-  FaBriefcase,
-  FaTasks,
   FaNetworkWired,
   FaTools,
   FaChartLine,
   FaLightbulb,
   FaTruck,
   FaBatteryFull,
+  FaMapMarkedAlt,
+  FaWater,
   FaHardHat,
   FaOilCan,
+  FaSatellite,
+  FaCloud,
   FaGraduationCap,
+  FaTint,
 } from "react-icons/fa";
 
 const App = () => {
   const sections = [
     {
       title: "Agriculture",
-      description: `KaNRSoft offers cutting-edge solutions in data management, 
-        large-scale services, and geospatial technologies. Our services are tailored 
-        to empower utility companies to handle modern challenges effectively. 
-        With a focus on innovation, we optimize workflows for maximum efficiency. 
-        We specialize in helping clients leverage advanced tools for better decision-making. 
-        Whether it's enterprise solutions or managed services, we have you covered.`,
+      description: `Q-Gate Infotech offers innovative GIS and geospatial technologies to optimize agriculture practices and ensure sustainable resource management. 
+        We provide precision farming solutions, utilizing spatial data for improved crop monitoring, soil health analysis, and resource management. 
+        Our services empower farmers, agribusinesses, and forestry managers to make data-driven decisions through advanced GIS-based insights. 
+        Whether it's mapping, vegetation analysis, or precision irrigation, we bring technology to the forefront of agriculture.`,
       icons: [
-        { icon: FaCogs, text: "Special Enterprise Solutions" },
-        { icon: FaBriefcase, text: "Professional Services" },
-        { icon: FaTasks, text: "Managed Services" },
-        { icon: FaNetworkWired, text: "Utility Network Services" },
-        { icon: FaTools, text: "Esri Solutions" },
+        { icon: FaMapMarkedAlt, text: "GIS Mapping & Analysis" },
+        { icon: FaSatellite, text: "Remote Sensing & Imaging" },
+        { icon: FaTint, text: "Precision Irrigation Solutions" },
       ],
-      image: "src\\Componentes\\Image\\agriculture-Home.jpg",
+      image: "src\\Componentes\\Image\\Agriculture.jpg",
     },
+    
     {
       title: "Marine & Water Resource Management",
-      description: `Our additional services are designed to complement your core business needs. 
-        From consulting to custom software development, we ensure seamless integration with 
-        your existing systems. Performance analytics help you monitor and optimize workflows. 
-        We provide strategic guidance to help you achieve your goals efficiently. 
-        Partner with us for a holistic approach to improving your operational outcomes. 
-        Let us simplify complexities, so you can focus on what matters most.`,
+      description: `Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. 
+        Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments. 
+        We leverage GIS, satellite imagery, and advanced data analytics to help optimize water usage, monitor marine ecosystems, and manage resources sustainably. 
+        Our services empower stakeholders to make data-driven decisions for the protection of vital water bodies.`,
       icons: [
-        { icon: FaChartLine, text: "Performance Analytics" },
-        { icon: FaCogs, text: "Custom Software Development" },
-        { icon: FaBriefcase, text: "Consulting Services" },
+        { icon: FaMapMarkedAlt, text: "Geospatial Data & Mapping" },
+        { icon: FaWater, text: "Marine Ecosystem Monitoring" },
+        { icon: FaCloud, text: "Water Resource Management Solutions" },
       ],
       image: "src/Componentes/Image/Marine-Home.jpg",
     },
+    
     {
       title: "Infrastructure Development",
       description: `Revolutionize your business with advanced technology solutions. 

@@ -15,6 +15,10 @@ import CloudAI_ML from "./Componentes/Services/Cloud AI-ML.jsx";
 import ProfessionalTraining from "./Componentes/Services/ProfessionalTraining.jsx";
 import ContentAnnotation from "./Componentes/Services/ContentAnnotation.jsx";
 import Industries from "./Componentes/Industries/Industries.jsx"
+import Agriculture from "./Componentes/Industries/Agriculture.jsx"
+import MarinesWaterManagement from "./Componentes/Industries/MarinesWaterManagement.jsx"
+import InfrastructureDevelopment from "./Componentes/Industries/InfrastructureDevelopment.jsx"
+import SmartTransporatation from "./Componentes/Industries/SmartTransporatation.jsx"
 
 function App() {
   return (
@@ -23,15 +27,19 @@ function App() {
         {/* <Header /> */}
         <ChakraProvider>
           {/* <Contact /> */}
-          <MainSection/>
+          {/* <MainSection/> */}
           {/* <Career/>  */}
           {/* <AboutUs/>   */}
 
 
           {/*  INDUSTRIES */}
           {/* <Industries/> */}
-          
-          
+          {/* <Agriculture/> */}
+          {/* <MarinesWaterManagement/> */}
+          {/* <InfrastructureDevelopment/> */}
+          <SmartTransporatation/>
+
+
           {/* SERVICES */}
 
           {/* <GeospatialServices/> */}
