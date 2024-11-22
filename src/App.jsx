@@ -19,6 +19,8 @@ import Agriculture from "./Componentes/Industries/Agriculture.jsx"
 import MarinesWaterManagement from "./Componentes/Industries/MarinesWaterManagement.jsx"
 import InfrastructureDevelopment from "./Componentes/Industries/InfrastructureDevelopment.jsx"
 import SmartTransporatation from "./Componentes/Industries/SmartTransporatation.jsx"
+import EnergyAndUtilities from "./Componentes/Industries/EnergyAndUtilities.jsx"
+import MiningAndMineral from "./Componentes/Industries/MiningAndMineral.jsx"
 
 function App() {
   return (
@@ -26,18 +28,22 @@ function App() {
       <div>
         {/* <Header /> */}
         <ChakraProvider>
-          {/* <Contact /> */}
+          {/* <Contact /> */}   
           {/* <MainSection/> */}
           {/* <Career/>  */}
           {/* <AboutUs/>   */}
 
 
           {/*  INDUSTRIES */}
+
+
           {/* <Industries/> */}
           {/* <Agriculture/> */}
           {/* <MarinesWaterManagement/> */}
           {/* <InfrastructureDevelopment/> */}
-          <SmartTransporatation/>
+          {/* <SmartTransporatation/> */}
+          {/* <EnergyAndUtilities/> */}
+          <MiningAndMineral/>
 
 
           {/* SERVICES */}
