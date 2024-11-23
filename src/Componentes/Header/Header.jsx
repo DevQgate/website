@@ -43,7 +43,7 @@ const Header = () => {
         {/* Verticals Dropdown */}
         
         <div className="dropdown">
-          <a className="dropdown-toggle">{t("Verticals")}</a>
+          <a className="dropdown-toggle">{t("Industries")}</a>
           <div className="verticals-dropdown">
             <div className="left-column">
               <ul>
@@ -51,10 +51,10 @@ const Header = () => {
                   <a href="#">{t("Agriculture")}</a>
                 </li>
                 <li>
-                  <a href="#">{t("Marine & Water Resource Management")}</a>
+                  <a href="#">{t("Energy & Utilities")}</a>
                 </li>
                 <li>
-                  <a href="#">{t("Infrastructure Development")}</a>
+                  <a href="#">{t("Education")}</a>
                 </li>
                 <li>
                   <a href="#">{t("Smart Transportation & Logistics")}</a>
@@ -64,13 +64,16 @@ const Header = () => {
             <div className="right-column">
               <ul>
                 <li>
-                  <a href="#">{t("Energy & Utilities")}</a>
+                  <a href="#">{t("Marine & Water Resource Management")}</a>
                 </li>
                 <li>
                   <a href="#">{t("Mining & Mineral Exploration")}</a>
                 </li>
                 <li>
                   <a href="#">{t("Oil & Gas Industry")}</a>
+                </li>
+                <li>
+                  <a href="#">{t("Infrastructure Development")}</a>
                 </li>
               </ul>
             </div>

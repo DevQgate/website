@@ -30,7 +30,7 @@ const Contact = () => {
     <Box>
       <Box position="relative">
         <Image
-          src="src\Componentes\Image\contact.jpg"
+          src="src\Componentes\Image\Contact - Page.jpg"
           alt="Contact"
           width="100%"
           height="96"
@@ -75,7 +75,7 @@ const Contact = () => {
         {/* Contact Card */}
         <Box
           bg="#6c63ff"
-          color="white"
+          color="black"
           p={100}
           rounded="lg"
           shadow="lg"

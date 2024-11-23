@@ -85,7 +85,7 @@ const App = () => {
           {/* Video Section */}
           <Box
             as="video"
-            src="src\Componentes\Video\Agriculture.mp4" // Path to your video file
+            src="src\Componentes\Video\Main.mp4" // Path to your video file
             autoPlay
             muted
             loop
@@ -109,10 +109,10 @@ const App = () => {
             color="white"
             bg="blackAlpha.500" // Optional: Add a translucent background
           >
-            <Text fontSize="4xl" fontWeight="bold">
-              Careers
+            <Text fontSize="4xl" fontWeight="bold" position="center">
+            Mapping the Future: <br/>Innovative Geospatial  Solutions for a Connected World
             </Text>
-            <Text fontSize="lg">Q-Gate Infotech Private Limited / careers</Text>
+            
           </Box>
         </Box>
       </Box>
