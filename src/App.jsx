@@ -31,16 +31,15 @@ function App() {
       <div>
         {/* <Header /> */}
         <ChakraProvider>
-          {/* <Contact />    */}
+
           {/* <MainSection/> */}
-          {/* <Career/>  */}
           {/* <AboutUs/>   */}
-
-
-          {/*  INDUSTRIES */}
-
-
+          {/* <Career/>  */}
+          {/* <Contact />    */}
+          
+                    
           <Industries/>
+
           {/* <Agriculture/> */}
           {/* <MarinesWaterManagement/> */}
           {/* <InfrastructureDevelopment/> */}

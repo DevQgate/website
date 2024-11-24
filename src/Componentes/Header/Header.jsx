@@ -64,7 +64,7 @@ const Header = () => {
             <div className="right-column">
               <ul>
                 <li>
-                  <a href="#">{t("Marine & Water Resource Management")}</a>
+                  <a href="#">{t("Infrastructure Development")}</a>
                 </li>
                 <li>
                   <a href="#">{t("Mining & Mineral Exploration")}</a>
@@ -73,7 +73,7 @@ const Header = () => {
                   <a href="#">{t("Oil & Gas Industry")}</a>
                 </li>
                 <li>
-                  <a href="#">{t("Infrastructure Development")}</a>
+                  <a href="#">{t("Marine & Water Resource Management")}</a>
                 </li>
               </ul>
             </div>

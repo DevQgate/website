@@ -46,7 +46,7 @@ const App = () => {
         { icon: FaSatellite, text: "Remote Sensing & Imaging" },
         { icon: FaTint, text: "Precision Irrigation Solutions" },
       ],
-      image: "src\\Componentes\\Image\\Agriculture.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Agriculture.jpg",
     },
 
     {
@@ -60,7 +60,7 @@ const App = () => {
         { icon: FaWater, text: "Marine Ecosystem Monitoring" },
         { icon: FaCloud, text: "Water Resource Management Solutions" },
       ],
-      image: "src/Componentes/Image/Marine-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Marine & Water Resource Management.jpg",
     },
 
     {
@@ -76,7 +76,7 @@ const App = () => {
         { icon: FaCogs, text: "Automation Systems" },
         { icon: FaChartLine, text: "Data Insights" },
       ],
-      image: "src/Componentes/Image/Infrastucture-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Infrastructure Development.jpg",
     },
     {
       title: "Smart Transportation & Logistics",
@@ -89,7 +89,7 @@ const App = () => {
         { icon: FaMapMarkedAlt, text: "Geospatial Insights" },
         { icon: FaCogs, text: "Automated Operations" },
       ],
-      image: "src/Componentes/Image/SMART TRANSPORTATION & LOGISTICS-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Smart Transportation And Logistics.jpg",
     },
     
     {
@@ -102,7 +102,7 @@ const App = () => {
         { icon: FaNetworkWired, text: "Grid Optimization" },
         { icon: FaLightbulb, text: "Energy Efficiency Solutions" },
       ],
-      image: "src/Componentes/Image/ENERGY & UTILITIES-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Energy & Utilities.jpg",
     },
     
     {
@@ -115,7 +115,7 @@ const App = () => {
         { icon: FaTools, text: "Geospatial Solutions" },
         { icon: FaSearch, text: "Exploration Optimization" },
       ],
-      image: "src/Componentes/Image/MINING & MINERAL EXPLORATION-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Mining & Mineral Exploration.jpg",
     },
     {
       title: "Oil & Gas Industry",
@@ -127,7 +127,7 @@ const App = () => {
         { icon: FaNetworkWired, text: "Pipeline Monitoring" },
         { icon: FaCog, text: "Operational Optimization" },
       ],
-      image: "src/Componentes/Image/OIL & GAS INDUSTRY-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Oil & Gas Industry.jpg",
     },
     
     {
@@ -141,7 +141,7 @@ const App = () => {
         { icon: FaLightbulb, text: "EdTech Platforms" },
         { icon: FaChalkboardTeacher, text: "Skill Development" },
       ],
-      image: "src/Componentes/Image/EDUCATION-Home.jpg",
+      image: "src\\Componentes\\Image\\Industries\\Industrie - Main\\Education.jpg",
     }
     
   ];
@@ -160,7 +160,7 @@ const App = () => {
             loop
             playsInline
             width="100%"
-            height="55vh"
+            height="92vh"
             objectFit="cover"
             style={{ display: "block" }}
           />
@@ -187,7 +187,7 @@ const App = () => {
       </Box>
 
       <Container maxW="container.lg" p={8}>
-        <Heading as="h1" size="2xl" textAlign="center" color="blue.900" mb={20}>
+        <Heading as="h1" size="2xl" textAlign="center" color="green.700" mb={20}>
           What We Do...!
         </Heading>
         {sections.map((section, index) => (
