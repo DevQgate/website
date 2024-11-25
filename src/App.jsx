@@ -35,7 +35,7 @@ function App() {
           {/* <Header /> */}
 
 
-          {/* <MainSection/> */}
+          <MainSection/>
           {/* <AboutUs/>   */}
           {/* <Career/>  */}
           {/* <Contact />    */}
@@ -53,7 +53,7 @@ function App() {
           {/* <Education/> */}
 
 
-          <Service/>
+          {/* <Service/> */}
 
           {/* <GeospatialServices/> */}
           {/* <SoftwareDevelopment/> */}

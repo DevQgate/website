@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import Footer from "../Footer/footer";
 import Header from "../Header/Header";
-import Service from "../Services/Service"
+import Directors from "../MainSection/Directors"
 
 const industries = [
   {
@@ -204,6 +204,7 @@ const App = () => {
         </Grid>
       </Box>
       {/* <Service/> */}
+      <Directors/>
       <Footer />
     </Flex>
   );
