@@ -19,10 +19,12 @@ import {
 } from "react-icons/fa";
 import { EmailIcon } from "@chakra-ui/icons";
 
+
 const Footer = () => {
   return (
     <Box
       bgImage="url('src\Componentes\Image\Footer\Footer.jpg')" // Replace with your image URL
+      bgColor="gray.300"
       bgSize="cover"
       bgPosition="center"
       color="black"

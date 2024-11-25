@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./Componentes/Footer/Footer.jsx";
+import Footer from "./Componentes/Footer/footer.jsx";
 import Header from "./Componentes/Header/Header.jsx";
 import "./Componentes/i18n";
 import MainSection from "./Componentes/MainSection/MainSection.jsx";
@@ -23,14 +23,17 @@ import EnergyAndUtilities from "./Componentes/Industries/EnergyAndUtilities.jsx"
 import MiningAndMineral from "./Componentes/Industries/MiningAndMineral.jsx"
 import OilAndGas from "./Componentes/Industries/OilAndGas.jsx"
 import Education from "./Componentes/Industries/Education.jsx"
+import Service from "./Componentes/Services/Service.jsx"
 
 
 function App() {
   return (
     <>
       <div>
-        {/* <Header /> */}
         <ChakraProvider>
+        
+          {/* <Header /> */}
+
 
           {/* <MainSection/> */}
           {/* <AboutUs/>   */}
@@ -38,7 +41,7 @@ function App() {
           {/* <Contact />    */}
           
                     
-          <Industries/>
+          {/* <Industries/> */}
 
           {/* <Agriculture/> */}
           {/* <MarinesWaterManagement/> */}
@@ -50,7 +53,7 @@ function App() {
           {/* <Education/> */}
 
 
-          {/* SERVICES */}
+          <Service/>
 
           {/* <GeospatialServices/> */}
           {/* <SoftwareDevelopment/> */}
@@ -62,6 +65,8 @@ function App() {
 
           
           {/* <Footer /> */}
+
+
         </ChakraProvider>
       </div>
     </>
