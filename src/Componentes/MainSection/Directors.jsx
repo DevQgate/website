@@ -13,21 +13,21 @@ import { FaChevronLeft, FaChevronRight, FaQuoteLeft } from "react-icons/fa";
 
 const testimonials = [
   {
-    text: "Since I started Sparkgeo in 2010, our mission has always been to ‘put maps on the internet.’ Even as we have grown into a mature services organization with staff across the globe, that mission is still at our core.",
-    name: "Will Cadell",
-    title: "Sparkgeo CEO",
+    text: "As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.",
+    name: "Vijayan Raju",
+    title: "Founder & Director",
     image: "https://placehold.co/300x400",
   },
   {
-    text: "Our team at Sparkgeo is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.",
-    name: "Jane Doe",
-    title: "Sparkgeo CTO",
+    text: "Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.",
+    name: "Michela Zenari Setty",
+    title: "Director",
     image: "https://placehold.co/300x400",
   },
   {
-    text: "At Sparkgeo, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.",
-    name: "John Smith",
-    title: "Sparkgeo COO",
+    text: "At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.",
+    name: "Indumathi Anbalagan",
+    title: "Director Finance ",
     image: "https://placehold.co/300x400",
   },
 ];
@@ -55,7 +55,7 @@ const TestimonialSlider = () => {
   const { text, name, title, image } = testimonials[currentIndex];
 
   return (
-    <Flex justify="center" align="center" minH="50vh" bg="gray.400">
+    <Flex justify="center" align="center" minH="50vh" bg="gray.900">
       <Flex align="center">
         <IconButton
           onClick={handlePrev}

@@ -10,7 +10,7 @@ import {
   Image,
   Center,
 } from "@chakra-ui/react";
-import Footer from "../Footer/footer";
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Directors from "../MainSection/Directors"
 

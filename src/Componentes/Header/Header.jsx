@@ -40,6 +40,9 @@ const Header = () => {
         <a href="#">{t("Home")}</a>
         {/* Display About */}
         <a href="#">{t("About")}</a>
+
+        <a href="#">{t("Product")}</a>
+
         {/* Verticals Dropdown */}
         
         <div className="dropdown">

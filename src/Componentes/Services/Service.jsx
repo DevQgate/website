@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 import Header from "../Header/Header";
-import Footer from "../Footer/footer";
+import Footer from "../Footer/Footer";
 
 const Service = () => {
   return (
@@ -20,15 +20,16 @@ const Service = () => {
       {/* Video Section */}
       <Box>
         <Box position="relative">
+          {/* Video Section */}
           <Box
             as="video"
-            src="src\Componentes\Video\Main.mp4" // Path to your video file
+            src="src\Componentes\Video\Services.mp4" // Path to your video file
             autoPlay
             muted
             loop
             playsInline
             width="100%"
-            height="95vh"
+            height="92vh"
             objectFit="cover"
             style={{ display: "block" }}
           />
@@ -46,10 +47,10 @@ const Service = () => {
             color="white"
             bg="blackAlpha.500" // Optional: Add a translucent background
           >
-            <Text fontSize="4xl" fontWeight="bold" textAlign="center">
-              Mapping the Future: <br />
-              Innovative Geospatial Solutions for a Connected World
-            </Text>
+            <Text fontSize="4xl" fontWeight="bold">
+            Services
+          </Text>
+          <Text fontSize="lg">Q-Gate Infotech Private Limited / Services</Text>
           </Box>
         </Box>
       </Box>
@@ -57,10 +58,7 @@ const Service = () => {
       {/* Services Section */}
       <Box bg="" fontFamily="Arial, sans-serif" py={10}>
         <VStack spacing={6} mb={10} textAlign="center">
-          <Text fontSize="sm" color="gray.500" mb={1}>
-            <span style={{ color: "#F97316" }}>—</span> SERVICE
-          </Text>
-          <Heading size="xl" color="gray.900" fontWeight="light">
+          <Heading size="xl" color="gray.900" fontWeight="dark">
             Plan, design, build, and manage your assets better with us
           </Heading>
         </VStack>
@@ -90,7 +88,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Geospatial Mapping
+              Geospatial Services
               </Heading>
               <Text mt={5} fontSize="14">
                 Unlock the potential of your assets by using geospatial
@@ -119,7 +117,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Engineering & Design
+                Software Development
               </Heading>
               <Text mt={5} fontSize="14">
                 Optimize your engineering design with accurate, current, and
@@ -166,7 +164,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Geospatial Analysis
+                Data Analytics
               </Heading>
               <Text mt={5} fontSize="14">
                 Build context for your geospatial database and transform it into
@@ -194,7 +192,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Renewable Energy Planning
+                Engineering Solutions
               </Heading>
               <Text mt={5} fontSize="14">
                 Leverage geospatial data for planning and optimizing renewable
@@ -240,7 +238,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Urban Development
+                Cloud-Based AI/ML Solutions
               </Heading>
               <Text mt={5} fontSize="14" color="gray.100">
                 Plan and execute urban projects with precision using geospatial
@@ -268,7 +266,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Transportation Planning
+              Content Annotation
               </Heading>
               <Text mt={5} fontSize="14">
                 Use geospatial analysis to design optimized transportation
@@ -294,6 +292,8 @@ const Service = () => {
             />
           </GridItem>
 
+          
+
           {/* Service 7 */}
           <GridItem>
             <Image
@@ -314,7 +314,7 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Supply Chain Optimization
+                Professional Training
               </Heading>
               <Text mt={5} fontSize="14">
                 Use location intelligence to streamline supply chain operations.
@@ -329,6 +329,45 @@ const Service = () => {
               </Link>
             </Box>
           </GridItem>
+
+          {/* Service 8 */}
+          <GridItem
+            bg="red.900"
+            color="white"
+            p={6}
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+          >
+            <Box>
+              <Heading size="md" fontWeight="bold">
+                Talent Solutions
+              </Heading>
+              <Text mt={5} fontSize="14">
+                Use geospatial analysis to design optimized transportation
+                networks and logistics.
+              </Text>
+              <Text mt={5} fontSize="11">
+                Reduce costs | Enhance efficiency | Improve connectivity
+              </Text>
+            </Box>
+            <Box mt={4}>
+              <Link href="#" color="white" fontSize="lg">
+                <FaArrowRight />
+              </Link>
+            </Box>
+          </GridItem>
+          <GridItem>
+            <Image
+              src="https://placehold.co/600x400"
+              alt="Highway at sunset"
+              w="100%"
+              h="100%"
+              objectFit="cover"
+            />
+          </GridItem>
+
+
         </Grid>
       </Box>
       <Footer />
