@@ -6,10 +6,11 @@ import {
   Image,
   IconButton,
   Heading,
-  Center,
   Icon,
 } from "@chakra-ui/react";
 import { FaChevronLeft, FaChevronRight, FaQuoteLeft } from "react-icons/fa";
+import BackgroundImage from "../Image/MainSection/MainSection - Directors - BG.jpg"; // Adjust the path to your image file
+import { useTranslation } from "react-i18next";
 
 const testimonials = [
   {
@@ -33,6 +34,7 @@ const testimonials = [
 ];
 
 const TestimonialSlider = () => {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -55,60 +57,68 @@ const TestimonialSlider = () => {
   const { text, name, title, image } = testimonials[currentIndex];
 
   return (
-    <Flex justify="center" align="center" minH="50vh" bg="gray.900">
-      <Flex align="center">
-        <IconButton
-          onClick={handlePrev}
-          aria-label="Previous"
-          icon={<FaChevronLeft />}
-          variant="ghost"
-          fontSize="2xl"
-          color="gray.600"
-          _hover={{ color: "gray.900" }}
-        />
-      </Flex>
-      <Box
-        bg="white"
-        rounded="lg"
-        shadow="lg"
-        width='1000px'
-        height='300px'
-        overflow="hidden"
-        display="flex"
-        mx={4}
-      >
-        <Image
-          src={image}
-          alt={`Portrait of ${name}`}
-          boxSize="auto"
-          maxW="300px"
-          objectFit="cover"
-        />
-        <Box p={8}>
-          <Flex align="center" mb={4}>
-            <Icon as={FaQuoteLeft} boxSize={6} color="black" />
-          </Flex>
-          <Text color="gray.700" fontSize="lg" mb={4} lineHeight="tall">
-            {text}
-          </Text>
-          <Heading size="md" fontWeight="bold" color="gray.900">
-            {name}
-          </Heading>
-          <Text color="gray.600">{title}</Text>
+    <Box
+      minH="100vh"
+      bgImage={`url(${BackgroundImage})`} // Using the imported image as the background
+      bgSize="cover"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+    >
+      <Flex justify="center" align="center" minH="100vh">
+        <Flex align="center">
+          <IconButton
+            onClick={handlePrev}
+            aria-label="Previous"
+            icon={<FaChevronLeft />}
+            variant="ghost"
+            fontSize="2xl"
+            color="gray.600"
+            _hover={{ color: "gray.900" }}
+          />
+        </Flex>
+        <Box
+          bg="white"
+          rounded="lg"
+          shadow="lg"
+          width="1000px"
+          height="300px"
+          overflow="hidden"
+          display="flex"
+          mx={4}
+        >
+          <Image
+            src={image}
+            alt={`Portrait of ${name}`}
+            boxSize="auto"
+            maxW="300px"
+            objectFit="cover"
+          />
+          <Box p={8}>
+            <Flex align="center" mb={4}>
+              <Icon as={FaQuoteLeft} boxSize={6} color="black" />
+            </Flex>
+            <Text color="gray.700" fontSize="lg" mb={4} lineHeight="tall">
+              {text}
+            </Text>
+            <Heading size="md" fontWeight="bold" color="gray.900">
+              {name}
+            </Heading>
+            <Text color="gray.600">{title}</Text>
+          </Box>
         </Box>
-      </Box>
-      <Flex align="center">
-        <IconButton
-          onClick={handleNext}
-          aria-label="Next"
-          icon={<FaChevronRight />}
-          variant="ghost"
-          fontSize="2xl"
-          color="gray.600"
-          _hover={{ color: "gray.900" }}
-        />
+        <Flex align="center">
+          <IconButton
+            onClick={handleNext}
+            aria-label="Next"
+            icon={<FaChevronRight />}
+            variant="ghost"
+            fontSize="2xl"
+            color="gray.600"
+            _hover={{ color: "gray.900" }}
+          />
+        </Flex>
       </Flex>
-    </Flex>
+    </Box>
   );
 };
 

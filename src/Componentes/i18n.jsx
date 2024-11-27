@@ -85,11 +85,48 @@ i18n
             "In just over a year since our founding in 2022, Q-Gate Infotech has traversed an exponential growth trajectory that exemplifies our boundary-pushing ethos and commitment to environmental sustainability.",
           "Establishment and Early Innovations":
             "Establishment and Early Innovations",
+          "Founded in Bengaluru, India.": "Founded in Bengaluru, India.",
+          "Specializing in geospatial data & analytics":
+            "Specializing in geospatial data & analytics",
+          "Expertise in large-scale geospatial analytics":
+            "Expertise in large-scale geospatial analytics",
+          "Delivered 20,000+ miles of 3D annotated maps":
+            "Delivered 20,000+ miles of 3D annotated maps",
+          "Contributed to navigation, environmental monitoring, and":
+            "Contributed to navigation, environmental monitoring, and",
+          "infrastructure projects": "infrastructure projects",
           "Expansion and Technological Advancements":
             "Expansion and Technological Advancements",
+          "Used LiDAR and custom tools for terrain analysis.":
+            "Used LiDAR and custom tools for terrain analysis.",
+          "Extracted data insights for climate and disaster response.":
+            "Extracted data insights for climate and disaster response.",
+          "Explored minerals using satellite imagery.":
+            "Explored minerals using satellite imagery.",
+          "Analyzed light wave data for resource management.":
+            "Analyzed light wave data for resource management.",
           "Social Responsibility & Education Commitment.":
             "Social Responsibility & Education Commitment.",
+          "Promoted equal gender opportunities":
+            "Promoted equal gender opportunities",
+          "Focusing on rural-based graduates.":
+            "Focusing on rural-based graduates.",
+          "Fostered diversity and inclusion within our teams.":
+            "Fostered diversity and inclusion within our teams.",
+          "Signed MoUs with universities to update curricula.":
+            "Signed MoUs with universities to update curricula.",
+          "Collab with academia on research, bridging the industry gap.":
+            "Collab with academia on research, bridging the industry gap.",
           "Looking Ahead": "Looking Ahead",
+          "Advanced AI and ML for sustainability and resilience.":
+            "Advanced AI and ML for sustainability and resilience.",
+          "Explored spatial computing with digital twins.":
+            "Explored spatial computing with digital twins.",
+          "Integrated physical and digital realms seamlessly.":
+            "Integrated physical and digital realms seamlessly.",
+          "Redefined industry standards with cutting-edge geospatial intelligence":
+            "Redefined industry standards with cutting-edge geospatial intelligence",
+          "for climate adaptation.": "for climate adaptation.",
 
           Vision: "Vision",
           "Empower organizations and communities to envision a sustainable future.":
@@ -188,7 +225,7 @@ i18n
             "Q-Gate’s goals for expanding its services in the future include exploring new geospatial technologies, expanding into new markets, and continuing to innovate and provide cutting-edge solutions to address emerging challenges in various industries.",
 
           // Footer
-          "Q-gate Infotech Private Limited #11, Abhaya Heights, JP Nagar, Bangaluru, India - 560078":
+          " Bangaluru, India - 560078":
             "Q-gate Infotech Private Limited #11, Abhaya Heights, JP Nagar, Bangaluru, India - 560078",
           "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
             "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.",
@@ -199,6 +236,122 @@ i18n
           "+91 93428 55394": "+91 93428 55394",
           "Opening Hours: 09:00 - 18:00": "Opening Hours: 09:00 - 18:00",
           "contact.in@q-gate.co": "contact.in@q-gate.co",
+
+          //Career
+          "Join with us": "Join with us",
+          "Why choose your brilliant": "Why choose your brilliant",
+          career: "career",
+          "with us?": "with us?",
+          "Friendly Environment": "Friendly Environment",
+          "A friendly work culture fosters collaboration, open  communication, and mutual respect among team members. It encourages positive relationships, promotes teamwork, and creates a supportive atmosphere where everyone feels valued and motivated to contribute.":
+            "A friendly work culture fosters collaboration, open  communication, and mutual respect among team members. It encourages positive relationships, promotes teamwork, and creates a supportive atmosphere where everyone feels valued and motivated to contribute.",
+          "Team Work": "Team Work",
+          "The company emphasizes teamwork, fostering collaboration and communication among employees to achieve common goals. This approach enhances skills, strengthens relationships, and drives innovation and creativity, leading to successful projects outcomes and a thriving work environment.":
+            "The company emphasizes teamwork, fostering collaboration and communication among employees to achieve common goals. This approach enhances skills, strengthens relationships, and drives innovation and creativity, leading to successful projects outcomes and a thriving work environment.",
+          "Health Insurance": "Health Insurance",
+          "The company offers health insurance that includes coverage for medical, dental, and vision care, as well as wellness programs. These benefits provide employees with comprehensive resources for themselves and their families.":
+            "The company offers health insurance that includes coverage for medical, dental, and vision care, as well as wellness programs. These benefits provide employees with comprehensive resources for themselves and their families.",
+          "Provident Fund": "Provident Fund",
+          "The company provides a provident fund, allowing employees to save for their future through regular contributions. The fund helps to ensure financial security for employees in the long term, promoting long-term savings and stability.":
+            "The company provides a provident fund, allowing employees to save for their future through regular contributions. The fund helps to ensure financial security for employees in the long term, promoting long-term savings and stability.",
+          Location: "Location",
+          Type: "Type",
+          "Experience Level": "Experience Level",
+          Responsibilities: "Responsibilities",
+          Requirements: "Requirements",
+          "How to Apply": "How to Apply",
+          "Send your resume and portfolio to ":
+            "Send your resume and portfolio to ",
+          Job: "Job",
+          Opportunities: "Opportunities",
+
+          //Service - Geospatial Services
+
+          "Unlocking the Power of Spatial Data for Informed Decision-Making":
+            "Unlocking the Power of Spatial Data for Informed Decision-Making",
+          "At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency.":
+            "At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency.",
+          "Utilizing advanced technologies and methodologies, we specialize in":
+            "Utilizing advanced technologies and methodologies, we specialize in",
+          "Image Data Processing": "Image Data Processing",
+          "Enhancing high-res images from satellites, drones, and aerial platforms.":
+            "Enhancing high-res images from satellites, drones, and aerial platforms.",
+          "Extracting key data for agriculture, urban planning, and environmental management.":
+            "Extracting key data for agriculture, urban planning, and environmental management.",
+          "Providing actionable insights for better decision-making.":
+            "Providing actionable insights for better decision-making.",
+          "Supporting sustainable practices and efficient resource management.":
+            "Supporting sustainable practices and efficient resource management.",
+          "Hydro Flattening": "Hydro Flattening",
+          "Processing LiDAR data for accurate hydro-flattened DEMs.":
+            "Processing LiDAR data for accurate hydro-flattened DEMs.",
+          "Enhancing hydrological modeling with hydro-flattened surfaces.":
+            "Enhancing hydrological modeling with hydro-flattened surfaces.",
+          "Supporting flood risk assessment through hydro-flattened DEMs.":
+            "Supporting flood risk assessment through hydro-flattened DEMs.",
+          "Improving water resource management with precise elevation models.":
+            "Improving water resource management with precise elevation models.",
+          "Vegetation Analysis": "Vegetation Analysis",
+          "Assessing vegetation health using multispectral and hyperspectral imagery.":
+            "Assessing vegetation health using multispectral and hyperspectral imagery.",
+          "Estimating biomass for forestry and agricultural applications.":
+            "Estimating biomass for forestry and agricultural applications.",
+          "Classifying land cover for ecological and environmental studies.":
+            "Classifying land cover for ecological and environmental studies.",
+          "Supporting forestry management, agriculture, and ecological research.":
+            "Supporting forestry management, agriculture, and ecological research.",
+          "Satellite Data Analysis": "Satellite Data Analysis",
+          "Monitoring environmental changes through satellite imagery.":
+            "Monitoring environmental changes through satellite imagery.",
+          "Assessing natural resources with satellite data analysis.":
+            "Assessing natural resources with satellite data analysis.",
+          "Supporting disaster management with real-time data.":
+            "Supporting disaster management with real-time data.",
+          "Enabling timely decision-making through data interpretation.":
+            "Enabling timely decision-making through data interpretation.",
+
+          //Service - Software Development
+          "Software Development": "Software Development",
+          "Empowering Your Business with Tailored Software Solutions":
+            "Empowering Your Business with Tailored Software Solutions",
+          "At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:":
+            "At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:",
+          "Custom Software Development": "Custom Software Development",
+          "Developing software solutions tailored to unique business needs across industries.":
+            "Developing software solutions tailored to unique business needs across industries.",
+          "Leveraging the latest technologies for robust and scalable applications.":
+            "Leveraging the latest technologies for robust and scalable applications.",
+          "Creating user-friendly designs that enhance operational efficiency.":
+            "Creating user-friendly designs that enhance operational efficiency.",
+          "Supporting business growth through innovative and customized software.":
+            "Supporting business growth through innovative and customized software.",
+          "Web Development": "Web Development",
+          "Building responsive, dynamic websites that enhance user engagement.":
+            "Building responsive, dynamic websites that enhance user engagement.",
+          "Utilizing modern web technologies for optimized speed and performance.":
+            "Utilizing modern web technologies for optimized speed and performance.",
+          "Designing intuitive interfaces for an exceptional user experience.":
+            "Designing intuitive interfaces for an exceptional user experience.",
+          "Ensuring seamless functionality across all devices and platforms.":
+            "Ensuring seamless functionality across all devices and platforms.",
+          "Mobile Application Development": "Mobile Application Development",
+          "Developing high-performance mobile apps for both Android and iOS platforms.":
+            "Developing high-performance mobile apps for both Android and iOS platforms.",
+          "Crafting intuitive and engaging user interfaces for an optimal mobile experience.":
+            "Crafting intuitive and engaging user interfaces for an optimal mobile experience.",
+          "Ensuring compatibility and smooth functionality across a variety of devices.":
+            "Ensuring compatibility and smooth functionality across a variety of devices.",
+          "Integrating advanced features to enhance usability and meet business goals.":
+            "Integrating advanced features to enhance usability and meet business goals.",
+          "Enterprise Management Solutions": "Enterprise Management Solutions",
+          "Implementing ERP and CRM systems to streamline resource management.":
+            "Implementing ERP and CRM systems to streamline resource management.",
+          "Enhancing communication and collaboration across teams.":
+            "Enhancing communication and collaboration across teams.",
+          "Optimizing workflows with automation tools for greater efficiency.":
+            "Optimizing workflows with automation tools for greater efficiency.",
+          "Supporting informed decision-making to improve overall business operations.":
+            "Supporting informed decision-making to improve overall business operations.",
         },
       },
       GE: {
@@ -278,11 +431,48 @@ i18n
             "In etwas mehr als einem Jahr seit unserer Gründung im Jahr 2022 hat Q-Gate Infotech eine exponentielle Wachstumsbahn durchlaufen, die unseren grenzenüberschreitenden Ethos und unser Engagement für ökologische Nachhaltigkeit veranschaulicht.",
           "Establishment and Early Innovations":
             "Gründung und frühe Innovationen",
+          "Founded in Bengaluru, India.": "Gegründet in Bengaluru, Indien.",
+          "Specializing in geospatial data & analytics":
+            "Spezialisiert auf Geodaten und Analysen",
+          "Expertise in large-scale geospatial analytics":
+            "Expertise in großflächiger Geodatenanalyse",
+          "Delivered 20,000+ miles of 3D annotated maps":
+            "Über 20.000 Meilen 3D-annotierter Karten geliefert",
+          "Contributed to navigation, environmental monitoring, and":
+            "Beigetragen zu Navigation, Umweltüberwachung und",
+          "infrastructure projects": "Infrastrukturprojekten",
           "Expansion and Technological Advancements":
             "Expansion und technologische Fortschritte",
+          "Used LiDAR and custom tools for terrain analysis.":
+            "Verwendete LiDAR und maßgeschneiderte Werkzeuge zur Geländeanalyse.",
+          "Extracted data insights for climate and disaster response.":
+            "Gewonnene Datenanalysen für Klima- und Katastrophenreaktionen.",
+          "Explored minerals using satellite imagery.":
+            "Untersuchte Mineralien mithilfe von Satellitenbildern.",
+          "Analyzed light wave data for resource management.":
+            "Analysierte Lichtwellen-Daten für Ressourcenmanagement.",
           "Social Responsibility & Education Commitment.":
-            "Soziale Verantwortung & Engagement für Bildung.",
-          "Looking Ahead": "Blick nach vorne",
+            "Soziale Verantwortung und Engagement für Bildung.",
+          "Promoted equal gender opportunities":
+            "Förderte gleiche Chancen für beide Geschlechter",
+          "Focusing on rural-based graduates.":
+            "Fokus auf Absolventen aus ländlichen Gebieten.",
+          "Fostered diversity and inclusion within our teams.":
+            "Förderte Vielfalt und Inklusion in unseren Teams.",
+          "Signed MoUs with universities to update curricula.":
+            "Unterzeichnete MoUs mit Universitäten zur Aktualisierung der Lehrpläne.",
+          "Collab with academia on research, bridging the industry gap.":
+            "Zusammenarbeit mit der Wissenschaft bei Forschung zur Überbrückung der Kluft zur Industrie.",
+          "Looking Ahead": "Zukunftsausblick",
+          "Advanced AI and ML for sustainability and resilience.":
+            "Fortgeschrittene KI und ML für Nachhaltigkeit und Widerstandsfähigkeit.",
+          "Explored spatial computing with digital twins.":
+            "Erforschte räumliches Computing mit digitalen Zwillingen.",
+          "Integrated physical and digital realms seamlessly.":
+            "Integrierte physische und digitale Bereiche nahtlos.",
+          "Redefined industry standards with cutting-edge geospatial intelligence for climate adaptation.":
+            "Neudefinition von Industriestandards mit modernster Geodatenintelligenz für Klimaanpassung.",
+
           Vision: "Vision",
           "Empower organizations and communities to envision a sustainable future.":
             "Befähigung von Organisationen und Gemeinschaften, eine nachhaltige Zukunft zu gestalten.",
@@ -373,6 +563,8 @@ i18n
             "Was sind die Ziele von Q-Gate für die Erweiterung seiner Dienste in der Zukunft?",
           "Q-Gate’s goals for expanding its services in the future include exploring new geospatial technologies, expanding into new markets, and continuing to innovate and provide cutting-edge solutions to address emerging challenges in various industries.":
             "Die Ziele von Q-Gate für die Erweiterung seiner Dienste in der Zukunft umfassen die Erforschung neuer geospatialer Technologien, die Expansion in neue Märkte und die fortlaufende Innovation und Bereitstellung von bahnbrechenden Lösungen zur Bewältigung neuer Herausforderungen in verschiedenen Industrien.",
+          "Used LiDAR and custom tools for terrain analysis.":
+            "LiDAR und maßgeschneiderte Werkzeuge für die Geländeanalyse verwendet.",
 
           //Footer
           "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
@@ -383,6 +575,124 @@ i18n
           "+91 93428 55394": "+49 176 99519797",
           "Opening Hours: 09:00 - 18:00": "Öffnungszeiten: 09:00 - 18:00",
           "contact.in@q-gate.co": "contact.de@q-gate.co",
+          AGRICULTURE: "LANDWIRTSCHAFT",
+
+          //Career
+
+          "Join with us": "Kommen Sie zu uns",
+          "Why choose your brilliant": "Warum sollten Sie Ihr brillantes",
+          career: "Karriere",
+          "with us?": "mit uns?",
+          "Friendly Environment": "Freundliche Arbeitsumgebung",
+          "A friendly work culture fosters collaboration, open communication, and mutual respect among team members. It encourages positive relationships, promotes teamwork, and creates a supportive atmosphere where everyone feels valued and motivated to contribute.":
+            "Eine freundliche Arbeitskultur fördert Zusammenarbeit, offene Kommunikation und gegenseitigen Respekt unter den Teammitgliedern. Sie fördert positive Beziehungen, stärkt den Teamgeist und schafft eine unterstützende Atmosphäre, in der sich jeder wertgeschätzt fühlt und motiviert ist, beizutragen.",
+          "Team Work": "Teamarbeit",
+          "The company emphasizes teamwork, fostering collaboration and communication among employees to achieve common goals. This approach enhances skills, strengthens relationships, and drives innovation and creativity, leading to successful project outcomes and a thriving work environment.":
+            "Das Unternehmen legt großen Wert auf Teamarbeit, fördert Zusammenarbeit und Kommunikation unter den Mitarbeitern, um gemeinsame Ziele zu erreichen. Dieser Ansatz verbessert Fähigkeiten, stärkt Beziehungen und fördert Innovation und Kreativität, was zu erfolgreichen Projektergebnissen und einer florierenden Arbeitsumgebung führt.",
+          "Health Insurance": "Krankenversicherung",
+          "The company offers health insurance that includes coverage for medical, dental, and vision care, as well as wellness programs. These benefits provide employees with comprehensive resources for themselves and their families.":
+            "Das Unternehmen bietet eine Krankenversicherung, die medizinische, zahnärztliche und Augenpflege sowie Wellnessprogramme abdeckt. Diese Leistungen bieten den Mitarbeitern umfassende Ressourcen für sich selbst und ihre Familien.",
+          "Provident Fund": "Vorsorgefonds",
+          "The company provides a provident fund, allowing employees to save for their future through regular contributions. The fund helps to ensure financial security for employees in the long term, promoting long-term savings and stability.":
+            "Das Unternehmen bietet einen Vorsorgefonds, der es den Mitarbeitern ermöglicht, durch regelmäßige Beiträge für ihre Zukunft zu sparen. Der Fonds trägt zur langfristigen finanziellen Sicherheit der Mitarbeiter bei und fördert langfristige Ersparnisse und Stabilität.",
+          Location: "Standort",
+          Type: "Typ",
+          "Experience Level": "Erfahrungsstufe",
+          Responsibilities: "Verantwortlichkeiten",
+          Requirements: "Anforderungen",
+          "How to Apply": "Bewerbungshinweise",
+          "Send your resume and portfolio to ":
+            "Senden Sie Ihren Lebenslauf und Ihr Portfolio an ",
+          Job: "Stellenangebot",
+          Opportunities: "Möglichkeiten",
+
+          //Service - Geospatial Services
+          "Unlocking the Power of Spatial Data for Informed Decision-Making":
+            "Die Macht räumlicher Daten für fundierte Entscheidungsfindung freisetzen",
+          "At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency.":
+            "Bei Q-Gate Infotech verwandeln unsere geospatialen Verarbeitungsdienste komplexe räumliche Daten in umsetzbare Erkenntnisse, die die strategische Planung und operative Effizienz vorantreiben.",
+          "Utilizing advanced technologies and methodologies, we specialize in":
+            "Wir nutzen fortschrittliche Technologien und Methoden und spezialisieren uns auf",
+          "Image Data Processing": "Bilddatenverarbeitung",
+          "Enhancing high-res images from satellites, drones, and aerial platforms.":
+            "Verbesserung von hochauflösenden Bildern von Satelliten, Drohnen und Luftplattformen.",
+          "Extracting key data for agriculture, urban planning, and environmental management.":
+            "Extrahierung wichtiger Daten für die Landwirtschaft, Stadtplanung und Umweltmanagement.",
+          "Providing actionable insights for better decision-making.":
+            "Bereitstellung umsetzbarer Erkenntnisse für bessere Entscheidungsfindung.",
+          "Supporting sustainable practices and efficient resource management.":
+            "Unterstützung nachhaltiger Praktiken und effizienten Ressourcenmanagements.",
+          "Hydro Flattening": "Hydro-Glättung",
+          "Processing LiDAR data for accurate hydro-flattened DEMs.":
+            "Verarbeitung von LiDAR-Daten für präzise hydro-gewölbte DEMs.",
+          "Enhancing hydrological modeling with hydro-flattened surfaces.":
+            "Verbesserung der hydrologischen Modellierung mit hydro-gewölbten Oberflächen.",
+          "Supporting flood risk assessment through hydro-flattened DEMs.":
+            "Unterstützung der Überschwemmungsrisikobewertung durch hydro-gewölbte DEMs.",
+          "Improving water resource management with precise elevation models.":
+            "Verbesserung des Wassermanagements mit präzisen Höhenmodellen.",
+          "Vegetation Analysis": "Vegetationsanalyse",
+          "Assessing vegetation health using multispectral and hyperspectral imagery.":
+            "Bewertung der Vegetationsgesundheit mit multispektralen und hyperspektralen Bildern.",
+          "Estimating biomass for forestry and agricultural applications.":
+            "Schätzung der Biomasse für Forst- und Agraranwendungen.",
+          "Classifying land cover for ecological and environmental studies.":
+            "Klassifizierung der Landbedeckung für ökologische und umweltbezogene Studien.",
+          "Supporting forestry management, agriculture, and ecological research.":
+            "Unterstützung des Forstmanagements, der Landwirtschaft und der ökologischen Forschung.",
+          "Satellite Data Analysis": "Satellitendatenanalyse",
+          "Monitoring environmental changes through satellite imagery.":
+            "Überwachung von Umweltveränderungen durch Satellitenbilder.",
+          "Assessing natural resources with satellite data analysis.":
+            "Bewertung von Naturressourcen mit Satellitendatenanalyse.",
+          "Supporting disaster management with real-time data.":
+            "Unterstützung des Katastrophenmanagements mit Echtzeitdaten.",
+          "Enabling timely decision-making through data interpretation.":
+            "Ermöglichung einer zeitgerechten Entscheidungsfindung durch Dateninterpretation.",
+
+          //Service - Software Development
+          "Software Development": "Softwareentwicklung",
+          "Empowering Your Business with Tailored Software Solutions":
+            "Stärken Sie Ihr Unternehmen mit maßgeschneiderten Softwarelösungen",
+          "At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:":
+            "Bei Q-Gate Infotech spezialisieren wir uns auf die Erstellung von Softwarelösungen, die mit Ihren Geschäftszielen in Einklang stehen. Unsere Expertise erstreckt sich über:",
+          "Custom Software Development": "Maßgeschneiderte Softwareentwicklung",
+          "Developing software solutions tailored to unique business needs across industries.":
+            "Entwicklung von Softwarelösungen, die auf die einzigartigen geschäftlichen Anforderungen verschiedener Branchen zugeschnitten sind.",
+          "Leveraging the latest technologies for robust and scalable applications.":
+            "Nutzung der neuesten Technologien für robuste und skalierbare Anwendungen.",
+          "Creating user-friendly designs that enhance operational efficiency.":
+            "Erstellung benutzerfreundlicher Designs, die die betriebliche Effizienz steigern.",
+          "Supporting business growth through innovative and customized software.":
+            "Unterstützung des Unternehmenswachstums durch innovative und maßgeschneiderte Software.",
+          "Web Development": "Webentwicklung",
+          "Building responsive, dynamic websites that enhance user engagement.":
+            "Erstellung von responsiven, dynamischen Websites, die das Benutzerengagement steigern.",
+          "Utilizing modern web technologies for optimized speed and performance.":
+            "Nutzung moderner Webtechnologien für optimierte Geschwindigkeit und Leistung.",
+          "Designing intuitive interfaces for an exceptional user experience.":
+            "Gestaltung intuitiver Benutzeroberflächen für ein außergewöhnliches Benutzererlebnis.",
+          "Ensuring seamless functionality across all devices and platforms.":
+            "Gewährleistung nahtloser Funktionalität auf allen Geräten und Plattformen.",
+          "Mobile Application Development":
+            "Entwicklung von mobilen Anwendungen",
+          "Developing high-performance mobile apps for both Android and iOS platforms.":
+            "Entwicklung leistungsstarker mobiler Apps für Android- und iOS-Plattformen.",
+          "Crafting intuitive and engaging user interfaces for an optimal mobile experience.":
+            "Gestaltung intuitiver und ansprechender Benutzeroberflächen für ein optimales mobiles Erlebnis.",
+          "Ensuring compatibility and smooth functionality across a variety of devices.":
+            "Gewährleistung der Kompatibilität und reibungslosen Funktionalität auf verschiedenen Geräten.",
+          "Integrating advanced features to enhance usability and meet business goals.":
+            "Integration fortschrittlicher Funktionen zur Verbesserung der Benutzerfreundlichkeit und Erreichung von Geschäftszielen.",
+          "Enterprise Management Solutions": "Enterprise Management-Lösungen",
+          "Implementing ERP and CRM systems to streamline resource management.":
+            "Implementierung von ERP- und CRM-Systemen zur Optimierung des Ressourcenmanagements.",
+          "Enhancing communication and collaboration across teams.":
+            "Förderung der Kommunikation und Zusammenarbeit zwischen den Teams.",
+          "Optimizing workflows with automation tools for greater efficiency.":
+            "Optimierung von Arbeitsabläufen mit Automatisierungstools für mehr Effizienz.",
+          "Supporting informed decision-making to improve overall business operations.":
+            "Unterstützung fundierter Entscheidungsfindung zur Verbesserung der gesamten Geschäftsabläufe.",
         },
       },
     },

@@ -53,10 +53,10 @@ function App() {
           {/* <Education/> */}
 
 
-          <Service/>
+          {/* <Service/> */}
 
           {/* <GeospatialServices/> */}
-          {/* <SoftwareDevelopment/> */}
+          <SoftwareDevelopment/>
           {/* <DataAnalytics/> */}
           {/* <EngineeringSolutions/> */}
           {/* <CloudAI_ML/> */}

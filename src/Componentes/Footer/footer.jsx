@@ -18,9 +18,11 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import { EmailIcon } from "@chakra-ui/icons";
-
+import { useTranslation } from "react-i18next"; // Import the translation hook
 
 const Footer = () => {
+  const { t } = useTranslation(); // Initialize translation
+
   return (
     <Box
       bgImage="url('src\Componentes\Image\Footer\Footer.jpg')" // Replace with your image URL
@@ -41,16 +43,16 @@ const Footer = () => {
           <Link href="https://q-gate.co/ind/">
             <Image
               src="https://q-gate.co/ind/wp-content/uploads/2024/05/Q-Gate-Logo.png"
-              alt="Q-Gate Infotech Private Limited"
+              alt={t("Q-Gate Infotech Private Limited")} // Add translation key
               h="60px"
             />
           </Link>
           <Text>
-            An innovative software provider, systems integrator, technology
-            provider, established to deliver actionable insights, leading-edge
-            intelligent solutions, and consulting services to businesses,
-            organizations, and government.
-          </Text>
+            {t(
+              "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to businesses, organizations, and government."
+            )}
+          </Text>{" "}
+          {/* Add translation key */}
         </VStack>
 
         {/* Industries */}
@@ -61,43 +63,47 @@ const Footer = () => {
           pl={{ base: 5, md: 10 }}
         >
           <Text fontSize="lg" fontWeight="bold">
-            Industries
+            {t("Industries")} {/* Add translation key */}
           </Text>
           <UnorderedList styleType="none" m={0} spacing={2}>
             <ListItem>
-              <Link href="https://q-gate.co/ind/agriculture/">Agriculture</Link>
+              <Link href="https://q-gate.co/ind/agriculture/">
+                {t("Agriculture")}
+              </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/education/">Education</Link>
+              <Link href="https://q-gate.co/ind/education/">
+                {t("Education")}
+              </Link>
             </ListItem>
             <ListItem>
               <Link href="https://q-gate.co/ind/oil-gas-industry/">
-                Oil & Gas Industry
+                {t("Oil & Gas Industry")}
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://q-gate.co/ind/mining-mineral-exploration/">
-                Mining & Mineral Exploration
+                {t("Mining & Mineral Exploration")}
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://q-gate.co/ind/energy-utilities/">
-                Energy & Utilities
+                {t("Energy & Utilities")}
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://q-gate.co/ind/intelligent-transport-logitics/">
-                Smart Transportation & Logistics
+                {t("Smart Transportation & Logistics")}
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://q-gate.co/ind/intelligent-transport-logitics/">
-                Marine & Water Resource Management
+                {t("Marine & Water Resource Management")}
               </Link>
             </ListItem>
             <ListItem>
               <Link href="https://q-gate.co/ind/intelligent-transport-logitics/">
-                Infrastructure Development
+                {t("Infrastructure Development")}
               </Link>
             </ListItem>
           </UnorderedList>
@@ -111,32 +117,32 @@ const Footer = () => {
           pl={{ base: 5, md: 10 }}
         >
           <Text fontSize="lg" fontWeight="bold">
-            Services
+            {t("Services")} {/* Add translation key */}
           </Text>
           <UnorderedList styleType="none" m={0} spacing={2}>
             <ListItem>
-              <Link>Geospatial Services</Link>
+              <Link>{t("Geospatial Services")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Software Development</Link>
+              <Link>{t("Software Development")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Data Analytics</Link>
+              <Link>{t("Data Analytics")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Content Annotation</Link>
+              <Link>{t("Content Annotation")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Engineering Solutions</Link>
+              <Link>{t("Engineering Solutions")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Cloud-Based AI/ML Solutions</Link>
+              <Link>{t("Cloud-Based AI/ML Solutions")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Professional Training</Link>
+              <Link>{t("Professional Training")}</Link>
             </ListItem>
             <ListItem>
-              <Link>Talent Solutions</Link>
+              <Link>{t("Talent Solutions")}</Link>
             </ListItem>
           </UnorderedList>
         </VStack>
@@ -149,19 +155,20 @@ const Footer = () => {
           pl={{ base: 5, md: 10 }}
         >
           <Text fontSize="lg" fontWeight="bold">
-            Contact Info
+            {t("Contact Info")} {/* Add translation key */}
           </Text>
           <UnorderedList styleType="none" m={0} spacing={2}>
             <ListItem>
               <HStack>
                 <EmailIcon />
                 <Link href="mailto:contact.in@q-gate.co">
-                  contact.in@q-gate.co
+                  {t("contact.in@q-gate.co")} {/* Add translation key */}
                 </Link>
               </HStack>
             </ListItem>
             <ListItem>
-              <Text>Opening Hours: 09:00 - 18:00</Text>
+              <Text>{t("Opening Hours: 09:00 - 18:00")}</Text>{" "}
+              {/* Add translation key */}
             </ListItem>
           </UnorderedList>
           <HStack spacing={4}>
@@ -185,11 +192,12 @@ const Footer = () => {
           pl={{ base: 5, md: 10 }}
         >
           <Text fontSize="lg" fontWeight="bold">
-            Address
+            {t("Address")} {/* Add translation key */}
           </Text>
           <HStack>
             <Icon as={FaMapMarkerAlt} w={5} h={5} />
-            <Text>Bengaluru, India - 560078</Text>
+            <Text>{t("Bengaluru, India - 560078")}</Text>{" "}
+            {/* Add translation key */}
           </HStack>
         </VStack>
       </Flex>
@@ -206,7 +214,8 @@ const Footer = () => {
           {/* Left side */}
           <Box textAlign={{ base: "center", md: "left" }}>
             <Text>
-              © 2023 All Rights Reserved. <Link href="#">Q-Gate Infotech</Link>
+              © 2023 {t("All Rights Reserved.")}{" "}
+              <Link href="#">Q-Gate Infotech</Link>
             </Text>
           </Box>
 
@@ -216,10 +225,10 @@ const Footer = () => {
             mt={{ base: 4, md: 0 }}
           >
             <HStack spacing={4} justify={{ base: "center", md: "flex-end" }}>
-              <Link href="https://q-gate.co/ind/about/">About Us</Link>
-              <Link href="https://q-gate.co/ind/careers/">Careers</Link>
+              <Link href="https://q-gate.co/ind/about/">{t("About Us")}</Link>
+              <Link href="https://q-gate.co/ind/careers/">{t("Careers")}</Link>
               <Link href="https://q-gate.co/ind/contact/" aria-current="page">
-                Contact
+                {t("Contact")}
               </Link>
             </HStack>
           </Box>

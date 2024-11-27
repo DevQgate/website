@@ -123,6 +123,7 @@ const Header = () => {
         {/* Display Careers and Contact */}
         <a href="#">{t("Careers")}</a>
         <a href="#">{t("Contact")}</a>
+        <a href="#">{t("Blogs")}</a>
       </div>
 
       {/* Language Switcher */}

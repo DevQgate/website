@@ -55,10 +55,7 @@ const GeospatialServices = () => {
               Unlocking the Power of Spatial Data for Informed Decision-Making
             </Heading>
             <Text color="gray.700">
-              At Q-Gate Infotech, our Geospatial Processing services transform
-              complex spatial data into actionable insights that drive strategic
-              planning and operational efficiency. Utilizing advanced
-              technologies and methodologies, we specialize in:
+              At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
             </Text>
           </Container>
         </Box>
@@ -75,19 +72,16 @@ const GeospatialServices = () => {
                 Image Data Processing
               </Heading>
               <Text color="gray.700" mb={4}>
-                Enhancing high-res images from satellites, drones, and aerial
-                platforms.
+                Enhancing high-res images from satellites, drones, and aerial platforms.
               </Text>
               <Text color="gray.700" mb={4}>
-                Extracting key data for agriculture, urban planning, and
-                environmental management.
+                Extracting key data for agriculture, urban planning, and environmental management.
               </Text>
               <Text color="gray.700" mb={4}>
                 Providing actionable insights for better decision-making.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting sustainable practices and efficient resource
-                management.
+                Supporting sustainable practices and efficient resource management.
               </Text>
             </GridItem>
             <GridItem
@@ -149,8 +143,7 @@ const GeospatialServices = () => {
                   Supporting flood risk assessment through hydro-flattened DEMs.
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Improving water resource management with precise elevation
-                  models.
+                  Improving water resource management with precise elevation models.
                 </Text>
               </GridItem>
             </Grid>
@@ -168,8 +161,7 @@ const GeospatialServices = () => {
                 Vegetation Analysis
               </Heading>
               <Text color="gray.700" mb={4}>
-                Assessing vegetation health using multispectral and
-                hyperspectral imagery.
+                Assessing vegetation health using multispectral and hyperspectral imagery.
               </Text>
               <Text color="gray.700" mb={4}>
                 Estimating biomass for forestry and agricultural applications.
@@ -178,8 +170,7 @@ const GeospatialServices = () => {
                 Classifying land cover for ecological and environmental studies.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting forestry management, agriculture, and ecological
-                research.
+                Supporting forestry management, agriculture, and ecological research.
               </Text>
             </GridItem>
             <GridItem

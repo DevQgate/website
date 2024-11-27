@@ -55,8 +55,7 @@ const SoftwareDevelopment = () => {
               Empowering Your Business with Tailored Software Solutions
             </Heading>
             <Text color="gray.700">
-              At Q-Gate Infotech, we specialize in creating software solutions
-              that align with your business goals. Our expertise spans across:
+              At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:
             </Text>
           </Container>
         </Box>
@@ -73,20 +72,16 @@ const SoftwareDevelopment = () => {
                 Custom Software Development
               </Heading>
               <Text color="gray.700" mb={4}>
-                Developing software solutions tailored to unique business needs
-                across industries.
+                Developing software solutions tailored to unique business needs across industries.
               </Text>
               <Text color="gray.700" mb={4}>
-                Leveraging the latest technologies for robust and scalable
-                applications.
+                Leveraging the latest technologies for robust and scalable applications.
               </Text>
               <Text color="gray.700" mb={4}>
-                Creating user-friendly designs that enhance operational
-                efficiency.
+                Creating user-friendly designs that enhance operational efficiency.
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting business growth through innovative and customized
-                software.
+                Supporting business growth through innovative and customized software.
               </Text>
             </GridItem>
             <GridItem
@@ -140,20 +135,16 @@ const SoftwareDevelopment = () => {
                   Web Development
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Building responsive, dynamic websites that enhance user
-                  engagement.
+                  Building responsive, dynamic websites that enhance user engagement.
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Utilizing modern web technologies for optimized speed and
-                  performance.
+                  Utilizing modern web technologies for optimized speed and performance.
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Designing intuitive interfaces for an exceptional user
-                  experience.
+                  Designing intuitive interfaces for an exceptional user experience.
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Ensuring seamless functionality across all devices and
-                  platforms.
+                  Ensuring seamless functionality across all devices and platforms.
                 </Text>
               </GridItem>
             </Grid>
@@ -172,20 +163,16 @@ const SoftwareDevelopment = () => {
                 Mobile Application Development
               </Heading>
               <Text color="gray.700" mb={4}>
-                Developing high-performance mobile apps for both Android and iOS
-                platforms.
+                Developing high-performance mobile apps for both Android and iOS platforms.
               </Text>
               <Text color="gray.700" mb={4}>
-                Crafting intuitive and engaging user interfaces for an optimal
-                mobile experience.
+                Crafting intuitive and engaging user interfaces for an optimal mobile experience.
               </Text>
               <Text color="gray.700" mb={4}>
-                Ensuring compatibility and smooth functionality across a variety
-                of devices.
+                Ensuring compatibility and smooth functionality across a variety of devices.
               </Text>
               <Text color="gray.700" mb={4}>
-                Integrating advanced features to enhance usability and meet
-                business goals.
+                Integrating advanced features to enhance usability and meet business goals.
               </Text>
             </GridItem>
             <GridItem
@@ -239,19 +226,16 @@ const SoftwareDevelopment = () => {
                   Enterprise Management Solutions
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Implementing ERP and CRM systems to streamline resource
-                  management.
+                  Implementing ERP and CRM systems to streamline resource management.
                 </Text>
                 <Text color="gray.700" mb={4}>
                   Enhancing communication and collaboration across teams.
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Optimizing workflows with automation tools for greater
-                  efficiency.
+                  Optimizing workflows with automation tools for greater efficiency.
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Supporting informed decision-making to improve overall
-                  business operations.
+                  Supporting informed decision-making to improve overall business operations.
                 </Text>
               </GridItem>
             </Grid>
