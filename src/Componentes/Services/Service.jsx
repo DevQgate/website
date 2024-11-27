@@ -12,8 +12,10 @@ import {
 import { FaArrowRight } from "react-icons/fa";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const Service = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Header />
@@ -48,7 +50,7 @@ const Service = () => {
             bg="blackAlpha.500" // Optional: Add a translucent background
           >
             <Text fontSize="4xl" fontWeight="bold">
-            Services
+            {t("Services")}
           </Text>
           <Text fontSize="lg">Q-Gate Infotech Private Limited / Services</Text>
           </Box>
@@ -71,7 +73,7 @@ const Service = () => {
           {/* Service 1 */}
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\\Componentes\\Image\\Services\\Geospatial.jpg"
               alt="Aerial view of a coastal area with boats and buildings"
               w="100%"
               h="100%"
@@ -88,15 +90,15 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-              Geospatial Services
+              {t("Geospatial Services")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Unlock the potential of your assets by using geospatial
-                intelligence to build geographic and temporal context.
+                {t("Unlock the potential of your assets by using geospatial")}
+                {t("intelligence to build geographic and temporal context.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Make informed decisions | Increase ROI | Accelerate
-                collaboration
+                {t("Make informed decisions | Increase ROI | Accelerate")}
+                {t("collaboration")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -117,15 +119,15 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Software Development
+                {t("Software Development")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Optimize your engineering design with accurate, current, and
-                reliable geospatial data.
+                {t("Optimize your engineering design with accurate, current, and")}
+                {t("reliable geospatial data.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Implement data-driven design and planning | Adopt domain
-                knowledge easily | Manage assets efficiently
+              {t("Implement data-driven design and planning | Adopt domain")}
+                {t("knowledge easily | Manage assets efficiently")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -136,7 +138,7 @@ const Service = () => {
           </GridItem>
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Software Development.jpg"
               alt="Aerial view of agricultural fields"
               w="100%"
               h="100%"
@@ -147,7 +149,7 @@ const Service = () => {
           {/* Service 3 */}
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Data Analytics.jpg"
               alt="Telecommunication tower with satellite dishes"
               w="100%"
               h="100%"
@@ -164,14 +166,14 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Data Analytics
+                {t("Data Analytics")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Build context for your geospatial database and transform it into
-                actionable insights.
+                {t("Build context for your geospatial database and transform it into")}
+                {t("actionable insights.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Detect and quantify patterns | Take data-driven decisions
+                {t("Detect and quantify patterns | Take data-driven decisions")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -192,14 +194,14 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Engineering Solutions
+                {t("Engineering Solutions")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Leverage geospatial data for planning and optimizing renewable
-                energy projects.
+                {t("Leverage geospatial data for planning and optimizing renewable")}
+                {t("energy projects.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Maximize energy output | Reduce environmental impact
+              {t("Maximize energy output | Reduce environmental impact")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -210,7 +212,7 @@ const Service = () => {
           </GridItem>
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Engineering Solutions.jpg"
               alt="Solar panels in a field"
               w="100%"
               h="100%"
@@ -221,7 +223,7 @@ const Service = () => {
           {/* Service 5 */}
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Cloud- AI ML.jpg"
               alt="City skyline at night"
               w="100%"
               h="100%"
@@ -238,14 +240,14 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Cloud-Based AI/ML Solutions
+                {t("Cloud-Based AI/ML Solutions")}
               </Heading>
               <Text mt={5} fontSize="14" color="gray.100">
-                Plan and execute urban projects with precision using geospatial
-                insights.
+                {t("Plan and execute urban projects with precision using geospatial")}
+                {t("insights.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Improve infrastructure | Enhance urban planning
+                {t("Improve infrastructure | Enhance urban planning")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -266,14 +268,14 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-              Content Annotation
+              {t("Content Annotation")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Use geospatial analysis to design optimized transportation
-                networks and logistics.
+                {t("Use geospatial analysis to design optimized transportation")}
+                {t("networks and logistics.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Reduce costs | Enhance efficiency | Improve connectivity
+                {t("Reduce costs | Enhance efficiency | Improve connectivity")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -284,7 +286,7 @@ const Service = () => {
           </GridItem>
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Content Annotation.jpg"
               alt="Highway at sunset"
               w="100%"
               h="100%"
@@ -297,7 +299,7 @@ const Service = () => {
           {/* Service 7 */}
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Professional Training.jpg"
               alt="Warehouse with shipping containers"
               w="100%"
               h="100%"
@@ -314,13 +316,13 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Professional Training
+                {t("Professional Training")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Use location intelligence to streamline supply chain operations.
+                {t("Use location intelligence to streamline supply chain operations.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Optimize routes | Minimize costs | Enhance visibility
+                {t("Optimize routes | Minimize costs | Enhance visibility")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -341,14 +343,14 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-                Talent Solutions
+                {t("Talent Solutions")}
               </Heading>
               <Text mt={5} fontSize="14">
-                Use geospatial analysis to design optimized transportation
-                networks and logistics.
+                {t("Use geospatial analysis to design optimized transportation")}
+                {t("networks and logistics.")}
               </Text>
               <Text mt={5} fontSize="11">
-                Reduce costs | Enhance efficiency | Improve connectivity
+                {t("Reduce costs | Enhance efficiency | Improve connectivity")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -359,7 +361,7 @@ const Service = () => {
           </GridItem>
           <GridItem>
             <Image
-              src="https://placehold.co/600x400"
+              src="src\Componentes\Image\Services\Talent Solutions.jpg"
               alt="Highway at sunset"
               w="100%"
               h="100%"
