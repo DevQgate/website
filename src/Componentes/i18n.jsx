@@ -884,6 +884,63 @@ i18n
           "Environmental Impact Reduction": "Environmental Impact Reduction",
           "Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.":
             "Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.",
+
+          //Industries - Main
+          Agriculture: "Agriculture",
+          "Q-Gate Infotech offers innovative GIS and geospatial technologies to optimize agricultural practices and ensure sustainable resource management. We provide precision farming solutions that utilize spatial data for improved crop monitoring, soil health analysis, and resource management. Our services empower farmers, agribusinesses, and forestry managers to make data-driven decisions through advanced GIS-based insights. Whether it's mapping, vegetation analysis, or precision irrigation, we bring technology to the forefront of agriculture.":
+            "Q-Gate Infotech offers innovative GIS and geospatial technologies to optimize agricultural practices and ensure sustainable resource management. We provide precision farming solutions that utilize spatial data for improved crop monitoring, soil health analysis, and resource management. Our services empower farmers, agribusinesses, and forestry managers to make data-driven decisions through advanced GIS-based insights. Whether it's mapping, vegetation analysis, or precision irrigation, we bring technology to the forefront of agriculture.",
+          "GIS Mapping & Analysis": "GIS Mapping & Analysis",
+          "Remote Sensing & Imaging": "Remote Sensing & Imaging",
+          "Precision Irrigation Solutions": "Precision Irrigation Solutions",
+          "Marine & Water Resource Management":
+            "Marine & Water Resource Management",
+          "Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments. We leverage GIS, satellite imagery, and advanced data analytics to help optimize water usage, monitor marine ecosystems, and manage resources sustainably. Our services empower stakeholders to make data-driven decisions for the protection of vital water bodies.":
+            "Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments. We leverage GIS, satellite imagery, and advanced data analytics to help optimize water usage, monitor marine ecosystems, and manage resources sustainably. Our services empower stakeholders to make data-driven decisions for the protection of vital water bodies.",
+          "Geospatial Data & Mapping": "Geospatial Data & Mapping",
+          "Marine Ecosystem Monitoring": "Marine Ecosystem Monitoring",
+          "Water Resource Management Solutions":
+            "Water Resource Management Solutions",
+          "Infrastructure Development": "Infrastructure Development",
+          "Revolutionize your business with advanced technology solutions. Our innovative approach integrates AI, data insights, and automation systems for seamless operations. We aim to enhance productivity by streamlining processes with cutting-edge tools. Our team specializes in delivering futuristic solutions tailored to industry needs. Stay ahead of the competition by leveraging our expertise in technology innovations.":
+            "Revolutionize your business with advanced technology solutions. Our innovative approach integrates AI, data insights, and automation systems for seamless operations. We aim to enhance productivity by streamlining processes with cutting-edge tools. Our team specializes in delivering futuristic solutions tailored to industry needs. Stay ahead of the competition by leveraging our expertise in technology innovations.",
+          "AI Solutions": "AI Solutions",
+          "Automation Systems": "Automation Systems",
+          "Data Insights": "Data Insights",
+          "Smart Transportation & Logistics":
+            "Smart Transportation & Logistics",
+          "Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise. Our solutions enable intelligent, efficient, and sustainable transportation systems that ensure timely deliveries and optimized operations. From real-time tracking to predictive analytics, we empower businesses with tools to enhance operational transparency, reduce costs, and achieve their logistics goals effortlessly. Experience the future of logistics with smart, data-driven solutions designed to keep you ahead.":
+            "Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise. Our solutions enable intelligent, efficient, and sustainable transportation systems that ensure timely deliveries and optimized operations. From real-time tracking to predictive analytics, we empower businesses with tools to enhance operational transparency, reduce costs, and achieve their logistics goals effortlessly. Experience the future of logistics with smart, data-driven solutions designed to keep you ahead.",
+          "Real-Time Tracking": "Real-Time Tracking",
+          "Geospatial Insights": "Geospatial Insights",
+          "Automated Operations": "Automated Operations",
+          "Energy & Utilities": "Energy & Utilities",
+          "At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy. From renewable energy systems to grid optimization, we help build smarter, greener energy networks for a sustainable future.":
+            "At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy. From renewable energy systems to grid optimization, we help build smarter, greener energy networks for a sustainable future.",
+          "Renewable Energy Systems": "Renewable Energy Systems",
+          "Grid Optimization": "Grid Optimization",
+          "Energy Efficiency Solutions": "Energy Efficiency Solutions",
+          "Mining & Mineral Exploration": "Mining & Mineral Exploration",
+          "Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization, allowing companies to unlock the full potential of their mining projects. From resource mapping to geospatial analysis, we help you pave the way to smarter, more sustainable resource management.":
+            "Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization, allowing companies to unlock the full potential of their mining projects. From resource mapping to geospatial analysis, we help you pave the way to smarter, more sustainable resource management.",
+          "Resource Mapping": "Resource Mapping",
+          "Geospatial Solutions": "Geospatial Solutions",
+          "Exploration Optimization": "Exploration Optimization",
+          "Oil & Gas Industry": "Oil & Gas Industry",
+          "At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges, minimize risks, and optimize operations for greater efficiency in a competitive market. From reservoir management to pipeline monitoring, we bring strategic insights to your projects and ensure safe, sustainable operations.":
+            "At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges, minimize risks, and optimize operations for greater efficiency in a competitive market. From reservoir management to pipeline monitoring, we bring strategic insights to your projects and ensure safe, sustainable operations.",
+          "Reservoir Management": "Reservoir Management",
+          "Pipeline Monitoring": "Pipeline Monitoring",
+          "Operational Optimization": "Operational Optimization",
+          Education: "Education",
+          "Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry. Our innovative EdTech solutions enhance learning experiences, streamline administrative tasks, and promote creativity and collaboration. Join us in shaping the future of education and professional development through smarter, more accessible solutions.":
+            "Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry. Our innovative EdTech solutions enhance learning experiences, streamline administrative tasks, and promote creativity and collaboration. Join us in shaping the future of education and professional development through smarter, more accessible solutions.",
+          "Training Programs": "Training Programs",
+          "EdTech Platforms": "EdTech Platforms",
+          "Skill Development": "Skill Development",
+          "What We Do...!": "What We Do...!",
+          Industries: "Industries",
+          "Q-Gate Infotech Private Limited / Industries":
+            "Q-Gate Infotech Private Limited / Industries",
         },
       },
       GE: {
@@ -1758,6 +1815,64 @@ i18n
           "Environmental Impact Reduction": "Umweltauswirkungen verringern",
           "Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.":
             "Reduzieren Sie Emissionen und Staus, indem Sie die Logistik optimieren und nachhaltige Transportpraktiken fördern.",
+
+          //Industries - Main
+
+          Agriculture: "Landwirtschaft",
+          "Q-Gate Infotech offers innovative GIS and geospatial technologies to optimize agricultural practices and ensure sustainable resource management. We provide precision farming solutions that utilize spatial data for improved crop monitoring, soil health analysis, and resource management. Our services empower farmers, agribusinesses, and forestry managers to make data-driven decisions through advanced GIS-based insights. Whether it's mapping, vegetation analysis, or precision irrigation, we bring technology to the forefront of agriculture.":
+            "Q-Gate Infotech bietet innovative GIS- und Geodaten-Technologien zur Optimierung landwirtschaftlicher Praktiken und zur Gewährleistung einer nachhaltigen Ressourcennutzung. Wir stellen Präzisionslandwirtschaftslösungen bereit, die räumliche Daten nutzen, um die Überwachung von Ernten, die Analyse der Bodenqualität und das Ressourcenmanagement zu verbessern. Unsere Dienstleistungen befähigen Landwirte, Agrarunternehmen und Forstmanager, datenbasierte Entscheidungen durch fortschrittliche GIS-gestützte Einblicke zu treffen. Ob Kartierung, Vegetationsanalyse oder Präzisionsbewässerung – wir bringen Technologie in den Vordergrund der Landwirtschaft.",
+          "GIS Mapping & Analysis": "GIS-Kartierung und Analyse",
+          "Remote Sensing & Imaging": "Fernerkundung und Bildgebung",
+          "Precision Irrigation Solutions": "Präzisionsbewässerungslösungen",
+          "Marine & Water Resource Management":
+            "Marine- und Wasserressourcenmanagement",
+          "Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments. We leverage GIS, satellite imagery, and advanced data analytics to help optimize water usage, monitor marine ecosystems, and manage resources sustainably. Our services empower stakeholders to make data-driven decisions for the protection of vital water bodies.":
+            "Q-Gate Infotech bietet fortschrittliche geospatiale und ingenieurtechnische Lösungen zur Verbesserung des Marine- und Wasserressourcenmanagements. Unsere Expertise ermöglicht es Regierungen, Umweltagenturen und maritimen Industrien, aquatische Umwelten effektiv zu überwachen, zu verwalten und zu schützen. Wir nutzen GIS, Satellitenbilder und fortschrittliche Datenanalysen, um den Wasserverbrauch zu optimieren, marine Ökosysteme zu überwachen und Ressourcen nachhaltig zu verwalten. Unsere Dienstleistungen befähigen die Stakeholder, datengestützte Entscheidungen zum Schutz lebenswichtiger Gewässer zu treffen.",
+          "Geospatial Data & Mapping": "Geospatiale Daten & Kartierung",
+          "Marine Ecosystem Monitoring": "Überwachung mariner Ökosysteme",
+          "Water Resource Management Solutions":
+            "Lösungen für das Wassermanagement",
+          "Infrastructure Development": "Infrastrukturausbau",
+          "Revolutionize your business with advanced technology solutions. Our innovative approach integrates AI, data insights, and automation systems for seamless operations. We aim to enhance productivity by streamlining processes with cutting-edge tools. Our team specializes in delivering futuristic solutions tailored to industry needs. Stay ahead of the competition by leveraging our expertise in technology innovations.":
+            "Revolutionieren Sie Ihr Unternehmen mit fortschrittlichen Technologielösungen. Unser innovativer Ansatz integriert KI, Datenanalysen und Automatisierungssysteme für reibungslose Abläufe. Wir zielen darauf ab, die Produktivität zu steigern, indem wir Prozesse mit modernsten Tools optimieren. Unser Team ist auf die Bereitstellung zukunftsweisender Lösungen spezialisiert, die auf die Bedürfnisse der Branche zugeschnitten sind. Bleiben Sie der Konkurrenz voraus, indem Sie unsere Expertise in Technologieinnovationen nutzen.",
+          "AI Solutions": "KI-Lösungen",
+          "Automation Systems": "Automatisierungssysteme",
+          "Data Insights": "Datenanalysen",
+          "Smart Transportation & Logistics":
+            "Intelligente Verkehrssysteme & Logistik",
+          "Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise. Our solutions enable intelligent, efficient, and sustainable transportation systems that ensure timely deliveries and optimized operations. From real-time tracking to predictive analytics, we empower businesses with tools to enhance operational transparency, reduce costs, and achieve their logistics goals effortlessly. Experience the future of logistics with smart, data-driven solutions designed to keep you ahead.":
+            "Q-Gate Infotech revolutioniert die Verkehrs- und Logistikbranche, indem es fortschrittliche geospatiale Technologien, Datenanalysen und Ingenieurwissen nutzt. Unsere Lösungen ermöglichen intelligente, effiziente und nachhaltige Verkehrssysteme, die rechtzeitige Lieferungen und optimierte Abläufe gewährleisten. Von der Echtzeitverfolgung bis hin zu prädiktiven Analysen bieten wir Unternehmen Werkzeuge, um die betriebliche Transparenz zu verbessern, Kosten zu senken und ihre Logistikziele mühelos zu erreichen. Erleben Sie die Zukunft der Logistik mit intelligenten, datengestützten Lösungen, die darauf ausgelegt sind, Sie voranzubringen.",
+          "Real-Time Tracking": "Echtzeitverfolgung",
+          "Geospatial Insights": "Geospatiale Einblicke",
+          "Automated Operations": "Automatisierte Abläufe",
+          "Energy & Utilities": "Energie & Versorgungsunternehmen",
+          "At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy. From renewable energy systems to grid optimization, we help build smarter, greener energy networks for a sustainable future.":
+            "Bei Q-Gate Infotech stärken wir den Energiesektor und Versorgungsunternehmen, indem wir innovative geospatiale und ingenieurtechnische Lösungen bereitstellen, die die Effizienz steigern, Nachhaltigkeit fördern und technologische Fortschritte vorantreiben. Unsere Dienstleistungen ermöglichen es Energieversorgern, Versorgungsunternehmen und Regierungsbehörden, die Abläufe zu optimieren und der wachsenden Nachfrage nach sauberer, zuverlässiger Energie gerecht zu werden. Von erneuerbaren Energiesystemen bis hin zur Netzoptimierung helfen wir dabei, intelligentere, grünere Energienetze für eine nachhaltige Zukunft aufzubauen.",
+          "Renewable Energy Systems": "Erneuerbare Energiesysteme",
+          "Grid Optimization": "Netzoptimierung",
+          "Energy Efficiency Solutions": "Energieeffizienzlösungen",
+          "Mining & Mineral Exploration": "Bergbau & Mineralexploration",
+          "Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization, allowing companies to unlock the full potential of their mining projects. From resource mapping to geospatial analysis, we help you pave the way to smarter, more sustainable resource management.":
+            "Q-Gate Infotech bietet fortschrittliche geospatiale und Datenanalyse-Lösungen für die Bergbau- und Mineralexplorationsbranche, die es Unternehmen ermöglichen, Ressourcen effizient zu entdecken und gleichzeitig die Umweltauswirkungen zu minimieren. Unsere Expertise unterstützt die Exploration, Planung und operative Optimierung, sodass Unternehmen das volle Potenzial ihrer Bergbauprojekte ausschöpfen können. Von der Ressourcenabbildung bis hin zur geospatialen Analyse helfen wir Ihnen, den Weg zu einem intelligenteren und nachhaltigeren Ressourcenmanagement zu ebnen.",
+          "Resource Mapping": "Ressourcenabbildung",
+          "Geospatial Solutions": "Geospatiale Lösungen",
+          "Exploration Optimization": "Explorationsoptimierung",
+          "Oil & Gas Industry": "Öl- & Gasindustrie",
+          "At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges, minimize risks, and optimize operations for greater efficiency in a competitive market. From reservoir management to pipeline monitoring, we bring strategic insights to your projects and ensure safe, sustainable operations.":
+            "Bei Q-Gate Infotech unterstützen wir die Öl- und Gasindustrie mit spezialisierten geospatiale, ingenieurtechnischen und Datenanalyse-Dienstleistungen, die die Exploration, Produktion und Asset-Management verbessern. Unsere Lösungen helfen Unternehmen, komplexe Herausforderungen zu bewältigen, Risiken zu minimieren und die Betriebsabläufe für eine höhere Effizienz in einem wettbewerbsintensiven Markt zu optimieren. Von der Reservoir-Management bis hin zur Pipeline-Überwachung bringen wir strategische Einblicke in Ihre Projekte und gewährleisten sichere, nachhaltige Betriebsabläufe.",
+          "Reservoir Management": "Reservoir-Management",
+          "Pipeline Monitoring": "Pipeline-Überwachung",
+          "Operational Optimization": "Betriebsoptimierung",
+          Education: "Bildung",
+          "Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry. Our innovative EdTech solutions enhance learning experiences, streamline administrative tasks, and promote creativity and collaboration. Join us in shaping the future of education and professional development through smarter, more accessible solutions.":
+            "Q-Gate Infotech engagiert sich für die Förderung von Bildung und beruflicher Weiterentwicklung, indem es umfassende Schulungs- und Entwicklungsprogramme bereitstellt. Unser Ziel ist es, Kapazitäten in modernen Technologien aufzubauen, Talente zu fördern und die Lücke zwischen Akademia und Industrie zu überbrücken. Unsere innovativen EdTech-Lösungen verbessern das Lernerlebnis, optimieren administrative Aufgaben und fördern Kreativität und Zusammenarbeit. Schließen Sie sich uns an, um die Zukunft der Bildung und beruflichen Entwicklung durch intelligentere, zugänglichere Lösungen zu gestalten.",
+          "Training Programs": "Schulungsprogramme",
+          "EdTech Platforms": "EdTech-Plattformen",
+          "Skill Development": "Fähigkeitenentwicklung",
+          "What We Do...!": "Was wir tun...!",
+          Industries: "Branchen",
+          "Q-Gate Infotech Private Limited / Industries":
+            "Q-Gate Infotech Private Limited / Branchen",
         },
       },
     },
