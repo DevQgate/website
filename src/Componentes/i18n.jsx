@@ -11,7 +11,8 @@ i18n
         translation: {
           Home: "Home",
           "About Us": "About Us",
-          Verticals: "Verticals",
+          "Product": "Product",
+          "Industries": "Industries",
           Services: "Services",
           Contact: "Contact",
           Careers: "Careers",
@@ -941,13 +942,96 @@ i18n
           Industries: "Industries",
           "Q-Gate Infotech Private Limited / Industries":
             "Q-Gate Infotech Private Limited / Industries",
+
+          // Service - Main
+          Services: "Services",
+          "Plan, design, build, and manage your assets better with us":
+            "Plan, design, build, and manage your assets better with us",
+          "Geospatial Services": "Geospatial Services",
+          "Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency.":
+            "Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency.",
+          "Image Data Processing": "Image Data Processing",
+          "Satellite Data Analysis": "Satellite Data Analysis",
+          "Hydro Flattening": "Hydro Flattening",
+          "Vegetation Analysis": "Vegetation Analysis",
+          "Software Development": "Software Development",
+          "Our Software Development services are designed to create custom solutions that address your specific challenges and objectives.":
+            "Our Software Development services are designed to create custom solutions that address your specific challenges and objectives.",
+          "Custom Software Development": "Custom Software Development",
+          "Enterprise Management Solutions": "Enterprise Management Solutions",
+          "Web & Mobile Application Development":
+            "Web & Mobile Application Development",
+          "Data Analytics": "Data Analytics",
+          "Data Analytics services empower organizations to transform vast amounts of complex data into actionable intelligence. Leveraging advanced algorithms and machine learning techniques.":
+            "Data Analytics services empower organizations to transform vast amounts of complex data into actionable intelligence. Leveraging advanced algorithms and machine learning techniques.",
+          "Advanced Imagery Analytics": "Advanced Imagery Analytics",
+          "Spectral Analysis": "Spectral Analysis",
+          "Computer Vision Applications": "Computer Vision Applications",
+          "Engineering Solutions": "Engineering Solutions",
+          "Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development, and optimization of infrastructure and industrial projects.":
+            "Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development, and optimization of infrastructure and industrial projects.",
+          BIM: "BIM",
+          "Reverse Engineering": "Reverse Engineering",
+          "Engineering Consultancy": "Engineering Consultancy",
+          "Cloud-Based AI/ML Solutions": "Cloud-Based AI/ML Solutions",
+          "We leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward.":
+            "We leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward.",
+          "Development of Intelligent Applications":
+            "Development of Intelligent Applications",
+          "Integration with Geospatial Data":
+            "Integration with Geospatial Data",
+          "Scalable Cloud Infrastructure": "Scalable Cloud Infrastructure",
+          "Customized AI Models": "Customized AI Models",
+          "Content Annotation": "Content Annotation",
+          "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency.":
+            "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency.",
+          "Image, Video, and Text Annotation":
+            "Image, Video, and Text Annotation",
+          "Point Cloud Annotation": "Point Cloud Annotation",
+          "Object Detection and Semantic Segmentation":
+            "Object Detection and Semantic Segmentation",
+          "Professional Training": "Professional Training",
+          "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology.":
+            "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology.",
+          "On-the-Job Training Programs": "On-the-Job Training Programs",
+          "Internships with Stipends": "Internships with Stipends",
+          "Collaborations with Educational Institutions":
+            "Collaborations with Educational Institutions",
+          "Talent Solutions": "Talent Solutions",
+          "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals across various domains, enabling your business to meet its objectives effectively.":
+            "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals across various domains, enabling your business to meet its objectives effectively.",
+          "Staff Augmentation": "Staff Augmentation",
+          "Dedicated Project Teams": "Dedicated Project Teams",
+          "Flexible Engagement Models": "Flexible Engagement Models",
+          "Quality Assurance and Compliance":
+            "Quality Assurance and Compliance",
+          "Q-Gate Infotech Private Limited / Services":
+            "Q-Gate Infotech Private Limited / Services",
+
+          // Contact - Main
+
+          Contact: "Contact",
+          "Q-Gate Infotech Private Limited / contact":
+            "Q-Gate Infotech Private Limited / contact",
+          "We'd love to hear from you! Reach out with any questions or feedback.":
+            "We'd love to hear from you! Reach out with any questions or feedback.",
+          "Our team is here to assist you. Let’s connect!":
+            "Our team is here to assist you. Let’s connect!",
+          "Bangalore, India": "Bangalore, India",
+          "Full Name": "Full Name",
+          "Phone Number": "Phone Number",
+          "Your Email": "Your Email",
+          "Your Message": "Your Message",
+          "Send Message": "Send Message",
+          "Contact Us":"Contact Us",
         },
       },
       GE: {
         translation: {
           Home: "Startseite",
           "About Us": "Über uns",
-          Verticals: "Vertikale",
+          "Product": "Produkt",
+          "Industries": "Branchen",
           Services: "Dienstleistungen",
           Contact: "Kontakt",
           Careers: "Karriere",
@@ -1159,8 +1243,8 @@ i18n
           "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
             "Ein innovativer Softwareanbieter, Systemintegrator und Technologieanbieter, der gegründet wurde, um verwertbare Erkenntnisse, fortschrittliche intelligente Lösungen und Beratungsdienstleistungen für Unternehmen, Organisationen und die Regierung bereitzustellen.",
           "Q-gate Infotech Private Limited": "Q-Gate Infotech GmbH",
-          "#11, Abhaya Heights, JP Nagar, Bengaluru,": "München",
-          "India - 560078": "Deutschland - 80331",
+          "Bengaluru, India - 560078": "München, Deutschland - 80331",
+
           "+91 93428 55394": "+49 176 99519797",
           "Opening Hours: 09:00 - 18:00": "Öffnungszeiten: 09:00 - 18:00",
           "contact.in@q-gate.co": "contact.de@q-gate.co",
@@ -1873,6 +1957,89 @@ i18n
           Industries: "Branchen",
           "Q-Gate Infotech Private Limited / Industries":
             "Q-Gate Infotech Private Limited / Branchen",
+
+          // Service - Main
+          Services: "Dienstleistungen",
+          "Plan, design, build, and manage your assets better with us":
+            "Planen, entwerfen, bauen und verwalten Sie Ihre Ressourcen besser mit uns",
+          "Geospatial Services": "Geodaten-Dienstleistungen",
+          "Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency.":
+            "Geodatenverarbeitungsdienste verwandeln komplexe räumliche Daten in umsetzbare Erkenntnisse, die die strategische Planung und betriebliche Effizienz fördern.",
+          "Image Data Processing": "Bilddatenverarbeitung",
+          "Satellite Data Analysis": "Satellitendatenanalyse",
+          "Hydro Flattening": "Hydroglättung",
+          "Vegetation Analysis": "Vegetationsanalyse",
+          "Software Development": "Softwareentwicklung",
+          "Our Software Development services are designed to create custom solutions that address your specific challenges and objectives.":
+            "Unsere Softwareentwicklungsdienste sind darauf ausgelegt, maßgeschneiderte Lösungen zu erstellen, die Ihre spezifischen Herausforderungen und Ziele adressieren.",
+          "Custom Software Development": "Maßgeschneiderte Softwareentwicklung",
+          "Enterprise Management Solutions":
+            "Lösungen für das Unternehmensmanagement",
+          "Web & Mobile Application Development":
+            "Entwicklung von Web- und mobilen Anwendungen",
+          "Data Analytics": "Datenanalyse",
+          "Data Analytics services empower organizations to transform vast amounts of complex data into actionable intelligence. Leveraging advanced algorithms and machine learning techniques.":
+            "Datenanalysedienste ermöglichen es Unternehmen, riesige Mengen komplexer Daten in umsetzbare Erkenntnisse zu verwandeln, indem sie fortschrittliche Algorithmen und maschinelles Lernen nutzen.",
+          "Advanced Imagery Analytics": "Erweiterte Bildanalyse",
+          "Spectral Analysis": "Spektralanalyse",
+          "Computer Vision Applications": "Anwendungen der Computer Vision",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development, and optimization of infrastructure and industrial projects.":
+            "Ingenieurlösungen verbinden modernste Technologie mit Ingenieurkompetenz, um die Planung, Entwicklung und Optimierung von Infrastruktur- und Industrieprojekten zu unterstützen.",
+          BIM: "BIM",
+          "Reverse Engineering": "Reverse Engineering",
+          "Engineering Consultancy": "Ingenieurberatung",
+          "Cloud-Based AI/ML Solutions": "Cloud-basierte KI/ML-Lösungen",
+          "We leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward.":
+            "Wir nutzen die Synergie aus Cloud-Computing und fortschrittlichen KI- (künstliche Intelligenz) und ML- (maschinelles Lernen) Algorithmen, um intelligente Lösungen zu entwickeln, die Unternehmen voranbringen.",
+          "Development of Intelligent Applications":
+            "Entwicklung intelligenter Anwendungen",
+          "Integration with Geospatial Data": "Integration mit Geodaten",
+          "Scalable Cloud Infrastructure": "Skalierbare Cloud-Infrastruktur",
+          "Customized AI Models": "Angepasste KI-Modelle",
+          "Content Annotation": "Inhaltsannotation",
+          "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency.":
+            "Unsere Inhaltsannotationsdienste bieten eine sorgfältige Kennzeichnung verschiedener Datentypen, wodurch Ihre KI-Anwendungen mit größerer Genauigkeit und Effizienz arbeiten können.",
+          "Image, Video, and Text Annotation":
+            "Bild-, Video- und Textannotation",
+          "Point Cloud Annotation": "Punktwolkenannotation",
+          "Object Detection and Semantic Segmentation":
+            "Objekterkennung und semantische Segmentierung",
+          "Professional Training": "Professionelle Schulung",
+          "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology.":
+            "Unsere professionellen Schulungsdienste sollen Einzelpersonen, insbesondere frischen Absolventen und Menschen aus ländlichen Gemeinden, befähigen, wertvolle Fähigkeiten zu entwickeln und erfolgreiche Karrieren in der Technologie aufzubauen.",
+          "On-the-Job Training Programs":
+            "Berufsbegleitende Ausbildungsprogramme",
+          "Internships with Stipends": "Praktika mit Stipendien",
+          "Collaborations with Educational Institutions":
+            "Zusammenarbeit mit Bildungseinrichtungen",
+          "Talent Solutions": "Talentsuchlösungen",
+          "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals across various domains, enabling your business to meet its objectives effectively.":
+            "Unser Talentsuchdienst bietet Zugang zu einem vielfältigen Pool hochqualifizierter Fachkräfte aus verschiedenen Bereichen, damit Ihr Unternehmen seine Ziele effektiv erreichen kann.",
+          "Staff Augmentation": "Personalverstärkung",
+          "Dedicated Project Teams": "Engagierte Projektteams",
+          "Flexible Engagement Models": "Flexible Engagement-Modelle",
+          "Quality Assurance and Compliance":
+            "Qualitätssicherung und Compliance",
+          "Q-Gate Infotech Private Limited / Services":
+            "Q-Gate Infotech Private Limited / Dienstleistungen",
+
+          // Contact - Main
+
+          Contact: "Kontakt",
+          "Q-Gate Infotech Private Limited / contact":
+            "Q-Gate Infotech Private Limited / Kontakt",
+          "We'd love to hear from you! Reach out with any questions or feedback.":
+            "Wir würden gerne von Ihnen hören! Melden Sie sich bei Fragen oder Feedback.",
+          "Our team is here to assist you. Let’s connect!":
+            "Unser Team ist hier, um Ihnen zu helfen. Lassen Sie uns verbinden!",
+          "Bangalore, India": "München, Deutschland",
+          "Full Name": "Vollständiger Name",
+          "Phone Number": "Telefonnummer",
+          "Your Email": "Ihre E-Mail",
+          "Your Message": "Ihre Nachricht",
+          "Send Message": "Nachricht senden",
+          "Contact Us":"Kontaktieren Sie uns",
         },
       },
     },

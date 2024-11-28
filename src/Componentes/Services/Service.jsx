@@ -50,18 +50,20 @@ const Service = () => {
             bg="blackAlpha.500" // Optional: Add a translucent background
           >
             <Text fontSize="4xl" fontWeight="bold">
-            {t("Services")}
-          </Text>
-          <Text fontSize="lg">Q-Gate Infotech Private Limited / Services</Text>
+              {t("Services")}
+            </Text>
+            <Text fontSize="lg">
+              {t("Q-Gate Infotech Private Limited / Services")}
+            </Text>
           </Box>
         </Box>
       </Box>
 
       {/* Services Section */}
-      <Box bg="" fontFamily="Arial, sans-serif" py={10}>
+      <Box bg="white" fontFamily="Arial, sans-serif" py={10}>
         <VStack spacing={6} mb={10} textAlign="center">
           <Heading size="xl" color="gray.900" fontWeight="dark">
-            Plan, design, build, and manage your assets better with us
+            {t("Plan, design, build, and manage your assets better with us")}
           </Heading>
         </VStack>
         <Grid
@@ -90,15 +92,21 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-              {t("Geospatial Services")}
+                {t("Geospatial Services")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Unlock the potential of your assets by using geospatial")}
-                {t("intelligence to build geographic and temporal context.")}
+                {t(
+                  "Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-                {t("Make informed decisions | Increase ROI | Accelerate")}
-                {t("collaboration")}
+                {t("Image Data Processing")}
+                <br />
+                {t("Satellite Data Analysis")}
+                <br />
+                {t("Hydro Flattening")}
+                <br />
+                {t("Vegetation Analysis")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -122,12 +130,16 @@ const Service = () => {
                 {t("Software Development")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Optimize your engineering design with accurate, current, and")}
-                {t("reliable geospatial data.")}
+                {t(
+                  "Our Software Development services are designed to create custom solutions that address your specific challenges and objectives."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-              {t("Implement data-driven design and planning | Adopt domain")}
-                {t("knowledge easily | Manage assets efficiently")}
+                {t("Custom Software Development")}
+                <br />
+                {t("Enterprise Management Solutions ")}
+                <br />
+                {t("Web & Mobile Application Development")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -169,11 +181,16 @@ const Service = () => {
                 {t("Data Analytics")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Build context for your geospatial database and transform it into")}
-                {t("actionable insights.")}
+                {t(
+                  "Data Analytics services empower organizations to transform vast amounts of complex data into actionable intelligence. Leveraging advanced algorithms and machine learning techniques."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-                {t("Detect and quantify patterns | Take data-driven decisions")}
+                {t("Advanced Imagery Analytics")}
+                <br />
+                {t("Spectral Analysis")}
+                <br />
+                {t("Computer Vision Applications")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -197,11 +214,16 @@ const Service = () => {
                 {t("Engineering Solutions")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Leverage geospatial data for planning and optimizing renewable")}
-                {t("energy projects.")}
+                {t(
+                  "Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development, and optimization of infrastructure and industrial projects."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-              {t("Maximize energy output | Reduce environmental impact")}
+                {t("BIM ")}
+                <br />
+                {t("Reverse Engineering")}
+                <br />
+                {t("Engineering Consultancy")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -243,11 +265,18 @@ const Service = () => {
                 {t("Cloud-Based AI/ML Solutions")}
               </Heading>
               <Text mt={5} fontSize="14" color="gray.100">
-                {t("Plan and execute urban projects with precision using geospatial")}
-                {t("insights.")}
+                {t(
+                  "We leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-                {t("Improve infrastructure | Enhance urban planning")}
+                {t("Development of Intelligent Applications")}
+                <br />
+                {t("Integration with Geospatial Data")}
+                <br />
+                {t("Scalable Cloud Infrastructure")}
+                <br />
+                {t("Customized AI Models")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -268,14 +297,19 @@ const Service = () => {
           >
             <Box>
               <Heading size="md" fontWeight="bold">
-              {t("Content Annotation")}
+                {t("Content Annotation")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Use geospatial analysis to design optimized transportation")}
-                {t("networks and logistics.")}
+                {t(
+                  "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-                {t("Reduce costs | Enhance efficiency | Improve connectivity")}
+                {t("Image, Video, and Text Annotation ")}
+                <br />
+                {t("Point Cloud Annotation ")}
+                <br />
+                {t("Object Detection and Semantic Segmentation")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -293,8 +327,6 @@ const Service = () => {
               objectFit="cover"
             />
           </GridItem>
-
-          
 
           {/* Service 7 */}
           <GridItem>
@@ -319,10 +351,16 @@ const Service = () => {
                 {t("Professional Training")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Use location intelligence to streamline supply chain operations.")}
+                {t(
+                  "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-                {t("Optimize routes | Minimize costs | Enhance visibility")}
+                {t("On-the-Job Training Programs")}
+                <br />
+                {t("Internships with Stipends")}
+                <br />
+                {t("Collaborations with Educational Institutions")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -346,11 +384,18 @@ const Service = () => {
                 {t("Talent Solutions")}
               </Heading>
               <Text mt={5} fontSize="14">
-                {t("Use geospatial analysis to design optimized transportation")}
-                {t("networks and logistics.")}
+                {t(
+                  "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals across various domains, enabling your business to meet its objectives effectively."
+                )}
               </Text>
               <Text mt={5} fontSize="11">
-                {t("Reduce costs | Enhance efficiency | Improve connectivity")}
+                {t("Staff Augmentation")}
+                <br />
+                {t("Dedicated Project Teams")}
+                <br />
+                {t("Flexible Engagement Models")}
+                <br />
+                {t("Quality Assurance and Compliance")}
               </Text>
             </Box>
             <Box mt={4}>
@@ -368,8 +413,6 @@ const Service = () => {
               objectFit="cover"
             />
           </GridItem>
-
-
         </Grid>
       </Box>
       <Footer />

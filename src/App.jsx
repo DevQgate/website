@@ -25,6 +25,7 @@ import OilAndGas from "./Componentes/Industries/OilAndGas.jsx"
 import Education from "./Componentes/Industries/Education.jsx"
 import Service from "./Componentes/Services/Service.jsx"
 import TalentSolutions from "./Componentes/Services/TalentSolutions.jsx";
+import Product from "./Componentes/Product/Product.jsx";
 
 
 function App() {
@@ -39,10 +40,10 @@ function App() {
           {/* <MainSection/> */}
           {/* <AboutUs/>   */}
           {/* <Career/>  */}
-          {/* <Contact />    */}
+          <Contact />   
           
                     
-          <Industries/>
+          {/* <Industries/> */}
 
           {/* <Agriculture/> */}
           {/* <MarinesWaterManagement/> */}
@@ -64,6 +65,9 @@ function App() {
           {/* <ProfessionalTraining/> */}
           {/* <ContentAnnotation/> */}
           {/* <TalentSolutions/> */}
+
+
+          {/* <Product/> */}
 
           
           {/* <Footer /> */}
