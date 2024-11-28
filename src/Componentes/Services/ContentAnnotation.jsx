@@ -10,8 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const ContentAnnotation = () => {
+  const { t } = useTranslation();
   return (
     <>
     <Header/>
@@ -39,9 +41,9 @@ const ContentAnnotation = () => {
               color="White"
             >
               <Text fontSize="4xl" fontWeight="bold">
-                Content Annotation
+                {t("Content Annotation")}
               </Text>
-              <Text fontSize="lg">Q-Gate Infotech / Content Annotation</Text>
+              <Text fontSize="lg">{t("Q-Gate Infotech / Content Annotation")}</Text>
             </Box>
           </Box>
         </Box>
@@ -50,13 +52,10 @@ const ContentAnnotation = () => {
         <Box bg="white" py={8} mb={8}>
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              At Q-Gate Infotech, we understand that precise data annotation is
-              the foundation of effective AI and machine learning models.
+              {t("At Q-Gate Infotech, we understand that precise data annotation is the foundation of effective AI and machine learning models.")}
             </Heading>
             <Text color="gray.700">
-              Our Content Annotation services provide meticulous labeling of
-              diverse data types, enabling your AI applications to perform with
-              greater accuracy and efficiency. Our offerings include:
+              {t("Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency. Our offerings include:")}
             </Text>
           </Container>
         </Box>
@@ -70,20 +69,19 @@ const ContentAnnotation = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Image, Video, and Text Annotation
+                {t("Image, Video, and Text Annotation")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Annotating images, videos, and text for AI model training.
+                {t("Annotating images, videos, and text for AI model training.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Supports computer vision and natural language processing
-                applications.
+                {t("Supports computer vision and natural language processing applications.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Ensures precise data labeling for reliable model performance.
+                {t("Ensures precise data labeling for reliable model performance.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Facilitates accurate object recognition and text understanding.
+                {t("Facilitates accurate object recognition and text understanding.")}
               </Text>
             </GridItem>
             <GridItem
@@ -135,19 +133,19 @@ const ContentAnnotation = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Point Cloud Annotation
+                  {t("Point Cloud Annotation")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Annotating 3D point cloud data for object recognition.
+                  {t("Annotating 3D point cloud data for object recognition.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Essential for autonomous vehicles and robotics applications.
+                  {t("Essential for autonomous vehicles and robotics applications.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Supports scene understanding and environmental modeling.
+                  {t("Supports scene understanding and environmental modeling.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Leverages LiDAR technology for detailed spatial analysis.
+                  {t("Leverages LiDAR technology for detailed spatial analysis.")}
                 </Text>
               </GridItem>
             </Grid>
@@ -163,20 +161,19 @@ const ContentAnnotation = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Object Detection and Semantic Segmentation
+                {t("Object Detection and Semantic Segmentation")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Detailed annotations for object detection tasks.
+                {t("Detailed annotations for object detection tasks.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Pixel-level semantic segmentation for precise visual data
-                interpretation.
+                {t("Pixel-level semantic segmentation for precise visual data interpretation.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Enables accurate understanding of complex visual data.
+                {t("Enables accurate understanding of complex visual data.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Supports advanced computer vision applications.
+                {t("Supports advanced computer vision applications.")}
               </Text>
             </GridItem>
             <GridItem

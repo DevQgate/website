@@ -11,9 +11,12 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
+
 
 const App = () => {
   const servicesRef = useRef(null);
+  const { t } = useTranslation();
 
   const handleScrollToServices = () => {
     servicesRef.current.scrollIntoView({ behavior: "smooth" });
@@ -50,21 +53,17 @@ const App = () => {
               boxShadow="md"
             >
               <Heading as="h1" size="xl" mb={4}>
-                Education
+                {t("Education")}
               </Heading>
               <Text mb={4}>
-                Q-Gate Infotech is dedicated to fostering education and
-                professional growth by providing comprehensive training and
-                development programs. We aim to build capacity in cutting-edge
-                technologies, nurture talent, and bridge the gap between
-                academia and industry.
+                {t("Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry.")}
               </Text>
               <Button
                 colorScheme="yellow"
                 mt={4}
                 onClick={handleScrollToServices}
               >
-                Learn More
+                {t("Learn More")}
               </Button>
             </Box>
           </Box>
@@ -82,7 +81,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Our Services Include
+                  {t("Our Services Include")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -92,11 +91,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Professional Training Programs:
+                      {t("Professional Training Programs")}:
                     </Text>
-                    Offer courses in GIS, remote sensing, AI/ML, software
-                    development, data analytics, and engineering, tailored to
-                    meet industry demands.
+                    {t("Offer courses in GIS, remote sensing, AI/ML, software development, data analytics, and engineering, tailored to meet industry demands.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -105,11 +102,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      On-the-Job Training and Internships:
+                    {t("On-the-Job Training and Internships")}:
                     </Text>
-                    Provide hands-on experience through internships with
-                    stipends, allowing participants to apply their learning to
-                    real-world projects.
+                    {t("Provide hands-on experience through internships without stipends, allowing participants to apply their learning to real-world projects.")}
                   </Text>
 
                   <Text fontSize="sm" color="gray.700">
@@ -119,11 +114,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Collaborations with Educational Institutions:
+                    {t("Collaborations with Educational Institutions")}:
                     </Text>
-                    Partner with universities and colleges through MoUs to
-                    update curricula, support research initiatives, and
-                    facilitate knowledge exchange.
+                    {t("Partner with universities and colleges through MoUs to update curricula, support research initiatives, and facilitate knowledge exchange.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -132,10 +125,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Project Sponsorships and Scholarships:
+                    {t("Project Sponsorships and Scholarships")}:
                     </Text>
-                    Support innovative projects, research activities, and
-                    provide financial assistance to promising students.
+                    {t("Support innovative projects, research activities, and provide financial assistance to promising students.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -144,11 +136,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Empowering Rural Development:
+                    {t("Empowering Rural Development")}:
                     </Text>
-                    Focus on recruiting and training individuals from rural
-                    areas, promoting equal opportunities and contributing to
-                    community upliftment.
+                    {t("Focus on recruiting and training individuals from rural areas, promoting equal opportunities and contributing to community upliftment.")}
                   </Text>
                 </VStack>
               </Box>
@@ -170,7 +160,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Benefit
+                  {t("Benefit")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -180,10 +170,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Skill Enhancement:
+                    {t("Skill Enhancement")}:
                     </Text>
-                    Equip individuals with the latest technological skills
-                    required in today's job market.
+                    {t("Equip individuals with the latest technological skills required in today's job market.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -192,10 +181,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Career Development:
+                      {t("Career Development")}:
                     </Text>
-                    Provide pathways for fresh graduates and professionals to
-                    build successful careers in technology.
+                    {t("Provide pathways for fresh graduates and professionals to build successful careers in technology.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -204,10 +192,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Industry-Academia Collaboration:
+                    {t("Industry-Academia Collaboration")}:
                     </Text>
-                    Strengthen connections between educational institutions and
-                    industry to align education with practical needs.
+                    {t("Strengthen connections between educational institutions and industry to align education with practical needs.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -216,10 +203,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Social Impact:
+                    {t("Social Impact")}:
                     </Text>
-                    Contribute to societal development by empowering individuals
-                    and fostering innovation.
+                    {t("Contribute to societal development by empowering individuals and fostering innovation.")}
                   </Text>
                 </VStack>
               </Box>

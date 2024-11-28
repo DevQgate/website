@@ -10,8 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import { useTranslation } from "react-i18next";
 
 const ProfessionalTraining = () => {
+  const { t } = useTranslation();
   return (
     <>
     <Header/>
@@ -39,7 +41,7 @@ const ProfessionalTraining = () => {
               color="White"
             >
               <Text fontSize="4xl" fontWeight="bold">
-                Professional Training
+                {t("Professional Training")}
               </Text>
               <Text fontSize="lg">Q-Gate Infotech / Professional Training</Text>
             </Box>
@@ -50,15 +52,10 @@ const ProfessionalTraining = () => {
         <Box bg="white" py={8} mb={8}>
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              At Q-Gate Infotech, we believe that investing in people is key to
-              driving innovation and achieving excellence.
+              {t("At Q-Gate Infotech, we believe that investing in people is key to driving innovation and achieving excellence.")}
             </Heading>
             <Text color="gray.700">
-              Our Professional Training services are designed to empower
-              individuals, particularly fresh graduates and those from rural
-              communities, by providing opportunities to develop valuable skills
-              and build successful careers in technology. Our initiatives
-              include:
+              {t("Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology. Our initiatives include:")}
             </Text>
           </Container>
         </Box>
@@ -72,19 +69,19 @@ const ProfessionalTraining = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                On-the-Job Training Programs
+                {t("On-the-Job Training Programs")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Hands-on training with real projects.
+                {t("Hands-on training with real projects.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Mentorship from experienced professionals.
+                {t("Mentorship from experienced professionals.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Accelerates learning through practical experience.
+                {t("Accelerates learning through practical experience.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Prepares individuals for industry demands.
+                {t("Prepares individuals for industry demands.")}
               </Text>
             </GridItem>
             <GridItem
@@ -136,19 +133,19 @@ const ProfessionalTraining = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Internships with Stipends
+                  {t("Internships with Stipends")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Paid internships for financial support.
+                  {t("Paid internships for financial support.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Develop essential industry exposure.
+                 {t(" Develop essential industry exposure.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Contribute meaningfully to real projects.
+                  {t("Contribute meaningfully to real projects.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Gain insights into professional workflows.
+                  {t("Gain insights into professional workflows.")}
                 </Text>
               </GridItem>
             </Grid>
@@ -164,19 +161,19 @@ const ProfessionalTraining = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Collaborations with Educational Institutions
+                {t("Collaborations with Educational Institutions")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Enhance curricula with industry insights.
+                {t("Enhance curricula with industry insights.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Bridge the gap between academia and industry.
+                {t("Bridge the gap between academia and industry.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Sponsor innovative research projects.
+                {t("Sponsor innovative research projects.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Encourage student engagement with technology.
+                {t("Encourage student engagement with technology.")}
               </Text>
             </GridItem>
             <GridItem
@@ -228,19 +225,19 @@ const ProfessionalTraining = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Empowering Rural Development
+                  {t("Empowering Rural Development")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Focus on recruiting talent from rural areas.
+                  {t("Focus on recruiting talent from rural areas.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Provide equal opportunities for local communities.
+                  {t("Provide equal opportunities for local communities.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Stimulate economic growth in underserved regions.
+                  {t("Stimulate economic growth in underserved regions.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Contribute to social responsibility and community upliftment.
+                  {t("Contribute to social responsibility and community upliftment.")}
                 </Text>
               </GridItem>
             </Grid>

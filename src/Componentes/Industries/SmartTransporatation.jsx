@@ -11,8 +11,10 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const { t } = useTranslation();
   const servicesRef = useRef(null);
 
   const handleScrollToServices = () => {
@@ -51,17 +53,17 @@ const App = () => {
             boxShadow="md"
           >
             <Heading as="h1" size="xl" mb={4}>
-            Smart Transportation & Logistics
+            {t("Smart Transportation & Logistics")}
             </Heading>
             <Text mb={4}>
-            At Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise to create intelligent, efficient, and sustainable transportation systems.
+            {t("At Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise to create intelligent, efficient, and sustainable transportation systems.")}
             </Text>
             <Button
               colorScheme="yellow"
               mt={4}
               onClick={handleScrollToServices}
             >
-              Learn More
+              {t("Learn More")}
             </Button>
           </Box>
         </Box>
@@ -79,7 +81,7 @@ const App = () => {
           >
             <Box flex="1" p={4}>
               <Heading as="h2" size="lg" color="blue.900">
-                Our Services Include
+                {t("Our Services Include")}
               </Heading>
               <VStack align="start" spacing={2} mt={2}>
                 <Text fontSize="sm" color="gray.700">
@@ -89,9 +91,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    GIS & Remote Sensing:
+                    {t("GIS & Remote Sensing")}:
                   </Text>
-                    Utilize spatial data to map transportation networks, analyze traffic patterns, and identify areas for improvement.
+                    {t("Utilize spatial data to map transportation networks, analyze traffic patterns, and identify areas for improvement.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -100,9 +102,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    360-Degree Mobile Mapping & Analysis: 
+                    {t("360-Degree Mobile Mapping & Analysis")}: 
                   </Text>
-                  Capture comprehensive street-level imagery using advanced mobile mapping systems to create accurate, up-to-date maps of roads and infrastructure.
+                  {t("Capture comprehensive street-level imagery using advanced mobile mapping systems to create accurate, up-to-date maps of roads and infrastructure.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -111,9 +113,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Annotations:
+                    {t("Annotations")}:
                   </Text>
-                  Provide precise labeling of transportation data to train AI models for route optimization, autonomous vehicle navigation, and traffic management.
+                  {t("Provide precise labeling of transportation data to train AI models for route optimization, autonomous vehicle navigation, and traffic management.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -122,9 +124,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    LiDAR Data Processing:
+                    {t("LiDAR Data Processing")}:
                   </Text>
-                  Create detailed 3D models of roadways, bridges, and tunnels to support infrastructure maintenance, safety assessments, and future planning.
+                  {t("Create detailed 3D models of roadways, bridges, and tunnels to support infrastructure maintenance, safety assessments, and future planning.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -133,9 +135,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Engineering Solutions:
+                    {t("Engineering Solutions")}:
                   </Text>
-                  Offer expertise in transportation engineering, including design, analysis, and optimization of transportation systems.
+                  {t("Offer expertise in transportation engineering, including design, analysis, and optimization of transportation systems.")}
                 </Text>
               </VStack>
             </Box>
@@ -157,7 +159,7 @@ const App = () => {
           >
             <Box flex="1" p={4}>
               <Heading as="h2" size="lg" color="blue.900">
-                Benefit
+                {t("Benefit")}
               </Heading>
               <VStack align="start" spacing={2} mt={2}>
                 <Text fontSize="sm" color="gray.700">
@@ -167,9 +169,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Operational Efficiency: 
+                    {t("Operational Efficiency")}: 
                   </Text>
-                    Optimize routes, reduce fuel consumption, and improve delivery times through advanced analytics and real-time data.
+                    {t("Optimize routes, reduce fuel consumption, and improve delivery times through advanced analytics and real-time data.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -178,9 +180,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Enhanced Safety: 
+                    {t("Enhanced Safety")}: 
                   </Text>
-                    Identify and mitigate potential hazards by monitoring infrastructure conditions and traffic patterns.
+                    {t("Identify and mitigate potential hazards by monitoring infrastructure conditions and traffic patterns.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -189,9 +191,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                   Innovation:
+                   {t("Innovation")}:
                   </Text>
-                    Support the development of autonomous vehicles and smart city initiatives through high-quality data and modeling.
+                    {t("Support the development of autonomous vehicles and smart city initiatives through high-quality data and modeling.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -200,9 +202,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Environmental Impact Reduction:
+                    {t("Environmental Impact Reduction")}:
                   </Text>
-                    Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.
+                    {t("Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.")}
                 </Text>
               </VStack>
             </Box>

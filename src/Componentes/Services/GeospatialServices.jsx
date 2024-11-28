@@ -10,8 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const GeospatialServices = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Header />
@@ -39,10 +41,10 @@ const GeospatialServices = () => {
               color="white"
             >
               <Text fontSize="4xl" fontWeight="bold">
-                Geospatial Services
+                {t("Geospatial Services")}
               </Text>
               <Text fontSize="lg">
-                Q-Gate Infotech Private Limited / Geospatial Services
+                {t("Q-Gate Infotech Private Limited / Geospatial Services")}
               </Text>
             </Box>
           </Box>
@@ -52,10 +54,10 @@ const GeospatialServices = () => {
         <Box bg="white" py={8} mb={8}>
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Unlocking the Power of Spatial Data for Informed Decision-Making
+              {t("Unlocking the Power of Spatial Data for Informed Decision-Making")}
             </Heading>
             <Text color="gray.700">
-              At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:
+              {t("At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:")}
             </Text>
           </Container>
         </Box>
@@ -69,19 +71,19 @@ const GeospatialServices = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Image Data Processing
+                {t("Image Data Processing")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Enhancing high-res images from satellites, drones, and aerial platforms.
+                {t("Enhancing high-res images from satellites, drones, and aerial platforms.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Extracting key data for agriculture, urban planning, and environmental management.
+                {t("Extracting key data for agriculture, urban planning, and environmental management.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Providing actionable insights for better decision-making.
+                {t("Providing actionable insights for better decision-making.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting sustainable practices and efficient resource management.
+                {t("Supporting sustainable practices and efficient resource management.")}
               </Text>
             </GridItem>
             <GridItem
@@ -131,19 +133,19 @@ const GeospatialServices = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Hydro Flattening
+                  {t("Hydro Flattening")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Processing LiDAR data for accurate hydro-flattened DEMs.
+                  {t("Processing LiDAR data for accurate hydro-flattened DEMs.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Enhancing hydrological modeling with hydro-flattened surfaces.
+                  {t("Enhancing hydrological modeling with hydro-flattened surfaces.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Supporting flood risk assessment through hydro-flattened DEMs.
+                  {t("Supporting flood risk assessment through hydro-flattened DEMs.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Improving water resource management with precise elevation models.
+                  {t("Improving water resource management with precise elevation models.")}
                 </Text>
               </GridItem>
             </Grid>
@@ -158,19 +160,19 @@ const GeospatialServices = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Vegetation Analysis
+                {t("Vegetation Analysis")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Assessing vegetation health using multispectral and hyperspectral imagery.
+                {t("Assessing vegetation health using multispectral and hyperspectral imagery.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Estimating biomass for forestry and agricultural applications.
+                {t("Estimating biomass for forestry and agricultural applications.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Classifying land cover for ecological and environmental studies.
+                {t("Classifying land cover for ecological and environmental studies.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting forestry management, agriculture, and ecological research.
+                {t("Supporting forestry management, agriculture, and ecological research.")}
               </Text>
             </GridItem>
             <GridItem
@@ -220,19 +222,19 @@ const GeospatialServices = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Satellite Data Analysis
+                  {t("Satellite Data Analysis")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Monitoring environmental changes through satellite imagery.
+                  {t("Monitoring environmental changes through satellite imagery.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Assessing natural resources with satellite data analysis.
+                  {t("Assessing natural resources with satellite data analysis.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Supporting disaster management with real-time data.
+                  {t("Supporting disaster management with real-time data.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Enabling timely decision-making through data interpretation.
+                  {t("Enabling timely decision-making through data interpretation.")}
                 </Text>
               </GridItem>
             </Grid>

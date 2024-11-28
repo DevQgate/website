@@ -11,9 +11,11 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
   const servicesRef = useRef(null);
+  const { t } = useTranslation();
 
   const handleScrollToServices = () => {
     servicesRef.current.scrollIntoView({ behavior: "smooth" });
@@ -50,23 +52,17 @@ const App = () => {
               boxShadow="md"
             >
               <Heading as="h1" size="xl" mb={4}>
-                Energy and Utilities
+                {t("Energy and Utilities")}
               </Heading>
               <Text mb={4}>
-                At Q-Gate Infotech, we empower the energy and utilities sector
-                by providing innovative geospatial and engineering solutions
-                that enhance efficiency, promote sustainability, and drive
-                technological advancement. Our services enable energy providers,
-                utility companies, and government agencies to optimize
-                operations and meet the growing demand for clean, reliable
-                energy.{" "}
+                {t("At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy.")}{" "}
               </Text>
               <Button
                 colorScheme="yellow"
                 mt={4}
                 onClick={handleScrollToServices}
               >
-                Learn More
+                {t("Learn More")}
               </Button>
             </Box>
           </Box>
@@ -84,7 +80,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Our Services Include
+                  {t("Our Services Include")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -94,9 +90,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      GIS & Remote Sensing:
+                      {t("GIS & Remote Sensing")}:
                     </Text>
-                        Analyze spatial data for resource exploration, site selection, and infrastructure planning, ensuring optimal placement of energy facilities such as wind farms, solar arrays, and power plants.
+                        {t("Analyze spatial data for resource exploration, site selection, and infrastructure planning, ensuring optimal placement of energy facilities such as wind farms, solar arrays, and power plants.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -105,9 +101,10 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Image Processing:
+                    {t("Image Processing")}:
                     </Text>
-                        Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.                  </Text>
+                        {t("Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.  ")}                
+                    </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
                       as="span"
@@ -115,9 +112,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Annotations:
+                    {t("Annotations")}:
                     </Text>
-                        Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.
+                    {t("Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -126,9 +123,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      LiDAR Data Processing:
+                    {t("LiDAR Data Processing")}:
                     </Text>
-                        Generate accurate 3D models of terrain and infrastructure for designing transmission lines, pipelines, and utility networks.
+                    {t("Generate accurate 3D models of terrain and infrastructure for designing transmission lines, pipelines, and utility networks.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -137,9 +134,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Engineering Solutions:
+                    {t("Engineering Solutions")}:
                     </Text>
-                        Offer expertise in electrical and civil engineering to support grid modernization, renewable energy integration, and infrastructure upgrades.
+                    {t("Offer expertise in electrical and civil engineering to support grid modernization, renewable energy integration, and infrastructure upgrades.")}
                   </Text>
                 </VStack>
               </Box>
@@ -161,7 +158,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Benefit
+                {t("Benefit")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -171,9 +168,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Operational Efficiency:
+                    {t("Operational Efficiency")}:
                     </Text>
-                        Optimize energy production and distribution through precise data analysis and modeling.
+                    {t("Optimize energy production and distribution through precise data analysis and modeling.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -182,9 +179,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Sustainability:
+                    {t("Sustainability")}:
                     </Text>
-                        Facilitate the transition to renewable energy sources by identifying optimal sites and integrating clean energy into existing grids.
+                    {t("Facilitate the transition to renewable energy sources by identifying optimal sites and integrating clean energy into existing grids.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -193,9 +190,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Reliability:
+                    {t("Reliability")}:
                     </Text>
-                        Enhance infrastructure resilience and reduce downtime through predictive maintenance and real-time monitoring.
+                    {t("Enhance infrastructure resilience and reduce downtime through predictive maintenance and real-time monitoring.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -204,9 +201,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Regulatory Compliance:
+                    {t("Regulatory Compliance")}:
                     </Text>
-                        Ensure adherence to environmental regulations and safety standards through thorough analysis and reporting.
+                    {t("Ensure adherence to environmental regulations and safety standards through thorough analysis and reporting.")}
                   </Text>
                 </VStack>
               </Box>

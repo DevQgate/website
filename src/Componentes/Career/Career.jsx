@@ -280,13 +280,14 @@ const JobCard = ({
 );
 
 const JobOpportunities = () => {
+  const { t } = useTranslation();
   return (
     <Box bg="gray.100" p={8}>
       <Heading as="h1" size="xl" fontWeight="bold" textAlign="center" mb={8}>
         <Text as="span" color="green.500">
-          Job
+         {t("Job")} 
         </Text>{" "}
-        Opportunities
+        {t("Opportunities")}
       </Heading>
       <Grid templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }} gap={8}>
         <GridItem>

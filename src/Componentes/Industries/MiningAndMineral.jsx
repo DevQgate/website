@@ -11,8 +11,11 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
+
 
 const App = () => {
+  const { t } = useTranslation();
   const servicesRef = useRef(null);
 
   const handleScrollToServices = () => {
@@ -50,21 +53,17 @@ const App = () => {
               boxShadow="md"
             >
               <Heading as="h1" size="xl" mb={4}>
-                Mining & Mineral Exploration
+                {t("Mining & Mineral Exploration")}
               </Heading>
               <Text mb={4}>
-                Q-Gate Infotech provides cutting-edge geospatial and data
-                analytics solutions to the mining and mineral exploration
-                industry, enabling companies to discover resources efficiently
-                while minimizing environmental impact. Our expertise supports
-                exploration, planning, and operational optimization.
+                {t("Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization.")}
               </Text>
               <Button
                 colorScheme="yellow"
                 mt={4}
                 onClick={handleScrollToServices}
               >
-                Learn More
+                {t("Learn More")}
               </Button>
             </Box>
           </Box>
@@ -82,7 +81,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Our Services Include
+                  {t("Our Services Include")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -92,10 +91,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      GIS & Image Processing:
+                      {t("GIS & Image Processing")}:
                     </Text>
-                    Utilize spatial data to identify potential mineral deposits,
-                    map geological formations, and analyze terrain.
+                    {t("Utilize spatial data to identify potential mineral deposits, map geological formations, and analyze terrain.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -106,9 +104,7 @@ const App = () => {
                     >
                       Annotations:
                     </Text>
-                    Provide precise labeling of geological data to train AI
-                    models for mineral identification, enhancing exploration
-                    accuracy.
+                    {t("Provide precise labeling of geological data to train AI models for mineral identification, enhancing exploration accuracy.")}
                   </Text>
 
                   <Text fontSize="sm" color="gray.700">
@@ -118,10 +114,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      LiDAR Data Processing:
+                    {t("LiDAR Data Processing")}:
                     </Text>
-                    Create high-resolution topographic maps and 3D models of
-                    mining sites for planning and monitoring purposes.
+                    {t("Create high-resolution topographic maps and 3D models of mining sites for planning and monitoring purposes.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -130,11 +125,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Engineering Solutions:
+                    {t("Engineering Solutions")}:
                     </Text>
-                    Offer support in mine design, infrastructure development,
-                    and environmental compliance through advanced engineering
-                    practices.
+                    {t("Offer support in mine design, infrastructure development, and environmental compliance through advanced engineering practices.")}
                   </Text>
                 </VStack>
               </Box>
@@ -156,7 +149,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Benefit
+                {t("Benefit")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -166,10 +159,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Exploration Efficiency:
+                    {t("Exploration Efficiency")}:
                     </Text>
-                    Accelerate discovery of resources by accurately pinpointing
-                    potential sites using advanced geospatial analysis.
+                    {t("Accelerate discovery of resources by accurately pinpointing potential sites using advanced geospatial analysis.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -178,10 +170,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Operational Optimization:
+                    {t("Operational Optimization")}:
                     </Text>
-                    Improve mine planning and resource extraction processes
-                    through detailed modeling and simulation.
+                    {t("Improve mine planning and resource extraction processes through detailed modeling and simulation.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -190,10 +181,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Environmental Stewardship:
+                    {t("Environmental Stewardship")}:
                     </Text>
-                    Reduce ecological footprint by integrating sustainable
-                    practices and complying with environmental regulations.
+                    {t("Reduce ecological footprint by integrating sustainable practices and complying with environmental regulations.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -202,10 +192,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Safety Enhancement:
+                    {t("Safety Enhancement")}:
                     </Text>
-                    Identify potential hazards and implement measures to protect
-                    workers and assets.
+                    {t("Identify potential hazards and implement measures to protect workers and assets.")}
                   </Text>
                 </VStack>
               </Box>

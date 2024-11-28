@@ -10,8 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const SoftwareDevelopment = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Header />
@@ -39,10 +41,10 @@ const SoftwareDevelopment = () => {
               color="white"
             >
               <Text fontSize="4xl" fontWeight="bold">
-                Software Development
+                {t("Software Development")}
               </Text>
               <Text fontSize="lg">
-                Q-Gate Infotech Private Limited / Software Development
+                {t("Q-Gate Infotech Private Limited / Software Development")}
               </Text>
             </Box>
           </Box>
@@ -52,10 +54,10 @@ const SoftwareDevelopment = () => {
         <Box bg="white" py={8} mb={8}>
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Empowering Your Business with Tailored Software Solutions
+              {t("Empowering Your Business with Tailored Software Solutions")}
             </Heading>
             <Text color="gray.700">
-              At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:
+              {t("At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:")}
             </Text>
           </Container>
         </Box>
@@ -69,19 +71,19 @@ const SoftwareDevelopment = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Custom Software Development
+                {t("Custom Software Development")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Developing software solutions tailored to unique business needs across industries.
+                {t("Developing software solutions tailored to unique business needs across industries.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Leveraging the latest technologies for robust and scalable applications.
+                {t("Leveraging the latest technologies for robust and scalable applications.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Creating user-friendly designs that enhance operational efficiency.
+                {t("Creating user-friendly designs that enhance operational efficiency.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Supporting business growth through innovative and customized software.
+                {t("Supporting business growth through innovative and customized software.")}
               </Text>
             </GridItem>
             <GridItem
@@ -132,19 +134,19 @@ const SoftwareDevelopment = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Web Development
+                  {t("Web Development")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Building responsive, dynamic websites that enhance user engagement.
+                  {t("Building responsive, dynamic websites that enhance user engagement.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Utilizing modern web technologies for optimized speed and performance.
+                  {t("Utilizing modern web technologies for optimized speed and performance.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Designing intuitive interfaces for an exceptional user experience.
+                  {t("Designing intuitive interfaces for an exceptional user experience.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Ensuring seamless functionality across all devices and platforms.
+                  {t("Ensuring seamless functionality across all devices and platforms.")}
                 </Text>
               </GridItem>
             </Grid>
@@ -160,19 +162,19 @@ const SoftwareDevelopment = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Mobile Application Development
+                {t("Mobile Application Development")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Developing high-performance mobile apps for both Android and iOS platforms.
+                {t("Developing high-performance mobile apps for both Android and iOS platforms.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Crafting intuitive and engaging user interfaces for an optimal mobile experience.
+                {t("Crafting intuitive and engaging user interfaces for an optimal mobile experience.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Ensuring compatibility and smooth functionality across a variety of devices.
+                {t("Ensuring compatibility and smooth functionality across a variety of devices.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Integrating advanced features to enhance usability and meet business goals.
+                {t("Integrating advanced features to enhance usability and meet business goals.")}
               </Text>
             </GridItem>
             <GridItem
@@ -223,19 +225,19 @@ const SoftwareDevelopment = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Enterprise Management Solutions
+                  {t("Enterprise Management Solutions")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Implementing ERP and CRM systems to streamline resource management.
+                  {t("Implementing ERP and CRM systems to streamline resource management.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Enhancing communication and collaboration across teams.
+                  {t("Enhancing communication and collaboration across teams.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Optimizing workflows with automation tools for greater efficiency.
+                  {t("Optimizing workflows with automation tools for greater efficiency.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Supporting informed decision-making to improve overall business operations.
+                  {t("Supporting informed decision-making to improve overall business operations.")}
                 </Text>
               </GridItem>
             </Grid>

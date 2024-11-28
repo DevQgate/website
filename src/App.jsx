@@ -24,6 +24,7 @@ import MiningAndMineral from "./Componentes/Industries/MiningAndMineral.jsx"
 import OilAndGas from "./Componentes/Industries/OilAndGas.jsx"
 import Education from "./Componentes/Industries/Education.jsx"
 import Service from "./Componentes/Services/Service.jsx"
+import TalentSolutions from "./Componentes/Services/TalentSolutions.jsx";
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
           {/* <Contact />    */}
           
                     
-          {/* <Industries/> */}
+          <Industries/>
 
           {/* <Agriculture/> */}
           {/* <MarinesWaterManagement/> */}
@@ -56,12 +57,13 @@ function App() {
           {/* <Service/> */}
 
           {/* <GeospatialServices/> */}
-          <SoftwareDevelopment/>
+          {/* <SoftwareDevelopment/> */}
           {/* <DataAnalytics/> */}
           {/* <EngineeringSolutions/> */}
           {/* <CloudAI_ML/> */}
           {/* <ProfessionalTraining/> */}
           {/* <ContentAnnotation/> */}
+          {/* <TalentSolutions/> */}
 
           
           {/* <Footer /> */}

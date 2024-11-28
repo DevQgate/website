@@ -352,6 +352,538 @@ i18n
             "Optimizing workflows with automation tools for greater efficiency.",
           "Supporting informed decision-making to improve overall business operations.":
             "Supporting informed decision-making to improve overall business operations.",
+
+          //Service - Data Analytics
+          "Data Analytics": "Data Analytics",
+          "Q-Gate Infotech Private Limited / Data Analytics":
+            "Q-Gate Infotech Private Limited / Data Analytics",
+          "Unlocking the Power of Spatial Data for Informed Decision-Making":
+            "Unlocking the Power of Spatial Data for Informed Decision-Making",
+          "At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:":
+            "At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:",
+          "Advanced Imagery Analytics": "Advanced Imagery Analytics",
+          "Extracting meaningful patterns from high-resolution satellite and aerial imagery.":
+            "Extracting meaningful patterns from high-resolution satellite and aerial imagery.",
+          "Enabling informed decision-making in agriculture, forestry, mining, and urban planning.":
+            "Enabling informed decision-making in agriculture, forestry, mining, and urban planning.",
+          "Providing real-time data insights for accurate trend analysis.":
+            "Providing real-time data insights for accurate trend analysis.",
+          "Supporting industry-specific insights to drive efficiency and innovation.":
+            "Supporting industry-specific insights to drive efficiency and innovation.",
+          "Spectral Analysis": "Spectral Analysis",
+          "Identifying material compositions through multispectral and hyperspectral imaging.":
+            "Identifying material compositions through multispectral and hyperspectral imaging.",
+          "Assessing vegetation health for environmental monitoring and precision agriculture.":
+            "Assessing vegetation health for environmental monitoring and precision agriculture.",
+          "Locating mineral deposits critical to resource exploration.":
+            "Locating mineral deposits critical to resource exploration.",
+          "Supporting mineral exploration and environmental applications.":
+            "Supporting mineral exploration and environmental applications.",
+          "Computer Vision Applications": "Computer Vision Applications",
+          "Developing models for object detection and classification.":
+            "Developing models for object detection and classification.",
+          "Enabling automated surveillance and monitoring systems.":
+            "Enabling automated surveillance and monitoring systems.",
+          "Supporting automation across industries through advanced vision tech.":
+            "Supporting automation across industries through advanced vision tech.",
+          "Tracking and analyzing objects in real time for various applications.":
+            "Tracking and analyzing objects in real time for various applications.",
+
+          //Service - Cloud-Based AI/ML Solutions
+          "Cloud-Based AI/ML Solutions": "Cloud-Based AI/ML Solutions",
+          "Q-Gate Infotech Private Limited / Cloud-Based AI/ML Solutions":
+            "Q-Gate Infotech Private Limited / Cloud-Based AI/ML Solutions",
+          "Driving Innovation with Scalable Cloud and Artificial Intelligence Technologies":
+            "Driving Innovation with Scalable Cloud and Artificial Intelligence Technologies",
+          "At Q-Gate Infotech, we leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward. Our Cloud-Based AI/ML Solutions offer:":
+            "At Q-Gate Infotech, we leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward. Our Cloud-Based AI/ML Solutions offer:",
+          "Development of Intelligent Applications":
+            "Development of Intelligent Applications",
+          "Enables predictive analytics for informed decision-making.":
+            "Enables predictive analytics for informed decision-making.",
+          "Streamlines tasks through automation to boost efficiency.":
+            "Streamlines tasks through automation to boost efficiency.",
+          "Supports real-time decision-making with rapid response to data.":
+            "Supports real-time decision-making with rapid response to data.",
+          "Continuously evolves through adaptive learning to provide insights.":
+            "Continuously evolves through adaptive learning to provide insights.",
+          "Integration with Geospatial Data":
+            "Integration with Geospatial Data",
+          "Integrates AI/ML with geospatial data for enhanced insights.":
+            "Integrates AI/ML with geospatial data for enhanced insights.",
+          "Enables pattern recognition in complex spatial datasets.":
+            "Enables pattern recognition in complex spatial datasets.",
+          "Supports anomaly detection for identifying unusual patterns.":
+            "Supports anomaly detection for identifying unusual patterns.",
+          "Enhances predictive modeling for urban planning and resource management.":
+            "Enhances predictive modeling for urban planning and resource management.",
+          "Scalable Cloud Infrastructure": "Scalable Cloud Infrastructure",
+          "Provides accessibility from anywhere for seamless operations.":
+            "Provides accessibility from anywhere for seamless operations.",
+          "Supports efficient data processing and storage for large datasets.":
+            "Supports efficient data processing and storage for large datasets.",
+          "Reduces need for on-premise infrastructure investment.":
+            "Reduces need for on-premise infrastructure investment.",
+          "Customized AI Models": "Customized AI Models",
+          "Develops custom ML models tailored to specific business needs.":
+            "Develops custom ML models tailored to specific business needs.",
+          "Specializes in language processing, computer vision, and predictive analytics.":
+            "Specializes in language processing, computer vision, and predictive analytics.",
+          "Builds models that provide actionable insights for decision-making.":
+            "Builds models that provide actionable insights for decision-making.",
+          "Delivers solutions that adapt to evolving business challenges.":
+            "Delivers solutions that adapt to evolving business challenges.",
+
+          //Service - Professional Training
+          "Professional Training": "Professional Training",
+          "Q-Gate Infotech / Professional Training":
+            "Q-Gate Infotech / Professional Training",
+          "At Q-Gate Infotech, we believe that investing in people is key to driving innovation and achieving excellence.":
+            "At Q-Gate Infotech, we believe that investing in people is key to driving innovation and achieving excellence.",
+          "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology. Our initiatives include:":
+            "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology. Our initiatives include:",
+          "On-the-Job Training Programs": "On-the-Job Training Programs",
+          "Hands-on training with real projects.":
+            "Hands-on training with real projects.",
+          "Mentorship from experienced professionals.":
+            "Mentorship from experienced professionals.",
+          "Accelerates learning through practical experience.":
+            "Accelerates learning through practical experience.",
+          "Prepares individuals for industry demands.":
+            "Prepares individuals for industry demands.",
+          "Internships with Stipends": "Internships with Stipends",
+          "Paid internships for financial support.":
+            "Paid internships for financial support.",
+          "Develop essential industry exposure.":
+            "Develop essential industry exposure.",
+          "Contribute meaningfully to real projects.":
+            "Contribute meaningfully to real projects.",
+          "Gain insights into professional workflows.":
+            "Gain insights into professional workflows.",
+          "Collaborations with Educational Institutions":
+            "Collaborations with Educational Institutions",
+          "Enhance curricula with industry insights.":
+            "Enhance curricula with industry insights.",
+          "Bridge the gap between academia and industry.":
+            "Bridge the gap between academia and industry.",
+          "Sponsor innovative research projects.":
+            "Sponsor innovative research projects.",
+          "Encourage student engagement with technology.":
+            "Encourage student engagement with technology.",
+          "Empowering Rural Development": "Empowering Rural Development",
+          "Focus on recruiting talent from rural areas.":
+            "Focus on recruiting talent from rural areas.",
+          "Provide equal opportunities for local communities.":
+            "Provide equal opportunities for local communities.",
+          "Stimulate economic growth in underserved regions.":
+            "Stimulate economic growth in underserved regions.",
+          "Contribute to social responsibility and community upliftment.":
+            "Contribute to social responsibility and community upliftment.",
+
+          //Service - Talent Solutions
+
+          "Talent Solutions": "Talent Solutions",
+          "Q-Gate Infotech / Talent Solutions":
+            "Q-Gate Infotech / Talent Solutions",
+          "At Q-Gate Infotech, we recognize that having the right talent is crucial for organizational success.":
+            "At Q-Gate Infotech, we recognize that having the right talent is crucial for organizational success.",
+          "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals, enabling your business to meet its objectives effectively. Our offerings include:":
+            "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals, enabling your business to meet its objectives effectively. Our offerings include:",
+          "Staff Augmentation": "Staff Augmentation",
+          "Qualified experts to supplement your teams.":
+            "Qualified experts to supplement your teams.",
+          "Scalable resources based on project demands.":
+            "Scalable resources based on project demands.",
+          "Seamless integration with your existing workforce.":
+            "Seamless integration with your existing workforce.",
+          "Expertise in geospatial technologies, software, and analytics.":
+            "Expertise in geospatial technologies, software, and analytics.",
+          "Dedicated Project Teams": "Dedicated Project Teams",
+          "Exclusive teams focused on your assignments.":
+            "Exclusive teams focused on your assignments.",
+          "Ensures alignment with organizational goals.":
+            "Ensures alignment with organizational goals.",
+          "Consistent collaboration with your internal teams.":
+            "Consistent collaboration with your internal teams.",
+          "Promotes organizational culture fit.":
+            "Promotes organizational culture fit.",
+          "Flexible Engagement Models": "Flexible Engagement Models",
+          "Tailored engagement options based on business needs.":
+            "Tailored engagement options based on business needs.",
+          "Short-term contracts for quick solutions.":
+            "Short-term contracts for quick solutions.",
+          "Long-term placements for sustained support.":
+            "Long-term placements for sustained support.",
+          "Project-based arrangements for specific goals.":
+            "Project-based arrangements for specific goals.",
+          "Quality Assurance and Compliance":
+            "Quality Assurance and Compliance",
+          "Rigorous vetting of all professionals.":
+            "Rigorous vetting of all professionals.",
+          "Ensure high standards of technical proficiency.":
+            "Ensure high standards of technical proficiency.",
+          "Handle all HR management and compliance aspects.":
+            "Handle all HR management and compliance aspects.",
+          "Focus on your core business while we manage the rest.":
+            "Focus on your core business while we manage the rest.",
+
+          //Service - Engineering Solution
+
+          "Engineering Solutions": "Engineering Solutions",
+          "Q-Gate Infotech Private Limited / Engineering Solutions":
+            "Q-Gate Infotech Private Limited / Engineering Solutions",
+          "Innovative Engineering for Sustainable Development":
+            "Innovative Engineering for Sustainable Development",
+          "Q-Gate Infotech's Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development and optimization of infrastructure and industrial projects. Our services aim to enhance efficiency, sustainability and innovation in engineering practices. We offer:":
+            "Q-Gate Infotech's Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development and optimization of infrastructure and industrial projects. Our services aim to enhance efficiency, sustainability and innovation in engineering practices. We offer:",
+          "Building Information Modeling (BIM)":
+            "Building Information Modeling (BIM)",
+          "Developing detailed and intelligent 3D models of buildings and infrastructure.":
+            "Developing detailed and intelligent 3D models of buildings and infrastructure.",
+          "Enabling effective visualization, simulation, and project management.":
+            "Enabling effective visualization, simulation, and project management.",
+          "Facilitating collaboration, reducing errors, and streamlining delivery.":
+            "Facilitating collaboration, reducing errors, and streamlining delivery.",
+          "Reverse Engineering for Existing Structures":
+            "Reverse Engineering for Existing Structures",
+          "Utilizing advanced scanning and modeling for structural analysis.":
+            "Utilizing advanced scanning and modeling for structural analysis.",
+          "Assisting renovation planning, analysis, and maintenance scheduling.":
+            "Assisting renovation planning, analysis, and maintenance scheduling.",
+          "Ensuring longevity and safety of infrastructure assets.":
+            "Ensuring longevity and safety of infrastructure assets.",
+          "Engineering Consultancy": "Engineering Consultancy",
+          "Providing expert consultancy across various engineering projects.":
+            "Providing expert consultancy across various engineering projects.",
+          "Conducting feasibility studies, environmental assessments, and optimization.":
+            "Conducting feasibility studies, environmental assessments, and optimization.",
+          "Enhancing project outcomes with multidisciplinary expertise.":
+            "Enhancing project outcomes with multidisciplinary expertise.",
+
+          //Service - Content Annotation
+
+          "Content Annotation": "Content Annotation",
+          "Q-Gate Infotech / Content Annotation":
+            "Q-Gate Infotech / Content Annotation",
+          "At Q-Gate Infotech, we understand that precise data annotation is the foundation of effective AI and machine learning models.":
+            "At Q-Gate Infotech, we understand that precise data annotation is the foundation of effective AI and machine learning models.",
+          "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency. Our offerings include:":
+            "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency. Our offerings include:",
+          "Image, Video, and Text Annotation":
+            "Image, Video, and Text Annotation",
+          "Annotating images, videos, and text for AI model training.":
+            "Annotating images, videos, and text for AI model training.",
+          "Supports computer vision and natural language processing applications.":
+            "Supports computer vision and natural language processing applications.",
+          "Ensures precise data labeling for reliable model performance.":
+            "Ensures precise data labeling for reliable model performance.",
+          "Facilitates accurate object recognition and text understanding.":
+            "Facilitates accurate object recognition and text understanding.",
+          "Point Cloud Annotation": "Point Cloud Annotation",
+          "Annotating 3D point cloud data for object recognition.":
+            "Annotating 3D point cloud data for object recognition.",
+          "Essential for autonomous vehicles and robotics applications.":
+            "Essential for autonomous vehicles and robotics applications.",
+          "Supports scene understanding and environmental modeling.":
+            "Supports scene understanding and environmental modeling.",
+          "Leverages LiDAR technology for detailed spatial analysis.":
+            "Leverages LiDAR technology for detailed spatial analysis.",
+          "Object Detection and Semantic Segmentation":
+            "Object Detection and Semantic Segmentation",
+          "Detailed annotations for object detection tasks.":
+            "Detailed annotations for object detection tasks.",
+          "Pixel-level semantic segmentation for precise visual data interpretation.":
+            "Pixel-level semantic segmentation for precise visual data interpretation.",
+          "Enables accurate understanding of complex visual data.":
+            "Enables accurate understanding of complex visual data.",
+          "Supports advanced computer vision applications.":
+            "Supports advanced computer vision applications.",
+
+          // Industries - Agriculture
+          Agriculture: "Agriculture",
+          "At Q-Gate Infotech, we empower the agriculture and forestry sectors by harnessing cutting-edge geospatial technologies and data analytics to promote sustainable practices and optimize productivity. Our comprehensive solutions enable farmers, agribusinesses, and forestry managers to make informed decisions through precise, real-time insights.":
+            "At Q-Gate Infotech, we empower the agriculture and forestry sectors by harnessing cutting-edge geospatial technologies and data analytics to promote sustainable practices and optimize productivity. Our comprehensive solutions enable farmers, agribusinesses, and forestry managers to make informed decisions through precise, real-time insights.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Remote Sensing": "GIS & Remote Sensing",
+          "Utilize spatial data to monitor agricultural lands and forest ecosystems, enabling precise mapping and analysis.":
+            "Utilize spatial data to monitor agricultural lands and forest ecosystems, enabling precise mapping and analysis.",
+          "Image Processing Analysis": "Image Processing Analysis",
+          "Interpret high-resolution satellite and aerial imagery to assess crop health, soil conditions, and detect pests or diseases early.":
+            "Interpret high-resolution satellite and aerial imagery to assess crop health, soil conditions, and detect pests or diseases early.",
+          "Vegetation Analysis": "Vegetation Analysis",
+          "Conduct detailed assessments of vegetation cover, growth patterns, biomass estimation, and species classification to support sustainable forest management and conservation efforts.":
+            "Conduct detailed assessments of vegetation cover, growth patterns, biomass estimation, and species classification to support sustainable forest management and conservation efforts.",
+          Annotations: "Annotations",
+          "Provide precise labeling of imagery to train AI models for predictive analytics, facilitating precision agriculture and efficient resource management.":
+            "Provide precise labeling of imagery to train AI models for predictive analytics, facilitating precision agriculture and efficient resource management.",
+          "LiDAR Measurement Analysis": "LiDAR Measurement Analysis",
+          "Use LiDAR technology to generate accurate 3D models of terrain and vegetation structures, assisting in land assessment, irrigation planning, and forest inventory.":
+            "Use LiDAR technology to generate accurate 3D models of terrain and vegetation structures, assisting in land assessment, irrigation planning, and forest inventory.",
+          Benefit: "Benefit",
+          "Enhanced Crop Yields": "Enhanced Crop Yields",
+          "Optimize planting schedules, irrigation, and fertilization through precise data analysis.":
+            "Optimize planting schedules, irrigation, and fertilization through precise data analysis.",
+          "Resource Efficiency": "Resource Efficiency",
+          "Reduce waste and improve resource utilization by targeting interventions where they are most needed.":
+            "Reduce waste and improve resource utilization by targeting interventions where they are most needed.",
+          Sustainability: "Sustainability",
+          "Promote environmentally friendly practices by effectively monitoring and managing land use.":
+            "Promote environmentally friendly practices by effectively monitoring and managing land use.",
+          "Risk Mitigation": "Risk Mitigation",
+          "Identify potential threats such as pest infestations or environmental stressors early to prevent losses.":
+            "Identify potential threats such as pest infestations or environmental stressors early to prevent losses.",
+
+          // Industries - Education
+
+          Education: "Education",
+          "Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry.":
+            "Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "Professional Training Programs": "Professional Training Programs",
+          "Offer courses in GIS, remote sensing, AI/ML, software development, data analytics, and engineering, tailored to meet industry demands.":
+            "Offer courses in GIS, remote sensing, AI/ML, software development, data analytics, and engineering, tailored to meet industry demands.",
+          "On-the-Job Training and Internships":
+            "On-the-Job Training and Internships",
+          "Provide hands-on experience through internships without stipends, allowing participants to apply their learning to real-world projects.":
+            "Provide hands-on experience through internships without stipends, allowing participants to apply their learning to real-world projects.",
+          "Collaborations with Educational Institutions":
+            "Collaborations with Educational Institutions",
+          "Partner with universities and colleges through MoUs to update curricula, support research initiatives, and facilitate knowledge exchange.":
+            "Partner with universities and colleges through MoUs to update curricula, support research initiatives, and facilitate knowledge exchange.",
+          "Project Sponsorships and Scholarships":
+            "Project Sponsorships and Scholarships",
+          "Support innovative projects, research activities, and provide financial assistance to promising students.":
+            "Support innovative projects, research activities, and provide financial assistance to promising students.",
+          "Empowering Rural Development": "Empowering Rural Development",
+          "Focus on recruiting and training individuals from rural areas, promoting equal opportunities and contributing to community upliftment.":
+            "Focus on recruiting and training individuals from rural areas, promoting equal opportunities and contributing to community upliftment.",
+          Benefit: "Benefit",
+          "Skill Enhancement": "Skill Enhancement",
+          "Equip individuals with the latest technological skills required in today's job market.":
+            "Equip individuals with the latest technological skills required in today's job market.",
+          "Career Development": "Career Development",
+          "Provide pathways for fresh graduates and professionals to build successful careers in technology.":
+            "Provide pathways for fresh graduates and professionals to build successful careers in technology.",
+          "Industry-Academia Collaboration": "Industry-Academia Collaboration",
+          "Strengthen connections between educational institutions and industry to align education with practical needs.":
+            "Strengthen connections between educational institutions and industry to align education with practical needs.",
+          "Social Impact": "Social Impact",
+          "Contribute to societal development by empowering individuals and fostering innovation.":
+            "Contribute to societal development by empowering individuals and fostering innovation.",
+
+          // Industries - Energy & Utilities
+
+          "Energy and Utilities": "Energy and Utilities",
+          "At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy.":
+            "At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Remote Sensing": "GIS & Remote Sensing",
+          "Analyze spatial data for resource exploration, site selection, and infrastructure planning, ensuring optimal placement of energy facilities such as wind farms, solar arrays, and power plants.":
+            "Analyze spatial data for resource exploration, site selection, and infrastructure planning, ensuring optimal placement of energy facilities such as wind farms, solar arrays, and power plants.",
+          "Image Processing": "Image Processing",
+          "Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.":
+            "Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.",
+          Annotations: "Annotations",
+          "Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.":
+            "Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.",
+          "LiDAR Data Processing": "LiDAR Data Processing",
+          "Generate accurate 3D models of terrain and infrastructure for designing transmission lines, pipelines, and utility networks.":
+            "Generate accurate 3D models of terrain and infrastructure for designing transmission lines, pipelines, and utility networks.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Offer expertise in electrical and civil engineering to support grid modernization, renewable energy integration, and infrastructure upgrades.":
+            "Offer expertise in electrical and civil engineering to support grid modernization, renewable energy integration, and infrastructure upgrades.",
+          Benefit: "Benefit",
+          "Operational Efficiency": "Operational Efficiency",
+          "Optimize energy production and distribution through precise data analysis and modeling.":
+            "Optimize energy production and distribution through precise data analysis and modeling.",
+          Sustainability: "Sustainability",
+          "Facilitate the transition to renewable energy sources by identifying optimal sites and integrating clean energy into existing grids.":
+            "Facilitate the transition to renewable energy sources by identifying optimal sites and integrating clean energy into existing grids.",
+          Reliability: "Reliability",
+          "Enhance infrastructure resilience and reduce downtime through predictive maintenance and real-time monitoring.":
+            "Enhance infrastructure resilience and reduce downtime through predictive maintenance and real-time monitoring.",
+          "Regulatory Compliance": "Regulatory Compliance",
+          "Ensure adherence to environmental regulations and safety standards through thorough analysis and reporting.":
+            "Ensure adherence to environmental regulations and safety standards through thorough analysis and reporting.",
+
+          // Industries - Infrastructure Development
+          "Infrastructure Development": "Infrastructure Development",
+          "At Q-Gate Infotech, we drive infrastructure development by providing comprehensive geospatial and engineering solutions that enable planners, architects, and developers to design and construct smarter, more sustainable infrastructure.":
+            "At Q-Gate Infotech, we drive infrastructure development by providing comprehensive geospatial and engineering solutions that enable planners, architects, and developers to design and construct smarter, more sustainable infrastructure.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Remote Sensing": "GIS & Remote Sensing",
+          "Collect and analyze spatial data for site selection, feasibility studies, and impact assessments, ensuring projects are grounded in accurate geographic information.":
+            "Collect and analyze spatial data for site selection, feasibility studies, and impact assessments, ensuring projects are grounded in accurate geographic information.",
+          "Image Processing Analysis": "Image Processing Analysis",
+          "Interpret high-resolution imagery to monitor construction progress, assess environmental impact, and detect changes in land use.":
+            "Interpret high-resolution imagery to monitor construction progress, assess environmental impact, and detect changes in land use.",
+          Annotations: "Annotations",
+          "Provide detailed data annotation to train AI models for automated feature extraction, aiding in urban planning and infrastructure maintenance.":
+            "Provide detailed data annotation to train AI models for automated feature extraction, aiding in urban planning and infrastructure maintenance.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Deliver expert engineering services, including structural analysis, design optimization, and Building Information Modeling (BIM), to streamline project workflows.":
+            "Deliver expert engineering services, including structural analysis, design optimization, and Building Information Modeling (BIM), to streamline project workflows.",
+          "LiDAR Measurement Analysis": "LiDAR Measurement Analysis",
+          "Generate precise 3D models and digital elevation models (DEMs) for terrain analysis, aiding in the design of roads, bridges, and other infrastructure components.":
+            "Generate precise 3D models and digital elevation models (DEMs) for terrain analysis, aiding in the design of roads, bridges, and other infrastructure components.",
+          Benefit: "Benefit",
+          "Enhanced Planning": "Enhanced Planning",
+          "Make informed decisions with accurate spatial data, reducing risks and unforeseen challenges.":
+            "Make informed decisions with accurate spatial data, reducing risks and unforeseen challenges.",
+          "Cost Efficiency": "Cost Efficiency",
+          Sustainability: "Sustainability",
+          "Incorporate environmental considerations into infrastructure projects to minimize ecological impact and promote long-term viability.":
+            "Incorporate environmental considerations into infrastructure projects to minimize ecological impact and promote long-term viability.",
+          "Regulatory Compliance": "Regulatory Compliance",
+          "Ensure adherence to zoning laws, environmental regulations, and building codes through detailed analysis and documentation.":
+            "Ensure adherence to zoning laws, environmental regulations, and building codes through detailed analysis and documentation.",
+
+          // Industries - Marine & Water Resource Management
+
+          "Marine & Water Resource Management":
+            "Marine & Water Resource Management",
+          "Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments.":
+            "Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Remote Sensing": "GIS & Remote Sensing",
+          "Leverage spatial data to monitor marine ecosystems, coastal zones, and freshwater bodies for environmental changes and resource assessment.":
+            "Leverage spatial data to monitor marine ecosystems, coastal zones, and freshwater bodies for environmental changes and resource assessment.",
+          "Sea & Water Bed Mapping": "Sea & Water Bed Mapping",
+          "Generate detailed bathymetric maps of seabeds and riverbeds using sonar and LiDAR technologies for navigation safety, resource exploration, and habitat mapping.":
+            "Generate detailed bathymetric maps of seabeds and riverbeds using sonar and LiDAR technologies for navigation safety, resource exploration, and habitat mapping.",
+          "Hydro Flattening": "Hydro Flattening",
+          "Apply hydro-flattening techniques to LiDAR data to accurately represent water surfaces in digital elevation models, essential for flood modeling and hydrological studies.":
+            "Apply hydro-flattening techniques to LiDAR data to accurately represent water surfaces in digital elevation models, essential for flood modeling and hydrological studies.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Offer expertise in coastal infrastructure development, erosion control, and shoreline management to protect against sea-level rise and extreme weather events.":
+            "Offer expertise in coastal infrastructure development, erosion control, and shoreline management to protect against sea-level rise and extreme weather events.",
+          "LiDAR Measurement Analysis": "LiDAR Measurement Analysis",
+          "Process LiDAR data to create high-resolution 3D models of coastal and underwater terrains, supporting dredging operations, port development, and environmental monitoring.":
+            "Process LiDAR data to create high-resolution 3D models of coastal and underwater terrains, supporting dredging operations, port development, and environmental monitoring.",
+          Benefit: "Benefit",
+          "Resource Optimization": "Resource Optimization",
+          "Manage fisheries and aquatic resources sustainably by understanding population dynamics and habitat conditions.":
+            "Manage fisheries and aquatic resources sustainably by understanding population dynamics and habitat conditions.",
+          "Environmental Protection": "Environmental Protection",
+          "Monitor water quality, detect pollution sources, and assess the impact of human activities on marine ecosystems.":
+            "Monitor water quality, detect pollution sources, and assess the impact of human activities on marine ecosystems.",
+          "Risk Management": "Risk Management",
+          "Enhance disaster preparedness by modeling storm surges, flooding, and coastal erosion scenarios.":
+            "Enhance disaster preparedness by modeling storm surges, flooding, and coastal erosion scenarios.",
+          "Infrastructure Development": "Infrastructure Development",
+          "Support the planning and maintenance of maritime infrastructure such as ports, harbors, and offshore installations.":
+            "Support the planning and maintenance of maritime infrastructure such as ports, harbors, and offshore installations.",
+
+          // Industries - Mining & Mineral Exploration
+
+          "Mining & Mineral Exploration": "Mining & Mineral Exploration",
+          "Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization.":
+            "Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Image Processing": "GIS & Image Processing",
+          "Utilize spatial data to identify potential mineral deposits, map geological formations, and analyze terrain.":
+            "Utilize spatial data to identify potential mineral deposits, map geological formations, and analyze terrain.",
+          Annotations: "Annotations",
+          "Provide precise labeling of geological data to train AI models for mineral identification, enhancing exploration accuracy.":
+            "Provide precise labeling of geological data to train AI models for mineral identification, enhancing exploration accuracy.",
+          "LiDAR Data Processing": "LiDAR Data Processing",
+          "Create high-resolution topographic maps and 3D models of mining sites for planning and monitoring purposes.":
+            "Create high-resolution topographic maps and 3D models of mining sites for planning and monitoring purposes.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Offer support in mine design, infrastructure development, and environmental compliance through advanced engineering practices.":
+            "Offer support in mine design, infrastructure development, and environmental compliance through advanced engineering practices.",
+          Benefit: "Benefit",
+          "Exploration Efficiency": "Exploration Efficiency",
+          "Accelerate discovery of resources by accurately pinpointing potential sites using advanced geospatial analysis.":
+            "Accelerate discovery of resources by accurately pinpointing potential sites using advanced geospatial analysis.",
+          "Operational Optimization": "Operational Optimization",
+          "Improve mine planning and resource extraction processes through detailed modeling and simulation.":
+            "Improve mine planning and resource extraction processes through detailed modeling and simulation.",
+          "Environmental Stewardship": "Environmental Stewardship",
+          "Reduce ecological footprint by integrating sustainable practices and complying with environmental regulations.":
+            "Reduce ecological footprint by integrating sustainable practices and complying with environmental regulations.",
+          "Safety Enhancement": "Safety Enhancement",
+          "Identify potential hazards and implement measures to protect workers and assets.":
+            "Identify potential hazards and implement measures to protect workers and assets.",
+
+          // Industries - Oil and Gas Industry
+          "Oil and Gas Industry": "Oil and Gas Industry",
+          "At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges and operate efficiently in a competitive market.":
+            "At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges and operate efficiently in a competitive market.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Remote Sensing": "GIS & Remote Sensing",
+          "Analyze spatial data for exploration mapping, pipeline routing, and environmental monitoring.":
+            "Analyze spatial data for exploration mapping, pipeline routing, and environmental monitoring.",
+          "Image Processing": "Image Processing",
+          "Interpret seismic imagery and satellite data to identify geological features and assess potential drilling sites.":
+            "Interpret seismic imagery and satellite data to identify geological features and assess potential drilling sites.",
+          Annotations: "Annotations",
+          "Provide data labeling for AI models used in reservoir characterization, predictive maintenance, and operational optimization.":
+            "Provide data labeling for AI models used in reservoir characterization, predictive maintenance, and operational optimization.",
+          "LiDAR Data Processing": "LiDAR Data Processing",
+          "Generate accurate 3D models of terrains and offshore platforms for planning and safety assessments.":
+            "Generate accurate 3D models of terrains and offshore platforms for planning and safety assessments.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Deliver expertise in petroleum engineering, infrastructure design, and process optimization.":
+            "Deliver expertise in petroleum engineering, infrastructure design, and process optimization.",
+          Benefit: "Benefit",
+          "Exploration Enhancement": "Exploration Enhancement",
+          "Increase success rates in finding new reserves through advanced data analysis and modeling.":
+            "Increase success rates in finding new reserves through advanced data analysis and modeling.",
+          "Operational Efficiency": "Operational Efficiency",
+          "Optimize production processes and reduce downtime with predictive analytics and real-time monitoring.":
+            "Optimize production processes and reduce downtime with predictive analytics and real-time monitoring.",
+          "Risk Mitigation": "Risk Mitigation",
+          "Identify and manage risks associated with exploration and production activities, including environmental and safety concerns.":
+            "Identify and manage risks associated with exploration and production activities, including environmental and safety concerns.",
+          "Regulatory Compliance": "Regulatory Compliance",
+          "Ensure adherence to industry regulations and environmental standards through comprehensive analysis and reporting.":
+            "Ensure adherence to industry regulations and environmental standards through comprehensive analysis and reporting.",
+
+          // Industries - Smart Transportation & Logistics
+
+          "Smart Transportation & Logistics":
+            "Smart Transportation & Logistics",
+          "At Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise to create intelligent, efficient, and sustainable transportation systems.":
+            "At Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise to create intelligent, efficient, and sustainable transportation systems.",
+          "Learn More": "Learn More",
+          "Our Services Include": "Our Services Include",
+          "GIS & Remote Sensing": "GIS & Remote Sensing",
+          "Utilize spatial data to map transportation networks, analyze traffic patterns, and identify areas for improvement.":
+            "Utilize spatial data to map transportation networks, analyze traffic patterns, and identify areas for improvement.",
+          "360-Degree Mobile Mapping & Analysis":
+            "360-Degree Mobile Mapping & Analysis",
+          "Capture comprehensive street-level imagery using advanced mobile mapping systems to create accurate, up-to-date maps of roads and infrastructure.":
+            "Capture comprehensive street-level imagery using advanced mobile mapping systems to create accurate, up-to-date maps of roads and infrastructure.",
+          Annotations: "Annotations",
+          "Provide precise labeling of transportation data to train AI models for route optimization, autonomous vehicle navigation, and traffic management.":
+            "Provide precise labeling of transportation data to train AI models for route optimization, autonomous vehicle navigation, and traffic management.",
+          "LiDAR Data Processing": "LiDAR Data Processing",
+          "Create detailed 3D models of roadways, bridges, and tunnels to support infrastructure maintenance, safety assessments, and future planning.":
+            "Create detailed 3D models of roadways, bridges, and tunnels to support infrastructure maintenance, safety assessments, and future planning.",
+          "Engineering Solutions": "Engineering Solutions",
+          "Offer expertise in transportation engineering, including design, analysis, and optimization of transportation systems.":
+            "Offer expertise in transportation engineering, including design, analysis, and optimization of transportation systems.",
+          Benefit: "Benefit",
+          "Operational Efficiency": "Operational Efficiency",
+          "Optimize routes, reduce fuel consumption, and improve delivery times through advanced analytics and real-time data.":
+            "Optimize routes, reduce fuel consumption, and improve delivery times through advanced analytics and real-time data.",
+          "Enhanced Safety": "Enhanced Safety",
+          "Identify and mitigate potential hazards by monitoring infrastructure conditions and traffic patterns.":
+            "Identify and mitigate potential hazards by monitoring infrastructure conditions and traffic patterns.",
+          Innovation: "Innovation",
+          "Support the development of autonomous vehicles and smart city initiatives through high-quality data and modeling.":
+            "Support the development of autonomous vehicles and smart city initiatives through high-quality data and modeling.",
+          "Environmental Impact Reduction": "Environmental Impact Reduction",
+          "Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.":
+            "Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.",
         },
       },
       GE: {
@@ -693,6 +1225,539 @@ i18n
             "Optimierung von Arbeitsabläufen mit Automatisierungstools für mehr Effizienz.",
           "Supporting informed decision-making to improve overall business operations.":
             "Unterstützung fundierter Entscheidungsfindung zur Verbesserung der gesamten Geschäftsabläufe.",
+
+          //Service - Data Analytics
+          "Data Analytics": "Datenanalyse",
+          "Q-Gate Infotech Private Limited / Data Analytics":
+            "Q-Gate Infotech Private Limited / Datenanalyse",
+          "Unlocking the Power of Spatial Data for Informed Decision-Making":
+            "Die Kraft räumlicher Daten für fundierte Entscheidungen freisetzen",
+          "At Q-Gate Infotech, our Data Analytics services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:":
+            "Bei Q-Gate Infotech verwandeln unsere Datenanalysetools komplexe räumliche Daten in umsetzbare Erkenntnisse, die strategische Planung und betriebliche Effizienz fördern. Mithilfe fortschrittlicher Technologien und Methoden spezialisieren wir uns auf:",
+          "Advanced Imagery Analytics": "Erweiterte Bildanalyse",
+          "Extracting meaningful patterns from high-resolution satellite and aerial imagery.":
+            "Erkennung aussagekräftiger Muster aus hochauflösenden Satelliten- und Luftbildern.",
+          "Enabling informed decision-making in agriculture, forestry, mining, and urban planning.":
+            "Ermöglichung fundierter Entscheidungen in Landwirtschaft, Forstwirtschaft, Bergbau und Stadtplanung.",
+          "Providing real-time data insights for accurate trend analysis.":
+            "Bereitstellung von Echtzeit-Dateneinblicken für präzise Trendanalysen.",
+          "Supporting industry-specific insights to drive efficiency and innovation.":
+            "Unterstützung branchenspezifischer Erkenntnisse zur Steigerung von Effizienz und Innovation.",
+          "Spectral Analysis": "Spektralanalyse",
+          "Identifying material compositions through multispectral and hyperspectral imaging.":
+            "Erkennung von Materialzusammensetzungen durch multispektrale und hyperspektrale Bildgebung.",
+          "Assessing vegetation health for environmental monitoring and precision agriculture.":
+            "Bewertung der Vegetationsgesundheit für Umweltüberwachung und Präzisionslandwirtschaft.",
+          "Locating mineral deposits critical to resource exploration.":
+            "Ortung von Mineralvorkommen, die für die Ressourcenerkundung entscheidend sind.",
+          "Supporting mineral exploration and environmental applications.":
+            "Unterstützung bei der Mineraliensuche und Umweltanwendungen.",
+          "Computer Vision Applications": "Computer Vision-Anwendungen",
+          "Developing models for object detection and classification.":
+            "Entwicklung von Modellen zur Objekterkennung und -klassifizierung.",
+          "Enabling automated surveillance and monitoring systems.":
+            "Ermöglichung automatisierter Überwachungs- und Kontrollsysteme.",
+          "Supporting automation across industries through advanced vision tech.":
+            "Unterstützung der Automatisierung in verschiedenen Branchen durch fortschrittliche Bildverarbeitungstechnologien.",
+          "Tracking and analyzing objects in real time for various applications.":
+            "Verfolgung und Analyse von Objekten in Echtzeit für verschiedene Anwendungen.",
+
+          //Service - Cloud-Based AI/ML Solutions
+          "Cloud-Based AI/ML Solutions": "Cloudbasierte KI/ML-Lösungen",
+          "Q-Gate Infotech Private Limited / Cloud-Based AI/ML Solutions":
+            "Q-Gate Infotech Private Limited / Cloudbasierte KI/ML-Lösungen",
+          "Driving Innovation with Scalable Cloud and Artificial Intelligence Technologies":
+            "Innovation durch skalierbare Cloud- und KI-Technologien vorantreiben",
+          "At Q-Gate Infotech, we leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward. Our Cloud-Based AI/ML Solutions offer:":
+            "Bei Q-Gate Infotech nutzen wir die Synergie von Cloud-Computing und fortschrittlichen KI- und ML-Algorithmen, um intelligente Lösungen zu entwickeln, die Unternehmen voranbringen. Unsere cloudbasierten KI/ML-Lösungen bieten:",
+          "Development of Intelligent Applications":
+            "Entwicklung intelligenter Anwendungen",
+          "Enables predictive analytics for informed decision-making.":
+            "Ermöglicht prädiktive Analysen für fundierte Entscheidungen.",
+          "Streamlines tasks through automation to boost efficiency.":
+            "Optimiert Aufgaben durch Automatisierung zur Steigerung der Effizienz.",
+          "Supports real-time decision-making with rapid response to data.":
+            "Unterstützt Echtzeitentscheidungen durch schnelle Datenreaktion.",
+          "Continuously evolves through adaptive learning to provide insights.":
+            "Entwickelt sich durch adaptives Lernen kontinuierlich weiter, um Erkenntnisse zu liefern.",
+          "Integration with Geospatial Data": "Integration mit Geodaten",
+          "Integrates AI/ML with geospatial data for enhanced insights.":
+            "Integriert KI/ML mit Geodaten für verbesserte Einblicke.",
+          "Enables pattern recognition in complex spatial datasets.":
+            "Ermöglicht Mustererkennung in komplexen räumlichen Datensätzen.",
+          "Supports anomaly detection for identifying unusual patterns.":
+            "Unterstützt Anomalieerkennung zur Identifizierung ungewöhnlicher Muster.",
+          "Enhances predictive modeling for urban planning and resource management.":
+            "Verbessert prädiktive Modelle für Stadtplanung und Ressourcenmanagement.",
+          "Scalable Cloud Infrastructure": "Skalierbare Cloud-Infrastruktur",
+          "Provides accessibility from anywhere for seamless operations.":
+            "Bietet von überall aus Zugriff für reibungslose Abläufe.",
+          "Supports efficient data processing and storage for large datasets.":
+            "Unterstützt effiziente Datenverarbeitung und Speicherung großer Datenmengen.",
+          "Reduces need for on-premise infrastructure investment.":
+            "Reduziert den Bedarf an Investitionen in lokale Infrastruktur.",
+          "Customized AI Models": "Kundenspezifische KI-Modelle",
+          "Develops custom ML models tailored to specific business needs.":
+            "Entwickelt maßgeschneiderte ML-Modelle für spezifische Geschäftsanforderungen.",
+          "Specializes in language processing, computer vision, and predictive analytics.":
+            "Spezialisiert auf Sprachverarbeitung, Computer Vision und prädiktive Analysen.",
+          "Builds models that provide actionable insights for decision-making.":
+            "Entwickelt Modelle, die umsetzbare Erkenntnisse für Entscheidungen liefern.",
+          "Delivers solutions that adapt to evolving business challenges.":
+            "Liefert Lösungen, die sich an sich wandelnde geschäftliche Herausforderungen anpassen.",
+
+          //Service - Professional Training
+          "Professional Training": "Berufsausbildung",
+          "Q-Gate Infotech / Professional Training":
+            "Q-Gate Infotech / Berufsausbildung",
+          "At Q-Gate Infotech, we believe that investing in people is key to driving innovation and achieving excellence.":
+            "Bei Q-Gate Infotech sind wir der Meinung, dass Investitionen in Menschen der Schlüssel zur Förderung von Innovation und Exzellenz sind.",
+          "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology. Our initiatives include:":
+            "Unsere Berufsausbildungsdienste sollen Einzelpersonen, insbesondere Hochschulabsolventen und Menschen aus ländlichen Gemeinden, durch die Vermittlung wertvoller Fähigkeiten und den Aufbau erfolgreicher Karrieren in der Technologiebranche stärken. Unsere Initiativen umfassen:",
+          "On-the-Job Training Programs":
+            "Berufsbegleitende Schulungsprogramme",
+          "Hands-on training with real projects.":
+            "Praktisches Training mit realen Projekten.",
+          "Mentorship from experienced professionals.":
+            "Mentoring durch erfahrene Fachleute.",
+          "Accelerates learning through practical experience.":
+            "Beschleunigt das Lernen durch praktische Erfahrung.",
+          "Prepares individuals for industry demands.":
+            "Bereitet Einzelpersonen auf die Anforderungen der Branche vor.",
+          "Internships with Stipends": "Praktika mit Stipendien",
+          "Paid internships for financial support.":
+            "Bezahlte Praktika zur finanziellen Unterstützung.",
+          "Develop essential industry exposure.":
+            "Entwicklung grundlegender Branchenkenntnisse.",
+          "Contribute meaningfully to real projects.":
+            "Sinnvoller Beitrag zu realen Projekten.",
+          "Gain insights into professional workflows.":
+            "Einblicke in professionelle Arbeitsabläufe gewinnen.",
+          "Collaborations with Educational Institutions":
+            "Zusammenarbeit mit Bildungseinrichtungen",
+          "Enhance curricula with industry insights.":
+            "Lehrpläne mit Branchenkenntnissen erweitern.",
+          "Bridge the gap between academia and industry.":
+            "Überbrückung der Kluft zwischen Wissenschaft und Industrie.",
+          "Sponsor innovative research projects.":
+            "Förderung innovativer Forschungsprojekte.",
+          "Encourage student engagement with technology.":
+            "Förderung der Schülerbindung an Technologie.",
+          "Empowering Rural Development":
+            "Förderung der ländlichen Entwicklung",
+          "Focus on recruiting talent from rural areas.":
+            "Fokus auf die Rekrutierung von Talenten aus ländlichen Gebieten.",
+          "Provide equal opportunities for local communities.":
+            "Chancengleichheit für lokale Gemeinschaften bieten.",
+          "Stimulate economic growth in underserved regions.":
+            "Wirtschaftswachstum in unterversorgten Regionen anregen.",
+          "Contribute to social responsibility and community upliftment.":
+            "Beitrag zur sozialen Verantwortung und Förderung der Gemeinschaft.",
+
+          //Service - Talent Solutions
+          "Talent Solutions": "Talentlösungen",
+          "Q-Gate Infotech / Talent Solutions":
+            "Q-Gate Infotech / Talentlösungen",
+          "At Q-Gate Infotech, we recognize that having the right talent is crucial for organizational success.":
+            "Bei Q-Gate Infotech erkennen wir, dass die richtigen Talente entscheidend für den Erfolg einer Organisation sind.",
+          "Our Talent Solutions service provides access to a diverse pool of highly skilled professionals, enabling your business to meet its objectives effectively. Our offerings include:":
+            "Unser Talentlösungsdienst bietet Zugang zu einem vielfältigen Pool hochqualifizierter Fachkräfte, um Ihr Unternehmen effektiv bei der Erreichung seiner Ziele zu unterstützen. Unsere Angebote umfassen:",
+          "Staff Augmentation": "Personalaufstockung",
+          "Qualified experts to supplement your teams.":
+            "Qualifizierte Experten zur Ergänzung Ihrer Teams.",
+          "Scalable resources based on project demands.":
+            "Skalierbare Ressourcen basierend auf den Projektanforderungen.",
+          "Seamless integration with your existing workforce.":
+            "Nahtlose Integration in Ihre bestehende Belegschaft.",
+          "Expertise in geospatial technologies, software, and analytics.":
+            "Fachwissen in Geotechnologien, Software und Analytik.",
+          "Dedicated Project Teams": "Engagierte Projektteams",
+          "Exclusive teams focused on your assignments.":
+            "Exklusive Teams, die sich auf Ihre Aufgaben konzentrieren.",
+          "Ensures alignment with organizational goals.":
+            "Stellt die Ausrichtung auf organisatorische Ziele sicher.",
+          "Consistent collaboration with your internal teams.":
+            "Konstante Zusammenarbeit mit Ihren internen Teams.",
+          "Promotes organizational culture fit.":
+            "Fördert die Passung zur Unternehmenskultur.",
+          "Flexible Engagement Models": "Flexible Engagement-Modelle",
+          "Tailored engagement options based on business needs.":
+            "Angepasste Engagement-Optionen basierend auf den Geschäftsanforderungen.",
+          "Short-term contracts for quick solutions.":
+            "Kurzzeitverträge für schnelle Lösungen.",
+          "Long-term placements for sustained support.":
+            "Langfristige Einsätze für nachhaltige Unterstützung.",
+          "Project-based arrangements for specific goals.":
+            "Projektbasierte Vereinbarungen für spezifische Ziele.",
+          "Quality Assurance and Compliance":
+            "Qualitätssicherung und Compliance",
+          "Rigorous vetting of all professionals.":
+            "Strenge Überprüfung aller Fachkräfte.",
+          "Ensure high standards of technical proficiency.":
+            "Sicherstellung hoher technischer Kompetenzen.",
+          "Handle all HR management and compliance aspects.":
+            "Übernahme aller HR-Management- und Compliance-Aspekte.",
+          "Focus on your core business while we manage the rest.":
+            "Konzentrieren Sie sich auf Ihr Kerngeschäft, während wir den Rest übernehmen.",
+
+          //Service - Engineering Solutions
+
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Q-Gate Infotech Private Limited / Engineering Solutions":
+            "Q-Gate Infotech Private Limited / Ingenieurlösungen",
+          "Innovative Engineering for Sustainable Development":
+            "Innovatives Ingenieurwesen für nachhaltige Entwicklung",
+          "Q-Gate Infotech's Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development and optimization of infrastructure and industrial projects. Our services aim to enhance efficiency, sustainability and innovation in engineering practices. We offer:":
+            "Die Ingenieurlösungen von Q-Gate Infotech verbinden modernste Technologie mit Ingenieurkompetenz, um die Planung, Entwicklung und Optimierung von Infrastruktur- und Industrieprojekten zu unterstützen. Unsere Dienstleistungen zielen darauf ab, Effizienz, Nachhaltigkeit und Innovation in der Ingenieurpraxis zu fördern. Wir bieten:",
+          "Building Information Modeling (BIM)":
+            "Building Information Modeling (BIM)",
+          "Developing detailed and intelligent 3D models of buildings and infrastructure.":
+            "Entwicklung detaillierter und intelligenter 3D-Modelle von Gebäuden und Infrastrukturen.",
+          "Enabling effective visualization, simulation, and project management.":
+            "Ermöglichung effektiver Visualisierung, Simulation und Projektmanagement.",
+          "Facilitating collaboration, reducing errors, and streamlining delivery.":
+            "Förderung der Zusammenarbeit, Reduzierung von Fehlern und Optimierung der Abläufe.",
+          "Reverse Engineering for Existing Structures":
+            "Reverse Engineering für bestehende Strukturen",
+          "Utilizing advanced scanning and modeling for structural analysis.":
+            "Nutzung fortschrittlicher Scanning- und Modellierungstechniken für die Strukturanalyse.",
+          "Assisting renovation planning, analysis, and maintenance scheduling.":
+            "Unterstützung bei der Renovierungsplanung, Analyse und Wartungsplanung.",
+          "Ensuring longevity and safety of infrastructure assets.":
+            "Sicherung der Langlebigkeit und Sicherheit von Infrastrukturvermögen.",
+          "Engineering Consultancy": "Ingenieurberatung",
+          "Providing expert consultancy across various engineering projects.":
+            "Bereitstellung fachkundiger Beratung für verschiedene Ingenieurprojekte.",
+          "Conducting feasibility studies, environmental assessments, and optimization.":
+            "Durchführung von Machbarkeitsstudien, Umweltbewertungen und Optimierungen.",
+          "Enhancing project outcomes with multidisciplinary expertise.":
+            "Verbesserung der Projektergebnisse durch interdisziplinäres Fachwissen.",
+
+          //Service - Content Annotation
+          "Content Annotation": "Datenannotation",
+          "Q-Gate Infotech / Content Annotation":
+            "Q-Gate Infotech / Datenannotation",
+          "At Q-Gate Infotech, we understand that precise data annotation is the foundation of effective AI and machine learning models.":
+            "Bei Q-Gate Infotech verstehen wir, dass präzise Datenannotation die Grundlage effektiver KI- und Machine-Learning-Modelle ist.",
+          "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency. Our offerings include:":
+            "Unsere Datenannotationsdienste bieten eine sorgfältige Kennzeichnung verschiedener Datentypen, die es Ihren KI-Anwendungen ermöglichen, mit größerer Genauigkeit und Effizienz zu arbeiten. Unsere Angebote umfassen:",
+          "Image, Video, and Text Annotation":
+            "Bild-, Video- und Textannotation",
+          "Annotating images, videos, and text for AI model training.":
+            "Annotation von Bildern, Videos und Texten für das Training von KI-Modellen.",
+          "Supports computer vision and natural language processing applications.":
+            "Unterstützt Anwendungen der Computervision und der natürlichen Sprachverarbeitung.",
+          "Ensures precise data labeling for reliable model performance.":
+            "Sicherstellt präzise Datenkennzeichnung für eine zuverlässige Modellleistung.",
+          "Facilitates accurate object recognition and text understanding.":
+            "Ermöglicht eine genaue Objekterkennung und Textverständnis.",
+          "Point Cloud Annotation": "Punktwolkenannotation",
+          "Annotating 3D point cloud data for object recognition.":
+            "Annotation von 3D-Punktwolkendaten zur Objekterkennung.",
+          "Essential for autonomous vehicles and robotics applications.":
+            "Wesentlich für autonome Fahrzeuge und Robotikanwendungen.",
+          "Supports scene understanding and environmental modeling.":
+            "Unterstützt das Verständnis von Szenen und die Modellierung der Umgebung.",
+          "Leverages LiDAR technology for detailed spatial analysis.":
+            "Nutzen von LiDAR-Technologie für eine detaillierte räumliche Analyse.",
+          "Object Detection and Semantic Segmentation":
+            "Objekterkennung und Semantische Segmentierung",
+          "Detailed annotations for object detection tasks.":
+            "Detaillierte Annotationen für Objekterkennungsaufgaben.",
+          "Pixel-level semantic segmentation for precise visual data interpretation.":
+            "Pixelgenaue semantische Segmentierung für präzise visuelle Dateninterpretation.",
+          "Enables accurate understanding of complex visual data.":
+            "Ermöglicht ein genaues Verständnis komplexer visueller Daten.",
+          "Supports advanced computer vision applications.":
+            "Unterstützt fortschrittliche Anwendungen der Computervision.",
+
+          // Industries - Agriculture
+          Agriculture: "Landwirtschaft",
+          "At Q-Gate Infotech, we empower the agriculture and forestry sectors by harnessing cutting-edge geospatial technologies and data analytics to promote sustainable practices and optimize productivity. Our comprehensive solutions enable farmers, agribusinesses and forestry managers to make informed decisions through precise, real-time insights.":
+            "Bei Q-Gate Infotech befähigen wir die Landwirtschafts- und Forstwirtschaftssektoren, indem wir modernste geospatiale Technologien und Datenanalyse nutzen, um nachhaltige Praktiken zu fördern und die Produktivität zu optimieren. Unsere umfassenden Lösungen ermöglichen es Landwirten, Agrarunternehmen und Forstmanagern, fundierte Entscheidungen auf der Grundlage präziser Echtzeitdaten zu treffen.",
+          "Learn More": "Erfahren Sie mehr",
+          "Our Services Include": "Unsere Dienstleistungen umfassen",
+          "GIS & Remote Sensing:": "GIS & Fernerkundung:",
+          "Utilize spatial data to monitor agricultural lands and forest ecosystems, enabling precise mapping and analysis.":
+            "Nutzung räumlicher Daten zur Überwachung landwirtschaftlicher Flächen und Waldökosysteme, die präzise Kartierung und Analyse ermöglichen.",
+          "Image Processing Analysis:": "Bildverarbeitungsanalyse:",
+          "Interpret high-resolution satellite and aerial imagery to assess crop health, soil conditions, and detect pests or diseases early.":
+            "Interpretation von hochauflösenden Satelliten- und Luftaufnahmen zur Beurteilung der Gesundheit von Pflanzen, Bodenbedingungen und zur frühzeitigen Erkennung von Schädlingen oder Krankheiten.",
+          "Vegetation Analysis:": "Vegetationsanalyse:",
+          "Conduct detailed assessments of vegetation cover, growth patterns, biomass estimation, and species classification to support sustainable forest management and conservation efforts.":
+            "Durchführung detaillierter Bewertungen der Vegetationsbedeckung, Wachstums- und Biomasse-Schätzungen sowie der Artenklassifikation zur Unterstützung des nachhaltigen Waldmanagements und der Naturschutzbemühungen.",
+          "Annotation :": "Annotationen :",
+          "Provide precise labeling of imagery to train AI models for predictive analytics, facilitating precision agriculture and efficient resource management.":
+            "Präzise Kennzeichnung von Bildern zur Schulung von KI-Modellen für prädiktive Analysen, die präzise Landwirtschaft und effizientes Ressourcenmanagement ermöglichen.",
+          "LiDAR Measurement Analysis:": "LiDAR-Messanalyse:",
+          "Use LiDAR technology to generate accurate 3D models of terrain and vegetation structures, assisting in land assessment, irrigation planning, and forest inventory.":
+            "Verwendung von LiDAR-Technologie zur Erstellung genauer 3D-Modelle von Gelände- und Vegetationsstrukturen, die bei der Landbewertung, Bewässerungsplanung und Waldinventur helfen.",
+          Benefit: "Vorteil",
+          "Enhanced Crop Yields:": "Ertragssteigerung:",
+          "Optimize planting schedules, irrigation, and fertilization through precise data analysis.":
+            "Optimierung von Pflanzplänen, Bewässerung und Düngung durch präzise Datenanalyse.",
+          "Resource Efficiency:": "Ressourceneffizienz:",
+          "Reduce waste and improve resource utilization by targeting interventions where they are most needed.":
+            "Verringerung von Abfall und Verbesserung der Ressourcennutzung durch gezielte Maßnahmen an den am meisten benötigten Stellen.",
+          "Sustainability :": "Nachhaltigkeit :",
+          "Promote environmentally friendly practices by effectively monitoring and managing land use.":
+            "Förderung umweltfreundlicher Praktiken durch effektive Überwachung und Verwaltung der Landnutzung.",
+          "Risk Mitigation:": "Risikominderung:",
+          "Identify potential threats such as pest infestations or environmental stressors early to prevent losses.":
+            "Frühe Identifizierung potenzieller Bedrohungen wie Schädlingsbefall oder Umweltbelastungen, um Verluste zu verhindern.",
+
+          // Industries - Education
+
+          Education: "Bildung",
+          "Q-Gate Infotech is dedicated to fostering education and professional growth by providing comprehensive training and development programs. We aim to build capacity in cutting-edge technologies, nurture talent, and bridge the gap between academia and industry.":
+            "Q-Gate Infotech setzt sich dafür ein, Bildung und berufliche Weiterentwicklung zu fördern, indem umfassende Trainings- und Entwicklungsprogramme angeboten werden. Wir wollen Kapazitäten in modernsten Technologien aufbauen, Talente fördern und die Kluft zwischen akademischer Bildung und Industrie überbrücken.",
+          "Learn More": "Mehr erfahren",
+          "Our Services Include": "Unsere Dienstleistungen umfassen",
+          "Professional Training Programs": "Professionelle Trainingsprogramme",
+          "Offer courses in GIS, remote sensing, AI/ML, software development, data analytics, and engineering, tailored to meet industry demands.":
+            "Bieten Kurse in GIS, Fernerkundung, KI/ML, Softwareentwicklung, Datenanalyse und Ingenieurwesen an, die an die Anforderungen der Industrie angepasst sind.",
+          "On-the-Job Training and Internships":
+            "Praktische Ausbildung und Praktika",
+          "Provide hands-on experience through internships without stipends, allowing participants to apply their learning to real-world projects.":
+            "Bieten praktische Erfahrungen durch unbezahlte Praktika, die es den Teilnehmern ermöglichen, ihr Wissen in realen Projekten anzuwenden.",
+          "Collaborations with Educational Institutions":
+            "Zusammenarbeit mit Bildungseinrichtungen",
+          "Partner with universities and colleges through MoUs to update curricula, support research initiatives, and facilitate knowledge exchange.":
+            "Partnerschaften mit Universitäten und Hochschulen durch Absichtserklärungen (MoUs), um Lehrpläne zu aktualisieren, Forschungsinitiativen zu unterstützen und den Wissensaustausch zu fördern.",
+          "Project Sponsorships and Scholarships":
+            "Projektförderung und Stipendien",
+          "Support innovative projects, research activities, and provide financial assistance to promising students.":
+            "Unterstützung innovativer Projekte, Forschungsaktivitäten und finanzielle Hilfe für vielversprechende Studenten.",
+          "Empowering Rural Development": "Stärkung der ländlichen Entwicklung",
+          "Focus on recruiting and training individuals from rural areas, promoting equal opportunities and contributing to community upliftment.":
+            "Fokus auf die Rekrutierung und Ausbildung von Menschen aus ländlichen Gebieten, Förderung der Chancengleichheit und Beitrag zur Gemeinwohlentwicklung.",
+          Benefit: "Vorteil",
+          "Skill Enhancement": "Fähigkeitserweiterung",
+          "Equip individuals with the latest technological skills required in today's job market.":
+            "Ausstattung von Personen mit den neuesten technologischen Fähigkeiten, die auf dem heutigen Arbeitsmarkt erforderlich sind.",
+          "Career Development": "Karriereentwicklung",
+          "Provide pathways for fresh graduates and professionals to build successful careers in technology.":
+            "Bereitstellung von Wegen für Absolventen und Fachleute, um erfolgreiche Karrieren in der Technologiebranche aufzubauen.",
+          "Industry-Academia Collaboration":
+            "Zusammenarbeit zwischen Industrie und Hochschule",
+          "Strengthen connections between educational institutions and industry to align education with practical needs.":
+            "Stärkung der Verbindungen zwischen Bildungseinrichtungen und Industrie, um die Ausbildung an die praktischen Bedürfnisse anzupassen.",
+          "Social Impact": "Gesellschaftlicher Einfluss",
+          "Contribute to societal development by empowering individuals and fostering innovation.":
+            "Beitrag zur gesellschaftlichen Entwicklung durch die Förderung von Individuen und Innovation.",
+
+          // Industries - Energy & Utilities
+
+          "Energy and Utilities": "Energie und Versorgungsunternehmen",
+          "At Q-Gate Infotech, we empower the energy and utilities sector by providing innovative geospatial and engineering solutions that enhance efficiency, promote sustainability, and drive technological advancement. Our services enable energy providers, utility companies, and government agencies to optimize operations and meet the growing demand for clean, reliable energy.":
+            "Bei Q-Gate Infotech stärken wir den Energiesektor und die Versorgungsunternehmen, indem wir innovative geospatiale und ingenieurtechnische Lösungen bieten, die die Effizienz steigern, die Nachhaltigkeit fördern und technologische Fortschritte vorantreiben. Unsere Dienstleistungen ermöglichen es Energieversorgern, Versorgungsunternehmen und Regierungsbehörden, ihre Abläufe zu optimieren und der wachsenden Nachfrage nach sauberer, zuverlässiger Energie gerecht zu werden.",
+          "Learn More": "Mehr erfahren",
+          "Our Services Include": "Unsere Dienstleistungen umfassen",
+          "GIS & Remote Sensing": "GIS & Fernerkundung",
+          "Analyze spatial data for resource exploration, site selection, and infrastructure planning, ensuring optimal placement of energy facilities such as wind farms, solar arrays, and power plants.":
+            "Analysieren Sie räumliche Daten für die Ressourcenerkundung, Standortauswahl und Infrastrukturplanung, um eine optimale Platzierung von Energieanlagen wie Windparks, Solaranlagen und Kraftwerken sicherzustellen.",
+          "Image Processing": "Bildverarbeitung",
+          "Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.":
+            "Bieten Sie detaillierte Datenkennzeichnung, um KI-Modelle für vorausschauende Wartung, Fehlererkennung und Energiebedarfsvorhersage zu trainieren.",
+          Annotations: "Markierungen",
+          "Provide detailed data labeling to train AI models for predictive maintenance, fault detection, and energy demand forecasting.":
+            "Bieten Sie detaillierte Datenkennzeichnung, um KI-Modelle für vorausschauende Wartung, Fehlererkennung und Energiebedarfsvorhersage zu trainieren.",
+          "LiDAR Data Processing": "LiDAR-Datenverarbeitung",
+          "Generate accurate 3D models of terrain and infrastructure for designing transmission lines, pipelines, and utility networks.":
+            "Erstellen Sie genaue 3D-Modelle von Gelände und Infrastruktur für die Planung von Übertragungsleitungen, Pipelines und Versorgungsnetzen.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Offer expertise in electrical and civil engineering to support grid modernization, renewable energy integration, and infrastructure upgrades.":
+            "Bieten Sie Fachwissen in der Elektro- und Bauingenieurtechnik, um die Modernisierung von Netzen, die Integration erneuerbarer Energien und Infrastrukturaufwertungen zu unterstützen.",
+          Benefit: "Vorteil",
+          "Operational Efficiency": "Betriebseffizienz",
+          "Optimize energy production and distribution through precise data analysis and modeling.":
+            "Optimieren Sie die Energieproduktion und -verteilung durch präzise Datenanalyse und Modellierung.",
+          Sustainability: "Nachhaltigkeit",
+          "Facilitate the transition to renewable energy sources by identifying optimal sites and integrating clean energy into existing grids.":
+            "Erleichtern Sie den Übergang zu erneuerbaren Energiequellen, indem Sie optimale Standorte identifizieren und saubere Energie in bestehende Netze integrieren.",
+          Reliability: "Zuverlässigkeit",
+          "Enhance infrastructure resilience and reduce downtime through predictive maintenance and real-time monitoring.":
+            "Steigern Sie die Widerstandsfähigkeit der Infrastruktur und reduzieren Sie Ausfallzeiten durch vorausschauende Wartung und Echtzeitüberwachung.",
+          "Regulatory Compliance": "Regulatorische Compliance",
+          "Ensure adherence to environmental regulations and safety standards through thorough analysis and reporting.":
+            "Stellen Sie die Einhaltung von Umweltvorschriften und Sicherheitsstandards durch gründliche Analysen und Berichterstattung sicher.",
+
+          // Industries - Infrastructure Development
+
+          "Infrastructure Development": "Infrastrukturausbau",
+          "At Q-Gate Infotech, we drive infrastructure development by providing comprehensive geospatial and engineering solutions that enable planners, architects, and developers to design and construct smarter, more sustainable infrastructure.":
+            "Bei Q-Gate Infotech treiben wir den Infrastrukturausbau voran, indem wir umfassende geospatiale und ingenieurtechnische Lösungen bereitstellen, die es Planern, Architekten und Entwicklern ermöglichen, intelligentere und nachhaltigere Infrastrukturen zu entwerfen und zu bauen.",
+          "Learn More": "Mehr erfahren",
+          "Our Services Include": "Unsere Dienstleistungen umfassen",
+          "GIS & Remote Sensing": "GIS & Fernerkundung",
+          "Collect and analyze spatial data for site selection, feasibility studies, and impact assessments, ensuring projects are grounded in accurate geographic information.":
+            "Erfassen und analysieren Sie räumliche Daten für die Standortauswahl, Machbarkeitsstudien und Auswirkungen, um sicherzustellen, dass Projekte auf genauen geografischen Informationen basieren.",
+          "Image Processing Analysis": "Bildverarbeitungsanalyse",
+          "Interpret high-resolution imagery to monitor construction progress, assess environmental impact, and detect changes in land use.":
+            "Interpretieren Sie hochauflösende Bilder, um den Baufortschritt zu überwachen, die Umweltauswirkungen zu bewerten und Änderungen der Landnutzung zu erkennen.",
+          Annotations: "Annotations",
+          "Provide detailed data annotation to train AI models for automated feature extraction, aiding in urban planning and infrastructure maintenance.":
+            "Bieten Sie detaillierte Datenannotation, um KI-Modelle für die automatisierte Merkmalserkennung zu trainieren, die bei der Stadtplanung und Infrastrukturpflege unterstützen.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Deliver expert engineering services, including structural analysis, design optimization, and Building Information Modeling (BIM), to streamline project workflows.":
+            "Bieten Sie fachkundige Ingenieurdienstleistungen, einschließlich der strukturellen Analyse, Designoptimierung und Building Information Modeling (BIM), um die Projektabläufe zu optimieren.",
+          "LiDAR Measurement Analysis": "LiDAR-Messanalyse",
+          "Generate precise 3D models and digital elevation models (DEMs) for terrain analysis, aiding in the design of roads, bridges, and other infrastructure components.":
+            "Erstellen Sie präzise 3D-Modelle und digitale Höhenmodelle (DEMs) für die Geländeanalyse, die bei der Gestaltung von Straßen, Brücken und anderen Infrastrukturkomponenten helfen.",
+          Benefit: "Vorteil",
+          "Enhanced Planning": "Verbesserte Planung",
+          "Make informed decisions with accurate spatial data, reducing risks and unforeseen challenges.":
+            "Treffen Sie fundierte Entscheidungen mit genauen räumlichen Daten, um Risiken und unvorhergesehene Herausforderungen zu minimieren.",
+          "Cost Efficiency": "Kosten-Effizienz",
+          Sustainability: "Nachhaltigkeit",
+          "Incorporate environmental considerations into infrastructure projects to minimize ecological impact and promote long-term viability.":
+            "Berücksichtigen Sie Umweltaspekte in Infrastrukturprojekten, um die ökologischen Auswirkungen zu minimieren und die langfristige Lebensfähigkeit zu fördern.",
+          "Regulatory Compliance": "Regulatorische Compliance",
+          "Ensure adherence to zoning laws, environmental regulations, and building codes through detailed analysis and documentation.":
+            "Stellen Sie sicher, dass die Vorschriften für Bebauungspläne, Umweltvorschriften und Bauvorschriften durch detaillierte Analyse und Dokumentation eingehalten werden.",
+
+          // Industries - Marine & Water Resource Management
+
+          "Marine & Water Resource Management":
+            "Marine- und Wasserressourcenmanagement",
+          "Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments.":
+            "Q-Gate Infotech bietet fortschrittliche geospatiale und ingenieurtechnische Lösungen zur Verbesserung des Marine- und Wasserressourcenmanagements. Unsere Expertise ermöglicht es Regierungen, Umweltbehörden und maritimen Industrien, aquatische Umgebungen effektiv zu überwachen, zu verwalten und zu schützen.",
+          "Learn More": "Mehr Erfahren",
+          "Our Services Include": "Unsere Dienstleistungen beinhalten",
+          "GIS & Remote Sensing": "GIS und Fernerkundung",
+          "Leverage spatial data to monitor marine ecosystems, coastal zones, and freshwater bodies for environmental changes and resource assessment.":
+            "Nutzen Sie räumliche Daten zur Überwachung von marinen Ökosystemen, Küstenzonen und Süßwasserkörpern für Umweltveränderungen und Ressourcenschätzungen.",
+          "Sea & Water Bed Mapping": "Seekarten- und Wasserbettraster",
+          "Generate detailed bathymetric maps of seabeds and riverbeds using sonar and LiDAR technologies for navigation safety, resource exploration, and habitat mapping.":
+            "Erstellen Sie detaillierte bathymetrische Karten von Meeres- und Flussbetten mit Sonar- und LiDAR-Technologien für die Navigationssicherheit, Ressourcenerkundung und Habitatkartierung.",
+          "Hydro Flattening": "Hydro-Flachstellung",
+          "Apply hydro-flattening techniques to LiDAR data to accurately represent water surfaces in digital elevation models, essential for flood modeling and hydrological studies.":
+            "Wenden Sie Hydro-Flachstellungstechniken auf LiDAR-Daten an, um Wasseroberflächen in digitalen Höhenmodellen genau darzustellen, was für Überschwemmungsmodellierung und hydrologische Studien wichtig ist.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Offer expertise in coastal infrastructure development, erosion control, and shoreline management to protect against sea-level rise and extreme weather events.":
+            "Bieten Sie Expertise in der Entwicklung von Küstenschutzinfrastruktur, Erosionskontrolle und Ufermanagement, um sich gegen den Anstieg des Meeresspiegels und extreme Wetterereignisse zu schützen.",
+          "LiDAR Measurement Analysis": "LiDAR-Messanalyse",
+          "Process LiDAR data to create high-resolution 3D models of coastal and underwater terrains, supporting dredging operations, port development, and environmental monitoring.":
+            "Verarbeiten Sie LiDAR-Daten, um hochauflösende 3D-Modelle von Küsten- und Unterwasser-Terrain zu erstellen, die Dredging-Operationen, Hafenentwicklung und Umweltmonitoring unterstützen.",
+          Benefit: "Vorteil",
+          "Resource Optimization": "Ressourcenoptimierung",
+          "Manage fisheries and aquatic resources sustainably by understanding population dynamics and habitat conditions.":
+            "Verwalten Sie Fischerei- und Wasserressourcen nachhaltig, indem Sie die Populationsdynamik und Habitatbedingungen verstehen.",
+          "Environmental Protection": "Umweltschutz",
+          "Monitor water quality, detect pollution sources, and assess the impact of human activities on marine ecosystems.":
+            "Überwachen Sie die Wasserqualität, erkennen Sie Verschmutzungsquellen und bewerten Sie die Auswirkungen menschlicher Aktivitäten auf marine Ökosysteme.",
+          "Risk Management": "Risikomanagement",
+          "Enhance disaster preparedness by modeling storm surges, flooding, and coastal erosion scenarios.":
+            "Verbessern Sie die Katastrophenvorsorge durch Modellierung von Sturmfluten, Überschwemmungen und Küstenerosion.",
+          "Infrastructure Development": "Infrastrukturentwicklung",
+          "Support the planning and maintenance of maritime infrastructure such as ports, harbors, and offshore installations.":
+            "Unterstützen Sie die Planung und Wartung von maritimer Infrastruktur wie Häfen, Hafenanlagen und Offshore-Installationen.",
+
+          // Industries - Mining & Mineral Exploration
+          "Mining & Mineral Exploration": "Bergbau und Mineralexploration",
+          "Q-Gate Infotech provides cutting-edge geospatial and data analytics solutions to the mining and mineral exploration industry, enabling companies to discover resources efficiently while minimizing environmental impact. Our expertise supports exploration, planning, and operational optimization.":
+            "Q-Gate Infotech bietet fortschrittliche geospatiale und Datenanalysetools für die Bergbau- und Mineralexplorationsbranche, um Unternehmen bei der effizienten Ressourcensuche zu unterstützen und gleichzeitig die Umweltbelastung zu minimieren. Unsere Expertise unterstützt die Exploration, Planung und Optimierung des Betriebs.",
+          "Learn More": "Mehr Erfahren",
+          "Our Services Include": "Unsere Dienstleistungen beinhalten",
+          "GIS & Image Processing": "GIS und Bildverarbeitung",
+          "Utilize spatial data to identify potential mineral deposits, map geological formations, and analyze terrain.":
+            "Nutzen Sie räumliche Daten, um potenzielle Mineralvorkommen zu identifizieren, geologische Formationen zu kartieren und das Gelände zu analysieren.",
+          Annotations: "Anmerkungen",
+          "Provide precise labeling of geological data to train AI models for mineral identification, enhancing exploration accuracy.":
+            "Bieten Sie präzise Kennzeichnung geologischer Daten zur Schulung von KI-Modellen für die Mineralidentifikation und verbessern Sie die Genauigkeit der Exploration.",
+          "LiDAR Data Processing": "LiDAR-Datenverarbeitung",
+          "Create high-resolution topographic maps and 3D models of mining sites for planning and monitoring purposes.":
+            "Erstellen Sie hochauflösende topografische Karten und 3D-Modelle von Bergbaustellen für Planungs- und Überwachungszwecke.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Offer support in mine design, infrastructure development, and environmental compliance through advanced engineering practices.":
+            "Bieten Sie Unterstützung bei der Mine-Design, Infrastrukturentwicklung und Einhaltung von Umweltvorschriften durch fortschrittliche Ingenieurpraktiken.",
+          Benefit: "Vorteil",
+          "Exploration Efficiency": "Explorations-Effizienz",
+          "Accelerate discovery of resources by accurately pinpointing potential sites using advanced geospatial analysis.":
+            "Beschleunigen Sie die Entdeckung von Ressourcen, indem Sie potenzielle Standorte mit fortschrittlicher geospatialer Analyse genau identifizieren.",
+          "Operational Optimization": "Betriebsoptimierung",
+          "Improve mine planning and resource extraction processes through detailed modeling and simulation.":
+            "Verbessern Sie die Mine-Planung und Ressourcengewinnung durch detaillierte Modellierung und Simulation.",
+          "Environmental Stewardship": "Umweltschutz",
+          "Reduce ecological footprint by integrating sustainable practices and complying with environmental regulations.":
+            "Reduzieren Sie den ökologischen Fußabdruck, indem Sie nachhaltige Praktiken integrieren und Umweltvorschriften einhalten.",
+          "Safety Enhancement": "Sicherheitsverbesserung",
+          "Identify potential hazards and implement measures to protect workers and assets.":
+            "Identifizieren Sie potenzielle Gefahren und ergreifen Sie Maßnahmen zum Schutz von Arbeitern und Vermögenswerten.",
+
+          // Industries - Oil and Gas Industry
+
+          "Oil and Gas Industry": "Öl- und Gasindustrie",
+          "At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges and operate efficiently in a competitive market.":
+            "Bei Q-Gate Infotech unterstützen wir die Öl- und Gasindustrie mit spezialisierten geospatiale, Ingenieur- und Datenanalysetools, die Exploration, Produktion und Asset-Management verbessern. Unsere Lösungen helfen Unternehmen, komplexe Herausforderungen zu meistern und effizient in einem wettbewerbsintensiven Markt zu operieren.",
+          "Learn More": "Mehr Erfahren",
+          "Our Services Include": "Unsere Dienstleistungen beinhalten",
+          "GIS & Remote Sensing": "GIS & Fernerkundung",
+          "Analyze spatial data for exploration mapping, pipeline routing, and environmental monitoring.":
+            "Analysieren Sie räumliche Daten für Explorationskarten, Pipeline-Routing und Umweltüberwachung.",
+          "Image Processing": "Bildverarbeitung",
+          "Interpret seismic imagery and satellite data to identify geological features and assess potential drilling sites.":
+            "Interpretieren Sie seismische Bilder und Satellitendaten, um geologische Merkmale zu identifizieren und potenzielle Bohrstandorte zu bewerten.",
+          Annotations: "Anmerkungen",
+          "Provide data labeling for AI models used in reservoir characterization, predictive maintenance, and operational optimization.":
+            "Bieten Sie Datenkennzeichnung für KI-Modelle, die in der Reservoircharakterisierung, vorausschauender Wartung und Betriebsoptimierung verwendet werden.",
+          "LiDAR Data Processing": "LiDAR-Datenverarbeitung",
+          "Generate accurate 3D models of terrains and offshore platforms for planning and safety assessments.":
+            "Erstellen Sie genaue 3D-Modelle von Gelände und Offshore-Plattformen für Planungs- und Sicherheitsbewertungen.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Deliver expertise in petroleum engineering, infrastructure design, and process optimization.":
+            "Bieten Sie Expertise in Petroleumingenieurwesen, Infrastrukturdesign und Prozessoptimierung.",
+          Benefit: "Vorteil",
+          "Exploration Enhancement": "Explorationsverbesserung",
+          "Increase success rates in finding new reserves through advanced data analysis and modeling.":
+            "Erhöhen Sie die Erfolgsraten bei der Entdeckung neuer Vorkommen durch fortschrittliche Datenanalyse und Modellierung.",
+          "Operational Efficiency": "Betriebsoptimierung",
+          "Optimize production processes and reduce downtime with predictive analytics and real-time monitoring.":
+            "Optimieren Sie Produktionsprozesse und reduzieren Sie Ausfallzeiten mit vorausschauender Analyse und Echtzeitüberwachung.",
+          "Risk Mitigation": "Risikominderung",
+          "Identify and manage risks associated with exploration and production activities, including environmental and safety concerns.":
+            "Identifizieren und managen Sie Risiken im Zusammenhang mit Explorations- und Produktionsaktivitäten, einschließlich Umwelt- und Sicherheitsbedenken.",
+          "Regulatory Compliance": "Regulatorische Compliance",
+          "Ensure adherence to industry regulations and environmental standards through comprehensive analysis and reporting.":
+            "Stellen Sie die Einhaltung von Branchenvorschriften und Umweltstandards durch umfassende Analyse und Berichterstattung sicher.",
+
+          // Industries - Smart Transportation & Logistics
+
+          "Smart Transportation & Logistics":
+            "Intelligente Transport- und Logistiklösungen",
+          "At Q-Gate Infotech revolutionizes the transportation and logistics sectors by leveraging advanced geospatial technologies, data analytics, and engineering expertise to create intelligent, efficient, and sustainable transportation systems.":
+            "Q-Gate Infotech revolutioniert den Transport- und Logistiksektor durch den Einsatz fortschrittlicher Geodaten-Technologien, Datenanalysen und Ingenieurkompetenz, um intelligente, effiziente und nachhaltige Verkehrssysteme zu schaffen.",
+          "Learn More": "Mehr Erfahren",
+          "Our Services Include": "Unsere Dienstleistungen umfassen",
+          "GIS & Remote Sensing": "GIS & Fernerkundung",
+          "Utilize spatial data to map transportation networks, analyze traffic patterns, and identify areas for improvement.":
+            "Nutzen Sie räumliche Daten, um Verkehrsnetze zu kartieren, Verkehrsströme zu analysieren und Verbesserungsbereiche zu identifizieren.",
+          "360-Degree Mobile Mapping & Analysis":
+            "360-Grad-Mobilkartierung und Analyse",
+          "Capture comprehensive street-level imagery using advanced mobile mapping systems to create accurate, up-to-date maps of roads and infrastructure.":
+            "Erfassen Sie umfassende Straßenniveau-Bilder mit fortschrittlichen mobilen Kartierungssystemen, um genaue, aktuelle Karten von Straßen und Infrastruktur zu erstellen.",
+          Annotations: "Anmerkungen",
+          "Provide precise labeling of transportation data to train AI models for route optimization, autonomous vehicle navigation, and traffic management.":
+            "Bieten Sie präzise Kennzeichnung von Transportdaten, um KI-Modelle für Routenoptimierung, autonome Fahrzeugnavigation und Verkehrsmanagement zu trainieren.",
+          "LiDAR Data Processing": "LiDAR-Datenverarbeitung",
+          "Create detailed 3D models of roadways, bridges, and tunnels to support infrastructure maintenance, safety assessments, and future planning.":
+            "Erstellen Sie detaillierte 3D-Modelle von Straßen, Brücken und Tunneln, um die Infrastrukturwartung, Sicherheitsbewertungen und zukünftige Planungen zu unterstützen.",
+          "Engineering Solutions": "Ingenieurlösungen",
+          "Offer expertise in transportation engineering, including design, analysis, and optimization of transportation systems.":
+            "Bieten Sie Expertise im Verkehrswesen, einschließlich Design, Analyse und Optimierung von Verkehrssystemen.",
+          Benefit: "Vorteile",
+          "Operational Efficiency": "Betriebseffizienz",
+          "Optimize routes, reduce fuel consumption, and improve delivery times through advanced analytics and real-time data.":
+            "Optimieren Sie Routen, reduzieren Sie den Kraftstoffverbrauch und verbessern Sie Lieferzeiten durch fortschrittliche Analysen und Echtzeitdaten.",
+          "Enhanced Safety": "Erhöhte Sicherheit",
+          "Identify and mitigate potential hazards by monitoring infrastructure conditions and traffic patterns.":
+            "Identifizieren und mindern Sie potenzielle Gefahren durch Überwachung der Infrastrukturbedingungen und Verkehrsströme.",
+          Innovation: "Innovation",
+          "Support the development of autonomous vehicles and smart city initiatives through high-quality data and modeling.":
+            "Unterstützen Sie die Entwicklung autonomer Fahrzeuge und Smart-City-Initiativen durch hochwertige Daten und Modellierung.",
+          "Environmental Impact Reduction": "Umweltauswirkungen verringern",
+          "Decrease emissions and congestion by optimizing logistics and promoting sustainable transportation practices.":
+            "Reduzieren Sie Emissionen und Staus, indem Sie die Logistik optimieren und nachhaltige Transportpraktiken fördern.",
         },
       },
     },

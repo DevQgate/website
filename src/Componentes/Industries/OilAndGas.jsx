@@ -11,8 +11,10 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const { t } = useTranslation();
   const servicesRef = useRef(null);
 
   const handleScrollToServices = () => {
@@ -50,21 +52,17 @@ const App = () => {
               boxShadow="md"
             >
               <Heading as="h1" size="xl" mb={4}>
-                Oil and Gas Industry
+                {t("Oil and Gas Industry")}
               </Heading>
               <Text mb={4}>
-                At Q-Gate Infotech, we support the oil and gas industry with
-                specialized geospatial, engineering, and data analytics services
-                that enhance exploration, production, and asset management. Our
-                solutions help companies navigate complex challenges and operate
-                efficiently in a competitive market.
+              {t("At Q-Gate Infotech, we support the oil and gas industry with specialized geospatial, engineering, and data analytics services that enhance exploration, production, and asset management. Our solutions help companies navigate complex challenges and operate efficiently in a competitive market.")}
               </Text>
               <Button
                 colorScheme="yellow"
                 mt={4}
                 onClick={handleScrollToServices}
               >
-                Learn More
+                {t("Learn More")}
               </Button>
             </Box>
           </Box>
@@ -82,7 +80,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Our Services Include
+                  {t("Our Services Include")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -92,10 +90,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      GIS & Remote Sensing:
+                      {t("GIS & Remote Sensing")}:
                     </Text>
-                    Analyze spatial data for exploration mapping, pipeline
-                    routing, and environmental monitoring.
+                    {t("Analyze spatial data for exploration mapping, pipeline routing, and environmental monitoring.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -104,10 +101,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Image Processing:
+                    {t("Image Processing")}:
                     </Text>
-                    Interpret seismic imagery and satellite data to identify
-                    geological features and assess potential drilling sites.
+                    {t("Interpret seismic imagery and satellite data to identify geological features and assess potential drilling sites.")}
                   </Text>
 
                   <Text fontSize="sm" color="gray.700">
@@ -117,11 +113,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Annotations:
+                    {t("Annotations")}:
                     </Text>
-                    Provide data labeling for AI models used in reservoir
-                    characterization, predictive maintenance, and operational
-                    optimization.
+                    {t("Provide data labeling for AI models used in reservoir characterization, predictive maintenance, and operational optimization.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -130,10 +124,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      LiDAR Data Processing:
+                    {t("LiDAR Data Processing")}:
                     </Text>
-                    Generate accurate 3D models of terrains and offshore
-                    platforms for planning and safety assessments.
+                    {t("Generate accurate 3D models of terrains and offshore platforms for planning and safety assessments.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -142,10 +135,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Engineering Solutions:
+                    {t("Engineering Solutions")}:
                     </Text>
-                    Deliver expertise in petroleum engineering, infrastructure
-                    design, and process optimization.
+                    {t("Deliver expertise in petroleum engineering, infrastructure design, and process optimization.")}
                   </Text>
                 </VStack>
               </Box>
@@ -167,7 +159,7 @@ const App = () => {
             >
               <Box flex="1" p={4}>
                 <Heading as="h2" size="lg" color="blue.900">
-                  Benefit
+                {t("Benefit")}
                 </Heading>
                 <VStack align="start" spacing={2} mt={2}>
                   <Text fontSize="sm" color="gray.700">
@@ -177,10 +169,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Exploration Enhancement:
+                    {t("Exploration Enhancement")}:
                     </Text>
-                    Increase success rates in finding new reserves through
-                    advanced data analysis and modeling.
+                    {t("Increase success rates in finding new reserves through advanced data analysis and modeling.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -189,10 +180,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Operational Efficiency:
+                    {t("Operational Efficiency")}:
                     </Text>
-                    Optimize production processes and reduce downtime with
-                    predictive analytics and real-time monitoring.
+                    {t("Optimize production processes and reduce downtime with predictive analytics and real-time monitoring.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -201,11 +191,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Risk Mitigation:
+                    {t("Risk Mitigation")}:
                     </Text>
-                    Identify and manage risks associated with exploration and
-                    production activities, including environmental and safety
-                    concerns.
+                    {t("Identify and manage risks associated with exploration and production activities, including environmental and safety concerns.")}
                   </Text>
                   <Text fontSize="sm" color="gray.700">
                     <Text
@@ -214,10 +202,9 @@ const App = () => {
                       display="block"
                       color="blue.600"
                     >
-                      Regulatory Compliance:
+                    {t("Regulatory Compliance")}:
                     </Text>
-                        Ensure adherence to industry regulations and environmental
-                        standards through comprehensive analysis and reporting.
+                    {t("Ensure adherence to industry regulations and environmental standards through comprehensive analysis and reporting.")}
                   </Text>
                 </VStack>
               </Box>

@@ -11,9 +11,11 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
   const servicesRef = useRef(null);
+  const { t } = useTranslation();
 
   const handleScrollToServices = () => {
     servicesRef.current.scrollIntoView({ behavior: "smooth" });
@@ -51,17 +53,17 @@ const App = () => {
             boxShadow="md"
           >
             <Heading as="h1" size="xl" mb={4}>
-            Marine & Water Resource Management
+            {t("Marine & Water Resource Management")}
             </Heading>
             <Text mb={4}>
-              Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments.
+              {t("Q-Gate Infotech provides advanced geospatial and engineering solutions to enhance marine and water resource management. Our expertise enables governments, environmental agencies, and maritime industries to effectively monitor, manage, and protect aquatic environments.")}
             </Text>
             <Button
               colorScheme="yellow"
               mt={4}
               onClick={handleScrollToServices}
             >
-              Learn More
+              {t("Learn More")}
             </Button>
           </Box>
         </Box>
@@ -79,7 +81,7 @@ const App = () => {
           >
             <Box flex="1" p={4}>
               <Heading as="h2" size="lg" color="blue.900">
-                Our Services Include
+                {t("Our Services Include")}
               </Heading>
               <VStack align="start" spacing={2} mt={2}>
                 <Text fontSize="sm" color="gray.700">
@@ -89,10 +91,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    GIS & Remote Sensing:
+                    {t("GIS & Remote Sensing")}:
                   </Text>
-                  Leverage spatial data to monitor marine ecosystems, coastal zones, and freshwater
-                  bodies for environmental changes and resource assessment.
+                  {t("Leverage spatial data to monitor marine ecosystems, coastal zones, and freshwater bodies for environmental changes and resource assessment.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -101,11 +102,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Sea & Water Bed Mapping:
+                  {t("Sea & Water Bed Mapping")}:
                   </Text>
-                    Generate detailed bathymetric maps of seabeds and 
-                    riverbeds using sonar and LiDAR technologies for navigation safety, 
-                    resource exploration, and habitat mapping.
+                  {t("Generate detailed bathymetric maps of seabeds and riverbeds using sonar and LiDAR technologies for navigation safety, resource exploration, and habitat mapping.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -114,11 +113,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Hydro Flattening:
+                  {t("Hydro Flattening")}:
                   </Text>
-                    Apply hydro-flattening techniques to LiDAR data to accurately 
-                    represent water surfaces in digital elevation models, essential 
-                    for flood modeling and hydrological studies.
+                  {t("Apply hydro-flattening techniques to LiDAR data to accurately represent water surfaces in digital elevation models, essential for flood modeling and hydrological studies.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -127,11 +124,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Engineering Solutions:
+                  {t("Engineering Solutions")}:
                   </Text>
-                  Offer expertise in coastal infrastructure development, 
-                  erosion control, and shoreline management to protect against sea-level
-                  rise and extreme weather events.
+                  {t("Offer expertise in coastal infrastructure development, erosion control, and shoreline management to protect against sea-level rise and extreme weather events.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -140,11 +135,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    LiDAR Measurement Analysis:
+                  {t("LiDAR Measurement Analysis")}:
                   </Text>
-                  Process LiDAR data to create high-resolution 3D models of coastal and 
-                  underwater terrains, supporting dredging operations, port development,
-                  and environmental monitoring.
+                  {t("Process LiDAR data to create high-resolution 3D models of coastal and underwater terrains, supporting dredging operations, port development, and environmental monitoring.")}
                 </Text>
               </VStack>
             </Box>
@@ -166,7 +159,7 @@ const App = () => {
           >
             <Box flex="1" p={4}>
               <Heading as="h2" size="lg" color="blue.900">
-                Benefit
+              {t("Benefit")}
               </Heading>
               <VStack align="start" spacing={2} mt={2}>
                 <Text fontSize="sm" color="gray.700">
@@ -176,10 +169,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Resource Optimization: :
+                  {t("Resource Optimization")}: 
                   </Text>
-                  Manage fisheries and aquatic resources sustainably 
-                  by understanding population dynamics and habitat conditions.
+                  {t("Manage fisheries and aquatic resources sustainably by understanding population dynamics and habitat conditions.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -188,10 +180,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Environmental Protection:
+                  {t("Environmental Protection")}:
                   </Text>
-                  Monitor water quality, detect pollution sources, 
-                  and assess the impact of human activities on marine ecosystems.
+                  {t("Monitor water quality, detect pollution sources, and assess the impact of human activities on marine ecosystems.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -200,10 +191,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Risk Management:
+                  {t("Risk Management")}:
                   </Text>
-                  Enhance disaster preparedness by modeling storm surges, 
-                  flooding, and coastal erosion scenarios.
+                  {t("Enhance disaster preparedness by modeling storm surges, flooding, and coastal erosion scenarios.")}
                 </Text>
                 <Text fontSize="sm" color="gray.700">
                   <Text
@@ -212,10 +202,9 @@ const App = () => {
                     display="block"
                     color="blue.600"
                   >
-                    Infrastructure Development:
+                  {t("Infrastructure Development")}:
                   </Text>
-                  Support the planning and maintenance of maritime 
-                  infrastructure such as ports, harbors, and offshore installations.
+                  {t("Support the planning and maintenance of maritime infrastructure such as ports, harbors, and offshore installations.")}
                 </Text>
               </VStack>
             </Box>

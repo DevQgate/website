@@ -10,8 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import { useTranslation } from "react-i18next";
 
 const EngineeringSolutions = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Header />
@@ -39,10 +41,10 @@ const EngineeringSolutions = () => {
               color="Black"
             >
               <Text fontSize="4xl" fontWeight="bold">
-                Engineering Solutions
+                {t("Engineering Solutions")}
               </Text>
               <Text fontSize="lg">
-                Q-Gate Infotech Private Limited / Engineering Solutions
+                {t("Q-Gate Infotech Private Limited / Engineering Solutions")}
               </Text>
             </Box>
           </Box>
@@ -52,14 +54,10 @@ const EngineeringSolutions = () => {
         <Box bg="white" py={8} mb={8}>
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              Innovative Engineering for Sustainable Development
+              {t("Innovative Engineering for Sustainable Development")}
             </Heading>
             <Text color="gray.700">
-              Q-Gate Infotech's Engineering Solutions merge cutting-edge
-              technology with engineering expertise to support the design,
-              development, and optimization of infrastructure and industrial
-              projects. Our services aim to enhance efficiency, sustainability,
-              and innovation in engineering practices. We offer:
+              {t("Q-Gate Infotech's Engineering Solutions merge cutting-edge technology with engineering expertise to support the design, development and optimization of infrastructure and industrial projects. Our services aim to enhance efficiency, sustainability and innovation in engineering practices. We offer:")}
             </Text>
           </Container>
         </Box>
@@ -73,19 +71,16 @@ const EngineeringSolutions = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Building Information Modeling (BIM)
+                {t("Building Information Modeling (BIM)")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Developing detailed and intelligent 3D models of buildings and
-                infrastructure.
+                {t("Developing detailed and intelligent 3D models of buildings and infrastructure.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Enabling effective visualization, simulation, and project
-                management.
+                {t("Enabling effective visualization, simulation, and project management.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Facilitating collaboration, reducing errors, and streamlining
-                delivery.
+                {t("Facilitating collaboration, reducing errors, and streamlining delivery.")}
               </Text>
             </GridItem>
             <GridItem
@@ -136,18 +131,16 @@ const EngineeringSolutions = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Reverse Engineering for Existing Structures
+                  {t("Reverse Engineering for Existing Structures")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Utilizing advanced scanning and modeling for structural
-                  analysis.
+                  {t("Utilizing advanced scanning and modeling for structural analysis.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Assisting renovation planning, analysis, and maintenance
-                  scheduling.
+                  {t("Assisting renovation planning, analysis, and maintenance scheduling.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Ensuring longevity and safety of infrastructure assets.
+                  {t("Ensuring longevity and safety of infrastructure assets.")}
                 </Text>
               </GridItem>
             </Grid>
@@ -163,18 +156,16 @@ const EngineeringSolutions = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Engineering Consultancy
+                {t("Engineering Consultancy")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Providing expert consultancy across various engineering
-                projects.
+                {t("Providing expert consultancy across various engineering projects.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Conducting feasibility studies, environmental assessments, and
-                optimization.
+                {t("Conducting feasibility studies, environmental assessments, and optimization.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Enhancing project outcomes with multidisciplinary expertise.
+                {t("Enhancing project outcomes with multidisciplinary expertise.")}
               </Text>
             </GridItem>
             <GridItem

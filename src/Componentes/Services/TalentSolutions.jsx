@@ -10,8 +10,10 @@ import {
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import { useTranslation } from "react-i18next";
 
 const TalentSolutions = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Header />
@@ -39,10 +41,9 @@ const TalentSolutions = () => {
               color="White"
             >
               <Text fontSize="4xl" fontWeight="bold">
-                Empowering Your Business with Skilled Professionals and Flexible
-                Engagement Models
+                {t("Talent Solutions")}
               </Text>
-              <Text fontSize="lg">Q-Gate Infotech / Talent Solutions</Text>
+              <Text fontSize="lg">{t("Q-Gate Infotech / Talent Solutions")}</Text>
             </Box>
           </Box>
         </Box>
@@ -51,13 +52,10 @@ const TalentSolutions = () => {
         <Box bg="white" py={8} mb={8}>
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              At Q-Gate Infotech, we recognize that having the right talent is
-              crucial for organizational success.
+              {t("At Q-Gate Infotech, we recognize that having the right talent is crucial for organizational success.")}
             </Heading>
             <Text color="gray.700">
-              Our Talent Solutions service provides access to a diverse pool of
-              highly skilled professionals, enabling your business to meet its
-              objectives effectively. Our offerings include:
+              {t("Our Talent Solutions service provides access to a diverse pool of highly skilled professionals, enabling your business to meet its objectives effectively. Our offerings include:")}
             </Text>
           </Container>
         </Box>
@@ -71,19 +69,19 @@ const TalentSolutions = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Staff Augmentation
+                {t("Staff Augmentation")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Qualified experts to supplement your teams.
+                {t("Qualified experts to supplement your teams.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Scalable resources based on project demands.
+                {t("Scalable resources based on project demands.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Seamless integration with your existing workforce.
+                {t("Seamless integration with your existing workforce.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Expertise in geospatial technologies, software, and analytics.
+                {t("Expertise in geospatial technologies, software, and analytics.")}
               </Text>
             </GridItem>
             <GridItem
@@ -124,19 +122,19 @@ const TalentSolutions = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Dedicated Project Teams
+                  {t("Dedicated Project Teams")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Exclusive teams focused on your assignments.
+                  {t("Exclusive teams focused on your assignments.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Ensures alignment with organizational goals.
+                  {t("Ensures alignment with organizational goals.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Consistent collaboration with your internal teams.
+                  {t("Consistent collaboration with your internal teams.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Promotes organizational culture fit.
+                  {t("Promotes organizational culture fit.")}
                 </Text>
               </GridItem>
             </Grid>
@@ -152,19 +150,19 @@ const TalentSolutions = () => {
               justifyContent="center"
             >
               <Heading as="h1" size="md" mb={4} color="gray.900">
-                Flexible Engagement Models
+                {t("Flexible Engagement Models")}
               </Heading>
               <Text color="gray.700" mb={4}>
-                Tailored engagement options based on business needs.
+                {t("Tailored engagement options based on business needs.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Short-term contracts for quick solutions.
+                {t("Short-term contracts for quick solutions.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Long-term placements for sustained support.
+                {t("Long-term placements for sustained support.")}
               </Text>
               <Text color="gray.700" mb={4}>
-                Project-based arrangements for specific goals.
+                {t("Project-based arrangements for specific goals.")}
               </Text>
             </GridItem>
             <GridItem
@@ -205,19 +203,19 @@ const TalentSolutions = () => {
                 justifyContent="center"
               >
                 <Heading as="h2" size="md" mb={4} color="gray.900">
-                  Quality Assurance and Compliance
+                  {t("Quality Assurance and Compliance")}
                 </Heading>
                 <Text color="gray.700" mb={4}>
-                  Rigorous vetting of all professionals.
+                  {t("Rigorous vetting of all professionals.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Ensure high standards of technical proficiency.
+                  {t("Ensure high standards of technical proficiency.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Handle all HR management and compliance aspects.
+                  {t("Handle all HR management and compliance aspects.")}
                 </Text>
                 <Text color="gray.700" mb={4}>
-                  Focus on your core business while we manage the rest.
+                  {t("Focus on your core business while we manage the rest.")}
                 </Text>
               </GridItem>
             </Grid>
