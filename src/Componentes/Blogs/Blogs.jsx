@@ -53,7 +53,7 @@ const App = () => {
               height={useBreakpointValue({
                 base: "50vh",
                 md: "70vh",
-                lg: "96vh",
+                lg: "66vh",
               })}
               objectFit="cover"
             />

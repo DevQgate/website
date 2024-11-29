@@ -38,7 +38,7 @@ function App() {
           {/* <Header /> */}
 
 
-          <MainSection/>
+          {/* <MainSection/> */}
           {/* <AboutUs/>   */}
           {/* <Career/>  */}
           {/* <Contact />    */}
@@ -70,7 +70,7 @@ function App() {
 
           {/* <Product/> */}
 
-          {/* <Blogs/> */}
+          <Blogs/>
 
           
           {/* <Footer /> */}
