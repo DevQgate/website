@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Blog from "./Blog.jsx";
+import AboutCompany from "./AboutCompany.jsx";
 import VisionMission from "./VisionMission";
 import About from "./about.jsx";
 import CoreStrength from "./CoreStrengths.jsx";
@@ -357,8 +357,9 @@ const AboutUs = () => {
             </Stack>
           </Flex>
           {/* VisionMission */}
-          <VisionMission />;{/* Blog */}
-          <Blog />
+          <VisionMission />
+          {/* AboutCompany */}
+          <AboutCompany />
           {/* CoreStrength */}
           <CoreStrength />
           {/* FAQ Section */}

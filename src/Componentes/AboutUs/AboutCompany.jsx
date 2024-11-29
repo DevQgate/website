@@ -12,7 +12,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons"; // Keep th
 import { FaQuoteLeft } from "react-icons/fa"; // Import the quote-left icon from react-icons
 import { useTranslation } from "react-i18next";
 
-const Blog = () => {
+const AboutCompany = () => {
   const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const handlePrev = () => {
@@ -125,4 +125,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default AboutCompany;

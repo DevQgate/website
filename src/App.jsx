@@ -26,6 +26,7 @@ import Education from "./Componentes/Industries/Education.jsx"
 import Service from "./Componentes/Services/Service.jsx"
 import TalentSolutions from "./Componentes/Services/TalentSolutions.jsx";
 import Product from "./Componentes/Product/Product.jsx";
+import Blogs from "./Componentes/Blogs/Blogs.jsx"
 
 
 function App() {
@@ -37,10 +38,10 @@ function App() {
           {/* <Header /> */}
 
 
-          {/* <MainSection/> */}
+          <MainSection/>
           {/* <AboutUs/>   */}
           {/* <Career/>  */}
-          <Contact />   
+          {/* <Contact />    */}
           
                     
           {/* <Industries/> */}
@@ -68,6 +69,8 @@ function App() {
 
 
           {/* <Product/> */}
+
+          {/* <Blogs/> */}
 
           
           {/* <Footer /> */}

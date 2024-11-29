@@ -23,6 +23,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import { useTranslation } from "react-i18next";
 
+
 const Contact = () => {
   const { t } = useTranslation();
   return (
@@ -163,14 +164,7 @@ const Contact = () => {
                     _placeholder={{ color: "gray.400" }}
                     fontSize="md"
                   />
-                  <Input
-                    placeholder={t("Phone Number")}
-                    bg="#1a1a40"
-                    borderColor="gray.600"
-                    color="white"
-                    _placeholder={{ color: "gray.400" }}
-                    fontSize="md"
-                  />
+                  
                 </HStack>
                 <Input
                   placeholder={t("Your Email")}

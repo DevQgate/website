@@ -11,8 +11,8 @@ i18n
         translation: {
           Home: "Home",
           "About Us": "About Us",
-          "Product": "Product",
-          "Industries": "Industries",
+          Product: "Product",
+          Industries: "Industries",
           Services: "Services",
           Contact: "Contact",
           Careers: "Careers",
@@ -1023,15 +1023,54 @@ i18n
           "Your Email": "Your Email",
           "Your Message": "Your Message",
           "Send Message": "Send Message",
-          "Contact Us":"Contact Us",
+          "Contact Us": "Contact Us",
+
+          //Blog
+
+          "Geospatial Data Analysis for Environmental Monitoring":
+            "Geospatial Data Analysis for Environmental Monitoring",
+          "Explore how geospatial data analysis is used to monitor and protect the environment. Learn about the latest tools and techniques in this field.":
+            "Explore how geospatial data analysis is used to monitor and protect the environment. Learn about the latest tools and techniques in this field.",
+          "Remote Sensing Applications in Agriculture":
+            "Remote Sensing Applications in Agriculture",
+          "Discover the applications of remote sensing in agriculture. Understand how satellite imagery helps in crop monitoring and yield prediction.":
+            "Discover the applications of remote sensing in agriculture. Understand how satellite imagery helps in crop monitoring and yield prediction.",
+          "GIS in Urban Planning and Development":
+            "GIS in Urban Planning and Development",
+          "Learn about the role of Geographic Information Systems (GIS) in urban planning. See how GIS technology aids in sustainable city development.":
+            "Learn about the role of Geographic Information Systems (GIS) in urban planning. See how GIS technology aids in sustainable city development.",
+          "Satellite Imagery Processing Techniques":
+            "Satellite Imagery Processing Techniques",
+          "Understand the techniques used in processing satellite imagery. Gain insights into the methods for enhancing and analyzing satellite data.":
+            "Understand the techniques used in processing satellite imagery. Gain insights into the methods for enhancing and analyzing satellite data.",
+          "Integration of AI in Geospatial Technologies":
+            "Integration of AI in Geospatial Technologies",
+          "Explore the integration of Artificial Intelligence (AI) in geospatial technologies. Learn how AI is revolutionizing geospatial data analysis.":
+            "Explore the integration of Artificial Intelligence (AI) in geospatial technologies. Learn how AI is revolutionizing geospatial data analysis.",
+          "Climate Change Modeling using Geospatial Data":
+            "Climate Change Modeling using Geospatial Data",
+          "Discover how geospatial data is used in climate change modeling. Understand the impact of geospatial analysis on climate research.":
+            "Discover how geospatial data is used in climate change modeling. Understand the impact of geospatial analysis on climate research.",
+          "Handling Big Data in Geospatial Analysis":
+            "Handling Big Data in Geospatial Analysis",
+          "Learn about the challenges and solutions in handling big data in geospatial analysis. See how big data technologies are applied in this field.":
+            "Learn about the challenges and solutions in handling big data in geospatial analysis. See how big data technologies are applied in this field.",
+          "Advancements in 3D Mapping Technologies":
+            "Advancements in 3D Mapping Technologies",
+          "Explore the latest advancements in 3D mapping technologies. Understand how 3D mapping is transforming various industries.":
+            "Explore the latest advancements in 3D mapping technologies. Understand how 3D mapping is transforming various industries.",
+          "Innovative Geospatial Data Visualization Techniques":
+            "Innovative Geospatial Data Visualization Techniques",
+          "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.":
+            "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.",
         },
       },
       GE: {
         translation: {
           Home: "Startseite",
           "About Us": "Über uns",
-          "Product": "Produkt",
-          "Industries": "Branchen",
+          Product: "Produkt",
+          Industries: "Branchen",
           Services: "Dienstleistungen",
           Contact: "Kontakt",
           Careers: "Karriere",
@@ -2039,7 +2078,46 @@ i18n
           "Your Email": "Ihre E-Mail",
           "Your Message": "Ihre Nachricht",
           "Send Message": "Nachricht senden",
-          "Contact Us":"Kontaktieren Sie uns",
+          "Contact Us": "Kontaktieren Sie uns",
+
+          //Blogs
+
+          "Geospatial Data Analysis for Environmental Monitoring":
+            "Geodatenanalyse für Umweltüberwachung",
+          "Explore how geospatial data analysis is used to monitor and protect the environment. Learn about the latest tools and techniques in this field.":
+            "Erfahren Sie, wie die Analyse von Geodaten zur Überwachung und zum Schutz der Umwelt eingesetzt wird. Lernen Sie die neuesten Werkzeuge und Techniken in diesem Bereich kennen.",
+          "Remote Sensing Applications in Agriculture":
+            "Fernerkundungsanwendungen in der Landwirtschaft",
+          "Discover the applications of remote sensing in agriculture. Understand how satellite imagery helps in crop monitoring and yield prediction.":
+            "Entdecken Sie die Anwendungen der Fernerkundung in der Landwirtschaft. Verstehen Sie, wie Satellitenbilder bei der Überwachung von Kulturen und der Ertragsprognose helfen.",
+          "GIS in Urban Planning and Development":
+            "GIS in der Stadtplanung und -entwicklung",
+          "Learn about the role of Geographic Information Systems (GIS) in urban planning. See how GIS technology aids in sustainable city development.":
+            "Erfahren Sie mehr über die Rolle von Geoinformationssystemen (GIS) in der Stadtplanung. Sehen Sie, wie GIS-Technologie die nachhaltige Stadtentwicklung unterstützt.",
+          "Satellite Imagery Processing Techniques":
+            "Verarbeitungstechniken für Satellitenbilder",
+          "Understand the techniques used in processing satellite imagery. Gain insights into the methods for enhancing and analyzing satellite data.":
+            "Verstehen Sie die Techniken, die bei der Verarbeitung von Satellitenbildern verwendet werden. Erhalten Sie Einblicke in Methoden zur Verbesserung und Analyse von Satellitendaten.",
+          "Integration of AI in Geospatial Technologies":
+            "Integration von KI in Geotechnologien",
+          "Explore the integration of Artificial Intelligence (AI) in geospatial technologies. Learn how AI is revolutionizing geospatial data analysis.":
+            "Erkunden Sie die Integration von künstlicher Intelligenz (KI) in Geotechnologien. Erfahren Sie, wie KI die Analyse von Geodaten revolutioniert.",
+          "Climate Change Modeling using Geospatial Data":
+            "Klimawandelmodellierung mit Geodaten",
+          "Discover how geospatial data is used in climate change modeling. Understand the impact of geospatial analysis on climate research.":
+            "Entdecken Sie, wie Geodaten in der Klimawandelmodellierung verwendet werden. Verstehen Sie die Auswirkungen der Geodatenanalyse auf die Klimaforschung.",
+          "Handling Big Data in Geospatial Analysis":
+            "Umgang mit Big Data in der Geodatenanalyse",
+          "Learn about the challenges and solutions in handling big data in geospatial analysis. See how big data technologies are applied in this field.":
+            "Erfahren Sie mehr über die Herausforderungen und Lösungen im Umgang mit Big Data in der Geodatenanalyse. Sehen Sie, wie Big-Data-Technologien in diesem Bereich angewendet werden.",
+          "Advancements in 3D Mapping Technologies":
+            "Fortschritte in der 3D-Kartierungstechnologie",
+          "Explore the latest advancements in 3D mapping technologies. Understand how 3D mapping is transforming various industries.":
+            "Erkunden Sie die neuesten Fortschritte in der 3D-Kartierungstechnologie. Verstehen Sie, wie die 3D-Kartierung verschiedene Branchen transformiert.",
+          "Innovative Geospatial Data Visualization Techniques":
+            "Innovative Techniken zur Visualisierung von Geodaten",
+          "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.":
+            "Entdecken Sie innovative Techniken zur Visualisierung von Geodaten. Lernen Sie, wie effektive Visualisierung die Dateninterpretation und Entscheidungsfindung verbessert.",
         },
       },
     },

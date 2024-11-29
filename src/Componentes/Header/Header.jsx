@@ -1,27 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import { Box, Flex, HStack, VStack, Button, Image, Link, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
-import CountryFlag from "react-native-country-flag"; // Import the flag component
-import "./Header.css";
+import CountryFlag from "react-native-country-flag"; // Flag component
 import logo from "../Image/Q-Gate-Logo.png";
-import EnergySavingsLeafIcon from "@mui/icons-material/EnergySavingsLeaf";
-import EvStationIcon from "@mui/icons-material/EvStation";
-import InfoIcon from "@mui/icons-material/Info";
-import ContactMailIcon from "@mui/icons-material/ContactMail";
-import DnsIcon from "@mui/icons-material/Dns";
 
 const Header = () => {
   const { t, i18n } = useTranslation(); // Hook for translation
-  const [showLanguageDropdown, setShowLanguageDropdown] = React.useState(false);
-  const [language, setLanguage] = React.useState(i18n.language || "EN");
-
-  const toggleLanguageDropdown = () => {
-    setShowLanguageDropdown(!showLanguageDropdown);
-  };
+  const [language, setLanguage] = useState(i18n.language || "EN");
+  const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
 
   const changeLanguage = (lang) => {
-    setLanguage(lang);
-    i18n.changeLanguage(lang); // Change language using i18next
-    setShowLanguageDropdown(false);
+    setLanguage(lang); // Update local language state
+    i18n.changeLanguage(lang); // Change language using i18n
+    setIsLanguageOpen(false); // Close the language dropdown after selection
   };
 
   const flag =
@@ -31,115 +24,139 @@ const Header = () => {
       <CountryFlag isoCode="IN" size={20} />
     );
 
+  const menuItems = {
+    industries: [
+      t("Agriculture"),
+      t("Energy & Utilities"),
+      t("Education"),
+      t("Smart Transportation & Logistics"),
+      t("Infrastructure Development"),
+      t("Mining & Mineral Exploration"),
+      t("Oil & Gas Industry"),
+      t("Marine & Water Resource Management"),
+    ],
+    services: [
+      t("Geospatial Services"),
+      t("Software Development"),
+      t("Data Analytics"),
+      t("Content Annotation"),
+      t("Engineering Solutions"),
+      t("Cloud-Based AI/ML Solutions"),
+      t("Professional Training"),
+      t("Talent Solutions"),
+    ],
+  };
+
   return (
-    <div className="navbar">
-      <div className="logo">
-        <img alt="Q-Gate Logo" height="50" src={logo} width="200" />
-      </div>
-      <div className="menu">
-        <a href="#">{t("Home")}</a>
-        {/* Display About */}
-        <a href="#">{t("About")}</a>
+    <Box as="nav" bg="white" boxShadow="sm" position="sticky" top="0" zIndex="100" px={6} py={4}>
+      <Flex align="center" justify="space-between" wrap="wrap">
+        {/* Logo */}
+        <Box>
+          <Image src={logo} alt="Q-Gate Logo" height="40px" />
+        </Box>
 
-        <a href="#">{t("Product")}</a>
+        {/* Menu */}
+        <HStack spacing={{ base: 4, md: 8 }} display={{ base: "none", md: "flex" }} align="center">
+          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+            {t("Home")}
+          </Link>
+          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+            {t("About")}
+          </Link>
+          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+            {t("Product")}
+          </Link>
 
-        {/* Verticals Dropdown */}
-        
-        <div className="dropdown">
-          <a className="dropdown-toggle">{t("Industries")}</a>
-          <div className="verticals-dropdown">
-            <div className="left-column">
-              <ul>
-                <li>
-                  <a href="#">{t("Agriculture")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Energy & Utilities")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Education")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Smart Transportation & Logistics")}</a>
-                </li>
-              </ul>
-            </div>
-            <div className="right-column">
-              <ul>
-                <li>
-                  <a href="#">{t("Infrastructure Development")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Mining & Mineral Exploration")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Oil & Gas Industry")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Marine & Water Resource Management")}</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        {/* Services Dropdown */}
-        <div className="dropdown">
-          <a className="dropdown-toggle">{t("Services")}</a>
-          <div className="services-dropdown">
-            <div className="left-column">
-              <ul>
-                <li>
-                  <a href="#">{t("Geospatial Services")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Software Development")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Data Analytics")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Content Annotation")}</a>
-                </li>
-              </ul>
-            </div>
-            <div className="right-column">
-              <ul>
-                <li>
-                  <a href="#">{t("Engineering Solutions")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Cloud-Based AI/ML Solutions")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Professional Training")}</a>
-                </li>
-                <li>
-                  <a href="#">{t("Talent Solutions")}</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        {/* Display Careers and Contact */}
-        <a href="#">{t("Careers")}</a>
-        <a href="#">{t("Contact")}</a>
-        <a href="#">{t("Blogs")}</a>
-      </div>
+          {/* Industries Dropdown */}
+          <Box
+            onMouseEnter={() => setIsIndustriesOpen(true)}
+            onMouseLeave={() => setIsIndustriesOpen(false)}
+          >
+            <Menu isOpen={isIndustriesOpen}>
+              <MenuButton as={Button} variant="ghost" fontWeight="600">
+                {t("Industries")}
+              </MenuButton>
+              <MenuList>
+                <HStack align="start" px={4} py={2}>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.industries.slice(0, 4).map((item, index) => (
+                      <MenuItem key={index}>{item}</MenuItem>
+                    ))}
+                  </VStack>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.industries.slice(4).map((item, index) => (
+                      <MenuItem key={index}>{item}</MenuItem>
+                    ))}
+                  </VStack>
+                </HStack>
+              </MenuList>
+            </Menu>
+          </Box>
 
-      {/* Language Switcher */}
-      <div className="language">
-        <button onClick={toggleLanguageDropdown} className="dropdown-button">
-          {flag} {/* Display the flag */}
-          {language.toUpperCase()} {/* Display the language code */}
-        </button>
-        {showLanguageDropdown && (
-          <div className="dropdown-menu">
-            <button onClick={() => changeLanguage("EN")}>EN</button>
-            <button onClick={() => changeLanguage("GE")}>GE</button>
-          </div>
-        )}
-      </div>
-    </div>
+          {/* Services Dropdown */}
+          <Box
+            onMouseEnter={() => setIsServicesOpen(true)}
+            onMouseLeave={() => setIsServicesOpen(false)}
+          >
+            <Menu isOpen={isServicesOpen}>
+              <MenuButton as={Button} variant="ghost" fontWeight="600" href ="#">
+                {t("Services")}
+              </MenuButton>
+              <MenuList>
+                <HStack align="start" px={4} py={2}>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.services.slice(0, 4).map((item, index) => (
+                      <MenuItem key={index}>{item}</MenuItem>
+                    ))}
+                  </VStack>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.services.slice(4).map((item, index) => (
+                      <MenuItem key={index}>{item}</MenuItem>
+                    ))}
+                  </VStack>
+                </HStack>
+              </MenuList>
+            </Menu>
+          </Box>
+
+          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+            {t("Careers")}
+          </Link>
+          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+            {t("Contact")}
+          </Link>
+          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+            {t("Blogs")}
+          </Link>
+        </HStack>
+
+        {/* Language Selector */}
+        <Box position="relative">
+          <Button onClick={() => setIsLanguageOpen(!isLanguageOpen)} variant="ghost" fontWeight="600">
+            {flag} {language.toUpperCase()}
+          </Button>
+          {isLanguageOpen && (
+            <Box
+              position="absolute"
+              right="0"
+              top="100%"
+              bg="white"
+              boxShadow="md"
+              borderRadius="md"
+              mt={2}
+              zIndex="popover"
+            >
+              <Button variant="ghost" onClick={() => changeLanguage("EN")} width="100%">
+                EN
+              </Button>
+              <Button variant="ghost" onClick={() => changeLanguage("GE")} width="100%">
+                GE
+              </Button>
+            </Box>
+          )}
+        </Box>
+      </Flex>
+    </Box>
   );
 };
 

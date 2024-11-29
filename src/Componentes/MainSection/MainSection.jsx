@@ -13,51 +13,54 @@ import {
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Directors from "../MainSection/Directors"
+import { useTranslation } from "react-i18next"; 
+import { t } from "i18next";
 
 const industries = [
   {
-    name: "AGRICULTURE",
+    name: t("AGRICULTURE"),
     img: "src\\Componentes\\Image\\agriculture-Home.jpg",
     alt: "Agriculture",
   },
   {
-    name: "MARINE & WATER RESOURCE MANAGEMENT",
+    name: t("MARINE & WATER RESOURCE MANAGEMENT"),
     img: "src\\Componentes\\Image\\Marine-Home.jpg",
     alt: "Marine and water resource management",
   },
   {
-    name: "INFRASTRUCTURE DEVELOPMENT",
+    name: t("INFRASTRUCTURE DEVELOPMENT"),
     img: "src\\Componentes\\Image\\Infrastucture-Home.jpg",
     alt: "Infrastructure development",
   },
   {
-    name: "SMART TRANSPORTATION & LOGISTICS",
+    name: t("SMART TRANSPORTATION & LOGISTICS"),
     img: "src\\Componentes\\Image\\SMART TRANSPORTATION & LOGISTICS-Home.jpg",
     alt: "Smart transportation and logistics",
   },
   {
-    name: "ENERGY & UTILITIES",
+    name: t("ENERGY & UTILITIES"),
     img: "src\\Componentes\\Image\\ENERGY & UTILITIES-Home.jpg",
     alt: "Energy and utilities",
   },
   {
-    name: "MINING & MINERAL EXPLORATION",
+    name: t("MINING & MINERAL EXPLORATION"),
     img: "src\\Componentes\\Image\\MINING & MINERAL EXPLORATION-Home.jpg",
     alt: "Mining and mineral exploration",
   },
   {
-    name: "OIL & GAS INDUSTRY",
+    name: t("OIL & GAS INDUSTRY"),
     img: "src\\Componentes\\Image\\OIL & GAS INDUSTRY-Home.jpg",
     alt: "Oil and gas industry",
   },
   {
-    name: "EDUCATION",
+    name: t("EDUCATION"),
     img: "src\\Componentes\\Image\\EDUCATION-Home.jpg",
     alt: "Education",
   },
 ];
 
 const IndustryCard = ({ name, img, alt }) => (
+  
   <Box position="relative" rounded="lg" overflow="hidden">
     <Image src={img} alt={alt} objectFit="cover" boxSize="100%" />
     <Center
@@ -77,6 +80,7 @@ const IndustryCard = ({ name, img, alt }) => (
 );
 
 const App = () => {
+  const { t } = useTranslation();
   return (
     <Flex direction="column" minH="100%">
       <Header />
@@ -111,7 +115,7 @@ const App = () => {
             bg="blackAlpha.500" // Optional: Add a translucent background
           >
             <Text fontSize="4xl" fontWeight="bold" position="center">
-            Mapping the Future: <br/>Innovative Geospatial  Solutions for a Connected World
+            {t("Mapping the Future:")} <br/>{t("Innovative Geospatial  Solutions for a Connected World")}
             </Text>
             
           </Box>
@@ -133,15 +137,12 @@ const App = () => {
           <Flex align="center" gap={4}>
             <Box>
               <Heading fontSize={{ base: "4xl", md: "5xl" }} fontWeight="bold">
-                About Us
+                {t("About Us")}
               </Heading>
             </Box>
           </Flex>
           <Text color="gray.600" fontSize="lg">
-            At Q-Gate Infotech, we drive environmental sustainability through
-            innovative spatial data processing. Leveraging advanced AI and
-            cloud-based technologies, we specialize in geospatial and LiDAR data
-            processing to enhance climate action and disaster management.
+            {t("At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management.")}
           </Text>
           <Button
             variant="link"
@@ -149,7 +150,7 @@ const App = () => {
             size="md"
             onClick={() => alert("Redirect to more info!")}
           >
-            Learn More
+            {t("Learn More")}
           </Button>
         </VStack>
 
@@ -183,11 +184,10 @@ const App = () => {
           <span style={{ color: "#F97316" }}>—</span> Industries
         </Text>
         <Heading as="h1" size="2xl" color="blue.800" mb={4}>
-          Where Q-Gate Works
+          {t("Where Q-Gate Works")}
         </Heading>
         <Text color="gray.600" mb={12}>
-          Designed with City Planners in mind, Q-Gate empowers various
-          industries to achieve more.
+          {t("Designed with City Planners in mind, Q-Gate empowers various industries to achieve more.")}
         </Text>
         <Grid
           templateColumns={{
