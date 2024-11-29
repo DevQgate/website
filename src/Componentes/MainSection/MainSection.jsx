@@ -60,8 +60,8 @@ const industries = [
 ];
 
 const IndustryCard = ({ name, img, alt }) => (
-  
-  <Box position="relative" rounded="lg" overflow="hidden">
+
+  <Box position="relative" rounded="lg" overflow="hidden" >
     <Image src={img} alt={alt} objectFit="cover" boxSize="100%" />
     <Center
       position="absolute"

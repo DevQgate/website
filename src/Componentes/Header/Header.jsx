@@ -26,24 +26,24 @@ const Header = () => {
 
   const menuItems = {
     industries: [
-      t("Agriculture"),
-      t("Energy & Utilities"),
-      t("Education"),
-      t("Smart Transportation & Logistics"),
-      t("Infrastructure Development"),
-      t("Mining & Mineral Exploration"),
-      t("Oil & Gas Industry"),
-      t("Marine & Water Resource Management"),
+      { label: t("Agriculture"), href: "/agriculture" },
+      { label: t("Energy & Utilities"), href: "/energy-utilities" },
+      { label: t("Education"), href: "/education" },
+      { label: t("Smart Transportation & Logistics"), href: "/transportation-logistics" },
+      { label: t("Infrastructure Development"), href: "/infrastructure-development" },
+      { label: t("Mining & Mineral Exploration"), href: "/mining-exploration" },
+      { label: t("Oil & Gas Industry"), href: "/oil-gas-industry" },
+      { label: t("Marine & Water Resource Management"), href: "/marine-water-resources" },
     ],
     services: [
-      t("Geospatial Services"),
-      t("Software Development"),
-      t("Data Analytics"),
-      t("Content Annotation"),
-      t("Engineering Solutions"),
-      t("Cloud-Based AI/ML Solutions"),
-      t("Professional Training"),
-      t("Talent Solutions"),
+      { label: t("Geospatial Services"), href: "/geospatial-services" },
+      { label: t("Software Development"), href: "/software-development" },
+      { label: t("Data Analytics"), href: "/data-analytics" },
+      { label: t("Content Annotation"), href: "/content-annotation" },
+      { label: t("Engineering Solutions"), href: "/engineering-solutions" },
+      { label: t("Cloud-Based AI/ML Solutions"), href: "/cloud-ai-ml" },
+      { label: t("Professional Training"), href: "/professional-training" },
+      { label: t("Talent Solutions"), href: "/talent-solutions" },
     ],
   };
 
@@ -60,7 +60,7 @@ const Header = () => {
           <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
             {t("Home")}
           </Link>
-          <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
+          <Link href="<AboutUs/>" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
             {t("About")}
           </Link>
           <Link href="#" fontWeight="600" fontSize="md" _hover={{ color: "blue.500" }}>
@@ -80,12 +80,20 @@ const Header = () => {
                 <HStack align="start" px={4} py={2}>
                   <VStack align="start" spacing={2}>
                     {menuItems.industries.slice(0, 4).map((item, index) => (
-                      <MenuItem key={index}>{item}</MenuItem>
+                      <MenuItem key={index}>
+                        <Link href={item.href} _hover={{ textDecoration: "none", color: "blue.500" }}>
+                          {item.label}
+                        </Link>
+                      </MenuItem>
                     ))}
                   </VStack>
                   <VStack align="start" spacing={2}>
                     {menuItems.industries.slice(4).map((item, index) => (
-                      <MenuItem key={index}>{item}</MenuItem>
+                      <MenuItem key={index}>
+                        <Link href={item.href} _hover={{ textDecoration: "none", color: "blue.500" }}>
+                          {item.label}
+                        </Link>
+                      </MenuItem>
                     ))}
                   </VStack>
                 </HStack>
@@ -99,19 +107,25 @@ const Header = () => {
             onMouseLeave={() => setIsServicesOpen(false)}
           >
             <Menu isOpen={isServicesOpen}>
-              <MenuButton as={Button} variant="ghost" fontWeight="600" href ="#">
-                {t("Services")}
-              </MenuButton>
+              <MenuButton as={Button} variant="ghost" fontWeight="600" href="#">{t("Services")}</MenuButton>
               <MenuList>
                 <HStack align="start" px={4} py={2}>
                   <VStack align="start" spacing={2}>
                     {menuItems.services.slice(0, 4).map((item, index) => (
-                      <MenuItem key={index}>{item}</MenuItem>
+                      <MenuItem key={index}>
+                        <Link href={item.href} _hover={{ textDecoration: "none", color: "blue.500" }}>
+                          {item.label}
+                        </Link>
+                      </MenuItem>
                     ))}
                   </VStack>
                   <VStack align="start" spacing={2}>
                     {menuItems.services.slice(4).map((item, index) => (
-                      <MenuItem key={index}>{item}</MenuItem>
+                      <MenuItem key={index}>
+                        <Link href={item.href} _hover={{ textDecoration: "none", color: "blue.500" }}>
+                          {item.label}
+                        </Link>
+                      </MenuItem>
                     ))}
                   </VStack>
                 </HStack>

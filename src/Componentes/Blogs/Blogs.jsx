@@ -6,6 +6,7 @@ import {
   Heading,
   SimpleGrid,
   Container,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next"; // Import useTranslation
 import Footer from "../Footer/Footer";
@@ -20,7 +21,7 @@ const Card = ({ image, title, description }) => {
         src={image}
         alt={title}
         objectFit="cover"
-        height="200px"
+        height={useBreakpointValue({ base: "150px", md: "200px" })}
         width="100%"
       />
       <Box p="4">
@@ -49,7 +50,11 @@ const App = () => {
               src="src\Componentes\Image\Blogs\Blogs.jpg"
               alt={t("Blogs")}
               width="100%"
-              height="96vh"
+              height={useBreakpointValue({
+                base: "50vh",
+                md: "70vh",
+                lg: "96vh",
+              })}
               objectFit="cover"
             />
             <Box
@@ -70,51 +75,72 @@ const App = () => {
 
         {/* News Cards Section */}
         <Container maxW="container.xl" py="8">
-          <SimpleGrid columns={[1, 2, 3]} spacing="4">
+          <SimpleGrid
+            columns={useBreakpointValue({ base: 1, sm: 2, lg: 3 })}
+            spacing={useBreakpointValue({ base: "2", md: "4" })}
+          >
             <Card
               image="src\Componentes\Image\Blogs\Geospatial Data Analysis for Environmental Monitoring.png"
               title={t("Geospatial Data Analysis for Environmental Monitoring")}
-              description={t("Explore how geospatial data analysis is used to monitor and protect the environment. Learn about the latest tools and techniques in this field.")}
+              description={t(
+                "Explore how geospatial data analysis is used to monitor and protect the environment. Learn about the latest tools and techniques in this field."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Remote Sensing Applications in Agriculture.png"
               title={t("Remote Sensing Applications in Agriculture")}
-              description={t("Discover the applications of remote sensing in agriculture. Understand how satellite imagery helps in crop monitoring and yield prediction.")}
+              description={t(
+                "Discover the applications of remote sensing in agriculture. Understand how satellite imagery helps in crop monitoring and yield prediction."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\GIS in Urban Planning and Development.jpg"
               title={t("GIS in Urban Planning and Development")}
-              description={t("Learn about the role of Geographic Information Systems (GIS) in urban planning. See how GIS technology aids in sustainable city development.")}
+              description={t(
+                "Learn about the role of Geographic Information Systems (GIS) in urban planning. See how GIS technology aids in sustainable city development."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Satellite Imagery Processing Techniques.jpeg"
               title={t("Satellite Imagery Processing Techniques")}
-              description={t("Understand the techniques used in processing satellite imagery. Gain insights into the methods for enhancing and analyzing satellite data.")}
+              description={t(
+                "Understand the techniques used in processing satellite imagery. Gain insights into the methods for enhancing and analyzing satellite data."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Integration of AI in Geospatial Technologies.jpg"
               title={t("Integration of AI in Geospatial Technologies")}
-              description={t("Explore the integration of Artificial Intelligence (AI) in geospatial technologies. Learn how AI is revolutionizing geospatial data analysis.")}
+              description={t(
+                "Explore the integration of Artificial Intelligence (AI) in geospatial technologies. Learn how AI is revolutionizing geospatial data analysis."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Climate Change Modeling using Geospatial Data.jpg"
               title={t("Climate Change Modeling using Geospatial Data")}
-              description={t("Discover how geospatial data is used in climate change modeling. Understand the impact of geospatial analysis on climate research.")}
+              description={t(
+                "Discover how geospatial data is used in climate change modeling. Understand the impact of geospatial analysis on climate research."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Handling Big Data in Geospatial Analysis.jpeg"
               title={t("Handling Big Data in Geospatial Analysis")}
-              description={t("Learn about the challenges and solutions in handling big data in geospatial analysis. See how big data technologies are applied in this field.")}
+              description={t(
+                "Learn about the challenges and solutions in handling big data in geospatial analysis. See how big data technologies are applied in this field."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Advancements in 3D Mapping Technologies.jpeg"
               title={t("Advancements in 3D Mapping Technologies")}
-              description={t("Explore the latest advancements in 3D mapping technologies. Understand how 3D mapping is transforming various industries.")}
+              description={t(
+                "Explore the latest advancements in 3D mapping technologies. Understand how 3D mapping is transforming various industries."
+              )}
             />
             <Card
               image="src\Componentes\Image\Blogs\Innovative Geospatial Data Visualization Techniques.jpeg"
               title={t("Innovative Geospatial Data Visualization Techniques")}
-              description={t("Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.")}
+              description={t(
+                "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making."
+              )}
             />
           </SimpleGrid>
         </Container>
