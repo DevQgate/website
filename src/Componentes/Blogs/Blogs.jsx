@@ -9,7 +9,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next"; // Import useTranslation
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 import Header from "../Header/Header";
 
 const Card = ({ image, title, description }) => {

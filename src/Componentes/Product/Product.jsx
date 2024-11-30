@@ -1,7 +1,7 @@
 import { Box, Text } from "@chakra-ui/react"; // Import necessary Chakra UI components
 import { useTranslation } from "react-i18next"; // For translations
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 
 const Product = () => {
   const { t } = useTranslation(); // Use translation hook

@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
 
 const Service = () => {
@@ -110,7 +110,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/geospatial-services" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>
@@ -143,7 +143,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/software-development" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>
@@ -194,7 +194,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/data-analytics" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>
@@ -227,7 +227,8 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/engineering-solutions" color="white" fontSize="lg">
+              
                 <FaArrowRight />
               </Link>
             </Box>
@@ -280,7 +281,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/cloud-ai-ml" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>
@@ -313,7 +314,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/content-annotation" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>
@@ -364,7 +365,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/professional-training" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>
@@ -399,7 +400,7 @@ const Service = () => {
               </Text>
             </Box>
             <Box mt={4}>
-              <Link href="#" color="white" fontSize="lg">
+              <Link href="/talent-solutions" color="white" fontSize="lg">
                 <FaArrowRight />
               </Link>
             </Box>

@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./Componentes/Footer/Footer.jsx";
-import Header from "./Componentes/Header/Header.jsx";
+import ScrollToTop from "./ScrollToTop.jsx"; // Import the ScrollToTop component
 import "./Componentes/i18n";
 import MainSection from "./Componentes/MainSection/MainSection.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
@@ -34,7 +33,7 @@ function App() {
     <>
       <ChakraProvider>
         <Router>
-          {/* <Header />  */}
+          <ScrollToTop /> {/* Include ScrollToTop here */}
           <Routes>
             <Route path="/" element={<MainSection />} />
             <Route path="/about" element={<AboutUs />} />
@@ -59,7 +58,7 @@ function App() {
             <Route path="/infrastructure-development" element={<InfrastructureDevelopment />} />
             <Route path="/transportation-logistics" element={<SmartTransporatation />} />
             <Route path="/energy-utilities" element={<EnergyAndUtilities />} />
-            <Route path="/mining-and-mineral" element={<MiningAndMineral />} />
+            <Route path="/mining-exploration" element={<MiningAndMineral />} />
             <Route path="/oil-gas-industry" element={<OilAndGas />} />
             <Route path="/education" element={<Education />} />
 
@@ -67,7 +66,6 @@ function App() {
             <Route path="/product" element={<Product />} />
             <Route path="/blogs" element={<Blogs />} />
           </Routes>
-          {/* <Footer />  */}
         </Router>
       </ChakraProvider>
     </>

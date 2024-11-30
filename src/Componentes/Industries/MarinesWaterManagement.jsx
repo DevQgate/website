@@ -10,7 +10,7 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
 
 const App = () => {
@@ -143,7 +143,7 @@ const App = () => {
             </Box>
             <Box flex="1" p={4}>
               <Image
-                src="src\Componentes\Image\Marine-Indutries.png"
+                src="src\Componentes\Image\Industries\Marine & Water Resource Management\Marine - 1.png"
                 alt="A worker in safety gear using augmented reality technology"
                 w="full"
                 h="auto"
@@ -210,7 +210,7 @@ const App = () => {
             </Box>
             <Box flex="1" p={4}>
               <Image
-                src="src\Componentes\Image\Marine-Main.jpg"
+                src="src\Componentes\Image\Industries\Marine & Water Resource Management\Marine - 2.jpg"
                 alt="A worker in safety gear using augmented reality technology"
                 w="full"
                 h="auto"

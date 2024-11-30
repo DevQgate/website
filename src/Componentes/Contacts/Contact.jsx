@@ -20,7 +20,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
 
 

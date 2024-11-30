@@ -11,7 +11,7 @@ import {
   GridItem,
 } from "@chakra-ui/react";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
 
 const Careers = () => {

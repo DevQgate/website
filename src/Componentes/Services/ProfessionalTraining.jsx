@@ -8,7 +8,7 @@ import {
   Grid,
   GridItem,
 } from "@chakra-ui/react";
-import Footer from "../Footer/Footer";
+import Footer from "../Footer/footer";
 import Header from "../Header/Header";
 import { useTranslation } from "react-i18next";
 

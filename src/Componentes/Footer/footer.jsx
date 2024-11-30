@@ -40,9 +40,9 @@ const Footer = () => {
       >
         {/* Logo and Description */}
         <VStack align="start" spacing={4} w={{ base: "full", md: "25%" }}>
-          <Link href="https://q-gate.co/ind/">
+          <Link to="/">
             <Image
-              src="https://q-gate.co/ind/wp-content/uploads/2024/05/Q-Gate-Logo.png"
+              src="src\Componentes\Image\Q-Gate-Logo.png"
               alt={t("Q-Gate Infotech Private Limited")} // Add translation key
               h="60px"
             />
@@ -150,7 +150,7 @@ const Footer = () => {
             <ListItem>
               <HStack>
                 <EmailIcon />
-                <Link href="mailto:contact.in@q-gate.co">
+                <Link to="mailto:contact.in@q-gate.co">
                   {t("contact.in@q-gate.co")} {/* Add translation key */}
                 </Link>
               </HStack>
@@ -161,13 +161,13 @@ const Footer = () => {
             </ListItem>
           </UnorderedList>
           <HStack spacing={4}>
-            <Link href="https://www.facebook.com/61558757207161/" isExternal>
+            <Link to="https://www.facebook.com/61558757207161/" isExternal>
               <Icon as={FaFacebookF} w={5} h={5} />
             </Link>
-            <Link href="https://in.linkedin.com/company/q-gate" isExternal>
+            <Link to="https://in.linkedin.com/company/q-gate" isExternal>
               <Icon as={FaLinkedinIn} w={5} h={5} />
             </Link>
-            <Link href="https://www.instagram.com/qgateinfotech/" isExternal>
+            <Link to="https://www.instagram.com/qgateinfotech/" isExternal>
               <Icon as={FaInstagram} w={5} h={5} />
             </Link>
           </HStack>
@@ -204,7 +204,7 @@ const Footer = () => {
           <Box textAlign={{ base: "center", md: "left" }}>
             <Text>
               © 2023 {t("All Rights Reserved.")}{" "}
-              <Link href="#">Q-Gate Infotech</Link>
+              <Link to="/">Q-Gate Infotech</Link>
             </Text>
           </Box>
 

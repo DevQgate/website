@@ -19,7 +19,7 @@ import {
   AccordionIcon,
 } from "@chakra-ui/react";
 import Header from "../Header/Header.jsx";
-import Footer from "../Footer/Footer.jsx";
+import Footer from "../Footer/footer.jsx";
 
 const FAQItem = ({ question, answer, isOpen, onClick }) => (
   <AccordionItem border="none">
