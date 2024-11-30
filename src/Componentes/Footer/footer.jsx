@@ -4,7 +4,7 @@ import {
   Flex,
   VStack,
   HStack,
-  Link,
+  Link as ChakraLink,
   Text,
   Image,
   Icon,
@@ -19,7 +19,7 @@ import {
 } from "react-icons/fa";
 import { EmailIcon } from "@chakra-ui/icons";
 import { useTranslation } from "react-i18next"; // Import the translation hook
-
+import { Link } from "react-router-dom"; // Import React Router DOM's Link
 const Footer = () => {
   const { t } = useTranslation(); // Initialize translation
 
@@ -62,49 +62,38 @@ const Footer = () => {
           w={{ base: "full", md: "25%" }}
           pl={{ base: 5, md: 10 }}
         >
-          <Text fontSize="lg" fontWeight="bold">
-            {t("Industries")} {/* Add translation key */}
-          </Text>
+        <Text fontSize="lg" fontWeight="bold">
+  <Link to="/industries">{t("Industries")}</Link>
+</Text>
+
           <UnorderedList styleType="none" m={0} spacing={2}>
             <ListItem>
-              <Link href="https://q-gate.co/ind/agriculture/">
-                {t("Agriculture")}
-              </Link>
+            <Link to="/agriculture">{t("Agriculture")}</Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/education/">
-                {t("Education")}
-              </Link>
+            <Link to="/education">{t("Education")}</Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/oil-gas-industry/">
-                {t("Oil & Gas Industry")}
-              </Link>
+            <Link to="/oil-gas-industry">{t("Oil & Gas Industry")}</Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/mining-mineral-exploration/">
-                {t("Mining & Mineral Exploration")}
-              </Link>
+            <Link to="/mining-and-mineral">{t("Mining & Mineral Exploration")}</Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/energy-utilities/">
-                {t("Energy & Utilities")}
-              </Link>
+            <Link to="/energy-utilities">{t("Energy & Utilities")}</Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/intelligent-transport-logitics/">
+            <Link to="/transportation-logistics">
                 {t("Smart Transportation & Logistics")}
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/intelligent-transport-logitics/">
+            <Link to="/marine-water-resources">
                 {t("Marine & Water Resource Management")}
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://q-gate.co/ind/intelligent-transport-logitics/">
-                {t("Infrastructure Development")}
-              </Link>
+            <Link to="/infrastructure-development">{t("Infrastructure Development")}</Link>
             </ListItem>
           </UnorderedList>
         </VStack>
@@ -117,32 +106,32 @@ const Footer = () => {
           pl={{ base: 5, md: 10 }}
         >
           <Text fontSize="lg" fontWeight="bold">
-            {t("Services")} {/* Add translation key */}
+          <Link to="/services" > {t("Services")} </Link>
           </Text>
           <UnorderedList styleType="none" m={0} spacing={2}>
             <ListItem>
-              <Link>{t("Geospatial Services")}</Link>
+            <Link to="/geospatial-services">{t("Geospatial Services")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Software Development")}</Link>
+            <Link to="/software-development">{t("Software Development")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Data Analytics")}</Link>
+            <Link to="/data-analytics">{t("Data Analytics")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Content Annotation")}</Link>
+            <Link to="/content-annotation">{t("Content Annotation")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Engineering Solutions")}</Link>
+            <Link to="/engineering-solutions">{t("Engineering Solutions")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Cloud-Based AI/ML Solutions")}</Link>
+            <Link to="/cloud-ai-ml">{t("Cloud-Based AI/ML Solutions")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Professional Training")}</Link>
+            <Link to="/professional-training">{t("Professional Training")}</Link>
             </ListItem>
             <ListItem>
-              <Link>{t("Talent Solutions")}</Link>
+            <Link to="/talent-solutions">{t("Talent Solutions")}</Link>
             </ListItem>
           </UnorderedList>
         </VStack>
@@ -155,7 +144,7 @@ const Footer = () => {
           pl={{ base: 5, md: 10 }}
         >
           <Text fontSize="lg" fontWeight="bold">
-            {t("Contact Info")} {/* Add translation key */}
+          <Link to="//contact"> {t("Contact Info")}</Link>  {/* Add translation key */}
           </Text>
           <UnorderedList styleType="none" m={0} spacing={2}>
             <ListItem>
@@ -225,9 +214,9 @@ const Footer = () => {
             mt={{ base: 4, md: 0 }}
           >
             <HStack spacing={4} justify={{ base: "center", md: "flex-end" }}>
-              <Link href="https://q-gate.co/ind/about/">{t("About Us")}</Link>
-              <Link href="https://q-gate.co/ind/careers/">{t("Careers")}</Link>
-              <Link href="https://q-gate.co/ind/contact/" aria-current="page">
+              <Link to="/about">{t("About Us")}</Link>
+              <Link to="/careers">{t("Careers")}</Link>
+              <Link to="/contact" aria-current="page">
                 {t("Contact")}
               </Link>
             </HStack>

@@ -7,7 +7,7 @@ import {
   Button,
   IconButton,
   Image,
-  Link,
+  Link as ChakraLink,
   Menu,
   MenuButton,
   MenuList,
@@ -23,7 +23,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import { useTranslation } from "react-i18next";
 import CountryFlag from "react-native-country-flag"; // Flag component
 import logo from "../Image/Q-Gate-Logo.png";
-
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 const Header = () => {
   const { t, i18n } = useTranslation(); // Hook for translation
   const [language, setLanguage] = useState(i18n.language || "EN");
@@ -48,33 +48,33 @@ const Header = () => {
 
   const menuItems = {
     industries: [
-      { label: t("Agriculture"), href: "/agriculture" },
-      { label: t("Energy & Utilities"), href: "/energy-utilities" },
-      { label: t("Education"), href: "/education" },
+      { label: t("Agriculture"), to: "/agriculture" },
+      { label: t("Energy & Utilities"), to: "/energy-utilities"},
+      { label: t("Education"), to: "/education"},
       {
         label: t("Smart Transportation & Logistics"),
-        href: "/transportation-logistics",
+        to: "/transportation-logistics",
       },
       {
         label: t("Infrastructure Development"),
-        href: "/infrastructure-development",
+        to: "/infrastructure-development",
       },
-      { label: t("Mining & Mineral Exploration"), href: "/mining-exploration" },
-      { label: t("Oil & Gas Industry"), href: "/oil-gas-industry" },
+      { label: t("Mining & Mineral Exploration"), to: "/mining-exploration" },
+      { label: t("Oil & Gas Industry"),  to: "/oil-gas-industry"  },
       {
         label: t("Marine & Water Resource Management"),
-        href: "/marine-water-resources",
+        to: "/marine-water-resources",
       },
     ],
     services: [
-      { label: t("Geospatial Services"), href: "/geospatial-services" },
-      { label: t("Software Development"), href: "/software-development" },
-      { label: t("Data Analytics"), href: "/data-analytics" },
-      { label: t("Content Annotation"), href: "/content-annotation" },
-      { label: t("Engineering Solutions"), href: "/engineering-solutions" },
-      { label: t("Cloud-Based AI/ML Solutions"), href: "/cloud-ai-ml" },
-      { label: t("Professional Training"), href: "/professional-training" },
-      { label: t("Talent Solutions"), href: "/talent-solutions" },
+      { label: t("Geospatial Services"),to: "/geospatial-services" },
+      { label: t("Software Development"),to: "/software-development" },
+      { label: t("Data Analytics"), to: "/data-analytics" },
+      { label: t("Content Annotation"), to: "/content-annotation" },
+      { label: t("Engineering Solutions"), to: "/engineering-solutions" },
+      { label: t("Cloud-Based AI/ML Solutions"), to: "/cloud-ai-ml" },
+      { label: t("Professional Training"), to: "/professional-training" },
+      { label: t("Talent Solutions"), to: "/talent-solutions" },
     ],
   };
 
@@ -102,15 +102,15 @@ const Header = () => {
           align="center"
         >
           <Link
-            href="#"
+           to="/"
             fontWeight="600"
             fontSize="md"
-            _hover={{ color: "blue.500" }}
+            // _hover={{ color: "blue.500" }}
           >
             {t("Home")}
           </Link>
           <Link
-            href="<AboutUs/>"
+            to="/about"
             fontWeight="600"
             fontSize="md"
             _hover={{ color: "blue.500" }}
@@ -118,7 +118,7 @@ const Header = () => {
             {t("About")}
           </Link>
           <Link
-            href="#"
+            to="/product"
             fontWeight="600"
             fontSize="md"
             _hover={{ color: "blue.500" }}
@@ -126,88 +126,88 @@ const Header = () => {
             {t("Product")}
           </Link>
 
-          {/* Industries Dropdown */}
           <Box
-            onMouseEnter={() => setIsIndustriesOpen(true)}
-            onMouseLeave={() => setIsIndustriesOpen(false)}
-          >
-            <Menu isOpen={isIndustriesOpen}>
-              <MenuButton as={Button} variant="ghost" fontWeight="600">
-                {t("Industries")}
-              </MenuButton>
-              <MenuList>
-                <HStack align="start" px={4} py={2}>
-                  <VStack align="start" spacing={2}>
-                    {menuItems.industries.slice(0, 4).map((item, index) => (
-                      <MenuItem key={index}>
-                        <Link
-                          href={item.href}
-                          _hover={{ textDecoration: "none", color: "blue.500" }}
-                        >
-                          {item.label}
-                        </Link>
-                      </MenuItem>
-                    ))}
-                  </VStack>
-                  <VStack align="start" spacing={2}>
-                    {menuItems.industries.slice(4).map((item, index) => (
-                      <MenuItem key={index}>
-                        <Link
-                          href={item.href}
-                          _hover={{ textDecoration: "none", color: "blue.500" }}
-                        >
-                          {item.label}
-                        </Link>
-                      </MenuItem>
-                    ))}
-                  </VStack>
-                </HStack>
-              </MenuList>
-            </Menu>
-          </Box>
+  onMouseEnter={() => setIsIndustriesOpen(true)}
+  onMouseLeave={() => setIsIndustriesOpen(false)}
+>
+  <Menu isOpen={isIndustriesOpen}>
+    <MenuButton as={Link} to="/industries" fontWeight="600">
+      {t("Industries")}
+    </MenuButton>
+    <MenuList>
+      <HStack align="start" px={4} py={2}>
+        <VStack align="start" spacing={2}>
+          {menuItems.industries.slice(0, 4).map((item, index) => (
+            <MenuItem key={index}>
+              <Link
+                to={item.to}
+                // _hover={{ textDecoration: "none", color: "blue.500" }}
+              >
+                {item.label}
+              </Link>
+            </MenuItem>
+          ))}
+        </VStack>
+        <VStack align="start" spacing={2}>
+          {menuItems.industries.slice(4).map((item, index) => (
+            <MenuItem key={index}>
+              <Link
+                to={item.to}
+                // _hover={{ textDecoration: "none", color: "blue.500" }}
+              >
+                {item.label}
+              </Link>
+            </MenuItem>
+          ))}
+        </VStack>
+      </HStack>
+    </MenuList>
+  </Menu>
+</Box>
 
-          {/* Services Dropdown */}
-          <Box
-            onMouseEnter={() => setIsServicesOpen(true)}
-            onMouseLeave={() => setIsServicesOpen(false)}
-          >
-            <Menu isOpen={isServicesOpen}>
-              <MenuButton as={Button} variant="ghost" fontWeight="600" href="#">
-                {t("Services")}
-              </MenuButton>
-              <MenuList>
-                <HStack align="start" px={4} py={2}>
-                  <VStack align="start" spacing={2}>
-                    {menuItems.services.slice(0, 4).map((item, index) => (
-                      <MenuItem key={index}>
-                        <Link
-                          href={item.href}
-                          _hover={{ textDecoration: "none", color: "blue.500" }}
-                        >
-                          {item.label}
-                        </Link>
-                      </MenuItem>
-                    ))}
-                  </VStack>
-                  <VStack align="start" spacing={2}>
-                    {menuItems.services.slice(4).map((item, index) => (
-                      <MenuItem key={index}>
-                        <Link
-                          href={item.href}
-                          _hover={{ textDecoration: "none", color: "blue.500" }}
-                        >
-                          {item.label}
-                        </Link>
-                      </MenuItem>
-                    ))}
-                  </VStack>
-                </HStack>
-              </MenuList>
-            </Menu>
-          </Box>
+{/* Services Dropdown */}
+<Box
+  onMouseEnter={() => setIsServicesOpen(true)}
+  onMouseLeave={() => setIsServicesOpen(false)}
+>
+  <Menu isOpen={isServicesOpen}>
+    <MenuButton as={Link} to="/services" fontWeight="600">
+      {t("Services")}
+    </MenuButton>
+    <MenuList>
+      <HStack align="start" px={4} py={2}>
+        <VStack align="start" spacing={2}>
+          {menuItems.services.slice(0, 4).map((item, index) => (
+            <MenuItem key={index}>
+              <Link
+                to={item.to}
+                // _hover={{ textDecoration: "none", color: "blue.500" }}
+              >
+                {item.label}
+              </Link>
+            </MenuItem>
+          ))}
+        </VStack>
+        <VStack align="start" spacing={2}>
+          {menuItems.services.slice(4).map((item, index) => (
+            <MenuItem key={index}>
+              <Link
+                to={item.to}
+                // _hover={{ textDecoration: "none", color: "blue.500" }}
+              >
+                {item.label}
+              </Link>
+            </MenuItem>
+          ))}
+        </VStack>
+      </HStack>
+    </MenuList>
+  </Menu>
+</Box>
+
 
           <Link
-            href="#"
+           to="/careers"
             fontWeight="600"
             fontSize="md"
             _hover={{ color: "blue.500" }}
@@ -215,7 +215,7 @@ const Header = () => {
             {t("Careers")}
           </Link>
           <Link
-            href="#"
+            to="/contact"
             fontWeight="600"
             fontSize="md"
             _hover={{ color: "blue.500" }}
@@ -223,7 +223,7 @@ const Header = () => {
             {t("Contact")}
           </Link>
           <Link
-            href="#"
+            to="/blogs"
             fontWeight="600"
             fontSize="md"
             _hover={{ color: "blue.500" }}
@@ -288,9 +288,9 @@ const Header = () => {
           <DrawerCloseButton />
           <DrawerBody>
             <VStack align="start" spacing={4}>
-              <Link href="#">{t("Home")}</Link>
-              <Link href="#">{t("About")}</Link>
-              <Link href="#">{t("Product")}</Link>
+            <Link to="/">{t("Home")}</Link>
+              <Link to="/about">{t("About")}</Link>
+              <Link to="/product">{t("Product")}</Link>
 
               {/* Industries Dropdown */}
               <Box>
@@ -304,24 +304,24 @@ const Header = () => {
                 </Button>
                 {isIndustriesOpen && (
                   <VStack align="start" pl={4} spacing={2}>
-                    <Link href="/agriculture">{t("Agriculture")}</Link>
-                    <Link href="/energy-utilities">
+                    <Link to="/agriculture">{t("Agriculture")}</Link>
+                    <Link to="/energy-utilities">
                       {t("Energy & Utilities")}
                     </Link>
-                    <Link href="/education">{t("Education")}</Link>
-                    <Link href="/transportation-logistics">
+                    <Link to="/education">{t("Education")}</Link>
+                    <Link to="/transportation-logistics">
                       {t("Smart Transportation & Logistics")}
                     </Link>
-                    <Link href="/infrastructure-development">
+                    <Link to="/infrastructure-development">
                       {t("Infrastructure Development")}
                     </Link>
-                    <Link href="/mining-exploration">
+                    <Link to="/mining-exploration">
                       {t("Mining & Mineral Exploration")}
                     </Link>
-                    <Link href="/oil-gas-industry">
+                    <Link to="/oil-gas-industry">
                       {t("Oil & Gas Industry")}
                     </Link>
-                    <Link href="/marine-water-resources">
+                    <Link to="/marine-water-resources">
                       {t("Marine & Water Resource Management")}
                     </Link>
                   </VStack>
@@ -340,35 +340,35 @@ const Header = () => {
                 </Button>
                 {isServicesOpen && (
                   <VStack align="start" pl={4} spacing={2}>
-                    <Link href="/geospatial-services">
+                    <Link to="/geospatial-services">
                       {t("Geospatial Services")}
                     </Link>
-                    <Link href="/software-development">
+                    <Link to="/software-development">
                       {t("Software Development")}
                     </Link>
-                    <Link href="/data-analytics">{t("Data Analytics")}</Link>
-                    <Link href="/content-annotation">
+                    <Link to="/data-analytics">{t("Data Analytics")}</Link>
+                    <Link to="/content-annotation">
                       {t("Content Annotation")}
                     </Link>
-                    <Link href="/engineering-solutions">
+                    <Link to="/engineering-solutions">
                       {t("Engineering Solutions")}
                     </Link>
-                    <Link href="/cloud-ai-ml">
+                    <Link to="/cloud-ai-ml">
                       {t("Cloud-Based AI/ML Solutions")}
                     </Link>
-                    <Link href="/professional-training">
+                    <Link to="/professional-training">
                       {t("Professional Training")}
                     </Link>
-                    <Link href="/talent-solutions">
+                    <Link to="/talent-solutions">
                       {t("Talent Solutions")}
                     </Link>
                   </VStack>
                 )}
               </Box>
 
-              <Link href="#">{t("Careers")}</Link>
-              <Link href="#">{t("Contact")}</Link>
-              <Link href="#">{t("Blogs")}</Link>
+              <Link to="/careers">{t("Careers")}</Link>
+              <Link to="/contact">{t("Contact")}</Link>
+              <Link to="/blogs">{t("Blogs")}</Link>
             </VStack>
           </DrawerBody>
         </DrawerContent>

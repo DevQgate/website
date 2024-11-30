@@ -10,72 +10,82 @@ import {
   Image,
   Center,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import Directors from "../MainSection/Directors"
-import { useTranslation } from "react-i18next"; 
-import { t } from "i18next";
+import Directors from "../MainSection/Directors";
+import { useTranslation } from "react-i18next";
 
 const industries = [
   {
-    name: t("AGRICULTURE"),
+    name: "AGRICULTURE",
     img: "src\\Componentes\\Image\\agriculture-Home.jpg",
     alt: "Agriculture",
+    route: "/agriculture", // Route for this industry
   },
   {
-    name: t("MARINE & WATER RESOURCE MANAGEMENT"),
+    name: "MARINE & WATER RESOURCE MANAGEMENT",
     img: "src\\Componentes\\Image\\Marine-Home.jpg",
     alt: "Marine and water resource management",
+    route: "/marine-water-resources", // Route for this industry
   },
   {
-    name: t("INFRASTRUCTURE DEVELOPMENT"),
+    name: "INFRASTRUCTURE DEVELOPMENT",
     img: "src\\Componentes\\Image\\Infrastucture-Home.jpg",
     alt: "Infrastructure development",
+    route: "/infrastructure-development", // Route for this industry
   },
   {
-    name: t("SMART TRANSPORTATION & LOGISTICS"),
+    name: "SMART TRANSPORTATION & LOGISTICS",
     img: "src\\Componentes\\Image\\SMART TRANSPORTATION & LOGISTICS-Home.jpg",
     alt: "Smart transportation and logistics",
+    route: "/transportation-logistics", // Route for this industry
   },
   {
-    name: t("ENERGY & UTILITIES"),
+    name: "ENERGY & UTILITIES",
     img: "src\\Componentes\\Image\\ENERGY & UTILITIES-Home.jpg",
     alt: "Energy and utilities",
+    route: "/energy-utilities", // Route for this industry
   },
   {
-    name: t("MINING & MINERAL EXPLORATION"),
+    name: "MINING & MINERAL EXPLORATION",
     img: "src\\Componentes\\Image\\MINING & MINERAL EXPLORATION-Home.jpg",
     alt: "Mining and mineral exploration",
+    route: "/mining-and-mineral", // Route for this industry
   },
   {
-    name: t("OIL & GAS INDUSTRY"),
+    name: "OIL & GAS INDUSTRY",
     img: "src\\Componentes\\Image\\OIL & GAS INDUSTRY-Home.jpg",
     alt: "Oil and gas industry",
+    route: "/oil-gas-industry", // Route for this industry
   },
   {
-    name: t("EDUCATION"),
+    name: "EDUCATION",
     img: "src\\Componentes\\Image\\EDUCATION-Home.jpg",
     alt: "Education",
+    route: "/education", // Route for this industry
   },
 ];
 
-const IndustryCard = ({ name, img, alt }) => (
-
-  <Box position="relative" rounded="lg" overflow="hidden" >
-    <Image src={img} alt={alt} objectFit="cover" boxSize="100%" />
-    <Center
-      position="absolute"
-      top="0"
-      left="0"
-      right="0"
-      bottom="0"
-      bg="blackAlpha.500"
-      _hover={{ bg: "blackAlpha.700" }}
-    >
-      <Text color="white" fontWeight="semibold" fontSize="lg">
-        {name}
-      </Text>
-    </Center>
+const IndustryCard = ({ name, img, alt, route }) => (
+  <Box position="relative" rounded="lg" overflow="hidden">
+    {/* Wrap the card with a Link */}
+    <Link to={route}>
+      <Image src={img} alt={alt} objectFit="cover" boxSize="100%" />
+      <Center
+        position="absolute"
+        top="0"
+        left="0"
+        right="0"
+        bottom="0"
+        bg="blackAlpha.500"
+        _hover={{ bg: "blackAlpha.700" }}
+      >
+        <Text color="white" fontWeight="semibold" fontSize="lg">
+          {name}
+        </Text>
+      </Center>
+    </Link>
   </Box>
 );
 
@@ -90,7 +100,7 @@ const App = () => {
           {/* Video Section */}
           <Box
             as="video"
-            src="src\Componentes\Video\Main.mp4" // Path to your video file
+            src="src\\Componentes\\Video\\Main.mp4" // Path to your video file
             autoPlay
             muted
             loop
@@ -115,9 +125,9 @@ const App = () => {
             bg="blackAlpha.500" // Optional: Add a translucent background
           >
             <Text fontSize="4xl" fontWeight="bold" position="center">
-            {t("Mapping the Future:")} <br/>{t("Innovative Geospatial  Solutions for a Connected World")}
+              {t("Mapping the Future:")} <br />
+              {t("Innovative Geospatial Solutions for a Connected World")}
             </Text>
-            
           </Box>
         </Box>
       </Box>
@@ -142,7 +152,9 @@ const App = () => {
             </Box>
           </Flex>
           <Text color="gray.600" fontSize="lg">
-            {t("At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management.")}
+            {t(
+              "At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management."
+            )}
           </Text>
           <Button
             variant="link"
@@ -155,8 +167,8 @@ const App = () => {
         </VStack>
 
         <Box
-          height="95vh" // Set the Box height to 95% of the viewport height
-          width="100%" // Optional: Adjust width as needed
+          height="95vh"
+          width="100%"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -168,10 +180,10 @@ const App = () => {
             muted
             loop
             controlsList="nodownload noremoteplayback"
-            style={{ width: "640px", height: "560px", objectFit: "cover" }} // Adjusts the video to fit the Box
+            style={{ width: "640px", height: "560px", objectFit: "cover" }}
           >
             <source
-              src="src\Componentes\Video\drone_1_mob.mp4"
+              src="src\\Componentes\\Video\\drone_1_mob.mp4"
               type="video/mp4"
             />
           </video>
@@ -179,7 +191,7 @@ const App = () => {
       </Flex>
 
       {/* Industries Section */}
-      <Box height="100%"  width="100%" textAlign="center" py={16}>
+      <Box height="100%" width="100%" textAlign="center" py={16}>
         <Text fontSize="sm" color="gray.500" mb={2}>
           <span style={{ color: "#F97316" }}>—</span> Industries
         </Text>
@@ -187,7 +199,9 @@ const App = () => {
           {t("Where Q-Gate Works")}
         </Heading>
         <Text color="gray.600" mb={12}>
-          {t("Designed with City Planners in mind, Q-Gate empowers various industries to achieve more.")}
+          {t(
+            "Designed with City Planners in mind, Q-Gate empowers various industries to achieve more."
+          )}
         </Text>
         <Grid
           templateColumns={{
@@ -203,8 +217,7 @@ const App = () => {
           ))}
         </Grid>
       </Box>
-      {/* <Service/> */}
-      <Directors/>
+      <Directors />
       <Footer />
     </Flex>
   );
