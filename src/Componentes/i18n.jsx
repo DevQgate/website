@@ -265,6 +265,8 @@ i18n
             "Send your resume and portfolio to ",
           Job: "Job",
           Opportunities: "Opportunities",
+          "Q-Gate Infotech Private Limited / careers":
+            "Q-Gate Infotech Private Limited / careers",
 
           //Service - Geospatial Services
 
@@ -310,8 +312,12 @@ i18n
             "Supporting disaster management with real-time data.",
           "Enabling timely decision-making through data interpretation.":
             "Enabling timely decision-making through data interpretation.",
+          "Q-Gate Infotech Private Limited / Geospatial Services":
+            "Q-Gate Infotech Private Limited / Geospatial Services",
 
           //Service - Software Development
+          "Q-Gate Infotech Private Limited / Software Development":
+            "Q-Gate Infotech Private Limited / Software Development",
           "Software Development": "Software Development",
           "Empowering Your Business with Tailored Software Solutions":
             "Empowering Your Business with Tailored Software Solutions",
@@ -436,6 +442,7 @@ i18n
             "Delivers solutions that adapt to evolving business challenges.",
 
           //Service - Professional Training
+          "Q-Gate Infotech / Professional Training":"Q-Gate Infotech / Professional Training",
           "Professional Training": "Professional Training",
           "Q-Gate Infotech / Professional Training":
             "Q-Gate Infotech / Professional Training",
@@ -1008,7 +1015,8 @@ i18n
           "Q-Gate Infotech Private Limited / Services":
             "Q-Gate Infotech Private Limited / Services",
 
-          "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.":"Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.",
+          "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.":
+            "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.",
 
           // Contact - Main
 
@@ -1026,8 +1034,8 @@ i18n
           "Your Message": "Your Message",
           "Send Message": "Send Message",
           "Contact Us": "Contact Us",
-          "Contact Info":"Contact Info",
-          "Address":"Address",
+          "Contact Info": "Contact Info",
+          Address: "Address",
 
           //Blog
 
@@ -1067,6 +1075,33 @@ i18n
             "Innovative Geospatial Data Visualization Techniques",
           "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.":
             "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.",
+
+          // MainSection
+
+          "At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management.":
+            "At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management.",
+          "Mapping the Future:": "Mapping the Future:",
+          "Innovative Geospatial Solutions for a Connected World":
+            "Innovative Geospatial Solutions for a Connected World",
+          "Where Q-Gate Works": "Where Q-Gate Works",
+          "Designed with City Planners in mind, Q-Gate empowers various industries to achieve more.":
+            "Designed with City Planners in mind, Q-Gate empowers various industries to achieve more.",
+          "MARINE & WATER RESOURCE MANAGEMENT":
+            "MARINE & WATER RESOURCE MANAGEMENT",
+          "INFRASTRUCTURE DEVELOPMENT": "INFRASTRUCTURE DEVELOPMENT",
+          "SMART TRANSPORTATION & LOGISTICS":
+            "SMART TRANSPORTATION & LOGISTICS",
+          "ENERGY & UTILITIES": "ENERGY & UTILITIES",
+          "MINING & MINERAL EXPLORATION": "MINING & MINERAL EXPLORATION",
+          "OIL & GAS INDUSTRY": "OIL & GAS INDUSTRY",
+          EDUCATION: "EDUCATION",
+          "Accelerate your environmental reporting and compliance efforts with Earth Blox.":
+            "Accelerate your environmental reporting and compliance efforts with Earth Blox.",
+          "Get Started": "Get Started",
+          "As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.":"As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.",
+          "Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.":"Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.",
+          "At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.":"At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.",
+          "Director Finance":"Director Finance"
         },
       },
       GE: {
@@ -1292,8 +1327,7 @@ i18n
           "Opening Hours: 09:00 - 18:00": "Öffnungszeiten: 09:00 - 18:00",
           "contact.in@q-gate.co": "contact.de@q-gate.co",
           AGRICULTURE: "LANDWIRTSCHAFT",
-          "View More":"Mehr erfahren",
-          
+          "View More": "Mehr erfahren",
 
           //Career
 
@@ -1323,6 +1357,8 @@ i18n
             "Senden Sie Ihren Lebenslauf und Ihr Portfolio an ",
           Job: "Stellenangebot",
           Opportunities: "Möglichkeiten",
+          "Q-Gate Infotech Private Limited / careers":
+            "Q-Gate Infotech Private Limited / Karriere",
 
           //Service - Geospatial Services
           "Unlocking the Power of Spatial Data for Informed Decision-Making":
@@ -1367,8 +1403,12 @@ i18n
             "Unterstützung des Katastrophenmanagements mit Echtzeitdaten.",
           "Enabling timely decision-making through data interpretation.":
             "Ermöglichung einer zeitgerechten Entscheidungsfindung durch Dateninterpretation.",
+          "Q-Gate Infotech Private Limited / Geospatial Services":
+            "Q-Gate Infotech Private Limited / Geodaten-Dienstleistungen",
 
           //Service - Software Development
+          "Q-Gate Infotech Private Limited / Software Development":
+            "Q-Gate Infotech Private Limited / Softwareentwicklung",
           "Software Development": "Softwareentwicklung",
           "Empowering Your Business with Tailored Software Solutions":
             "Stärken Sie Ihr Unternehmen mit maßgeschneiderten Softwarelösungen",
@@ -1493,9 +1533,10 @@ i18n
             "Liefert Lösungen, die sich an sich wandelnde geschäftliche Herausforderungen anpassen.",
 
           //Service - Professional Training
-          "Professional Training": "Berufsausbildung",
+          "Q-Gate Infotech / Professional Training":"Q-Gate Infotech / Professionelle Schulung",
+          "Professional Training": "Professionelle Schulung",
           "Q-Gate Infotech / Professional Training":
-            "Q-Gate Infotech / Berufsausbildung",
+            "Q-Gate Infotech / Professionelle Schulung",
           "At Q-Gate Infotech, we believe that investing in people is key to driving innovation and achieving excellence.":
             "Bei Q-Gate Infotech sind wir der Meinung, dass Investitionen in Menschen der Schlüssel zur Förderung von Innovation und Exzellenz sind.",
           "Our Professional Training services are designed to empower individuals, particularly fresh graduates and those from rural communities, by providing opportunities to develop valuable skills and build successful careers in technology. Our initiatives include:":
@@ -1620,9 +1661,9 @@ i18n
             "Verbesserung der Projektergebnisse durch interdisziplinäres Fachwissen.",
 
           //Service - Content Annotation
-          "Content Annotation": "Datenannotation",
+          "Content Annotation": "Inhaltsannotation",
           "Q-Gate Infotech / Content Annotation":
-            "Q-Gate Infotech / Datenannotation",
+            "Q-Gate Infotech / Inhaltsannotation",
           "At Q-Gate Infotech, we understand that precise data annotation is the foundation of effective AI and machine learning models.":
             "Bei Q-Gate Infotech verstehen wir, dass präzise Datenannotation die Grundlage effektiver KI- und Machine-Learning-Modelle ist.",
           "Our Content Annotation services provide meticulous labeling of diverse data types, enabling your AI applications to perform with greater accuracy and efficiency. Our offerings include:":
@@ -2085,8 +2126,8 @@ i18n
           "Your Message": "Ihre Nachricht",
           "Send Message": "Nachricht senden",
           "Contact Us": "Kontaktieren Sie uns",
-          "Contact Info":"Kontaktinformationen",
-          "Address":"Adresse",
+          "Contact Info": "Kontaktinformationen",
+          Address: "Adresse",
 
           //Blogs
 
@@ -2126,6 +2167,33 @@ i18n
             "Innovative Techniken zur Visualisierung von Geodaten",
           "Discover innovative techniques for visualizing geospatial data. Learn how effective visualization enhances data interpretation and decision-making.":
             "Entdecken Sie innovative Techniken zur Visualisierung von Geodaten. Lernen Sie, wie effektive Visualisierung die Dateninterpretation und Entscheidungsfindung verbessert.",
+
+          // MainSection
+
+          "At Q-Gate Infotech, we drive environmental sustainability through innovative spatial data processing. Leveraging advanced AI and cloud-based technologies, we specialize in geospatial and LiDAR data processing to enhance climate action and disaster management.":
+            "Bei Q-Gate Infotech fördern wir die ökologische Nachhaltigkeit durch innovative räumliche Datenverarbeitung. Durch den Einsatz fortschrittlicher KI- und Cloud-Technologien sind wir auf die Verarbeitung von Geodaten und LiDAR-Daten spezialisiert, um Klimaschutzmaßnahmen und Katastrophenmanagement zu verbessern.",
+          "Mapping the Future:": "Die Zukunft kartieren:",
+          "Innovative Geospatial Solutions for a Connected World":
+            "Innovative geospatiale Lösungen für eine vernetzte Welt",
+          "Where Q-Gate Works": "Wo Q-Gate arbeitet",
+          "Designed with City Planners in mind, Q-Gate empowers various industries to achieve more.":
+            "Mit Blick auf Stadtplaner entwickelt, befähigt Q-Gate verschiedene Branchen, mehr zu erreichen.",
+          "MARINE & WATER RESOURCE MANAGEMENT":
+            "MARITIME & WASSERRESSOURCENMANAGEMENT",
+          "INFRASTRUCTURE DEVELOPMENT": "INFRSTRUKTURENTWICKLUNG",
+          "SMART TRANSPORTATION & LOGISTICS":
+            "INTELLIGENTE TRANSPORT- UND LOGISTIKLÖSUNGEN",
+          "ENERGY & UTILITIES": "ENERGIE & VERSORGUNGSUNTERNEHMEN",
+          "MINING & MINERAL EXPLORATION": "BERGBAU & MINERALEXPLORATION",
+          "OIL & GAS INDUSTRY": "ÖL- UND GASINDUSTRIE",
+          EDUCATION: "BILDUNG",
+          "Accelerate your environmental reporting and compliance efforts with Earth Blox.":
+            "Beschleunigen Sie Ihre Umweltberichterstattung und Compliance-Bemühungen mit Earth Blox.",
+          "Get Started": "Loslegen",
+          "Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services":"Unser Team bei Q-Gate ist darauf bedacht, die besten geospatialen Lösungen anzubieten. Wir haben eine Leidenschaft für Innovation und ein Engagement für Exzellenz, das uns dazu treibt, unsere Dienstleistungen ständig zu verbessern und weiterzuentwickeln.",
+          "At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.":"Bei Q-Gate glauben wir an die Kraft von Karten, die Welt zu verändern. Unsere Mission ist es, geospatiale Technologie für jeden zugänglich und nützlich zu machen, und wir sind stolz auf die Auswirkungen, die wir bisher erzielt haben.",
+          "As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.":"Als Gründer und Direktor von Q-Gate Infotech leite ich ein dynamisches Team, das innovative geospatiale Lösungen integriert mit KI/ML-Technologien liefert. Mein Ziel war es, die Art und Weise zu revolutionieren, wie Organisationen die Datenverarbeitung angehen, einschließlich Katastrophenmanagement, Versorgungswirtschaft, Stadt- und Landplanung sowie Umwelt-Nachhaltigkeit.",
+          "Director Finance":"Direktor Finanzen",
         },
       },
     },

@@ -13,7 +13,9 @@ import {
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import Footer from "../Footer/footer";
 import Header from "../Header/Header";
+import MainServ from "../MainSection/MainServ";
 import Directors from "../MainSection/Directors";
+import MainContact from "../MainSection/MainContact";
 
 import { useTranslation } from "react-i18next";
 import { t } from "i18next";
@@ -23,49 +25,49 @@ const industries = [
     name: t("AGRICULTURE"),
     img: "src\\Componentes\\Image\\agriculture-Home.jpg",
     alt: "Agriculture",
-    route: "/agriculture", // Route for this industry
+    route: "/agriculture",
   },
   {
     name: t("MARINE & WATER RESOURCE MANAGEMENT"),
     img: "src\\Componentes\\Image\\Marine-Home.jpg",
     alt: "Marine and water resource management",
-    route: "/marine-water-resources", // Route for this industry
+    route: "/marine-water-resources",
   },
   {
     name: t("INFRASTRUCTURE DEVELOPMENT"),
     img: "src\\Componentes\\Image\\Infrastucture-Home.jpg",
     alt: "Infrastructure development",
-    route: "/infrastructure-development", // Route for this industry
+    route: "/infrastructure-development",
   },
   {
     name: t("SMART TRANSPORTATION & LOGISTICS"),
     img: "src\\Componentes\\Image\\SMART TRANSPORTATION & LOGISTICS-Home.jpg",
     alt: "Smart transportation and logistics",
-    route: "/transportation-logistics", // Route for this industry
+    route: "/transportation-logistics",
   },
   {
     name: t("ENERGY & UTILITIES"),
     img: "src\\Componentes\\Image\\ENERGY & UTILITIES-Home.jpg",
     alt: "Energy and utilities",
-    route: "/energy-utilities", // Route for this industry
+    route: "/energy-utilities",
   },
   {
     name: t("MINING & MINERAL EXPLORATION"),
     img: "src\\Componentes\\Image\\MINING & MINERAL EXPLORATION-Home.jpg",
     alt: "Mining and mineral exploration",
-    route: "/mining-and-mineral", // Route for this industry
+    route: "/mining-and-mineral",
   },
   {
     name: t("OIL & GAS INDUSTRY"),
     img: "src\\Componentes\\Image\\OIL & GAS INDUSTRY-Home.jpg",
     alt: "Oil and gas industry",
-    route: "/oil-gas-industry", // Route for this industry
+    route: "/oil-gas-industry",
   },
   {
     name: t("EDUCATION"),
     img: "src\\Componentes\\Image\\EDUCATION-Home.jpg",
     alt: "Education",
-    route: "/education", // Route for this industry
+    route: "/education",
   },
 ];
 
@@ -160,9 +162,10 @@ const App = () => {
           </Text>
           <Button
             variant="link"
-            colorScheme="blue"
+            colorScheme="black"
             size="md"
-            onClick={() => alert("Redirect to more info!")}
+            as={Link} // Wrap the button with Link component for routing
+            to="/about" // The path where the user should be redirected
           >
             {t("Learn More")}
           </Button>
@@ -195,7 +198,10 @@ const App = () => {
       {/* Industries Section */}
       <Box height="100%" width="100%" textAlign="center" py={16}>
         <Text fontSize="sm" color="gray.500" mb={2}>
-          <span style={{ color: "#F97316" }}>—</span> Industries
+          <span style={{ color: "#F97316" }}>— </span>
+          <Link to="/industries" color="#F97316">
+            {t("Industries")}
+          </Link>
         </Text>
         <Heading as="h1" size="2xl" color="blue.800" mb={4}>
           {t("Where Q-Gate Works")}
@@ -220,7 +226,8 @@ const App = () => {
         </Grid>
       </Box>
       <Directors />
-  
+      <MainServ />
+      <MainContact />
       <Footer />
     </Flex>
   );

@@ -43,7 +43,7 @@ const ProfessionalTraining = () => {
               <Text fontSize="4xl" fontWeight="bold">
                 {t("Professional Training")}
               </Text>
-              <Text fontSize="lg">Q-Gate Infotech / Professional Training</Text>
+              <Text fontSize="lg">{t("Q-Gate Infotech / Professional Training")}</Text>
             </Box>
           </Box>
         </Box>

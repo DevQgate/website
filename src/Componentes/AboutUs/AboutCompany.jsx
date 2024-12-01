@@ -68,7 +68,7 @@ const AboutCompany = () => {
   return (
     <Box
       width="100%"
-      height="400px"
+      height="100%"
       backgroundImage="url('src\\Componentes\\Image\\about-2.jpg')"
       backgroundSize="cover"
       backgroundPosition="center"

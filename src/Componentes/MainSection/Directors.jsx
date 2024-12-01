@@ -28,13 +28,13 @@ const testimonials = [
   {
     text: "At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.",
     name: "Indumathi Anbalagan",
-    title: "Director Finance ",
+    title: "Director Finance",
     image: "https://placehold.co/300x400",
   },
 ];
 
 const TestimonialSlider = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation(); // Initialize translation hook
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -54,7 +54,9 @@ const TestimonialSlider = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
   };
 
+  // Translate testimonial text here
   const { text, name, title, image } = testimonials[currentIndex];
+  const translatedText = t(text); // Apply translation here
 
   return (
     <Box
@@ -98,7 +100,7 @@ const TestimonialSlider = () => {
               <Icon as={FaQuoteLeft} boxSize={6} color="black" />
             </Flex>
             <Text color="gray.700" fontSize="lg" mb={4} lineHeight="tall">
-              {text}
+              {translatedText} {/* Display translated text */}
             </Text>
             <Heading size="md" fontWeight="bold" color="gray.900">
               {name}
