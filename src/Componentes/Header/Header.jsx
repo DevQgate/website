@@ -49,8 +49,8 @@ const Header = () => {
   const menuItems = {
     industries: [
       { label: t("Agriculture"), to: "/agriculture" },
-      { label: t("Energy & Utilities"), to: "/energy-utilities"},
-      { label: t("Education"), to: "/education"},
+      { label: t("Energy & Utilities"), to: "/energy-utilities" },
+      { label: t("Education"), to: "/education" },
       {
         label: t("Smart Transportation & Logistics"),
         to: "/transportation-logistics",
@@ -60,15 +60,15 @@ const Header = () => {
         to: "/infrastructure-development",
       },
       { label: t("Mining & Mineral Exploration"), to: "/mining-exploration" },
-      { label: t("Oil & Gas Industry"),  to: "/oil-gas-industry"  },
+      { label: t("Oil & Gas Industry"), to: "/oil-gas-industry" },
       {
         label: t("Marine & Water Resource Management"),
         to: "/marine-water-resources",
       },
     ],
     services: [
-      { label: t("Geospatial Services"),to: "/geospatial-services" },
-      { label: t("Software Development"),to: "/software-development" },
+      { label: t("Geospatial Services"), to: "/geospatial-services" },
+      { label: t("Software Development"), to: "/software-development" },
       { label: t("Data Analytics"), to: "/data-analytics" },
       { label: t("Content Annotation"), to: "/content-annotation" },
       { label: t("Engineering Solutions"), to: "/engineering-solutions" },
@@ -92,7 +92,9 @@ const Header = () => {
       <Flex align="center" justify="space-between" wrap="wrap">
         {/* Logo */}
         <Box>
-          <Image src={logo} alt="Q-Gate Logo" height="40px" />
+          <Link to="/" isExternal>
+            <Image src={logo} alt="Q-Gate Logo" height="40px" />
+          </Link>
         </Box>
 
         {/* Menu for larger screens */}
@@ -102,7 +104,7 @@ const Header = () => {
           align="center"
         >
           <Link
-           to="/"
+            to="/"
             fontWeight="600"
             fontSize="md"
             // _hover={{ color: "blue.500" }}
@@ -127,87 +129,86 @@ const Header = () => {
           </Link>
 
           <Box
-  onMouseEnter={() => setIsIndustriesOpen(true)}
-  onMouseLeave={() => setIsIndustriesOpen(false)}
->
-  <Menu isOpen={isIndustriesOpen}>
-    <MenuButton as={Link} to="/industries" fontWeight="600">
-      {t("Industries")}
-    </MenuButton>
-    <MenuList>
-      <HStack align="start" px={4} py={2}>
-        <VStack align="start" spacing={2}>
-          {menuItems.industries.slice(0, 4).map((item, index) => (
-            <MenuItem key={index}>
-              <Link
-                to={item.to}
-                // _hover={{ textDecoration: "none", color: "blue.500" }}
-              >
-                {item.label}
-              </Link>
-            </MenuItem>
-          ))}
-        </VStack>
-        <VStack align="start" spacing={2}>
-          {menuItems.industries.slice(4).map((item, index) => (
-            <MenuItem key={index}>
-              <Link
-                to={item.to}
-                // _hover={{ textDecoration: "none", color: "blue.500" }}
-              >
-                {item.label}
-              </Link>
-            </MenuItem>
-          ))}
-        </VStack>
-      </HStack>
-    </MenuList>
-  </Menu>
-</Box>
+            onMouseEnter={() => setIsIndustriesOpen(true)}
+            onMouseLeave={() => setIsIndustriesOpen(false)}
+          >
+            <Menu isOpen={isIndustriesOpen}>
+              <MenuButton as={Link} to="/industries" fontWeight="600">
+                {t("Industries")}
+              </MenuButton>
+              <MenuList>
+                <HStack align="start" px={4} py={2}>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.industries.slice(0, 4).map((item, index) => (
+                      <MenuItem key={index}>
+                        <Link
+                          to={item.to}
+                          // _hover={{ textDecoration: "none", color: "blue.500" }}
+                        >
+                          {item.label}
+                        </Link>
+                      </MenuItem>
+                    ))}
+                  </VStack>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.industries.slice(4).map((item, index) => (
+                      <MenuItem key={index}>
+                        <Link
+                          to={item.to}
+                          // _hover={{ textDecoration: "none", color: "blue.500" }}
+                        >
+                          {item.label}
+                        </Link>
+                      </MenuItem>
+                    ))}
+                  </VStack>
+                </HStack>
+              </MenuList>
+            </Menu>
+          </Box>
 
-{/* Services Dropdown */}
-<Box
-  onMouseEnter={() => setIsServicesOpen(true)}
-  onMouseLeave={() => setIsServicesOpen(false)}
->
-  <Menu isOpen={isServicesOpen}>
-    <MenuButton as={Link} to="/services" fontWeight="600">
-      {t("Services")}
-    </MenuButton>
-    <MenuList>
-      <HStack align="start" px={4} py={2}>
-        <VStack align="start" spacing={2}>
-          {menuItems.services.slice(0, 4).map((item, index) => (
-            <MenuItem key={index}>
-              <Link
-                to={item.to}
-                // _hover={{ textDecoration: "none", color: "blue.500" }}
-              >
-                {item.label}
-              </Link>
-            </MenuItem>
-          ))}
-        </VStack>
-        <VStack align="start" spacing={2}>
-          {menuItems.services.slice(4).map((item, index) => (
-            <MenuItem key={index}>
-              <Link
-                to={item.to}
-                // _hover={{ textDecoration: "none", color: "blue.500" }}
-              >
-                {item.label}
-              </Link>
-            </MenuItem>
-          ))}
-        </VStack>
-      </HStack>
-    </MenuList>
-  </Menu>
-</Box>
-
+          {/* Services Dropdown */}
+          <Box
+            onMouseEnter={() => setIsServicesOpen(true)}
+            onMouseLeave={() => setIsServicesOpen(false)}
+          >
+            <Menu isOpen={isServicesOpen}>
+              <MenuButton as={Link} to="/services" fontWeight="600">
+                {t("Services")}
+              </MenuButton>
+              <MenuList>
+                <HStack align="start" px={4} py={2}>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.services.slice(0, 4).map((item, index) => (
+                      <MenuItem key={index}>
+                        <Link
+                          to={item.to}
+                          // _hover={{ textDecoration: "none", color: "blue.500" }}
+                        >
+                          {item.label}
+                        </Link>
+                      </MenuItem>
+                    ))}
+                  </VStack>
+                  <VStack align="start" spacing={2}>
+                    {menuItems.services.slice(4).map((item, index) => (
+                      <MenuItem key={index}>
+                        <Link
+                          to={item.to}
+                          // _hover={{ textDecoration: "none", color: "blue.500" }}
+                        >
+                          {item.label}
+                        </Link>
+                      </MenuItem>
+                    ))}
+                  </VStack>
+                </HStack>
+              </MenuList>
+            </Menu>
+          </Box>
 
           <Link
-           to="/careers"
+            to="/careers"
             fontWeight="600"
             fontSize="md"
             _hover={{ color: "blue.500" }}
@@ -288,7 +289,7 @@ const Header = () => {
           <DrawerCloseButton />
           <DrawerBody>
             <VStack align="start" spacing={4}>
-            <Link to="/">{t("Home")}</Link>
+              <Link to="/">{t("Home")}</Link>
               <Link to="/about">{t("About")}</Link>
               <Link to="/product">{t("Product")}</Link>
 
@@ -359,9 +360,7 @@ const Header = () => {
                     <Link to="/professional-training">
                       {t("Professional Training")}
                     </Link>
-                    <Link to="/talent-solutions">
-                      {t("Talent Solutions")}
-                    </Link>
+                    <Link to="/talent-solutions">{t("Talent Solutions")}</Link>
                   </VStack>
                 )}
               </Box>

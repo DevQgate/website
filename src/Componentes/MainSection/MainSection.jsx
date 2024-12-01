@@ -14,53 +14,55 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import Footer from "../Footer/footer";
 import Header from "../Header/Header";
 import Directors from "../MainSection/Directors";
+import Service from "../MainSection/Service"
 import { useTranslation } from "react-i18next";
+import { t } from "i18next";
 
 const industries = [
   {
-    name: "AGRICULTURE",
+    name: t("AGRICULTURE"),
     img: "src\\Componentes\\Image\\agriculture-Home.jpg",
     alt: "Agriculture",
     route: "/agriculture", // Route for this industry
   },
   {
-    name: "MARINE & WATER RESOURCE MANAGEMENT",
+    name: t("MARINE & WATER RESOURCE MANAGEMENT"),
     img: "src\\Componentes\\Image\\Marine-Home.jpg",
     alt: "Marine and water resource management",
     route: "/marine-water-resources", // Route for this industry
   },
   {
-    name: "INFRASTRUCTURE DEVELOPMENT",
+    name: t("INFRASTRUCTURE DEVELOPMENT"),
     img: "src\\Componentes\\Image\\Infrastucture-Home.jpg",
     alt: "Infrastructure development",
     route: "/infrastructure-development", // Route for this industry
   },
   {
-    name: "SMART TRANSPORTATION & LOGISTICS",
+    name: t("SMART TRANSPORTATION & LOGISTICS"),
     img: "src\\Componentes\\Image\\SMART TRANSPORTATION & LOGISTICS-Home.jpg",
     alt: "Smart transportation and logistics",
     route: "/transportation-logistics", // Route for this industry
   },
   {
-    name: "ENERGY & UTILITIES",
+    name: t("ENERGY & UTILITIES"),
     img: "src\\Componentes\\Image\\ENERGY & UTILITIES-Home.jpg",
     alt: "Energy and utilities",
     route: "/energy-utilities", // Route for this industry
   },
   {
-    name: "MINING & MINERAL EXPLORATION",
+    name: t("MINING & MINERAL EXPLORATION"),
     img: "src\\Componentes\\Image\\MINING & MINERAL EXPLORATION-Home.jpg",
     alt: "Mining and mineral exploration",
     route: "/mining-and-mineral", // Route for this industry
   },
   {
-    name: "OIL & GAS INDUSTRY",
+    name: t("OIL & GAS INDUSTRY"),
     img: "src\\Componentes\\Image\\OIL & GAS INDUSTRY-Home.jpg",
     alt: "Oil and gas industry",
     route: "/oil-gas-industry", // Route for this industry
   },
   {
-    name: "EDUCATION",
+    name: t("EDUCATION"),
     img: "src\\Componentes\\Image\\EDUCATION-Home.jpg",
     alt: "Education",
     route: "/education", // Route for this industry
@@ -106,7 +108,7 @@ const App = () => {
             loop
             playsInline
             width="100%"
-            height="95vh"
+            height="96vh"
             objectFit="cover"
             style={{ display: "block" }}
           />
@@ -218,6 +220,7 @@ const App = () => {
         </Grid>
       </Box>
       <Directors />
+      <Service/>
       <Footer />
     </Flex>
   );

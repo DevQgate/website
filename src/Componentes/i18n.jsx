@@ -228,8 +228,8 @@ i18n
           // Footer
           " Bangaluru, India - 560078":
             "Q-gate Infotech Private Limited #11, Abhaya Heights, JP Nagar, Bangaluru, India - 560078",
-          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
-            "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.",
+          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to businesses, organizations, and government.":
+            "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to businesses, organizations, and government.",
           "Q-gate Infotech Private Limited": "Q-gate Infotech Private Limited",
           "#11, Abhaya Heights, JP Nagar, Bangaluru,":
             "#11, Abhaya Heights, JP Nagar, Bengaluru,",
@@ -1279,7 +1279,7 @@ i18n
             "LiDAR und maßgeschneiderte Werkzeuge für die Geländeanalyse verwendet.",
 
           //Footer
-          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to business, organizations, and government.":
+          "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to businesses, organizations, and government.":
             "Ein innovativer Softwareanbieter, Systemintegrator und Technologieanbieter, der gegründet wurde, um verwertbare Erkenntnisse, fortschrittliche intelligente Lösungen und Beratungsdienstleistungen für Unternehmen, Organisationen und die Regierung bereitzustellen.",
           "Q-gate Infotech Private Limited": "Q-Gate Infotech GmbH",
           "Bengaluru, India - 560078": "München, Deutschland - 80331",
@@ -1288,6 +1288,8 @@ i18n
           "Opening Hours: 09:00 - 18:00": "Öffnungszeiten: 09:00 - 18:00",
           "contact.in@q-gate.co": "contact.de@q-gate.co",
           AGRICULTURE: "LANDWIRTSCHAFT",
+          "View More":"Mehr erfahren",
+          
 
           //Career
 
