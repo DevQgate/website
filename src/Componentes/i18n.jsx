@@ -1008,6 +1008,8 @@ i18n
           "Q-Gate Infotech Private Limited / Services":
             "Q-Gate Infotech Private Limited / Services",
 
+          "Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.":"Expert in geospatial processing to transform raw spatial data into actionable insights for informed decision-making.",
+
           // Contact - Main
 
           Contact: "Contact",
@@ -1024,6 +1026,8 @@ i18n
           "Your Message": "Your Message",
           "Send Message": "Send Message",
           "Contact Us": "Contact Us",
+          "Contact Info":"Contact Info",
+          "Address":"Address",
 
           //Blog
 
@@ -2081,6 +2085,8 @@ i18n
           "Your Message": "Ihre Nachricht",
           "Send Message": "Nachricht senden",
           "Contact Us": "Kontaktieren Sie uns",
+          "Contact Info":"Kontaktinformationen",
+          "Address":"Adresse",
 
           //Blogs
 

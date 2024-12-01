@@ -14,7 +14,7 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import Footer from "../Footer/footer";
 import Header from "../Header/Header";
 import Directors from "../MainSection/Directors";
-import Service from "../MainSection/Service"
+
 import { useTranslation } from "react-i18next";
 import { t } from "i18next";
 
@@ -220,7 +220,7 @@ const App = () => {
         </Grid>
       </Box>
       <Directors />
-      <Service/>
+  
       <Footer />
     </Flex>
   );
