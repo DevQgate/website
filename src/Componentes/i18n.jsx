@@ -1101,7 +1101,8 @@ i18n
           "As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.":"As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.",
           "Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.":"Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.",
           "At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.":"At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.",
-          "Director Finance":"Director Finance"
+          "Director Finance":"Director Finance",
+          "LAUNCHING SOON....":"LAUNCHING SOON....",
         },
       },
       GE: {
@@ -2190,10 +2191,11 @@ i18n
           "Accelerate your environmental reporting and compliance efforts with Earth Blox.":
             "Beschleunigen Sie Ihre Umweltberichterstattung und Compliance-Bemühungen mit Earth Blox.",
           "Get Started": "Loslegen",
-          "Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services":"Unser Team bei Q-Gate ist darauf bedacht, die besten geospatialen Lösungen anzubieten. Wir haben eine Leidenschaft für Innovation und ein Engagement für Exzellenz, das uns dazu treibt, unsere Dienstleistungen ständig zu verbessern und weiterzuentwickeln.",
+          "Our team at Q - Gate is dedicated to providing the best geospatial solutions. We have a passion for innovation and a commitment to excellence that drives us to constantly improve and evolve our services.":"Unser Team bei Q-Gate ist darauf bedacht, die besten geospatialen Lösungen anzubieten. Wir haben eine Leidenschaft für Innovation und ein Engagement für Exzellenz, das uns dazu treibt, unsere Dienstleistungen ständig zu verbessern und weiterzuentwickeln.",
           "At Q - Gate, we believe in the power of maps to change the world. Our mission is to make geospatial technology accessible and useful for everyone, and we are proud of the impact we have made so far.":"Bei Q-Gate glauben wir an die Kraft von Karten, die Welt zu verändern. Unsere Mission ist es, geospatiale Technologie für jeden zugänglich und nützlich zu machen, und wir sind stolz auf die Auswirkungen, die wir bisher erzielt haben.",
           "As the Founder and Director of Q-Gate Infotech, I lead a dynamic team that delivers innovative geospatial solutions integrated with AI/ML technologies. My goal has been to revolutionize the way organizations approach Data processing, that includes Disaster Management, Utility, Urban and Rural planning to Environmental Sustainability.":"Als Gründer und Direktor von Q-Gate Infotech leite ich ein dynamisches Team, das innovative geospatiale Lösungen integriert mit KI/ML-Technologien liefert. Mein Ziel war es, die Art und Weise zu revolutionieren, wie Organisationen die Datenverarbeitung angehen, einschließlich Katastrophenmanagement, Versorgungswirtschaft, Stadt- und Landplanung sowie Umwelt-Nachhaltigkeit.",
           "Director Finance":"Direktor Finanzen",
+          "LAUNCHING SOON....":"DEMNÄCHST VERFÜGBAR...",
         },
       },
     },

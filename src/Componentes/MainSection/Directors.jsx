@@ -61,7 +61,7 @@ const TestimonialSlider = () => {
   return (
     <Box
       minH="100vh"
-      bgImage={`url(${BackgroundImage})`} // Using the imported image as the background
+      bgImage={`url(${BackgroundImage})`}
       bgSize="cover"
       bgPosition="center"
       bgRepeat="no-repeat"
@@ -73,39 +73,58 @@ const TestimonialSlider = () => {
             aria-label="Previous"
             icon={<FaChevronLeft />}
             variant="ghost"
-            fontSize="2xl"
+            fontSize={{ base: "md", md: "lg", lg: "2xl" }} // Adjust icon size
             color="gray.600"
             _hover={{ color: "gray.900" }}
+            mx={{ base: 1, md: 2 }} // Adjust spacing
           />
         </Flex>
         <Box
           bg="white"
           rounded="lg"
           shadow="lg"
-          width="1000px"
-          height="300px"
+          width={{ base: "90%", md: "80%", lg: "1000px" }} // Adjust width
+          height={{ base: "auto", md: "350px", lg: "300px" }} // Adjust height for responsiveness
           overflow="hidden"
           display="flex"
+          flexDirection={{ base: "column", md: "row" }} // Stack for smaller screens
           mx={4}
         >
           <Image
             src={image}
             alt={`Portrait of ${name}`}
-            boxSize="auto"
-            maxW="300px"
+            boxSize={{ base: "100%", md: "auto" }} // Full width on mobile
+            maxW={{ base: "100%", md: "300px" }} // Restrict max width
             objectFit="cover"
           />
-          <Box p={8}>
+          <Box p={{ base: 4, md: 8 }}>
             <Flex align="center" mb={4}>
-              <Icon as={FaQuoteLeft} boxSize={6} color="black" />
+              <Icon
+                as={FaQuoteLeft}
+                boxSize={{ base: 4, md: 6 }}
+                color="black"
+              />{" "}
+              {/* Adjust size */}
             </Flex>
-            <Text color="gray.700" fontSize="lg" mb={4} lineHeight="tall">
-              {translatedText} {/* Display translated text */}
+            <Text
+              color="gray.700"
+              fontSize={{ base: "sm", md: "lg" }} // Adjust font size
+              mb={4}
+              lineHeight="tall"
+            >
+              {translatedText}
             </Text>
-            <Heading size="md" fontWeight="bold" color="gray.900">
+            <Heading
+              size="sm"
+              fontWeight="bold"
+              color="gray.900"
+              fontSize={{ base: "md", md: "lg" }} // Adjust heading size
+            >
               {name}
             </Heading>
-            <Text color="gray.600">{title}</Text>
+            <Text color="gray.600" fontSize={{ base: "sm", md: "md" }}>
+              {title}
+            </Text>
           </Box>
         </Box>
         <Flex align="center">
@@ -114,9 +133,10 @@ const TestimonialSlider = () => {
             aria-label="Next"
             icon={<FaChevronRight />}
             variant="ghost"
-            fontSize="2xl"
+            fontSize={{ base: "md", md: "lg", lg: "2xl" }} // Adjust icon size
             color="gray.600"
             _hover={{ color: "gray.900" }}
+            mx={{ base: 1, md: 2 }} // Adjust spacing
           />
         </Flex>
       </Flex>

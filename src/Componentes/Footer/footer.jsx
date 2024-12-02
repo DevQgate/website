@@ -18,19 +18,20 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 import { EmailIcon } from "@chakra-ui/icons";
-import { useTranslation } from "react-i18next"; // Import the translation hook
-import { Link } from "react-router-dom"; // Import React Router DOM's Link
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
-  const { t } = useTranslation(); // Initialize translation
+  const { t } = useTranslation();
 
   return (
     <Box
-      bgImage="url('src\Componentes\Image\Footer\Footer.jpg')" // Replace with your image URL
+      bgImage="url('src\Componentes\Image\Footer\Footer.jpg')"
       bgColor="gray.300"
       bgSize="cover"
       bgPosition="center"
       color="black"
-      py={10}
+      py={{ base: 5, md: 10 }}
     >
       {/* Footer Top */}
       <Flex
@@ -39,20 +40,27 @@ const Footer = () => {
         px={{ base: 5, md: 20 }}
       >
         {/* Logo and Description */}
-        <VStack align="start" spacing={4} w={{ base: "full", md: "25%" }}>
+        <VStack
+          align="start"
+          spacing={4}
+          w={{ base: "full", md: "25%" }}
+          mb={{ base: 8, md: 0 }}
+        >
           <Link to="/">
             <Image
               src="src\Componentes\Image\Q-Gate-Logo.png"
-              alt={t("Q-Gate Infotech Private Limited")} // Add translation key
-              h="60px"
+              alt={t("Q-Gate Infotech Private Limited")}
+              h={{ base: "40px", md: "60px" }}
             />
           </Link>
-          <Text>
+          <Text
+            fontSize={{ base: "sm", md: "md" }}
+            textAlign={{ base: "center", md: "left" }}
+          >
             {t(
               "An innovative software provider, systems integrator, technology provider, established to deliver actionable insights, leading-edge intelligent solutions, and consulting services to businesses, organizations, and government."
             )}
-          </Text>{" "}
-          {/* Add translation key */}
+          </Text>
         </VStack>
 
         {/* Industries */}
@@ -60,40 +68,50 @@ const Footer = () => {
           align="start"
           spacing={4}
           w={{ base: "full", md: "25%" }}
-          pl={{ base: 5, md: 10 }}
+          pl={{ base: 0, md: 10 }}
+          mb={{ base: 8, md: 0 }}
         >
-        <Text fontSize="lg" fontWeight="bold">
-  <Link to="/industries">{t("Industries")}</Link>
-</Text>
-
-          <UnorderedList styleType="none" m={0} spacing={2}>
+          <Text
+            fontSize={{ base: "md", md: "lg" }}
+            fontWeight="bold"
+            textAlign={{ base: "center", md: "left" }}
+          >
+            <Link to="/industries">{t("Industries")}</Link>
+          </Text>
+          <UnorderedList
+            styleType="none"
+            m={0}
+            spacing={2}
+            fontSize={{ base: "sm", md: "md" }}
+            textAlign={{ base: "center", md: "left" }}
+          >
             <ListItem>
-            <Link to="/agriculture">{t("Agriculture")}</Link>
+              <Link to="/agriculture">{t("Agriculture")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/education">{t("Education")}</Link>
+              <Link to="/education">{t("Education")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/oil-gas-industry">{t("Oil & Gas Industry")}</Link>
+              <Link to="/oil-gas-industry">{t("Oil & Gas Industry")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/mining-and-mineral">{t("Mining & Mineral Exploration")}</Link>
+              <Link to="/mining-and-mineral">{t("Mining & Mineral Exploration")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/energy-utilities">{t("Energy & Utilities")}</Link>
+              <Link to="/energy-utilities">{t("Energy & Utilities")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/transportation-logistics">
+              <Link to="/transportation-logistics">
                 {t("Smart Transportation & Logistics")}
               </Link>
             </ListItem>
             <ListItem>
-            <Link to="/marine-water-resources">
+              <Link to="/marine-water-resources">
                 {t("Marine & Water Resource Management")}
               </Link>
             </ListItem>
             <ListItem>
-            <Link to="/infrastructure-development">{t("Infrastructure Development")}</Link>
+              <Link to="/infrastructure-development">{t("Infrastructure Development")}</Link>
             </ListItem>
           </UnorderedList>
         </VStack>
@@ -103,35 +121,46 @@ const Footer = () => {
           align="start"
           spacing={4}
           w={{ base: "full", md: "25%" }}
-          pl={{ base: 5, md: 10 }}
+          pl={{ base: 0, md: 10 }}
+          mb={{ base: 8, md: 0 }}
         >
-          <Text fontSize="lg" fontWeight="bold">
-          <Link to="/services" > {t("Services")} </Link>
+          <Text
+            fontSize={{ base: "md", md: "lg" }}
+            fontWeight="bold"
+            textAlign={{ base: "center", md: "left" }}
+          >
+            <Link to="/services">{t("Services")}</Link>
           </Text>
-          <UnorderedList styleType="none" m={0} spacing={2}>
+          <UnorderedList
+            styleType="none"
+            m={0}
+            spacing={2}
+            fontSize={{ base: "sm", md: "md" }}
+            textAlign={{ base: "center", md: "left" }}
+          >
             <ListItem>
-            <Link to="/geospatial-services">{t("Geospatial Services")}</Link>
+              <Link to="/geospatial-services">{t("Geospatial Services")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/software-development">{t("Software Development")}</Link>
+              <Link to="/software-development">{t("Software Development")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/data-analytics">{t("Data Analytics")}</Link>
+              <Link to="/data-analytics">{t("Data Analytics")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/content-annotation">{t("Content Annotation")}</Link>
+              <Link to="/content-annotation">{t("Content Annotation")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/engineering-solutions">{t("Engineering Solutions")}</Link>
+              <Link to="/engineering-solutions">{t("Engineering Solutions")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/cloud-ai-ml">{t("Cloud-Based AI/ML Solutions")}</Link>
+              <Link to="/cloud-ai-ml">{t("Cloud-Based AI/ML Solutions")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/professional-training">{t("Professional Training")}</Link>
+              <Link to="/professional-training">{t("Professional Training")}</Link>
             </ListItem>
             <ListItem>
-            <Link to="/talent-solutions">{t("Talent Solutions")}</Link>
+              <Link to="/talent-solutions">{t("Talent Solutions")}</Link>
             </ListItem>
           </UnorderedList>
         </VStack>
@@ -141,23 +170,33 @@ const Footer = () => {
           align="start"
           spacing={4}
           w={{ base: "full", md: "25%" }}
-          pl={{ base: 5, md: 10 }}
+          pl={{ base: 0, md: 10 }}
+          mb={{ base: 8, md: 0 }}
         >
-          <Text fontSize="lg" fontWeight="bold">
-          <Link to="//contact"> {t("Contact Info")}</Link>  {/* Add translation key */}
+          <Text
+            fontSize={{ base: "md", md: "lg" }}
+            fontWeight="bold"
+            textAlign={{ base: "center", md: "left" }}
+          >
+            {t("Contact Info")}
           </Text>
-          <UnorderedList styleType="none" m={0} spacing={2}>
+          <UnorderedList
+            styleType="none"
+            m={0}
+            spacing={2}
+            fontSize={{ base: "sm", md: "md" }}
+            textAlign={{ base: "center", md: "left" }}
+          >
             <ListItem>
               <HStack>
                 <EmailIcon />
                 <Link to="mailto:contact.in@q-gate.co">
-                  {t("contact.in@q-gate.co")} {/* Add translation key */}
+                  {t("contact.in@q-gate.co")}
                 </Link>
               </HStack>
             </ListItem>
             <ListItem>
-              <Text>{t("Opening Hours: 09:00 - 18:00")}</Text>{" "}
-              {/* Add translation key */}
+              <Text>{t("Opening Hours: 09:00 - 18:00")}</Text>
             </ListItem>
           </UnorderedList>
           <HStack spacing={4}>
@@ -178,27 +217,30 @@ const Footer = () => {
           align="start"
           spacing={4}
           w={{ base: "full", md: "25%" }}
-          pl={{ base: 5, md: 10 }}
+          pl={{ base: 0, md: 10 }}
+          mb={{ base: 8, md: 0 }}
         >
-          <Text fontSize="lg" fontWeight="bold">
-            {t("Address")} {/* Add translation key */}
+          <Text
+            fontSize={{ base: "md", md: "lg" }}
+            fontWeight="bold"
+            textAlign={{ base: "center", md: "left" }}
+          >
+            {t("Address")}
           </Text>
           <HStack>
             <Icon as={FaMapMarkerAlt} w={5} h={5} />
-            <Text>{t("Bengaluru, India - 560078")}</Text>{" "}
-            {/* Add translation key */}
+            <Text>{t("Bengaluru, India - 560078")}</Text>
           </HStack>
         </VStack>
       </Flex>
 
       {/* Footer Bottom */}
-
       <Box mt={10} px={{ base: 5, md: 20 }}>
         <Flex
           direction={{ base: "column", md: "row" }}
           justify="space-between"
           align="center"
-          fontSize="sm"
+          fontSize={{ base: "sm", md: "md" }}
         >
           {/* Left side */}
           <Box textAlign={{ base: "center", md: "left" }}>
@@ -216,9 +258,7 @@ const Footer = () => {
             <HStack spacing={4} justify={{ base: "center", md: "flex-end" }}>
               <Link to="/about">{t("About Us")}</Link>
               <Link to="/careers">{t("Careers")}</Link>
-              <Link to="/contact" aria-current="page">
-                {t("Contact")}
-              </Link>
+              <Link to="/contact">{t("Contact")}</Link>
             </HStack>
           </Box>
         </Flex>
