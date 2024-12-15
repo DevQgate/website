@@ -11,9 +11,27 @@ import {
 import Header from "../Header/Header";
 import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+// MotionBox wrapper for animation
+const MotionBox = motion(Box);
+
+const animationVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
 
 const SoftwareDevelopment = () => {
   const { t } = useTranslation();
+
+  // Hook to detect if a section is in view
+  const [refIntro, inViewIntro] = useInView({ triggerOnce: false });
+  const [refCustomSoftware, inViewCustomSoftware] = useInView({ triggerOnce: false });
+  const [refWebDevelopment, inViewWebDevelopment] = useInView({ triggerOnce: false });
+  const [refMobileApp, inViewMobileApp] = useInView({ triggerOnce: false });
+  const [refEnterpriseSolutions, inViewEnterpriseSolutions] = useInView({ triggerOnce: false });
+
   return (
     <>
       <Header />
@@ -51,7 +69,15 @@ const SoftwareDevelopment = () => {
         </Box>
 
         {/* Introductory Section */}
-        <Box bg="white" py={8} mb={8}>
+        <MotionBox
+          ref={refIntro}
+          variants={animationVariants}
+          initial="hidden"
+          animate={inViewIntro ? "visible" : "hidden"}
+          bg="white"
+          py={8}
+          mb={8}
+        >
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
               {t("Empowering Your Business with Tailored Software Solutions")}
@@ -60,49 +86,63 @@ const SoftwareDevelopment = () => {
               {t("At Q-Gate Infotech, we specialize in creating software solutions that align with your business goals. Our expertise spans across:")}
             </Text>
           </Container>
-        </Box>
+        </MotionBox>
 
         {/* Custom Software Development Section */}
         <Container maxW="7xl" py={16} px={4}>
-          <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
-            <GridItem
-              display="flex"
-              flexDirection="column"
-              justifyContent="center"
-            >
-              <Heading as="h1" size="md" mb={4} color="gray.900">
-                {t("Custom Software Development")}
-              </Heading>
-              <Text color="gray.700" mb={4}>
-                {t("Developing software solutions tailored to unique business needs across industries.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Leveraging the latest technologies for robust and scalable applications.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Creating user-friendly designs that enhance operational efficiency.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Supporting business growth through innovative and customized software.")}
-              </Text>
-            </GridItem>
-            <GridItem
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Image
-                src="src\Componentes\Image\Custom-Software-Development.jpg"
-                alt="Custom Software Development"
-                borderRadius="lg"
-                boxShadow="lg"
-              />
-            </GridItem>
-          </Grid>
+          <MotionBox
+            ref={refCustomSoftware}
+            variants={animationVariants}
+            initial="hidden"
+            animate={inViewCustomSoftware ? "visible" : "hidden"}
+          >
+            <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
+              <GridItem
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+              >
+                <Heading as="h1" size="md" mb={4} color="gray.900">
+                  {t("Custom Software Development")}
+                </Heading>
+                <Text color="gray.700" mb={4}>
+                  {t("Developing software solutions tailored to unique business needs across industries.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Leveraging the latest technologies for robust and scalable applications.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Creating user-friendly designs that enhance operational efficiency.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Supporting business growth through innovative and customized software.")}
+                </Text>
+              </GridItem>
+              <GridItem
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Image
+                  src="src\Componentes\Image\Custom-Software-Development.jpg"
+                  alt="Custom Software Development"
+                  borderRadius="lg"
+                  boxShadow="lg"
+                />
+              </GridItem>
+            </Grid>
+          </MotionBox>
         </Container>
 
         {/* Web Development Section */}
-        <Box bg="white" py={16}>
+        <MotionBox
+          ref={refWebDevelopment}
+          variants={animationVariants}
+          initial="hidden"
+          animate={inViewWebDevelopment ? "visible" : "hidden"}
+          bg="white"
+          py={16}
+        >
           <Container maxW="7xl" px={4}>
             <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
               <GridItem
@@ -151,49 +191,63 @@ const SoftwareDevelopment = () => {
               </GridItem>
             </Grid>
           </Container>
-        </Box>
+        </MotionBox>
 
         {/* Mobile Application Development Section */}
         <Container maxW="7xl" py={16} px={4}>
-          <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
-            <GridItem
-              display="flex"
-              flexDirection="column"
-              justifyContent="center"
-            >
-              <Heading as="h1" size="md" mb={4} color="gray.900">
-                {t("Mobile Application Development")}
-              </Heading>
-              <Text color="gray.700" mb={4}>
-                {t("Developing high-performance mobile apps for both Android and iOS platforms.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Crafting intuitive and engaging user interfaces for an optimal mobile experience.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Ensuring compatibility and smooth functionality across a variety of devices.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Integrating advanced features to enhance usability and meet business goals.")}
-              </Text>
-            </GridItem>
-            <GridItem
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Image
-                src="src\Componentes\Image\App.jpg"
-                alt="Mobile Application Development"
-                borderRadius="lg"
-                boxShadow="lg"
-              />
-            </GridItem>
-          </Grid>
+          <MotionBox
+            ref={refMobileApp}
+            variants={animationVariants}
+            initial="hidden"
+            animate={inViewMobileApp ? "visible" : "hidden"}
+          >
+            <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
+              <GridItem
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+              >
+                <Heading as="h1" size="md" mb={4} color="gray.900">
+                  {t("Mobile Application Development")}
+                </Heading>
+                <Text color="gray.700" mb={4}>
+                  {t("Developing high-performance mobile apps for both Android and iOS platforms.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Crafting intuitive and engaging user interfaces for an optimal mobile experience.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Ensuring compatibility and smooth functionality across a variety of devices.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Integrating advanced features to enhance usability and meet business goals.")}
+                </Text>
+              </GridItem>
+              <GridItem
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Image
+                  src="src\Componentes\Image\App.jpg"
+                  alt="Mobile Application Development"
+                  borderRadius="lg"
+                  boxShadow="lg"
+                />
+              </GridItem>
+            </Grid>
+          </MotionBox>
         </Container>
 
         {/* Enterprise Management Solutions Section */}
-        <Box bg="white" py={16}>
+        <MotionBox
+          ref={refEnterpriseSolutions}
+          variants={animationVariants}
+          initial="hidden"
+          animate={inViewEnterpriseSolutions ? "visible" : "hidden"}
+          bg="white"
+          py={16}
+        >
           <Container maxW="7xl" px={4}>
             <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
               <GridItem
@@ -242,7 +296,7 @@ const SoftwareDevelopment = () => {
               </GridItem>
             </Grid>
           </Container>
-        </Box>
+        </MotionBox>
       </Box>
       <Footer />
     </>

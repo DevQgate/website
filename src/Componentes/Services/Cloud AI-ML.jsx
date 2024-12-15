@@ -8,17 +8,30 @@ import {
   Grid,
   GridItem,
 } from "@chakra-ui/react";
-import { motion } from "framer-motion";
 import Header from "../Header/Header";
 import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const MotionBox = motion(Box);
 const MotionImage = motion(Image);
-const MotionText = motion(Text);
+
+const sectionVariant = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0 },
+};
 
 const CloudAI_ML = () => {
   const { t } = useTranslation();
+
+  // Hooks to observe sections
+  const [ref1, inView1] = useInView({ triggerOnce: false, threshold: 0.1 });
+  const [ref2, inView2] = useInView({ triggerOnce: false, threshold: 0.1 });
+  const [ref3, inView3] = useInView({ triggerOnce: false, threshold: 0.1 });
+  const [ref4, inView4] = useInView({ triggerOnce: false, threshold: 0.1 });
+  const [ref5, inView5] = useInView({ triggerOnce: false, threshold: 0.1 });
+
   return (
     <>
       <Header />
@@ -26,16 +39,12 @@ const CloudAI_ML = () => {
         {/* Header Section */}
         <Box>
           <Box position="relative">
-            <MotionImage
-              src="src\Componentes\Image\CloudAI_ML.jpg"
+            <Image
+              src="src\\Componentes\\Image\\CloudAI_ML.jpg"
               alt="Cloud AI-ML Solutions"
               width="100%"
               height="96"
               objectFit="cover"
-              initial={{ opacity: 0, x: -100 }} // Start from left
-              whileInView={{ opacity: 1, x: 0 }} // Move to its original position
-              transition={{ duration: 1 }}
-              viewport={{ once: false }}
             />
             <Box
               position="absolute"
@@ -49,53 +58,53 @@ const CloudAI_ML = () => {
               justifyContent="center"
               color="Black"
             >
-              <MotionText
-                fontSize="4xl"
-                fontWeight="bold"
-                initial={{ y: -50 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false }}
-              >
+              <Text fontSize="4xl" fontWeight="bold">
                 {t("Cloud-Based AI/ML Solutions")}
-              </MotionText>
-              <MotionText
-                fontSize="lg"
-                initial={{ y: -50 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false }}
-              >
-                {t("Q-Gate Infotech Private Limited / Cloud-Based AI/ML Solutions")}
-              </MotionText>
+              </Text>
+              <Text fontSize="lg">
+                {t(
+                  "Q-Gate Infotech Private Limited / Cloud-Based AI/ML Solutions"
+                )}
+              </Text>
             </Box>
           </Box>
         </Box>
 
-        {/* Introductory Section with White Background */}
-        <Box bg="white" py={8} mb={8}>
+        {/* Introductory Section */}
+        <MotionBox
+          ref={ref1}
+          initial="hidden"
+          animate={inView1 ? "visible" : "hidden"}
+          variants={sectionVariant}
+          transition={{ duration: 0.8 }}
+          bg="white"
+          py={8}
+          mb={8}
+        >
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
-              {t("Driving Innovation with Scalable Cloud and Artificial Intelligence Technologies")}
+              {t(
+                "Driving Innovation with Scalable Cloud and Artificial Intelligence Technologies"
+              )}
             </Heading>
-            <MotionText
-              color="gray.700"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 1 }}
-              viewport={{ once: false }} // Triggers animation on every scroll
-            >
-              {t("At Q-Gate Infotech, we leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward. Our Cloud-Based AI/ML Solutions offer:")}
-            </MotionText>
+            <Text color="gray.700">
+              {t(
+                "At Q-Gate Infotech, we leverage the synergy of cloud computing and advanced Artificial Intelligence (AI) and Machine Learning (ML) algorithms to develop intelligent solutions that propel businesses forward. Our Cloud-Based AI/ML Solutions offer:"
+              )}
+            </Text>
           </Container>
-        </Box>
+        </MotionBox>
 
         <Container maxW="7xl" py={16} px={4}>
           {/* Intelligent Applications Section */}
           <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
-            <GridItem
+            <MotionBox
+              ref={ref2}
+              initial="hidden"
+              animate={inView2 ? "visible" : "hidden"}
+              variants={sectionVariant}
+              transition={{ duration: 0.8 }}
+              as={GridItem}
               display="flex"
               flexDirection="column"
               justifyContent="center"
@@ -103,73 +112,56 @@ const CloudAI_ML = () => {
               <Heading as="h1" size="md" mb={4} color="gray.900">
                 {t("Development of Intelligent Applications")}
               </Heading>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false }} // Triggers animation on every scroll
-              >
-                {t("Enables predictive analytics for informed decision-making.")}
-              </MotionText>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false }}
-              >
+              <Text color="gray.700" mb={4}>
+                {t(
+                  "Enables predictive analytics for informed decision-making."
+                )}
+              </Text>
+              <Text color="gray.700" mb={4}>
                 {t("Streamlines tasks through automation to boost efficiency.")}
-              </MotionText>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false }}
-              >
-                {t("Supports real-time decision-making with rapid response to data.")}
-              </MotionText>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false }}
-              >
-                {t("Continuously evolves through adaptive learning to provide insights.")}
-              </MotionText>
-            </GridItem>
-            <GridItem
+              </Text>
+              <Text color="gray.700" mb={4}>
+                {t(
+                  "Supports real-time decision-making with rapid response to data."
+                )}
+              </Text>
+              <Text color="gray.700" mb={4}>
+                {t(
+                  "Continuously evolves through adaptive learning to provide insights."
+                )}
+              </Text>
+            </MotionBox>
+            <MotionBox
+              ref={ref2}
+              initial="hidden"
+              animate={inView2 ? "visible" : "hidden"}
+              variants={sectionVariant}
+              transition={{ duration: 1 }}
+              as={GridItem}
               display="flex"
               justifyContent="center"
               alignItems="center"
             >
-              <MotionImage
-                src="src\Componentes\Image\AI_ML.jpg"
+              <Image
+                src="src\\Componentes\\Image\\AI_ML.jpg"
                 alt="AI-powered applications"
                 borderRadius="lg"
                 boxShadow="lg"
-                initial={{ opacity: 0, x: 100 }} // Start from right
-                animate={{ opacity: 1, x: 0 }} // Move to its original position
-                transition={{ duration: 1, delay: 0.5 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: false }}
               />
-            </GridItem>
+            </MotionBox>
           </Grid>
         </Container>
 
         {/* Geospatial Integration Section */}
-        <Box bg="white" py={16}>
+        <MotionBox
+          ref={ref3}
+          initial="hidden"
+          animate={inView3 ? "visible" : "hidden"}
+          variants={sectionVariant}
+          transition={{ duration: 0.8 }}
+          bg="white"
+          py={16}
+        >
           <Container maxW="7xl" px={4}>
             <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
               <GridItem
@@ -178,26 +170,11 @@ const CloudAI_ML = () => {
                 alignItems="center"
                 position="relative"
               >
-                <MotionImage
-                  src="src\Componentes\Image\Geo-Spacial.jpg"
+                <Image
+                  src="src\\Componentes\\Image\\Geo-Spacial.jpg"
                   alt="Geospatial data integration"
                   borderRadius="lg"
                   boxShadow="lg"
-                  initial={{ opacity: 0, x: -100 }} // Start from left
-                  animate={{ opacity: 1, x: 0 }} // Move to its original position
-                  transition={{ duration: 1, delay: 0.5 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: false }}
-                />
-                <Box
-                  position="absolute"
-                  top={0}
-                  left={0}
-                  width="24"
-                  height="24"
-                  bg="blue.200"
-                  borderRadius="full"
-                  transform="translate(-12px, -12px)"
                 />
               </GridItem>
               <GridItem
@@ -208,55 +185,41 @@ const CloudAI_ML = () => {
                 <Heading as="h2" size="md" mb={4} color="gray.900">
                   {t("Integration with Geospatial Data")}
                 </Heading>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Integrates AI/ML with geospatial data for enhanced insights.")}
-                </MotionText>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Enables pattern recognition in complex spatial datasets.")}
-                </MotionText>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Supports anomaly detection for identifying unusual patterns.")}
-                </MotionText>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Enhances predictive modeling for urban planning and resource management.")}
-                </MotionText>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Integrates AI/ML with geospatial data for enhanced insights."
+                  )}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Enables pattern recognition in complex spatial datasets."
+                  )}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Supports anomaly detection for identifying unusual patterns."
+                  )}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Enhances predictive modeling for urban planning and resource management."
+                  )}
+                </Text>
               </GridItem>
             </Grid>
           </Container>
-        </Box>
+        </MotionBox>
 
         {/* Scalable Cloud Infrastructure Section */}
         <Container maxW="7xl" py={16} px={4}>
           <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
-            <GridItem
+            <MotionBox
+              ref={ref4}
+              initial="hidden"
+              animate={inView4 ? "visible" : "hidden"}
+              variants={sectionVariant}
+              transition={{ duration: 0.8 }}
+              as={GridItem}
               display="flex"
               flexDirection="column"
               justifyContent="center"
@@ -264,59 +227,51 @@ const CloudAI_ML = () => {
               <Heading as="h1" size="md" mb={4} color="gray.900">
                 {t("Scalable Cloud Infrastructure")}
               </Heading>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: false }}
-              >
-                {t("Provides accessibility from anywhere for seamless operations.")}
-              </MotionText>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: false }}
-              >
-                {t("Supports efficient data processing and storage for large datasets.")}
-              </MotionText>
-              <MotionText
-                color="gray.700"
-                mb={4}
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-                viewport={{ once: false }}
-              >
+              <Text color="gray.700" mb={4}>
+                {t(
+                  "Provides accessibility from anywhere for seamless operations."
+                )}
+              </Text>
+              <Text color="gray.700" mb={4}>
+                {t(
+                  "Supports efficient data processing and storage for large datasets."
+                )}
+              </Text>
+              <Text color="gray.700" mb={4}>
                 {t("Reduces need for on-premise infrastructure investment.")}
-              </MotionText>
-            </GridItem>
-            <GridItem
+              </Text>
+            </MotionBox>
+            <MotionBox
+              ref={ref4}
+              initial="hidden"
+              animate={inView4 ? "visible" : "hidden"}
+              variants={sectionVariant}
+              transition={{ duration: 1 }}
+              as={GridItem}
               display="flex"
               justifyContent="center"
               alignItems="center"
             >
-              <MotionImage
-                src="src\Componentes\Image\Cloud.jpg"
+              <Image
+                src="src\\Componentes\\Image\\Cloud.jpg"
                 alt="Scalable cloud infrastructure"
                 borderRadius="lg"
                 boxShadow="lg"
-                initial={{ opacity: 0, x: 100 }} // Start from right
-                animate={{ opacity: 1, x: 0 }} // Move to its original position
-                transition={{ duration: 1, delay: 0.5 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: false }}
               />
-            </GridItem>
+            </MotionBox>
           </Grid>
         </Container>
 
         {/* Customized AI Models Section */}
-        <Box bg="white" py={16}>
+        <MotionBox
+          ref={ref5}
+          initial="hidden"
+          animate={inView5 ? "visible" : "hidden"}
+          variants={sectionVariant}
+          transition={{ duration: 0.8 }}
+          bg="white"
+          py={16}
+        >
           <Container maxW="7xl" px={4}>
             <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
               <GridItem
@@ -325,26 +280,11 @@ const CloudAI_ML = () => {
                 alignItems="center"
                 position="relative"
               >
-                <MotionImage
-                  src="src\Componentes\Image\Customized AI Models.jpg"
+                <Image
+                  src="src\\Componentes\\Image\\Customized AI Models.jpg"
                   alt="Custom AI models"
                   borderRadius="lg"
                   boxShadow="lg"
-                  initial={{ opacity: 0, x: -100 }} // Start from left
-                  animate={{ opacity: 1, x: 0 }} // Move to its original position
-                  transition={{ duration: 1, delay: 0.5 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: false }}
-                />
-                <Box
-                  position="absolute"
-                  top={0}
-                  left={0}
-                  width="24"
-                  height="24"
-                  bg="blue.200"
-                  borderRadius="full"
-                  transform="translate(-12px, -12px)"
                 />
               </GridItem>
               <GridItem
@@ -355,50 +295,30 @@ const CloudAI_ML = () => {
                 <Heading as="h2" size="md" mb={4} color="gray.900">
                   {t("Customized AI Models")}
                 </Heading>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Develops custom ML models tailored to specific business needs.")}
-                </MotionText>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Specializes in language processing, computer vision, and predictive analytics.")}
-                </MotionText>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Builds models that provide actionable insights for decision-making.")}
-                </MotionText>
-                <MotionText
-                  color="gray.700"
-                  mb={4}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 1 }}
-                  viewport={{ once: false }}
-                >
-                  {t("Delivers solutions that adapt to evolving business challenges.")}
-                </MotionText>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Develops custom ML models tailored to specific business needs."
+                  )}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Specializes in language processing, computer vision, and predictive analytics."
+                  )}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Builds models that provide actionable insights for decision-making."
+                  )}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t(
+                    "Delivers solutions that adapt to evolving business challenges."
+                  )}
+                </Text>
               </GridItem>
             </Grid>
           </Container>
-        </Box>
+        </MotionBox>
       </Box>
       <Footer />
     </>

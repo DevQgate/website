@@ -11,9 +11,27 @@ import {
 import Header from "../Header/Header";
 import Footer from "../Footer/footer";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+// MotionBox wrapper for animation
+const MotionBox = motion(Box);
+
+const animationVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
 
 const GeospatialServices = () => {
   const { t } = useTranslation();
+
+  // Hook to detect if a section is in view
+  const [refIntro, inViewIntro] = useInView({ triggerOnce: false });
+  const [refImageData, inViewImageData] = useInView({ triggerOnce: false });
+  const [refHydroFlattening, inViewHydroFlattening] = useInView({ triggerOnce: false });
+  const [refVegetation, inViewVegetation] = useInView({ triggerOnce: false });
+  const [refSatellite, inViewSatellite] = useInView({ triggerOnce: false });
+
   return (
     <>
       <Header />
@@ -22,10 +40,10 @@ const GeospatialServices = () => {
         <Box>
           <Box position="relative">
             <Image
-              src="src\Componentes\Image\GGeospatialServices.jpeg"
+              src="src\\Componentes\\Image\\GGeospatialServices.jpeg"
               alt="Contact"
               width="100%"
-              height="70vh "
+              height="70vh"
               objectFit="cover"
             />
             <Box
@@ -51,7 +69,15 @@ const GeospatialServices = () => {
         </Box>
 
         {/* Introductory Section with White Background */}
-        <Box bg="white" py={8} mb={8}>
+        <MotionBox
+          ref={refIntro}
+          variants={animationVariants}
+          initial="hidden"
+          animate={inViewIntro ? "visible" : "hidden"}
+          bg="white"
+          py={8}
+          mb={8}
+        >
           <Container maxW="7xl" px={4}>
             <Heading as="h1" size="md" mb={4} color="gray.900">
               {t("Unlocking the Power of Spatial Data for Informed Decision-Making")}
@@ -60,48 +86,63 @@ const GeospatialServices = () => {
               {t("At Q-Gate Infotech, our Geospatial Processing services transform complex spatial data into actionable insights that drive strategic planning and operational efficiency. Utilizing advanced technologies and methodologies, we specialize in:")}
             </Text>
           </Container>
-        </Box>
+        </MotionBox>
 
         <Container maxW="7xl" py={16} px={4}>
-          {/* First Grid Section */}
-          <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
-            <GridItem
-              display="flex"
-              flexDirection="column"
-              justifyContent="center"
-            >
-              <Heading as="h1" size="md" mb={4} color="gray.900">
-                {t("Image Data Processing")}
-              </Heading>
-              <Text color="gray.700" mb={4}>
-                {t("Enhancing high-res images from satellites, drones, and aerial platforms.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Extracting key data for agriculture, urban planning, and environmental management.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Providing actionable insights for better decision-making.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Supporting sustainable practices and efficient resource management.")}
-              </Text>
-            </GridItem>
-            <GridItem
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Image
-                src="src\Componentes\Image\Image Processing.jpg"
-                alt="Map of a region with highlighted areas"
-                borderRadius="lg"
-                boxShadow="lg"
-              />
-            </GridItem>
-          </Grid>
+          {/* First Grid Section - Image Data Processing */}
+          <MotionBox
+            ref={refImageData}
+            variants={animationVariants}
+            initial="hidden"
+            animate={inViewImageData ? "visible" : "hidden"}
+          >
+            <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
+              <GridItem
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+              >
+                <Heading as="h1" size="md" mb={4} color="gray.900">
+                  {t("Image Data Processing")}
+                </Heading>
+                <Text color="gray.700" mb={4}>
+                  {t("Enhancing high-res images from satellites, drones, and aerial platforms.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Extracting key data for agriculture, urban planning, and environmental management.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Providing actionable insights for better decision-making.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Supporting sustainable practices and efficient resource management.")}
+                </Text>
+              </GridItem>
+              <GridItem
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Image
+                  src="src\\Componentes\\Image\\Image Processing.jpg"
+                  alt="Map of a region with highlighted areas"
+                  borderRadius="lg"
+                  boxShadow="lg"
+                />
+              </GridItem>
+            </Grid>
+          </MotionBox>
         </Container>
 
-        <Box bg="white" py={16}>
+        {/* Hydro Flattening Section */}
+        <MotionBox
+          ref={refHydroFlattening}
+          variants={animationVariants}
+          initial="hidden"
+          animate={inViewHydroFlattening ? "visible" : "hidden"}
+          bg="white"
+          py={16}
+        >
           <Container maxW="7xl" px={4}>
             <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
               <GridItem
@@ -111,7 +152,7 @@ const GeospatialServices = () => {
                 position="relative"
               >
                 <Image
-                  src="src\Componentes\Image\Hydro Flattening.png"
+                  src="src\\Componentes\\Image\\Hydro Flattening.png"
                   alt="Aerial view of a forest"
                   borderRadius="lg"
                   boxShadow="lg"
@@ -150,47 +191,63 @@ const GeospatialServices = () => {
               </GridItem>
             </Grid>
           </Container>
-        </Box>
+        </MotionBox>
 
         <Container maxW="7xl" py={16} px={4}>
-          <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
-            <GridItem
-              display="flex"
-              flexDirection="column"
-              justifyContent="center"
-            >
-              <Heading as="h1" size="md" mb={4} color="gray.900">
-                {t("Vegetation Analysis")}
-              </Heading>
-              <Text color="gray.700" mb={4}>
-                {t("Assessing vegetation health using multispectral and hyperspectral imagery.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Estimating biomass for forestry and agricultural applications.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Classifying land cover for ecological and environmental studies.")}
-              </Text>
-              <Text color="gray.700" mb={4}>
-                {t("Supporting forestry management, agriculture, and ecological research.")}
-              </Text>
-            </GridItem>
-            <GridItem
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Image
-                src="src\Componentes\Image\Vegetation Analysis.png"
-                alt="Map of a region with highlighted areas"
-                borderRadius="lg"
-                boxShadow="lg"
-              />
-            </GridItem>
-          </Grid>
+          {/* Vegetation Analysis Section */}
+          <MotionBox
+            ref={refVegetation}
+            variants={animationVariants}
+            initial="hidden"
+            animate={inViewVegetation ? "visible" : "hidden"}
+          >
+            <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
+              <GridItem
+                display="flex"
+                flexDirection="column"
+                justifyContent="center"
+              >
+                <Heading as="h1" size="md" mb={4} color="gray.900">
+                  {t("Vegetation Analysis")}
+                </Heading>
+                <Text color="gray.700" mb={4}>
+                  {t("Assessing vegetation health using multispectral and hyperspectral imagery.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Estimating biomass for forestry and agricultural applications.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Classifying land cover for ecological and environmental studies.")}
+                </Text>
+                <Text color="gray.700" mb={4}>
+                  {t("Supporting forestry management, agriculture, and ecological research.")}
+                </Text>
+              </GridItem>
+              <GridItem
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Image
+                  src="src\\Componentes\\Image\\Vegetation Analysis.png"
+                  alt="Map of a region with highlighted areas"
+                  borderRadius="lg"
+                  boxShadow="lg"
+                />
+              </GridItem>
+            </Grid>
+          </MotionBox>
         </Container>
 
-        <Box bg="white" py={16}>
+        {/* Satellite Data Analysis Section */}
+        <MotionBox
+          ref={refSatellite}
+          variants={animationVariants}
+          initial="hidden"
+          animate={inViewSatellite ? "visible" : "hidden"}
+          bg="white"
+          py={16}
+        >
           <Container maxW="7xl" px={4}>
             <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={8}>
               <GridItem
@@ -200,7 +257,7 @@ const GeospatialServices = () => {
                 position="relative"
               >
                 <Image
-                  src="src\Componentes\Image\Satellite Data Analysis.png"
+                  src="src\\Componentes\\Image\\Satellite Data Analysis.png"
                   alt="Aerial view of a forest"
                   borderRadius="lg"
                   boxShadow="lg"
@@ -239,7 +296,7 @@ const GeospatialServices = () => {
               </GridItem>
             </Grid>
           </Container>
-        </Box>
+        </MotionBox>
       </Box>
       <Footer />
     </>

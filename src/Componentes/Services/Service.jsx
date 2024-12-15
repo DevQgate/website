@@ -11,21 +11,32 @@ import {
 } from "@chakra-ui/react";
 import { FaArrowRight } from "react-icons/fa";
 import Header from "../Header/Header";
-import Footer from "../Footer/footer";
+import Footer from "../Footer/footer"; // Corrected import path for Footer
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+
+// MotionBox wrapper for animation
+const MotionBox = motion(Box);
+const MotionGridItem = motion(GridItem);
 
 const Service = () => {
   const { t } = useTranslation();
+
+  // Animation variants
+  const cardVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+  };
+
   return (
     <>
       <Header />
       {/* Video Section */}
       <Box>
         <Box position="relative">
-          {/* Video Section */}
           <Box
             as="video"
-            src="src\Componentes\Video\Services.mp4" // Path to your video file
+            src="src/Componentes/Video/Services.mp4" // Corrected path (use forward slashes)
             autoPlay
             muted
             loop
@@ -35,7 +46,6 @@ const Service = () => {
             objectFit="cover"
             style={{ display: "block" }}
           />
-          {/* Overlay Section */}
           <Box
             position="absolute"
             top="0"
@@ -52,9 +62,7 @@ const Service = () => {
             <Text fontSize="4xl" fontWeight="bold">
               {t("Services")}
             </Text>
-            <Text fontSize="lg">
-              {t("Q-Gate Infotech Private Limited / Services")}
-            </Text>
+            <Text fontSize="lg">{t("Q-Gate Infotech Private Limited / Services")}</Text>
           </Box>
         </Box>
       </Box>
@@ -73,22 +81,33 @@ const Service = () => {
           mx="auto"
         >
           {/* Service 1 */}
-          <GridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.1 }}
+          >
             <Image
-              src="src\\Componentes\\Image\\Services\\Geospatial.jpg"
+              src="src/Componentes/Image/Services/Geospatial.jpg" // Corrected path (use forward slashes)
               alt="Aerial view of a coastal area with boats and buildings"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
-          <GridItem
+          </MotionGridItem>
+          <MotionGridItem
             bg="teal.700"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.2 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -114,16 +133,21 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 2 */}
-          <GridItem
+          <MotionGridItem
             bg="blue.900"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.3 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -137,7 +161,7 @@ const Service = () => {
               <Text mt={5} fontSize="11">
                 {t("Custom Software Development")}
                 <br />
-                {t("Enterprise Management Solutions ")}
+                {t("Enterprise Management Solutions")}
                 <br />
                 {t("Web & Mobile Application Development")}
               </Text>
@@ -147,34 +171,52 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
-          <GridItem>
+          </MotionGridItem>
+
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.4 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Software Development.jpg"
+              src="src/Componentes/Image/Services/Software Development.jpg" // Corrected path (use forward slashes)
               alt="Aerial view of agricultural fields"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 3 */}
-          <GridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.5 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Data Analytics.jpg"
+              src="src/Componentes/Image/Services/Data Analytics.jpg" // Corrected path (use forward slashes)
               alt="Telecommunication tower with satellite dishes"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
-          <GridItem
+          </MotionGridItem>
+          <MotionGridItem
             bg="blue.800"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.6 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -198,16 +240,21 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 4 */}
-          <GridItem
+          <MotionGridItem
             bg="green.700"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.7 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -228,38 +275,54 @@ const Service = () => {
             </Box>
             <Box mt={4}>
               <Link href="/engineering-solutions" color="white" fontSize="lg">
-              
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
-          <GridItem>
+          </MotionGridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.8 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Engineering Solutions.jpg"
+              src="src/Componentes/Image/Services/Engineering Solutions.jpg"
               alt="Solar panels in a field"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 5 */}
-          <GridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 0.9 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Cloud- AI ML.jpg"
+              src="src/Componentes/Image/Services/Cloud- AI ML.jpg"
               alt="City skyline at night"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
-          <GridItem
+          </MotionGridItem>
+          <MotionGridItem
             bg="purple.800"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -285,16 +348,21 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 6 */}
-          <GridItem
+          <MotionGridItem
             bg="red.700"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1.1 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -318,34 +386,51 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
-          <GridItem>
+          </MotionGridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1.2 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Content Annotation.jpg"
+              src="src/Componentes/Image/Services/Content Annotation.jpg"
               alt="Highway at sunset"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 7 */}
-          <GridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1.3 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Professional Training.jpg"
+              src="src/Componentes/Image/Services/Professional Training.jpg"
               alt="Warehouse with shipping containers"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
-          <GridItem
+          </MotionGridItem>
+          <MotionGridItem
             bg="orange.700"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1.4 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -369,16 +454,21 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
+          </MotionGridItem>
 
           {/* Service 8 */}
-          <GridItem
+          <MotionGridItem
             bg="red.900"
             color="white"
             p={6}
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1.5 }}
           >
             <Box>
               <Heading size="md" fontWeight="bold">
@@ -404,16 +494,22 @@ const Service = () => {
                 <FaArrowRight />
               </Link>
             </Box>
-          </GridItem>
-          <GridItem>
+          </MotionGridItem>
+          <MotionGridItem
+            variants={cardVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ delay: 1.6 }}
+          >
             <Image
-              src="src\Componentes\Image\Services\Talent Solutions.jpg"
-              alt="Highway at sunset"
+              src="src/Componentes/Image/Services/Talent Solutions.jpg"
+              alt="Business people in a meeting"
               w="100%"
               h="100%"
               objectFit="cover"
             />
-          </GridItem>
+          </MotionGridItem>
         </Grid>
       </Box>
       <Footer />
